@@ -1,0 +1,163 @@
+/* Start CSS Common styles for all template */
+#competition-landing-header-Mobile,
+#thank-you-page-template-child-one #thank-you-page-header,
+#pre-game-template-child-one {
+  position: relative;
+}
+#competition-landing-header-Mobile .aem-Grid,
+#thank-you-page-template-child-one #thank-you-page-header .aem-Grid,
+#pre-game-template-child-one .aem-Grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+#competition-landing-header-Mobile .cmp-languagenavigation,
+#competition-landing-header-Mobile nav#thank-you-page-language-navigation,
+#competition-landing-header-Mobile nav#pre-game-language-navigation,
+#thank-you-page-template-child-one #thank-you-page-header .cmp-languagenavigation,
+#thank-you-page-template-child-one #thank-you-page-header nav#thank-you-page-language-navigation,
+#thank-you-page-template-child-one #thank-you-page-header nav#pre-game-language-navigation,
+#pre-game-template-child-one .cmp-languagenavigation,
+#pre-game-template-child-one nav#thank-you-page-language-navigation,
+#pre-game-template-child-one nav#pre-game-language-navigation {
+  cursor: pointer;
+}
+#competition-landing-header-Mobile .cmp-languagenavigation::after,
+#competition-landing-header-Mobile nav#thank-you-page-language-navigation::after,
+#competition-landing-header-Mobile nav#pre-game-language-navigation::after,
+#thank-you-page-template-child-one #thank-you-page-header .cmp-languagenavigation::after,
+#thank-you-page-template-child-one #thank-you-page-header nav#thank-you-page-language-navigation::after,
+#thank-you-page-template-child-one #thank-you-page-header nav#pre-game-language-navigation::after,
+#pre-game-template-child-one .cmp-languagenavigation::after,
+#pre-game-template-child-one nav#thank-you-page-language-navigation::after,
+#pre-game-template-child-one nav#pre-game-language-navigation::after {
+  position: absolute;
+  top: 45%;
+  content: "";
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 6px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+#competition-landing-header-Mobile .cmp-languagenavigation ul,
+#competition-landing-header-Mobile nav#thank-you-page-language-navigation ul,
+#competition-landing-header-Mobile nav#pre-game-language-navigation ul,
+#thank-you-page-template-child-one #thank-you-page-header .cmp-languagenavigation ul,
+#thank-you-page-template-child-one #thank-you-page-header nav#thank-you-page-language-navigation ul,
+#thank-you-page-template-child-one #thank-you-page-header nav#pre-game-language-navigation ul,
+#pre-game-template-child-one .cmp-languagenavigation ul,
+#pre-game-template-child-one nav#thank-you-page-language-navigation ul,
+#pre-game-template-child-one nav#pre-game-language-navigation ul {
+  list-style: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+#competition-landing-header-Mobile .cmp-languagenavigation ul li a,
+#competition-landing-header-Mobile nav#thank-you-page-language-navigation ul li a,
+#competition-landing-header-Mobile nav#pre-game-language-navigation ul li a,
+#thank-you-page-template-child-one #thank-you-page-header .cmp-languagenavigation ul li a,
+#thank-you-page-template-child-one #thank-you-page-header nav#thank-you-page-language-navigation ul li a,
+#thank-you-page-template-child-one #thank-you-page-header nav#pre-game-language-navigation ul li a,
+#pre-game-template-child-one .cmp-languagenavigation ul li a,
+#pre-game-template-child-one nav#thank-you-page-language-navigation ul li a,
+#pre-game-template-child-one nav#pre-game-language-navigation ul li a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#pre-game-template-child-two #thank-you-page-button,
+#pre-game-template-child-two #pre-game-button,
+#thank-you-page-template-child-one #thank-you-page-button,
+#thank-you-page-template-child-one #pre-game-button {
+  background: #ffffff;
+  width: 100%;
+  border-radius: 2px;
+  border: none;
+  padding: 0;
+  font-weight: 200;
+}
+#pre-game-template-child-two #thank-you-page-button span,
+#pre-game-template-child-two #pre-game-button span,
+#thank-you-page-template-child-one #thank-you-page-button span,
+#thank-you-page-template-child-one #pre-game-button span {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #e71d2b;
+  text-transform: uppercase;
+}
+
+#competition-landing-page-child-six,
+#thank-you-page-accordion {
+  color: #000000;
+}
+#competition-landing-page-child-six .cmp-accordion__item,
+#thank-you-page-accordion .cmp-accordion__item {
+  background: #ffffff;
+  border-radius: 90px;
+  padding: 16px 24px;
+  margin-bottom: 15px;
+}
+#competition-landing-page-child-six .cmp-accordion__item[data-cmp-expanded],
+#thank-you-page-accordion .cmp-accordion__item[data-cmp-expanded] {
+  border-radius: 35px;
+}
+#competition-landing-page-child-six .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
+#thank-you-page-accordion .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header {
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(0, 155, 222, 0.5);
+}
+#competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header,
+#thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header {
+  margin: 0;
+}
+#competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button,
+#thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button {
+  background: transparent;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+#competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
+#thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title {
+  text-align: left;
+  flex: 0 0 80%;
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+}
+#competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
+#thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon {
+  flex: 0 0 20%;
+  width: 25px;
+  height: 25px;
+  background: url("/content/dam/global/promotions/aperopromotions/uk/en/images/Accordion-Plus.png") no-repeat right center;
+}
+#competition-landing-page-child-six .cmp-accordion__panel--hidden,
+#thank-you-page-accordion .cmp-accordion__panel--hidden {
+  display: none;
+}
+#competition-landing-page-child-six .cmp-accordion__panel--expanded,
+#thank-you-page-accordion .cmp-accordion__panel--expanded {
+  display: block;
+}
+#competition-landing-page-child-six .cmp-accordion__panel--expanded p,
+#thank-you-page-accordion .cmp-accordion__panel--expanded p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* End CSS *//*# sourceMappingURL=common-template.css.map */

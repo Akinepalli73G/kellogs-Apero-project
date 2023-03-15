@@ -372,21 +372,14 @@
     .aem-Grid {
       background: #009bde;
       display: flex;
-      padding: 100px 80px;
 
       .container {
-        &:first-child {
-          flex: 0 0 50%;
-        }
-
         .text {
           #competition-landing-six-title {
             font-family: "Pinup-Regular";
             text-transform: uppercase;
             font-style: normal;
             font-weight: 700;
-            font-size: 50px;
-            line-height: 60px;
             color: #ffffff;
 
             p {
@@ -411,10 +404,6 @@
               }
             }
           }
-        }
-
-        #competition-landing-accordion {
-          width: fit-content;
         }
       }
     }
@@ -907,6 +896,29 @@
         }
       }
     }
+
+    #competition-landing-page-child-six {
+      .aem-Grid {
+        padding: 100px 80px;
+  
+        .container {
+          &:first-child {
+            flex: 0 0 50%;
+          }
+  
+          .text {
+            #competition-landing-six-title {
+              font-size: 50px;
+              line-height: 60px;
+  
+              p {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1103,6 +1115,27 @@
               .markuptext {
                 width: 100%;
               }
+            }
+          }
+        }
+      }
+    }
+
+    #competition-landing-page-child-six {
+      .aem-Grid {
+        padding: 20px;
+        flex-direction: column;
+        max-width: calc(100% - 40px);
+  
+        .container {
+          .text {
+            #competition-landing-six-title {
+              font-size: 30px;
+              line-height: 36px;
+            }
+  
+            #competition-landing-six-text-links {
+              margin: 30px 0 60px;
             }
           }
         }
