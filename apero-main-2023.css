@@ -1088,6 +1088,10 @@
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title p {
     margin-top: 0;
   }
+  #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container #competition-landing-accordion {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }
 @media only screen and (max-width: 768px) {
   #competition-landing-template-container #competition-landing-header-desktop {
