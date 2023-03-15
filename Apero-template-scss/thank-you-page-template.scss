@@ -1,0 +1,155 @@
+/* Start CSS Thank-You Page Template */
+
+@media only screen and (max-width: 768px) {
+  #Thank-you-page-template-container {
+    #thank-you-page-template-child-three,
+    #thank-you-page-template-child-two {
+      padding: 60px 20px;
+    }
+    #thank-you-page-template-child-one {
+      padding: 0 20px;
+    }
+
+    #thank-you-page-template-child-four {
+      padding: 30px 20px 20px;
+    }
+    #thank-you-page-template-child-one {
+      background: #e71d2b;
+
+      #thank-you-page-header {
+        .languagenavigation {
+          flex: 0 0 45%;
+        }
+
+        .image {
+          flex: 0 0 55%;
+        }
+      }
+
+      #thank-you-page-content-one {
+        padding: 60px 0;
+        .image {
+          text-align: center;
+        }
+      }
+
+      #thank-you-page-content-title {
+        font-family: "Pinup-Regular";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 54px;
+        color: #ffffff;
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+
+      #thank-you-page-content-pre-title {
+        font-family: "Pinup-Regular";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #f7e62a;
+      }
+
+      #thank-you-page-content-description {
+        font-family: "NimbusSanLOT";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff;
+
+        p {
+          margin: 0 0 20px;
+        }
+      }
+    }
+    #thank-you-page-template-child-two {
+      background: #009bde;
+      #thank-you-page-child-two-title {
+        font-family: "Pinup-Regular";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+
+      #thank-you-page-child-two-text-link {
+        font-size: 14px;
+        line-height: 16px;
+        color: #ffffff;
+        width: fit-content;
+        margin: 30px 0;
+        padding: 0 20px;
+        border-bottom: 2px solid #f7e62a;
+        p {
+          margin-bottom: 6px;
+        }
+      }
+    }
+    #thank-you-page-template-child-three {
+      background: #e71d2b;
+      text-align: center;
+      #thank-you-page-child-three-title {
+        font-family: "Pinup-Regular";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+
+      .socialcomponent {
+        .social_icons {
+          display: flex;
+          justify-content: center;
+          grid-gap: 25px;
+          a {
+            width: 2.5em;
+            height: 2.5em;
+            span {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    #thank-you-page-template-child-four {
+      #thank-you-page-child-four-header {
+        font-family: "Pinup-Regular";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #000000;
+        padding-inline-start: 20px;
+      }
+
+      #thank-you-page-child-four-description {
+        font-family: "NimbusSanLOT";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      #thank-you-page-child-four-text-link p a {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #e71d2b;
+      }
+    }
+  }
+}
+
+/* End CSS */

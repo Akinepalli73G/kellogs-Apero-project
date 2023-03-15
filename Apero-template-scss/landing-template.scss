@@ -1,0 +1,1112 @@
+#competition-landing-template-container {
+  #competition-landing-page-child-one {
+    position: relative;
+    #competion-landing-top-header {
+      position: relative;
+      .aem-Grid {
+        position: absolute;
+        width: 100%;
+        background: #f7e62a;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .text {
+          text-align: center;
+          #competiton-landing-blue-title {
+            font-family: "Pinup-Regular";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 54px;
+            color: #0f76b9;
+          }
+
+          #competition-landing-red-title {
+            font-family: "Pinup-Regular";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+            color: #e71d2b;
+          }
+
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+    #competition-landing-hero-teaser-container {
+      .aem-Grid {
+        display: flex;
+        .container {
+          background: #e71d2b;
+          flex: 1;
+          #competition-landing-teaser-hero-content {
+            color: #ffffff;
+
+            #competition-landing-teaser-hero-title {
+              font-family: "Pinup-Regular";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 70px;
+              line-height: 84px;
+              p {
+                margin: 0;
+              }
+            }
+            #competition-landing-teaser-hero-description {
+              font-family: "NimbusSanLOT";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 24px;
+            }
+          }
+        }
+        .image {
+          flex: 1;
+          img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
+  #competition-landing-page-child-two {
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  #competition-landing-page-child-three {
+    .aem-Grid {
+      display: flex;
+
+      .image {
+        img {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+        }
+      }
+
+      .container {
+        background: #e71d2b;
+
+        #competition-landing-steps-container .aem-Grid .markuptext {
+          .list-container {
+            background: #e71d2b;
+            color: #ffffff;
+
+            .title {
+              font-family: "Pinup-Regular";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 30px;
+              line-height: 36px;
+              text-transform: uppercase;
+              color: #ffffff;
+              margin-bottom: 60px;
+
+              .yellow-promotion {
+                color: #f7e62a;
+              }
+            }
+
+            ul {
+              list-style: none;
+              padding-inline-start: 0;
+
+              li {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                flex-wrap: wrap;
+                margin-bottom: 50px;
+                position: relative;
+
+                .dashed-line {
+                  position: absolute;
+                  left: 25px;
+                  top: 100%;
+                  height: 100px;
+                  border-left: 1px dashed #ffffff;
+                }
+
+                .list-item-union-icon,
+                .list-item-note-pad-icon,
+                .list-item-receipt-icon,
+                .list-item-game-icon,
+                .list-item-money-icon {
+                  width: 50px;
+                  height: 50px;
+                  flex: 0 0 30%;
+                }
+
+                .list-item-content {
+                  flex: 0 0 70%;
+
+                  .list-item-title {
+                    margin-bottom: 10px;
+                    font-family: "Pinup-Regular";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 22px;
+                  }
+
+                  .list-item-description {
+                    font-family: "NimbusSanLOT";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 20px;
+                  }
+                }
+
+                .list-item-union-icon {
+                  background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/union.png")
+                    no-repeat left center;
+                }
+
+                .list-item-note-pad-icon {
+                  background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/note-pad.png")
+                    no-repeat left center;
+                }
+
+                .list-item-game-icon {
+                  background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/game.png")
+                    no-repeat left center;
+                }
+
+                .list-item-receipt-icon {
+                  background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Receipt.png")
+                    no-repeat left center;
+                }
+
+                .list-item-money-icon {
+                  background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Money.png")
+                    no-repeat left center;
+                }
+
+                &:nth-child(4) {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #competition-landing-page-child-four {
+    .aem-Grid {
+      .markuptext {
+        position: absolute;
+        background: #f7e62a;
+        clip-path: polygon(50% 0, 0 100%, 100% 100%);
+      }
+      .container:nth-child(2) {
+        background: #f7e62a;
+        .cmp-container {
+          display: flex;
+
+          .container {
+            background: transparent;
+            .cmp-container {
+              display: flex;
+              flex-direction: column;
+              height: 100%;
+              justify-content: center;
+              align-items: center;
+              row-gap: 20px;
+
+              .text {
+                #competition-landing-four-pre-title {
+                  font-family: "Pinup-Regular";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #e71d2b;
+                  text-transform: uppercase;
+                }
+
+                #competition-landing-four-title {
+                  font-family: "Pinup-Regular";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 50px;
+                  line-height: 60px;
+                  color: #0f76b9;
+                  text-transform: uppercase;
+                }
+
+                #competition-landing-four-description {
+                  font-family: "NimbusSanLOT";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 14px;
+                  line-height: 20px;
+                  color: #000000;
+                }
+
+                p {
+                  margin: 0;
+                  text-align: center;
+                }
+              }
+            }
+          }
+
+          .image {
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+
+  #competition-landing-page-child-five {
+    background: #e71d2b;
+    .aem-Grid {
+      display: flex;
+      justify-content: center;
+
+      .container {
+        #competition-landing-page-five-sub-child-one {
+          .aem-Grid {
+            flex-direction: column;
+            margin: 0;
+
+            .image {
+              position: relative;
+              img {
+                position: absolute;
+                top: -55px;
+              }
+            }
+
+            .button {
+              #competition-landing-ar-experience-button {
+                margin-top: 100px;
+                background: transparent;
+                border: 2px solid transparent;
+                margin-bottom: 20px;
+                display: flex;
+                align-items: center;
+
+                .cmp-button__icon--ar-experience {
+                  width: 62px;
+                  height: 62px;
+                  display: block;
+                  background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/ar-experience.png")
+                    no-repeat left center;
+                }
+
+                .cmp-button__text {
+                  font-family: "Pinup-Regular";
+                  font-style: normal;
+                  color: #f7e62a;
+                  text-transform: uppercase;
+                }
+              }
+            }
+
+            .text {
+              #competition-landing-five-title {
+                font-family: "Pinup-Regular";
+                font-style: normal;
+                font-weight: 700;
+                color: #ffffff;
+                text-transform: uppercase;
+
+                p {
+                  margin: 0;
+                }
+              }
+              #competition-landing-five-description {
+                font-family: "NimbusSanLOT";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+
+        #competition-landing-page-five-sub-child-two {
+          .aem-Grid {
+            flex-direction: column;
+            margin: 0;
+
+            .image {
+              position: relative;
+              top: 74px;
+              z-index: 99;
+            }
+
+            .markuptext {
+              height: 180px;
+              background: yellow;
+              clip-path: polygon(50% 0, 0 100%, 100% 100%);
+              margin-top: -106px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #competition-landing-page-child-six {
+    .aem-Grid {
+      background: #009bde;
+      display: flex;
+      padding: 100px 80px;
+
+      .container {
+        &:first-child {
+          flex: 0 0 50%;
+        }
+
+        .text {
+          #competition-landing-six-title {
+            font-family: "Pinup-Regular";
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 60px;
+            color: #ffffff;
+
+            p {
+              margin-top: 0;
+            }
+          }
+
+          #competition-landing-six-text-links {
+            width: fit-content;
+            border-bottom: 2px solid #f7e62a;
+            p {
+              margin: 0 20px 6px;
+              a {
+                font-family: "Pinup-Regular";
+                font-size: 14px;
+                line-height: 16px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #ffffff;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+
+        #competition-landing-accordion {
+          width: fit-content;
+        }
+      }
+    }
+  }
+
+  #competition-landing-page-child-seven {
+    background: #e71d2b;
+    color: #ffffff;
+    .aem-Grid {
+      text-align: center;
+      padding: 40px 0 50px;
+      .image {
+        position: relative;
+        height: 65px;
+        .cmp-image {
+          position: absolute;
+          left: 48%;
+        }
+      }
+
+      .text {
+        #competition-landing-seven-title {
+          font-family: "Pinup-Regular";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 36px;
+
+          text-transform: uppercase;
+
+          color: #ffffff;
+
+          p {
+            margin: 20px 0 0;
+          }
+        }
+
+        #competition-landing-seven-description {
+          font-family: "NimbusSanLOT";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          color: #ffffff;
+
+          p {
+            margin: 20px 0;
+          }
+        }
+
+        &:nth-child(4) {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          #competition-landing-seven-text-links {
+            padding: 0 20px 6px;
+            width: fit-content;
+            border-bottom: 2px solid #f7e62a;
+            p {
+              margin: 0;
+              a {
+                font-family: "Pinup-Regular";
+                font-size: 14px;
+                line-height: 16px;
+                color: #ffffff;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #competition-landing-page-child-eight {
+    .aem-Grid {
+      padding: 35px 0;
+
+      .text {
+        padding: 0 300px 0 100px;
+        max-width: 100%;
+
+        #competition-landing-eight-pre-title {
+          font-family: "Pinup-Regular";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 14px;
+          color: #000000;
+          p {
+            margin: 0;
+          }
+        }
+
+        #competition-landing-eight-description {
+          font-family: "NimbusSanLOT";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 16px;
+          color: rgba(0, 0, 0, 0.5);
+          p {
+            margin: 10px 0 0;
+          }
+        }
+      }
+    }
+  }
+
+  #competition-landing-page-child-nine {
+    .aem-Grid {
+      background: #e71d2b;
+      color: #ffffff;
+      padding: 60px 100px;
+
+      .list {
+        max-width: calc(95% - 60px);
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          padding-inline-start: 0;
+          list-style: none;
+          grid-column-gap: 60px;
+          grid-row-gap: 30px;
+
+          li {
+            flex: 0 0 calc(25% - 60px);
+            padding-bottom: 10px;
+            border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+
+            .cmp-list__item-title {
+              font-family: "Pinup-Regular";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 22px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+
+      .socialcomponent {
+        max-width: calc(95% - 120px);
+
+        .social_icons {
+          display: flex;
+          justify-content: flex-end;
+          grid-gap: 30px;
+
+          a {
+            width: 1.9em;
+            height: 1.9em;
+            span {
+              display: none;
+            }
+          }
+        }
+      }
+
+      .text {
+        #competion-landing-copy-right-text {
+          margin-top: 30px;
+          max-width: calc(95% - 120px);
+          display: flex;
+          justify-content: flex-end;
+
+          p {
+            font-family: "NimbusSanLOT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            margin: 0;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #competition-landing-template-container {
+    #competition-landing-header-Mobile {
+      display: none;
+    }
+
+    #competition-landing-header-desktop {
+      padding: 24px 65px;
+      background: #e71d2b;
+
+      .aem-Grid {
+        display: flex;
+        align-items: center;
+
+        .image {
+          position: relative;
+          img {
+            position: absolute;
+            z-index: 999;
+            width: 76px;
+            height: 94px;
+            max-width: unset;
+          }
+        }
+
+        .navigationV2 {
+          display: flex;
+          justify-content: center;
+          flex: 1 0 65%;
+          .nav--container {
+            background: transparent;
+            .nav--main {
+              ul {
+                display: flex;
+                list-style: none;
+                grid-column-gap: 45px;
+                padding-inline-start: 0;
+                background: transparent;
+
+                li a {
+                  font-family: "Pinup-Regular";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 12px;
+                  line-height: 14px;
+                  color: #ffffff;
+                  text-decoration: none;
+                  text-transform: uppercase;
+                }
+              }
+            }
+
+            .nav--secondary {
+              ul {
+                list-style: none;
+              }
+            }
+          }
+        }
+
+        .button {
+          display: flex;
+          flex: 0 0 15%;
+          #competition-landing-tap-to-win-button {
+            background: transparent;
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: row-reverse;
+            cursor: pointer;
+            .cmp-button__icon.cmp-button__icon--apero-arrow-icon {
+              display: block;
+              border-radius: 0 3px 3px 0;
+              height: 38px;
+              width: 38px;
+              background: #0f76b9
+                url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Vector%20Icon.png")
+                no-repeat center center;
+            }
+            .cmp-button__text {
+              padding: 12px 16px;
+              background: #f7e62a;
+              border-radius: 3px 0 0 3px;
+              font-family: "Pinup-Regular";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 12px;
+              line-height: 14px;
+              text-transform: uppercase;
+              color: #0f76b9;
+            }
+          }
+        }
+
+        #competition-landing-header-button-container .aem-Grid {
+          display: flex;
+          grid-column-gap: 10px;
+          align-items: center;
+          margin-left: 65px;
+
+          .button {
+            button {
+              background: transparent;
+              border: 2px solid transparent;
+              cursor: pointer;
+              .cmp-button__icon.cmp-button__icon--apero-search {
+                display: block;
+                height: 39px;
+                width: 39px;
+                background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Search%20Icon.png")
+                  no-repeat center center;
+              }
+
+              .cmp-button__icon.cmp-button__icon--apero-login {
+                display: block;
+                height: 39px;
+                width: 39px;
+                background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Account%20Icon.png")
+                  no-repeat center center;
+              }
+
+              .cmp-button__icon.cmp-button__icon--apero-country {
+                display: block;
+                height: 39px;
+                width: 39px;
+                background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Language%20Icon.png")
+                  no-repeat center center;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #competition-landing-page-child-one {
+      position: relative;
+      #competion-landing-top-header {
+        .aem-Grid {
+          height: 167px;
+          clip-path: polygon(100% 0, 0 0, 50% 100%);
+          justify-content: center;
+        }
+      }
+      #competition-landing-hero-teaser-container {
+        .aem-Grid {
+          display: flex;
+          .container {
+            #competition-landing-teaser-hero-content {
+              padding: 264px 64px 0 100px;
+
+              .button {
+                display: none;
+                #competition-landing-mobile-start-now-button {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+      #competition-landing-sticky-container {
+        .image {
+          position: absolute;
+          bottom: 30px;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          z-index: 999;
+        }
+        .button {
+          position: absolute;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          bottom: 0;
+
+          #competition-landing-apero-barcode-button-desktop {
+            width: 532px;
+            height: 110px;
+            background: #f7e62a;
+            border: 2px solid transparent;
+            clip-path: polygon(50% 0, 0 100%, 100% 100%);
+
+            .cmp-button__icon--Apero-barcode {
+              width: 100px;
+              height: 100px;
+              background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/QR.png")
+                no-repeat center center;
+            }
+
+            .cmp-button__text {
+              font-family: "NimbusSanLOT";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 10px;
+              line-height: 16px;
+              text-transform: uppercase;
+              color: #e71d2b;
+              position: relative;
+              top: 40px;
+            }
+          }
+        }
+      }
+    }
+
+    #competition-landing-page-child-two {
+      .image {
+        img {
+          margin-top: -6px;
+        }
+      }
+    }
+
+    #competition-landing-page-child-three {
+      margin-top: -6px;
+      .aem-Grid {
+        .image {
+          width: 50%;
+        }
+
+        .container {
+          width: 50%;
+
+          #competition-landing-steps-container .aem-Grid .markuptext {
+            .list-container {
+              padding: 100px;
+            }
+          }
+        }
+      }
+    }
+
+    #competition-landing-page-child-four {
+      margin-top: -4px;
+      .aem-Grid {
+        .markuptext {
+          width: 378px;
+          height: 75px;
+          left: calc(50% - 188px);
+          margin-top: -70px;
+        }
+        .container:nth-child(2) {
+          .cmp-container {
+            .image {
+              flex: 0 0 35%;
+            }
+          }
+        }
+      }
+    }
+
+    #competition-landing-page-child-five {
+      .aem-Grid {
+       margin: 0 100px;
+  
+        .container {
+          flex: 1;
+          #competition-landing-page-five-sub-child-one {
+            .aem-Grid {
+              .image {
+                position: relative;
+                img {
+                  width: 191px;
+                  height: 151px;
+                }
+              }
+              .button {
+                #competition-landing-ar-experience-button {
+                  .cmp-button__text {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-left: 20px;
+                  }
+                }
+              }
+  
+              .text {
+                #competition-landing-five-title {
+                  font-size: 50px;
+                  line-height: 60px;
+  
+                  p {
+                    max-width: 438px;
+                  }
+                }
+                #competition-landing-five-description {
+                  color: #ffffff;
+  
+                  p {
+                    max-width: 438px;
+                    margin-bottom: 80px;
+                  }
+                }
+              }
+            }
+          }
+
+          #competition-landing-page-five-sub-child-two {
+            .aem-Grid {
+              .markuptext {
+                width: 518px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #competition-landing-template-container {
+    #competition-landing-header-desktop {
+      display: none;
+    }
+
+    #competition-landing-header-Mobile {
+      display: block;
+      .aem-Grid {
+        background: #e71d2b;
+        max-width: calc(100% - 40px);
+        padding: 10px 20px;
+        align-items: center;
+
+        .image {
+          .cmp-image {
+            display: flex;
+            justify-content: center;
+          }
+        }
+
+        .navigationV2 {
+          #navigationtagging {
+            width: 25px;
+            height: 25px;
+            display: block;
+            left: 80%;
+            position: relative;
+            background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/burger-menu.png")
+              no-repeat left center;
+          }
+        }
+      }
+    }
+
+    #competition-landing-page-child-one {
+      position: relative;
+      #competion-landing-top-header {
+        .aem-Grid {
+          height: 205px;
+          background: #f7e62a;
+          clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
+
+          .text {
+            #competiton-landing-blue-title {
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+      #competition-landing-hero-teaser-container {
+        .aem-Grid {
+          display: flex;
+          flex-direction: column-reverse;
+          .container {
+            #competition-landing-teaser-hero-content {
+              padding: 30px 20px 50px;
+
+              .button {
+                display: block;
+                #competition-landing-mobile-start-now-button {
+                  width: 100%;
+                  background: #ffffff;
+                  display: inline-block;
+                  border: none;
+                  margin-top: 30px;
+                  padding: 14px 0;
+                  text-decoration: none;
+
+                  .cmp-button__text {
+                    font-family: "Pinup-Regular";
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-weight: 200;
+                    display: flex;
+                    text-transform: uppercase;
+                    color: #e71d2b;
+                    justify-content: center;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      #competition-landing-sticky-container {
+        display: none;
+      }
+    }
+
+    #competition-landing-page-child-two {
+      .image {
+        img {
+          height: 30px;
+        }
+      }
+    }
+
+    #competition-landing-page-child-three {
+      .aem-Grid {
+        flex-direction: column;
+        .container {
+          #competition-landing-steps-container .aem-Grid .markuptext {
+            .list-container {
+              padding: 40px 20px 120px;
+            }
+          }
+        }
+      }
+    }
+
+    #competition-landing-page-child-four {
+      .aem-Grid {
+        .markuptext {
+          width: 100%;
+          height: 85px;
+          margin-top: -84px;
+        }
+
+        .container:nth-child(2) {
+          .cmp-container {
+            flex-direction: column;
+
+            .image:nth-child(1) {
+              img {
+                width: 94px;
+                height: 86px;
+                position: relative;
+                top: -40px;
+              }
+            }
+
+            .image:nth-child(3) {
+              display: none;
+            }
+
+            .container .cmp-container {
+              padding: 0 20px 100px;
+            }
+          }
+        }
+      }
+    }
+
+    #competition-landing-page-child-five {
+      .aem-Grid {
+        max-width: calc(100% - 20px);
+        margin: 0 20px;
+        flex-direction: column;
+  
+        .container {
+          #competition-landing-page-five-sub-child-one {
+            .aem-Grid {
+              .image {
+                img {
+                  width: 178px;
+                  height: 141px;
+                  left: 25%;
+                }
+              }
+  
+              .button {
+                #competition-landing-ar-experience-button {
+                  width: calc(100% - 20px);
+                  align-items: center;
+                  flex-direction: column;
+  
+                  .cmp-button__text {
+                    font-weight: 700;
+                    font-size: 17.3852px;
+                    line-height: 21px;
+                    margin-top: 10px;
+                  }
+                }
+              }
+  
+              .text {
+                text-align: center;
+                #competition-landing-five-title {
+                  font-size: 30px;
+                  line-height: 36px;
+                }
+                #competition-landing-five-description {
+                  color: #000000;
+                }
+              }
+            }
+          }
+
+          #competition-landing-page-five-sub-child-two {
+            .aem-Grid {
+              .markuptext {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

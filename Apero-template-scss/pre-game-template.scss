@@ -1,0 +1,84 @@
+/* Start CSS Pre-Game Template */
+
+@media only screen and (max-width: 768px) {
+  #pre-game-template-container {
+    background: #e71d2b;
+    color: #ffffff;
+    #pre-game-template-child-one {
+      position: relative;
+      padding: 0 20px;
+      .aem-Grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0;
+
+        .image {
+          .cmp-image {
+            display: flex;
+            justify-content: center;
+          }
+        }
+
+        .text {
+          text-align: end;
+          a {
+            font-family: "NimbusSanLOT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 22px;
+            color: white;
+            text-decoration-line: underline;
+          }
+        }
+      }
+    }
+
+    #pre-game-template-child-two {
+      .image {
+        img {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+        }
+      }
+
+      .text {
+        padding: 0 20px;
+
+        #pre-game-text-title {
+          font-family: "Pinup-Regular";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 45px;
+          line-height: 54px;
+          color: #ffffff;
+
+          p {
+            margin-bottom: 0;
+          }
+        }
+
+        #pre-game-text-description {
+          font-family: "NimbusSanLOT";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          color: #ffffff;
+        }
+      }
+
+      .button {
+        padding: 0 20px;
+        #pre-game-button {
+          padding: 16px 0;
+          margin: 25px 0 20px;
+        }
+      }
+    }
+  }
+}
+/* End CSS */

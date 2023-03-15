@@ -1,0 +1,118 @@
+@use './Apero-template-scss/pre-game-template.scss';
+@use './Apero-template-scss/thank-you-page-template.scss';
+@use './Apero-template-scss/common-template.scss';
+@use "./Apero-template-scss/landing-template.scss";
+
+body {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* font import start */
+
+@font-face {
+  font-family: "Pinup-Regular";
+  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/Pinup-Regular.otf");
+}
+
+@font-face {
+  font-family: "DIN-Next-Rounded-LT-Pro-Bold";
+  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/DIN-Next-Rounded-LT-Pro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "DIN-Next-LT-Pro-Regular";
+  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/DIN-Next-LT-Pro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "DIN-Next-LT-Pro-Medium";
+  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/DIN-Next-LT-Pro-Medium.ttf");
+}
+
+.skip-main {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Start CSS create account / login template */
+
+  #create-account-or-login-template {
+    margin: 20px;
+
+    #create-account-or-login-template-child-one  {
+      .cmp-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .cmp-container .text {
+        font-family: "Pinup-Regular";
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #e71d2b;
+      }
+  
+      .cmp-container .image {
+        margin-bottom: 0;
+      }
+  
+      .text {
+        font-family: "NimbusSanLOT";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+      }
+  
+      .text p {
+        margin-bottom: 20px;
+      }
+  
+      .text .cmp-text p a {
+        font-family: "NimbusSanLOT";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #e71d2b;
+      }
+  
+      #apero-or-seperator-container {
+        display: flex;
+        align-items: center;
+  
+        .separator {
+          flex: 0 0 40%;
+          opacity: 0.5;
+        }
+  
+        .text {
+          font-family: "NimbusSanLOT";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px !important;
+          line-height: 22px !important;
+          margin: 10px;
+          opacity: 0.5;
+          color: #000000 !important;
+        }
+      }
+    }
+  
+    #create-account-or-login-template-child-two .form-title h2 {
+      font-family: "Pinup-Regular";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: uppercase;
+    }
+  }
+  /* End CSS */
+}
