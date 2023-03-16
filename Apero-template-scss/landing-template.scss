@@ -195,10 +195,6 @@
                   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Money.png")
                     no-repeat left center;
                 }
-
-                &:nth-child(4) {
-                  display: none;
-                }
               }
             }
           }
@@ -565,6 +561,10 @@
           #competition-landing-steps-container .aem-Grid .markuptext {
             .list-container {
               padding: 100px;
+
+              ul li:nth-child(4) {
+                display: none;
+              }
             }
           }
         }

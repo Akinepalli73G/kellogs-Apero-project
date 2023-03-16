@@ -162,9 +162,6 @@
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-money-icon {
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Money.png") no-repeat left center;
 }
-#competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li:nth-child(4) {
-  display: none;
-}
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .markuptext {
   position: absolute;
   background: #f7e62a;
@@ -452,6 +449,9 @@
   }
   #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container {
     padding: 100px;
+  }
+  #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li:nth-child(4) {
+    display: none;
   }
   #competition-landing-template-container #competition-landing-page-child-four {
     margin-top: -4px;
