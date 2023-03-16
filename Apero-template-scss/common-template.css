@@ -160,4 +160,263 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+@media only screen and (min-width: 769px) {
+  #Mobile-header-container {
+    display: none;
+  }
+  #competition-landing-header-desktop {
+    padding: 24px 65px;
+    background: #e71d2b;
+  }
+  #competition-landing-header-desktop .aem-Grid {
+    display: flex;
+    align-items: center;
+  }
+  #competition-landing-header-desktop .aem-Grid .image {
+    position: relative;
+  }
+  #competition-landing-header-desktop .aem-Grid .image img {
+    position: absolute;
+    z-index: 999;
+    width: 76px;
+    height: 94px;
+    max-width: unset;
+  }
+  #competition-landing-header-desktop .aem-Grid .navigationV2 {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 65%;
+  }
+  #competition-landing-header-desktop .aem-Grid .navigationV2 .nav--container {
+    background: transparent;
+  }
+  #competition-landing-header-desktop .aem-Grid .navigationV2 .nav--container .nav--main ul {
+    display: flex;
+    list-style: none;
+    grid-column-gap: 45px;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+    background: transparent;
+  }
+  #competition-landing-header-desktop .aem-Grid .navigationV2 .nav--container .nav--main ul li a {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  #competition-landing-header-desktop .aem-Grid .navigationV2 .nav--container .nav--secondary ul {
+    list-style: none;
+  }
+  #competition-landing-header-desktop .aem-Grid .button {
+    display: flex;
+    flex: 0 0 15%;
+  }
+  #competition-landing-header-desktop .aem-Grid .button #competition-landing-tap-to-win-button {
+    background: transparent;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+  }
+  #competition-landing-header-desktop .aem-Grid .button #competition-landing-tap-to-win-button .cmp-button__icon.cmp-button__icon--apero-arrow-icon {
+    display: block;
+    border-radius: 0 3px 3px 0;
+    height: 38px;
+    width: 38px;
+    background: #0f76b9 url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Vector%20Icon.png") no-repeat center center;
+  }
+  #competition-landing-header-desktop .aem-Grid .button #competition-landing-tap-to-win-button .cmp-button__text {
+    padding: 12px 16px;
+    background: #f7e62a;
+    border-radius: 3px 0 0 3px;
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #0f76b9;
+  }
+  #competition-landing-header-desktop .aem-Grid #competition-landing-header-button-container .aem-Grid {
+    display: flex;
+    grid-column-gap: 10px;
+    align-items: center;
+    margin-left: 65px;
+  }
+  #competition-landing-header-desktop .aem-Grid #competition-landing-header-button-container .aem-Grid .button button {
+    background: transparent;
+    border: 2px solid transparent;
+    cursor: pointer;
+  }
+  #competition-landing-header-desktop .aem-Grid #competition-landing-header-button-container .aem-Grid .button button .cmp-button__icon.cmp-button__icon--apero-search {
+    display: block;
+    height: 39px;
+    width: 39px;
+    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Search%20Icon.png") no-repeat center center;
+  }
+  #competition-landing-header-desktop .aem-Grid #competition-landing-header-button-container .aem-Grid .button button .cmp-button__icon.cmp-button__icon--apero-login {
+    display: block;
+    height: 39px;
+    width: 39px;
+    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Account%20Icon.png") no-repeat center center;
+  }
+  #competition-landing-header-desktop .aem-Grid #competition-landing-header-button-container .aem-Grid .button button .cmp-button__icon.cmp-button__icon--apero-country {
+    display: block;
+    height: 39px;
+    width: 39px;
+    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Language%20Icon.png") no-repeat center center;
+  }
+  #desktop-footer-container .aem-Grid {
+    background: #e71d2b;
+    color: #ffffff;
+    padding: 60px 100px;
+  }
+  #desktop-footer-container .aem-Grid .list {
+    max-width: calc(95% - 60px);
+  }
+  #desktop-footer-container .aem-Grid .list ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+    list-style: none;
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+  }
+  #desktop-footer-container .aem-Grid .list ul li {
+    flex: 0 0 calc(25% - 60px);
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+  }
+  #desktop-footer-container .aem-Grid .list ul li .cmp-list__item-title {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  #desktop-footer-container .aem-Grid .socialcomponent {
+    max-width: calc(95% - 120px);
+  }
+  #desktop-footer-container .aem-Grid .socialcomponent .social_icons {
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 30px;
+  }
+  #desktop-footer-container .aem-Grid .socialcomponent .social_icons a {
+    width: 1.9em;
+    height: 1.9em;
+  }
+  #desktop-footer-container .aem-Grid .socialcomponent .social_icons a span {
+    display: none;
+  }
+  #desktop-footer-container .aem-Grid .text #competion-landing-copy-right-text {
+    margin-top: 30px;
+    max-width: calc(95% - 120px);
+    display: flex;
+    justify-content: flex-end;
+  }
+  #desktop-footer-container .aem-Grid .text #competion-landing-copy-right-text p {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+    color: #ffffff;
+  }
+  #sticky-footer-buttons-mobile-container {
+    display: none;
+  }
+  #competition-landing-terms-condition-mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #competition-landing-header-desktop {
+    display: none;
+  }
+  #Mobile-header-container {
+    display: block;
+  }
+  #Mobile-header-container .aem-Grid {
+    background: #e71d2b;
+    max-width: calc(100% - 40px);
+    padding: 10px 20px;
+    align-items: center;
+  }
+  #Mobile-header-container .aem-Grid .image .cmp-image {
+    display: flex;
+    justify-content: center;
+  }
+  #Mobile-header-container .aem-Grid .navigationV2 #navigationtagging {
+    width: 25px;
+    height: 25px;
+    display: block;
+    left: 80%;
+    position: relative;
+    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/burger-menu.png") no-repeat left center;
+  }
+  #competition-landing-terms-condition-mobile {
+    display: block;
+  }
+  #competition-landing-terms-condition-mobile .aem-Grid {
+    background: #e71d2b;
+    color: #ffffff;
+  }
+  #competition-landing-terms-condition-mobile .aem-Grid .text {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  #competition-landing-terms-condition-mobile .aem-Grid .text #competition-landing-eight-description {
+    margin-bottom: 30px;
+  }
+  #desktop-footer-container {
+    display: none;
+  }
+  #sticky-footer-buttons-mobile-container {
+    position: fixed;
+    background: #ffffff;
+    top: 87%;
+    height: 90px;
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    z-index: 999;
+    grid-gap: 8px;
+    align-items: center;
+  }
+  #sticky-footer-buttons-mobile-container .button {
+    display: inline-block;
+    width: 45%;
+  }
+  #sticky-footer-buttons-mobile-container .button a {
+    padding: 18px 12px;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+  #sticky-footer-buttons-mobile-container .button a#mobile-footer-create-an-login-button {
+    background: #2E8538;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+  }
+  #sticky-footer-buttons-mobile-container .button a#mobile-footer-login-button {
+    display: flex;
+    border: 1px solid #2E8538;
+    justify-content: center;
+    color: #2E8538;
+  }
+  #sticky-footer-buttons-mobile-container .button a span {
+    font-family: "Pinup-Regular";
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
 /* End CSS *//*# sourceMappingURL=common-template.css.map */
