@@ -653,9 +653,7 @@
         padding: 100px 80px;
   
         .container {
-          &:first-child {
-            flex: 0 0 50%;
-          }
+          flex: 0 0 45%;
   
           .text {
             #competition-landing-six-title {
@@ -670,10 +668,6 @@
             #competition-landing-six-text-links-mobile {
               display: none;
             }
-          }
-
-          #competition-landing-accordion {
-            width: fit-content;
           }
         }
       }

@@ -1257,8 +1257,8 @@
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid {
     padding: 100px 80px;
   }
-  #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container:first-child {
-    flex: 0 0 50%;
+  #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container {
+    flex: 0 0 45%;
   }
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title {
     font-size: 50px;
@@ -1269,10 +1269,6 @@
   }
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile {
     display: none;
-  }
-  #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container #competition-landing-accordion {
-    width: -moz-fit-content;
-    width: fit-content;
   }
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid {
     text-align: center;
