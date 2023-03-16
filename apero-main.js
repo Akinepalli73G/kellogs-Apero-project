@@ -12,4 +12,5 @@ function onBtnClick(e) {
   var burgerMenuOpen = document.querySelector('#mobile-burger-menu-open');
   burgerMenuClose.classList.toggle('opened');
   burgerMenuOpen.classList.toggle('closed');
+  document.querySelector('#competition-landing-main-content-container').classList.toggle('closed');
 }

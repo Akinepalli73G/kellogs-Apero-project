@@ -429,6 +429,76 @@
     #mobile-burger-menu-close.cmp-container.opened {
       display: block;
       background: #e71d2b;
+      position: relative;
+      z-index: 9999;
+
+      .navigationV2 {
+        .nav--container {
+          background: #e71d2b;
+          visibility: initial;
+          opacity: initial;
+          transition: none;
+          margin: 0;
+          padding: 0;
+          border-top: none;
+          max-height: 100%;
+          overflow: auto;
+          position: inherit;
+          width: 100%;
+
+          .nav--main {
+            margin-bottom: 30px;
+            padding: 0 20px;
+            & > ul.topmenu {
+              display: flex;
+              flex-direction: column;
+              grid-row-gap: 30px;
+
+              li a {
+                color: #ffffff;
+                text-decoration: none;
+                font-family: "Pinup-Regular";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                text-transform: uppercase;
+              }
+            }
+          }
+
+          .nav--secondary {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            border-top: 1px solid rgba(255, 255, 255, 0.4);
+            padding: 0;
+            ul {
+              display: flex;
+              position: initial;
+              font-size: initial;
+              transition: none;
+              margin: 0;
+              flex-direction: column;
+              grid-gap: 30px;
+              padding: 30px 20px 10px;
+
+              li a {
+                color: #ffffff;
+                text-decoration: none;
+
+                span {
+                  font-family: "Pinup-Regular";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 24px;
+                  text-transform: uppercase;
+                }
+              }
+            }
+          }
+        }
+      }
+
       #mobile-header-burger-open-nav-button {
         display: flex;
         background: #e71d2b;
@@ -448,71 +518,6 @@
             }
           }
         }
-
-        .navigationV2 {
-          .nav--container {
-            background: #e71d2b;
-            visibility: initial;
-            opacity: initial;
-            transition: none;
-            margin: 0;
-            padding: 0 20px;
-            border-top: none;
-            max-height: 100%;
-            overflow: auto;
-            position: inherit;
-            width: 100%;
-
-            .nav--main {
-              margin-bottom: 30px;
-              padding: 0;
-              & > ul.topmenu {
-                display: flex;
-                flex-direction: column;
-                grid-row-gap: 30px;
-
-                li a {
-                  color: #ffffff;
-                  text-decoration: none;
-                  font-family: "Pinup-Regular";
-                  font-style: normal;
-                  font-weight: 700;
-                  font-size: 20px;
-                  line-height: 24px;
-                  text-transform: uppercase;
-                }
-              }
-            }
-
-            .nav--secondary {
-              border: 1px solid rgba(255, 255, 255, 0.4);
-              ul {
-                display: flex;
-                position: initial;
-                font-size: initial;
-                transition: none;
-                margin: 0;
-                flex-direction: column;
-                grid-gap: 30px;
-                padding: 30px;
-
-                li a {
-                  color: #ffffff;
-                  text-decoration: none;
-
-                  span {
-                    font-family: "Pinup-Regular";
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 20px;
-                    line-height: 24px;
-                    text-transform: uppercase;
-                  }
-                }
-              }
-            }
-          }
-        }
       }
     }
 
@@ -523,6 +528,7 @@
       }
     }
   }
+
   #competition-landing-terms-condition-mobile {
     display: block;
     .aem-Grid {
@@ -584,6 +590,10 @@
         }
       }
     }
+  }
+
+  #competition-landing-main-content-container.cmp-container.closed {
+    display: none;
   }
 }
 
