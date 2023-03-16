@@ -1,5 +1,5 @@
 /* Start CSS Common styles for all template */
-#competition-landing-header-Mobile,
+#mobile-burger-menu-open,
 #thank-you-page-template-child-one #thank-you-page-header,
 #pre-game-template-child-one {
   position: relative;
@@ -111,7 +111,8 @@
               flex: 0 0 20%;
               width: 25px;
               height: 25px;
-              background: url('/content/dam/global/promotions/aperopromotions/uk/en/images/Accordion-Plus.png') no-repeat right center;
+              background: url("/content/dam/global/promotions/aperopromotions/uk/en/images/Accordion-Plus.png")
+                no-repeat right center;
             }
           }
         }
@@ -131,6 +132,42 @@
 
       p {
         color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
+
+#competition-landing-terms-condition-mobile,
+#competition-landing-page-child-eight {
+  .aem-Grid {
+    padding: 35px 0;
+
+    .text {
+      #competition-landing-eight-pre-title {
+        font-family: "Pinup-Regular";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #000000;
+        p {
+          margin: 0;
+        }
+      }
+
+      #competition-landing-eight-description {
+        font-family: "NimbusSanLOT";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        color: rgba(0, 0, 0, 0.5);
+        p {
+          margin: 10px 0 0;
+          a {
+            color: #e71d2b;
+          }
+        }
       }
     }
   }
@@ -352,36 +389,62 @@
 }
 
 @media only screen and (max-width: 768px) {
-
   #competition-landing-header-desktop {
     display: none;
   }
 
   #Mobile-header-container {
     display: block;
-    .aem-Grid {
+    #mobile-burger-menu-open {
+      display: flex;
       background: #e71d2b;
       max-width: calc(100% - 40px);
       padding: 10px 20px;
       align-items: center;
+      justify-content: space-between;
 
-      .image {
-        .cmp-image {
-          display: flex;
-          justify-content: center;
+      .button {
+        #mobile-burger-menu {
+          border: none;
+          .cmp-button__icon--burger-menu-open {
+            width: 25px;
+            height: 25px;
+            display: block;
+            background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/burger-menu.png")
+              no-repeat left center;
+          }
+        } 
+      }
+    }
+
+    #mobile-burger-menu-close {
+      background: #e71d2b;
+      #mobile-header-burger-open-nav-button {
+        display: flex;
+        background: #e71d2b;
+        padding: 10px 20px;
+        align-items: center;
+        justify-content: space-between;
+
+        .button {
+          #burger-close-button {
+            border: none;
+            .cmp-button__icon--burger-menu-close {
+              width: 25px;
+              height: 25px;
+              display: block;
+              background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/close.png")
+              no-repeat left center;
+            }
+          }
         }
       }
+    }
 
-      .navigationV2 {
-        #navigationtagging {
-          width: 25px;
-          height: 25px;
-          display: block;
-          left: 80%;
-          position: relative;
-          background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/burger-menu.png")
-            no-repeat left center;
-        }
+    #competition-landing-terms-condition-mobile .aem-Grid .text {
+      #competition-landing-eight-description p,
+      #competition-landing-eight-pre-title p {
+        color: #ffffff;
       }
     }
   }
@@ -426,7 +489,7 @@
         text-decoration: none;
 
         &#mobile-footer-create-an-login-button {
-          background: #2E8538;
+          background: #2e8538;
           display: block;
           color: #ffffff;
           text-align: center;
@@ -434,20 +497,19 @@
 
         &#mobile-footer-login-button {
           display: flex;
-          border: 1px solid #2E8538;
+          border: 1px solid #2e8538;
           justify-content: center;
-          color: #2E8538;
+          color: #2e8538;
         }
 
         span {
-          font-family: 'Pinup-Regular';
+          font-family: "Pinup-Regular";
           font-size: 12px;
           line-height: 14px;
         }
       }
     }
   }
-
 }
 
 /* End CSS */

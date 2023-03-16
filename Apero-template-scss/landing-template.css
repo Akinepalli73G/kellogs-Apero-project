@@ -376,40 +376,6 @@
   color: #ffffff;
   text-decoration: none;
 }
-#competition-landing-template-container #competition-landing-terms-condition-mobile .aem-Grid,
-#competition-landing-template-container #competition-landing-page-child-eight .aem-Grid {
-  padding: 35px 0;
-}
-#competition-landing-template-container #competition-landing-terms-condition-mobile .aem-Grid .text #competition-landing-eight-pre-title,
-#competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-pre-title {
-  font-family: "Pinup-Regular";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  color: #000000;
-}
-#competition-landing-template-container #competition-landing-terms-condition-mobile .aem-Grid .text #competition-landing-eight-pre-title p,
-#competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-pre-title p {
-  margin: 0;
-}
-#competition-landing-template-container #competition-landing-terms-condition-mobile .aem-Grid .text #competition-landing-eight-description,
-#competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-description {
-  font-family: "NimbusSanLOT";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 16px;
-  color: rgba(0, 0, 0, 0.5);
-}
-#competition-landing-template-container #competition-landing-terms-condition-mobile .aem-Grid .text #competition-landing-eight-description p,
-#competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-description p {
-  margin: 10px 0 0;
-}
-#competition-landing-template-container #competition-landing-terms-condition-mobile .aem-Grid .text #competition-landing-eight-description p a,
-#competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-description p a {
-  color: #e71d2b;
-}
 
 @media only screen and (min-width: 769px) {
   #competition-landing-template-container #competition-landing-page-child-one {
