@@ -380,6 +380,9 @@
   #Mobile-header-container {
     display: block;
   }
+  #Mobile-header-container #mobile-burger-menu-open.cmp-container.closed {
+    display: none;
+  }
   #Mobile-header-container #mobile-burger-menu-open {
     display: flex;
     background: #e71d2b;
@@ -398,19 +401,23 @@
     background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/burger-menu.png") no-repeat left center;
   }
   #Mobile-header-container #mobile-burger-menu-close {
+    display: none;
+  }
+  #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened {
+    display: block;
     background: #e71d2b;
   }
-  #Mobile-header-container #mobile-burger-menu-close #mobile-header-burger-open-nav-button {
+  #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button {
     display: flex;
     background: #e71d2b;
-    padding: 10px 20px;
+    padding: 30px 20px;
     align-items: center;
     justify-content: space-between;
   }
-  #Mobile-header-container #mobile-burger-menu-close #mobile-header-burger-open-nav-button .button #burger-close-button {
+  #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .button #burger-close-button {
     border: none;
   }
-  #Mobile-header-container #mobile-burger-menu-close #mobile-header-burger-open-nav-button .button #burger-close-button .cmp-button__icon--burger-menu-close {
+  #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .button #burger-close-button .cmp-button__icon--burger-menu-close {
     width: 25px;
     height: 25px;
     display: block;
