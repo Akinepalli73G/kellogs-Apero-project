@@ -770,67 +770,6 @@
 #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-description p a {
   color: #e71d2b;
 }
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid {
-  background: #e71d2b;
-  color: #ffffff;
-  padding: 60px 100px;
-}
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid .list {
-  max-width: calc(95% - 60px);
-}
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid .list ul {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
-  list-style: none;
-  grid-column-gap: 60px;
-  grid-row-gap: 30px;
-}
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid .list ul li {
-  flex: 0 0 calc(25% - 60px);
-  padding-bottom: 10px;
-  border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
-}
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid .list ul li .cmp-list__item-title {
-  font-family: "Pinup-Regular";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
-}
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid .socialcomponent {
-  max-width: calc(95% - 120px);
-}
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid .socialcomponent .social_icons {
-  display: flex;
-  justify-content: flex-end;
-  grid-gap: 30px;
-}
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid .socialcomponent .social_icons a {
-  width: 1.9em;
-  height: 1.9em;
-}
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid .socialcomponent .social_icons a span {
-  display: none;
-}
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid .text #competion-landing-copy-right-text {
-  margin-top: 30px;
-  max-width: calc(95% - 120px);
-  display: flex;
-  justify-content: flex-end;
-}
-#competition-landing-template-container #competition-landing-page-child-nine .aem-Grid .text #competion-landing-copy-right-text p {
-  font-family: "NimbusSanLOT";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  margin: 0;
-  color: #ffffff;
-}
 
 @media only screen and (min-width: 769px) {
   #competition-landing-template-container #competition-landing-header-Mobile {
@@ -1086,7 +1025,7 @@
     width: fit-content;
   }
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid {
-    text-align: left;
+    text-align: center;
     padding: 40px 0 50px;
   }
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .image {
@@ -1107,6 +1046,70 @@
   #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text {
     padding-left: 100px;
     max-width: 1000px;
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid {
+    background: #e71d2b;
+    color: #ffffff;
+    padding: 60px 100px;
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid .list {
+    max-width: calc(95% - 60px);
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid .list ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+    list-style: none;
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid .list ul li {
+    flex: 0 0 calc(25% - 60px);
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid .list ul li .cmp-list__item-title {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid .socialcomponent {
+    max-width: calc(95% - 120px);
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid .socialcomponent .social_icons {
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 30px;
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid .socialcomponent .social_icons a {
+    width: 1.9em;
+    height: 1.9em;
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid .socialcomponent .social_icons a span {
+    display: none;
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid .text #competion-landing-copy-right-text {
+    margin-top: 30px;
+    max-width: calc(95% - 120px);
+    display: flex;
+    justify-content: flex-end;
+  }
+  #competition-landing-template-container #desktop-footer-container .aem-Grid .text #competion-landing-copy-right-text p {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+    color: #ffffff;
+  }
+  #competition-landing-template-container #sticky-footer-buttons-mobile-container {
+    display: none;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1274,6 +1277,50 @@
   #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text {
     max-width: 100%;
     padding: 0 20px;
+  }
+  #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-description {
+    margin-bottom: 70px;
+  }
+  #competition-landing-template-container #desktop-footer-container {
+    display: none;
+  }
+  #competition-landing-template-container #sticky-footer-buttons-mobile-container {
+    position: fixed;
+    background: #ffffff;
+    top: 87%;
+    height: 90px;
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    z-index: 999;
+    grid-gap: 8px;
+    align-items: center;
+  }
+  #competition-landing-template-container #sticky-footer-buttons-mobile-container .button {
+    display: inline-block;
+    width: 45%;
+  }
+  #competition-landing-template-container #sticky-footer-buttons-mobile-container .button a {
+    padding: 18px 12px;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+  #competition-landing-template-container #sticky-footer-buttons-mobile-container .button a#mobile-footer-create-an-login-button {
+    background: #2E8538;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+  }
+  #competition-landing-template-container #sticky-footer-buttons-mobile-container .button a#mobile-footer-login-button {
+    display: flex;
+    border: 1px solid #2E8538;
+    justify-content: center;
+    color: #2E8538;
+  }
+  #competition-landing-template-container #sticky-footer-buttons-mobile-container .button a span {
+    font-family: "Pinup-Regular";
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 body {
