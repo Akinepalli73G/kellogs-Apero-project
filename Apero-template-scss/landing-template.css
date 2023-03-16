@@ -307,15 +307,19 @@
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title p {
   margin-top: 0;
 }
-#competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links {
+#competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop,
+#competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile {
+  display: block;
   width: -moz-fit-content;
   width: fit-content;
   border-bottom: 2px solid #f7e62a;
 }
-#competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links p {
+#competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop p,
+#competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile p {
   margin: 0 20px 6px;
 }
-#competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links p a {
+#competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop p a,
+#competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile p a {
   font-family: "Pinup-Regular";
   font-size: 14px;
   line-height: 16px;
@@ -328,18 +332,6 @@
 #competition-landing-template-container #competition-landing-page-child-seven {
   background: #e71d2b;
   color: #ffffff;
-}
-#competition-landing-template-container #competition-landing-page-child-seven .aem-Grid {
-  text-align: center;
-  padding: 40px 0 50px;
-}
-#competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .image {
-  position: relative;
-  height: 65px;
-}
-#competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .image .cmp-image {
-  position: absolute;
-  left: 48%;
 }
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title {
   font-family: "Pinup-Regular";
@@ -367,7 +359,6 @@
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) {
   display: flex;
   width: 100%;
-  justify-content: center;
 }
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) #competition-landing-seven-text-links {
   padding: 0 20px 6px;
@@ -387,10 +378,6 @@
 }
 #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid {
   padding: 35px 0;
-}
-#competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text {
-  padding: 0 300px 0 100px;
-  max-width: 100%;
 }
 #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-pre-title {
   font-family: "Pinup-Regular";
@@ -413,6 +400,9 @@
 }
 #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-description p {
   margin: 10px 0 0;
+}
+#competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-description p a {
+  color: #e71d2b;
 }
 #competition-landing-template-container #competition-landing-page-child-nine .aem-Grid {
   background: #e71d2b;
@@ -722,9 +712,35 @@
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title p {
     margin-top: 0;
   }
+  #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile {
+    display: none;
+  }
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container #competition-landing-accordion {
     width: -moz-fit-content;
     width: fit-content;
+  }
+  #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid {
+    text-align: left;
+    padding: 40px 0 50px;
+  }
+  #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .image {
+    position: relative;
+    height: 65px;
+  }
+  #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .image .cmp-image {
+    position: absolute;
+    left: 48%;
+  }
+  #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) {
+    justify-content: center;
+  }
+  #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text {
+    padding-left: 100px;
+    max-width: 1000px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -868,7 +884,29 @@
     font-size: 30px;
     line-height: 36px;
   }
-  #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links {
+  #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop {
+    display: none;
+  }
+  #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile {
     margin: 30px 0 60px;
+  }
+  #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid {
+    width: calc(100% - 40px);
+    text-align: left;
+    padding: 40px 20px 50px;
+  }
+  #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .image {
+    display: none;
+  }
+  #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) {
+    justify-content: left;
+  }
+  #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text {
+    max-width: 100%;
+    padding: 0 20px;
   }
 }/*# sourceMappingURL=landing-template.css.map */
