@@ -1440,37 +1440,8 @@
     margin-bottom: 70px;
   }
 }
-body {
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-/* font import start */
-@font-face {
-  font-family: "Pinup-Regular";
-  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/Pinup-Regular.otf");
-}
-@font-face {
-  font-family: "DIN-Next-Rounded-LT-Pro-Bold";
-  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/DIN-Next-Rounded-LT-Pro-Bold.ttf");
-}
-@font-face {
-  font-family: "DIN-Next-LT-Pro-Regular";
-  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/DIN-Next-LT-Pro-Regular.ttf");
-}
-@font-face {
-  font-family: "DIN-Next-LT-Pro-Medium";
-  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/DIN-Next-LT-Pro-Medium.ttf");
-}
-.skip-main {
-  display: none;
-}
-
 @media only screen and (max-width: 768px) {
   /* Start CSS create account / login template */
-  #create-account-or-login-template {
-    margin: 20px;
-  }
   #create-account-or-login-template #create-account-or-login-template-child-one .cmp-container {
     display: flex;
     justify-content: space-between;
@@ -1534,4 +1505,29 @@ body {
     text-transform: uppercase;
   }
   /* End CSS */
+}
+body {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* font import start */
+@font-face {
+  font-family: "Pinup-Regular";
+  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/Pinup-Regular.otf");
+}
+@font-face {
+  font-family: "DIN-Next-Rounded-LT-Pro-Bold";
+  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/DIN-Next-Rounded-LT-Pro-Bold.ttf");
+}
+@font-face {
+  font-family: "DIN-Next-LT-Pro-Regular";
+  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/DIN-Next-LT-Pro-Regular.ttf");
+}
+@font-face {
+  font-family: "DIN-Next-LT-Pro-Medium";
+  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/DIN-Next-LT-Pro-Medium.ttf");
+}
+.skip-main {
+  display: none;
 }/*# sourceMappingURL=apero-main-2023.css.map */

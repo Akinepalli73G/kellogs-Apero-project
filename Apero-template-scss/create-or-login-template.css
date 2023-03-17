@@ -1,0 +1,66 @@
+@media only screen and (max-width: 768px) {
+  /* Start CSS create account / login template */
+  #create-account-or-login-template #create-account-or-login-template-child-one .cmp-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-one .cmp-container .text {
+    font-family: "Pinup-Regular";
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #e71d2b;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-one .cmp-container .image {
+    margin-bottom: 0;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-one .text {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-one .text p {
+    margin-bottom: 20px;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-one .text .cmp-text p a {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #e71d2b;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-one #apero-or-seperator-container {
+    display: flex;
+    align-items: center;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-one #apero-or-seperator-container .separator {
+    flex: 0 0 40%;
+    opacity: 0.5;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-one #apero-or-seperator-container .text {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px !important;
+    line-height: 22px !important;
+    margin: 10px;
+    opacity: 0.5;
+    color: #000000 !important;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-two .form-title h2 {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+  }
+  /* End CSS */
+}/*# sourceMappingURL=create-or-login-template.css.map */
