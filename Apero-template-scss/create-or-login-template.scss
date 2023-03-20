@@ -253,6 +253,10 @@
                                       background: transparent;
                                     }
                                   }
+
+                                  .gigya-error-msg-active  {
+                                    display: none !important;
+                                  }
                                 }
                               }
 
@@ -293,6 +297,22 @@
                                     }
                                   }
                                 }
+                              }
+
+                              .gigya-composite-control:has(.gigya-error-msg-active) {
+                                .gigya-input-password,
+                                .gigya-input-text {
+                                  margin-bottom: 0;
+                                  border: 1px solid #e71d2b;
+                                }
+                              }
+                              .gigya-error-msg-active {
+                                text-align: left;
+                                font-family: 'NimbusSanLOT';
+                                font-size: 10px;
+                                line-height: 22px;
+                                color: #E71D2B;
+                                padding-top: 0;
                               }
                             }
                           }
