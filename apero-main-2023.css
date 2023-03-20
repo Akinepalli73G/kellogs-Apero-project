@@ -1446,6 +1446,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: calc(100% - 40px);
+    padding: 0 20px;
   }
   #create-account-or-login-template #create-account-or-login-template-child-one .cmp-container .text {
     font-family: "Pinup-Regular";
@@ -1455,6 +1457,10 @@
     font-size: 20px;
     line-height: 24px;
     color: #e71d2b;
+    padding: 0;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-one .cmp-container .text p {
+    margin-bottom: 20px;
   }
   #create-account-or-login-template #create-account-or-login-template-child-one .cmp-container .image {
     margin-bottom: 0;
@@ -1466,21 +1472,17 @@
     font-size: 14px;
     line-height: 22px;
     color: #000000;
+    padding: 0 20px;
   }
   #create-account-or-login-template #create-account-or-login-template-child-one .text p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
-  #create-account-or-login-template #create-account-or-login-template-child-one .text .cmp-text p a {
-    font-family: "NimbusSanLOT";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 22px;
+  #create-account-or-login-template #create-account-or-login-template-child-one .text p a {
     color: #e71d2b;
   }
-  #create-account-or-login-template #create-account-or-login-template-child-one #apero-or-seperator-container {
-    display: flex;
-    align-items: center;
+  #create-account-or-login-template #create-account-or-login-template-child-one .markuptext {
+    height: 50px;
+    padding: 0 20px;
   }
   #create-account-or-login-template #create-account-or-login-template-child-one #apero-or-seperator-container .separator {
     flex: 0 0 40%;
@@ -1496,13 +1498,116 @@
     opacity: 0.5;
     color: #000000 !important;
   }
-  #create-account-or-login-template #create-account-or-login-template-child-two .form-title h2 {
+  #create-account-or-login-template #create-account-or-login-container .form-title h2 {
     font-family: "Pinup-Regular";
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) {
+    margin: 0;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper .form-title {
+    display: none;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form #exitUrl {
+    display: none;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope {
+    margin: 0;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait {
+    padding: 0 20px;
+    margin: 0;
+    width: 100%;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider .gigya-social-login-container {
+    height: 0 !important;
+    margin: 0;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 {
+    height: 0 !important;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_1_uiContainer,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_0_uiContainer,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_1_uiContainer,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_0_uiContainer {
+    height: 0 !important;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_1_uiContainer .gigya-login-providers,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_0_uiContainer .gigya-login-providers,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_1_uiContainer .gigya-login-providers,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_0_uiContainer .gigya-login-providers {
+    height: 0 !important;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_1_uiContainer .gigya-login-providers .gigya-login-providers-container,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_0_uiContainer .gigya-login-providers .gigya-login-providers-container,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_1_uiContainer .gigya-login-providers .gigya-login-providers-container,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_0_uiContainer .gigya-login-providers .gigya-login-providers-container {
+    width: 50% !important;
+    margin: 0;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_1_uiContainer .gigya-login-provider-row,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_0_uiContainer .gigya-login-provider-row,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_1_uiContainer .gigya-login-provider-row,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_0_uiContainer .gigya-login-provider-row {
+    height: 0 !important;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_1_uiContainer #Facebook_btn,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_0_uiContainer #Facebook_btn,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_1_uiContainer #Facebook_btn,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_0_uiContainer #Facebook_btn {
+    position: absolute;
+    top: -122px;
+    height: 50px !important;
+    left: 20px;
+    width: 50%;
+    z-index: 9;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_1_uiContainer #Google_btn,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_1 #kgsasgigyaForms_social_0_uiContainer #Google_btn,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_1_uiContainer #Google_btn,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_0_uiContainer #Google_btn {
+    position: absolute;
+    top: -122px;
+    height: 50px !important;
+    left: 75%;
+    width: 50%;
+    z-index: 9;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-label-text {
+    font-family: "NimbusSanLOT";
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-required-display.gigya-reset {
+    padding: 0;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-input-password,
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-input-text {
+    background: #f2f2f2;
+    border-radius: 2px;
+    border: none;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .fa-eye-slash::before {
+    display: inline-block;
+    position: relative;
+    top: 22px;
+    content: "";
+    width: 24px;
+    height: 14px;
+    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/eye.png") no-repeat right center;
   }
   /* End CSS */
 }

@@ -1,15 +1,16 @@
 @media only screen and (max-width: 768px) {
-    /* Start CSS create account / login template */
-  
-    #create-account-or-login-template {
-      #create-account-or-login-template-child-one  {
-        .cmp-container {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-        }
-    
-        .cmp-container .text {
+  /* Start CSS create account / login template */
+
+  #create-account-or-login-template {
+    #create-account-or-login-template-child-one {
+      .cmp-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: calc(100% - 40px);
+        padding: 0 20px;
+
+        .text {
           font-family: "Pinup-Regular";
           text-transform: uppercase;
           font-style: normal;
@@ -17,57 +18,61 @@
           font-size: 20px;
           line-height: 24px;
           color: #e71d2b;
+          padding: 0;
+
+          p {
+            margin-bottom: 20px;
+          }
         }
-    
-        .cmp-container .image {
+
+        .image {
           margin-bottom: 0;
         }
-    
+      }
+
+      .text {
+        font-family: "NimbusSanLOT";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+        padding: 0 20px;
+
+        p {
+          margin-bottom: 30px;
+          a {
+            color: #e71d2b;
+          }
+        }
+      }
+
+      .markuptext {
+        height: 50px;
+        padding: 0 20px;
+      }
+
+      #apero-or-seperator-container {
+        .separator {
+          flex: 0 0 40%;
+          opacity: 0.5;
+        }
+
         .text {
           font-family: "NimbusSanLOT";
           font-style: normal;
           font-weight: 700;
-          font-size: 14px;
-          line-height: 22px;
-          color: #000000;
-        }
-    
-        .text p {
-          margin-bottom: 20px;
-        }
-    
-        .text .cmp-text p a {
-          font-family: "NimbusSanLOT";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 14px;
-          line-height: 22px;
-          color: #e71d2b;
-        }
-    
-        #apero-or-seperator-container {
-          display: flex;
-          align-items: center;
-    
-          .separator {
-            flex: 0 0 40%;
-            opacity: 0.5;
-          }
-    
-          .text {
-            font-family: "NimbusSanLOT";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 12px !important;
-            line-height: 22px !important;
-            margin: 10px;
-            opacity: 0.5;
-            color: #000000 !important;
-          }
+          font-size: 12px !important;
+          line-height: 22px !important;
+          margin: 10px;
+          opacity: 0.5;
+          color: #000000 !important;
         }
       }
-    
-      #create-account-or-login-template-child-two .form-title h2 {
+    }
+
+    #create-account-or-login-container {
+      .form-title h2 {
         font-family: "Pinup-Regular";
         font-style: normal;
         font-weight: 700;
@@ -75,6 +80,119 @@
         line-height: 19px;
         text-transform: uppercase;
       }
+
+      .registration-v6 {
+        .kfr-signup-form {
+          section:nth-child(1) {
+            margin: 0;
+            .content_wrapper {
+              display: block;
+              max-width: 100%;
+              width: 100%;
+              margin: 0 auto;
+
+              .form-wrapper {
+                .form-title {
+                  display: none;
+                }
+
+                #kfr-signup-form {
+                  #exitUrl {
+                    display: none;
+                  }
+
+                  .kstl-regv6-login-only.ng-scope {
+                    margin: 0;
+
+                    .App
+                      #kgsasgigyaForms
+                      #kgsasgigyaForms_content
+                      .gigya-screen.v2.portrait {
+                      padding: 0 20px;
+                      margin: 0;
+                      width: 100%;
+                      #gigya-login-form .gigya-layout-row.with-divider {
+                        .gigya-social-login-container {
+                          height: 0 !important;
+                          margin: 0;
+                        }
+                        #kgsasgigyaForms_social_1,
+                        #kgsasgigyaForms_social_0 {
+                          height: 0 !important;
+                          #kgsasgigyaForms_social_1_uiContainer,
+                          #kgsasgigyaForms_social_0_uiContainer {
+                            height: 0 !important;
+                            .gigya-login-providers {
+                              height: 0 !important;
+
+                              .gigya-login-providers-container {
+                                width: 50% !important;
+                                margin: 0;
+                              }
+                            }
+                            .gigya-login-provider-row {
+                              height: 0 !important;
+                            }
+                            #Facebook_btn {
+                              position: absolute;
+                              top: -122px;
+                              height: 50px !important;
+                              left: 20px;
+                              width: 50%;
+                              z-index: 9;
+                            }
+
+                            #Google_btn {
+                              position: absolute;
+                              top: -122px;
+                              height: 50px !important;
+                              left: 75%;
+                              width: 50%;
+                              z-index: 9;
+                            }
+                          }
+                        }
+
+                        .responsive.with-site-login {
+                          .gigya-label-text {
+                            font-family: "NimbusSanLOT";
+                            font-size: 14px;
+                            line-height: 22px;
+                            text-transform: capitalize;
+                            color: #000000;
+                          }
+
+                          .gigya-required-display.gigya-reset {
+                            padding: 0;
+                          }
+                          .gigya-input-password,
+                          .gigya-input-text {
+                            background: #f2f2f2;
+                            border-radius: 2px;
+                            border: none;
+                          }
+
+                          .fa-eye-slash::before {
+                            display: inline-block;
+                            position: relative;
+                            top: 22px;
+                            content: "";
+                            width: 24px;
+                            height: 14px;
+                            background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/eye.png")
+                              no-repeat right center;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
-    /* End CSS */
   }
+  /* End CSS */
+}
