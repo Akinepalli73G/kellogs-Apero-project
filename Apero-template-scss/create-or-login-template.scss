@@ -230,6 +230,70 @@
                               .gigya-composite-control.gigya-composite-control-label.register {
                                 display: none;
                               }
+
+                              .gigya-composite-control-multi-choice.country-reg {
+                                .gigya-multi-choice-item {
+                                  align-items: center;
+                                  border-radius: 2px;
+                                  background: #f2f2f2;
+                                  padding-top: 0;
+
+                                  label {
+                                    margin-left: 0;
+                                    padding: 7px 16px;
+                                    &::before {
+                                      content: "";
+                                      position: relative;
+                                      left: 0;
+                                      top: 0em;
+                                      width: unset;
+                                      height: unset;
+                                      border: none;
+                                      border-radius: unset;
+                                      background: transparent;
+                                    }
+                                  }
+                                }
+                              }
+
+                              .gigya-composite-control-checkbox.privacy-reg,
+                              .gigya-composite-control-checkbox.tnc-reg {
+                                .gigya-checkbox-container {
+                                  border: 1px solid rgba(0, 0, 0, 0.1);
+                                  border-radius: 100px;
+
+                                  label {
+                                    &::before {
+                                      top: 25%;
+                                      border: 0.833333px solid #B6B6B6;
+                                      border-radius: 2.5px;
+                                    }
+                                    .gigya-label-text.gigya-checkbox-text {
+                                      font-family: "NimbusSanLOT";
+                                      font-style: normal;
+                                      font-weight: 700;
+                                      font-size: 12px;
+                                      line-height: 16px;
+                                      color: #000000;
+                                    }
+
+                                    a {
+                                      text-decoration-line: underline;
+                                      color: #e71d2b;
+                                    }
+                                  }
+                                }
+                              }
+
+                              .gigya-composite-control-checkbox.privacy-reg {
+                                .gigya-checkbox-container {
+                                  label {
+                                    &::before {
+                                      top: 14%;
+                                    }
+                                  }
+                                }
+                              }
                             }
                           }
 
