@@ -165,7 +165,33 @@
     content: "";
     width: 24px;
     height: 14px;
-    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/eye.png") no-repeat right center;
+    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/eye.png") no-repeat center center;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-link {
+    text-align: left;
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #e71d2b;
+    margin-bottom: 176px;
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-submit .gigya-input-submit {
+    font-family: "Pinup";
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    background: #2e8538;
+    border: none;
+    border-radius: 2px;
+    max-width: calc(100% - 20px);
+  }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control.gigya-composite-control-label.register {
+    display: none;
   }
   /* End CSS */
 }/*# sourceMappingURL=create-or-login-template.css.map */
