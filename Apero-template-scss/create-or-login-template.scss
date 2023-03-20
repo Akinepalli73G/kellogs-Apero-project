@@ -93,125 +93,161 @@
 
               .form-wrapper {
                 .form-title {
-                  display: none;
+                  h2 {
+                    margin: 0 20px;
+                  }
                 }
-
                 #kfr-signup-form {
                   #exitUrl {
                     display: none;
                   }
 
+                  .kstl-regv6-reg-only.ng-scope,
                   .kstl-regv6-login-only.ng-scope {
                     margin: 0;
 
-                    .App
-                      #kgsasgigyaForms
-                      #kgsasgigyaForms_content
-                      .gigya-screen.v2.portrait {
-                      padding: 0 20px;
-                      margin: 0;
-                      width: 100%;
-                      #gigya-login-form .gigya-layout-row.with-divider {
-                        .gigya-social-login-container {
-                          height: 0 !important;
+                    .App #kgsasgigyaForms {
+                      h1.gigya-screen-caption {
+                        display: none;
+                      }
+                      #kgsasgigyaForms_content {
+                        margin-top: 15px;
+                        .gigya-screen.v2.portrait {
+                          padding: 0 20px;
                           margin: 0;
-                        }
-                        #kgsasgigyaForms_social_1,
-                        #kgsasgigyaForms_social_0 {
-                          height: 0 !important;
-                          #kgsasgigyaForms_social_1_uiContainer,
-                          #kgsasgigyaForms_social_0_uiContainer {
-                            height: 0 !important;
-                            .gigya-login-providers {
+                          width: 100%;
+                          #gigya-register-form .gigya-layout-row.with-divider,
+                          #gigya-login-form .gigya-layout-row.with-divider {
+                            .gigya-composite-control.gigya-composite-control-label {
+                              display: none;
+                            }
+                            .gigya-social-login-container {
                               height: 0 !important;
+                              margin: 0;
+                            }
+                            #kgsasgigyaForms_social_5,
+                            #kgsasgigyaForms_social_6,
+                            #kgsasgigyaForms_social_2,
+                            #kgsasgigyaForms_social_3,
+                            #kgsasgigyaForms_social_1,
+                            #kgsasgigyaForms_social_0 {
+                              height: 0 !important;
+                              #kgsasgigyaForms_social_5_uiContainer,
+                              #kgsasgigyaForms_social_6_uiContainer,
+                              #kgsasgigyaForms_social_2_uiContainer,
+                              #kgsasgigyaForms_social_3_uiContainer,
+                              #kgsasgigyaForms_social_1_uiContainer,
+                              #kgsasgigyaForms_social_0_uiContainer {
+                                height: 0 !important;
+                                .gigya-login-providers {
+                                  height: 0 !important;
 
-                              .gigya-login-providers-container {
-                                width: 50% !important;
-                                margin: 0;
+                                  .gigya-login-providers-container {
+                                    width: 50% !important;
+                                    margin: 0;
+                                  }
+                                }
+                                .gigya-login-provider-row {
+                                  height: 0 !important;
+                                }
+                                #Facebook_btn {
+                                  position: absolute;
+                                  top: -137px;
+                                  height: 50px !important;
+                                  left: 20px;
+                                  width: 50%;
+                                  z-index: 9;
+                                }
+
+                                #Google_btn {
+                                  position: absolute;
+                                  top: -137px;
+                                  height: 50px !important;
+                                  left: 75%;
+                                  width: 50%;
+                                  z-index: 9;
+                                }
                               }
                             }
-                            .gigya-login-provider-row {
-                              height: 0 !important;
-                            }
-                            #Facebook_btn {
-                              position: absolute;
-                              top: -122px;
-                              height: 50px !important;
-                              left: 20px;
-                              width: 50%;
-                              z-index: 9;
-                            }
 
-                            #Google_btn {
-                              position: absolute;
-                              top: -122px;
-                              height: 50px !important;
-                              left: 75%;
-                              width: 50%;
-                              z-index: 9;
-                            }
-                          }
-                        }
+                            .responsive.with-site-login {
+                              .gigya-label-text {
+                                font-family: "NimbusSanLOT";
+                                font-size: 14px;
+                                line-height: 22px;
+                                text-transform: capitalize;
+                                color: #000000;
+                              }
 
-                        .responsive.with-site-login {
-                          .gigya-label-text {
-                            font-family: "NimbusSanLOT";
-                            font-size: 14px;
-                            line-height: 22px;
-                            text-transform: capitalize;
-                            color: #000000;
-                          }
+                              .gigya-required-display.gigya-reset {
+                                padding: 0;
+                              }
+                              .gigya-input-password,
+                              .gigya-input-text {
+                                background: #f2f2f2;
+                                border-radius: 2px;
+                                border: none;
+                              }
 
-                          .gigya-required-display.gigya-reset {
-                            padding: 0;
-                          }
-                          .gigya-input-password,
-                          .gigya-input-text {
-                            background: #f2f2f2;
-                            border-radius: 2px;
-                            border: none;
-                          }
+                              .fa-eye-slash::before {
+                                display: inline-block;
+                                position: relative;
+                                top: 22px;
+                                content: "";
+                                width: 24px;
+                                height: 14px;
+                                background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/eye.png")
+                                  no-repeat center center;
+                              }
 
-                          .fa-eye-slash::before {
-                            display: inline-block;
-                            position: relative;
-                            top: 22px;
-                            content: "";
-                            width: 24px;
-                            height: 14px;
-                            background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/eye.png")
-                              no-repeat center center;
-                          }
+                              .gigya-composite-control-link {
+                                text-align: left;
+                                font-family: "NimbusSanLOT";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 22px;
+                                display: flex;
+                                align-items: center;
+                                text-decoration-line: underline;
+                                color: #e71d2b;
+                                margin-bottom: 176px;
+                              }
 
-                          .gigya-composite-control-link {
-                            text-align: left;
-                            font-family: "NimbusSanLOT";
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 14px;
-                            line-height: 22px;
-                            display: flex;
-                            align-items: center;
-                            text-decoration-line: underline;
-                            color: #e71d2b;
-                            margin-bottom: 176px;
-                          }
+                              .gigya-composite-control-submit {
+                                .gigya-input-submit {
+                                  font-family: "Pinup";
+                                  font-size: 12px;
+                                  line-height: 14px;
+                                  color: #ffffff;
+                                  background: #2e8538;
+                                  border: none;
+                                  border-radius: 2px;
+                                  max-width: calc(100% - 20px);
+                                }
+                              }
 
-                          .gigya-composite-control-submit {
-                            .gigya-input-submit {
-                              font-family: "Pinup";
-                              font-size: 12px;
-                              line-height: 14px;
-                              color: #ffffff;
-                              background: #2e8538;
-                              border: none;
-                              border-radius: 2px;
-                              max-width: calc(100% - 20px);
+                              .gigya-composite-control.gigya-composite-control-label.register {
+                                display: none;
+                              }
                             }
                           }
 
-                          .gigya-composite-control.gigya-composite-control-label.register {
-                            display: none;
+                          #gigya-register-form .gigya-layout-row.with-divider {
+                            #kgsasgigyaForms_social_2,
+                            #kgsasgigyaForms_social_3,
+                            #kgsasgigyaForms_social_1,
+                            #kgsasgigyaForms_social_0 {
+                              #kgsasgigyaForms_social_2_uiContainer,
+                              #kgsasgigyaForms_social_3_uiContainer,
+                              #kgsasgigyaForms_social_1_uiContainer,
+                              #kgsasgigyaForms_social_0_uiContainer {
+                                #Facebook_btn,
+                                #Google_btn {
+                                  top: -157px;
+                                }
+                              }
+                            }
                           }
                         }
                       }
