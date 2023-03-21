@@ -2883,8 +2883,9 @@
   #homepage-template-container #apero-main-content-container #homepage-image-child-one-scanner {
     position: absolute;
     top: 46%;
-    left: 44%;
-    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   #homepage-template-container #apero-main-content-container #homepage-image-child-one-scanner img {
     width: 178px;

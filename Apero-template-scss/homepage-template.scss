@@ -12,8 +12,9 @@
       #homepage-image-child-one-scanner {
         position: absolute;
         top: 46%;
-        left: 44%;
-        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: center;
         img {
           width: 178px;
           height: 178px;
