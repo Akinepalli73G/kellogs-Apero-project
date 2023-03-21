@@ -523,6 +523,7 @@
     background: #e71d2b;
     color: #ffffff;
     padding: 60px 100px;
+    border-top: 1px solid #ffffff;
   }
   #desktop-footer-container .aem-Grid .list {
     max-width: calc(95% - 60px);
@@ -2870,6 +2871,53 @@
   }
   #faq-child-three .aem-Grid .text:nth-child(4) {
     justify-content: left;
+  }
+}
+#homepage-template-container #apero-main-content-container {
+  position: relative;
+  background: #e71d2b;
+  padding: 130px 0 230px;
+}
+
+@media only screen and (min-width: 769px) {
+  #homepage-template-container #apero-main-content-container #homepage-image-child-one-scanner {
+    position: absolute;
+    top: 46%;
+    left: 44%;
+    display: block;
+  }
+  #homepage-template-container #apero-main-content-container #homepage-image-child-one-scanner img {
+    width: 178px;
+    height: 178px;
+  }
+  #homepage-template-container #apero-main-content-container .button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #homepage-template-container #apero-main-content-container #homepage-image-child-one-scanner {
+    display: none;
+  }
+  #homepage-template-container #apero-main-content-container .button {
+    display: block;
+    position: absolute;
+    bottom: 260px;
+    width: 100%;
+    left: 20px;
+  }
+  #homepage-template-container #apero-main-content-container .button .cmp-button {
+    border: none;
+    background: #ffffff;
+    width: calc(100% - 60px);
+    padding: 16px 0;
+  }
+  #homepage-template-container #apero-main-content-container .button .cmp-button span {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #e71d2b;
   }
 }
 body {

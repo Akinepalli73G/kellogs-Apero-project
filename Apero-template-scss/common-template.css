@@ -320,6 +320,7 @@
     background: #e71d2b;
     color: #ffffff;
     padding: 60px 100px;
+    border-top: 1px solid #ffffff;
   }
   #desktop-footer-container .aem-Grid .list {
     max-width: calc(95% - 60px);
