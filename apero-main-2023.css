@@ -2876,10 +2876,12 @@
 #homepage-template-container #apero-main-content-container {
   position: relative;
   background: #e71d2b;
-  padding: 130px 0 230px;
 }
 
 @media only screen and (min-width: 769px) {
+  #homepage-template-container #apero-main-content-container {
+    padding: 130px 0 230px;
+  }
   #homepage-template-container #apero-main-content-container #homepage-image-child-one-scanner {
     position: absolute;
     top: 46%;
@@ -2896,20 +2898,23 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  #homepage-template-container #apero-main-content-container {
+    padding: 0 0 230px;
+  }
   #homepage-template-container #apero-main-content-container #homepage-image-child-one-scanner {
     display: none;
   }
   #homepage-template-container #apero-main-content-container .button {
     display: block;
     position: absolute;
-    bottom: 260px;
+    bottom: 250px;
     width: 100%;
     left: 20px;
   }
   #homepage-template-container #apero-main-content-container .button .cmp-button {
     border: none;
     background: #ffffff;
-    width: calc(100% - 60px);
+    width: calc(100% - 40px);
     padding: 16px 0;
   }
   #homepage-template-container #apero-main-content-container .button .cmp-button span {
