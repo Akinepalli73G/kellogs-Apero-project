@@ -69,31 +69,41 @@
 /* End CSS */
 /* Start CSS Thank-You Page Template */
 @media only screen and (max-width: 768px) {
+  #already-played-template-container #thank-you-page-template-child-three,
+  #already-played-template-container #thank-you-page-template-child-two,
   #Thank-you-page-template-container #thank-you-page-template-child-three,
   #Thank-you-page-template-container #thank-you-page-template-child-two {
     padding: 60px 20px;
   }
+  #already-played-template-container #thank-you-page-template-child-one,
   #Thank-you-page-template-container #thank-you-page-template-child-one {
     padding: 0 20px;
   }
+  #already-played-template-container #thank-you-page-template-child-four,
   #Thank-you-page-template-container #thank-you-page-template-child-four {
     padding: 30px 20px 20px;
   }
+  #already-played-template-container #thank-you-page-template-child-one,
   #Thank-you-page-template-container #thank-you-page-template-child-one {
     background: #e71d2b;
   }
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-header .languagenavigation,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-header .languagenavigation {
     flex: 0 0 45%;
   }
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-header .image,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-header .image {
     flex: 0 0 55%;
   }
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-one,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-one {
     padding: 60px 0;
   }
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-one .image,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-one .image {
     text-align: center;
   }
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-title,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-title {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -102,9 +112,11 @@
     line-height: 54px;
     color: #ffffff;
   }
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-title p,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-title p {
     margin-bottom: 0;
   }
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-pre-title,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-pre-title {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -113,6 +125,7 @@
     line-height: 22px;
     color: #f7e62a;
   }
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-description,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-description {
     font-family: "NimbusSanLOT";
     font-style: normal;
@@ -121,12 +134,15 @@
     line-height: 20px;
     color: #ffffff;
   }
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-description p,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-description p {
     margin: 0 0 20px;
   }
+  #already-played-template-container #thank-you-page-template-child-two,
   #Thank-you-page-template-container #thank-you-page-template-child-two {
     background: #009bde;
   }
+  #already-played-template-container #thank-you-page-template-child-two #thank-you-page-child-two-title,
   #Thank-you-page-template-container #thank-you-page-template-child-two #thank-you-page-child-two-title {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -136,6 +152,7 @@
     text-transform: uppercase;
     color: #ffffff;
   }
+  #already-played-template-container #thank-you-page-template-child-two #thank-you-page-child-two-text-link,
   #Thank-you-page-template-container #thank-you-page-template-child-two #thank-you-page-child-two-text-link {
     font-size: 14px;
     line-height: 16px;
@@ -146,13 +163,16 @@
     padding: 0 20px;
     border-bottom: 2px solid #f7e62a;
   }
+  #already-played-template-container #thank-you-page-template-child-two #thank-you-page-child-two-text-link p,
   #Thank-you-page-template-container #thank-you-page-template-child-two #thank-you-page-child-two-text-link p {
     margin-bottom: 6px;
   }
+  #already-played-template-container #thank-you-page-template-child-three,
   #Thank-you-page-template-container #thank-you-page-template-child-three {
     background: #e71d2b;
     text-align: center;
   }
+  #already-played-template-container #thank-you-page-template-child-three #thank-you-page-child-three-title,
   #Thank-you-page-template-container #thank-you-page-template-child-three #thank-you-page-child-three-title {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -162,18 +182,22 @@
     text-transform: uppercase;
     color: #ffffff;
   }
+  #already-played-template-container #thank-you-page-template-child-three .socialcomponent .social_icons,
   #Thank-you-page-template-container #thank-you-page-template-child-three .socialcomponent .social_icons {
     display: flex;
     justify-content: center;
     grid-gap: 25px;
   }
+  #already-played-template-container #thank-you-page-template-child-three .socialcomponent .social_icons a,
   #Thank-you-page-template-container #thank-you-page-template-child-three .socialcomponent .social_icons a {
     width: 2.5em;
     height: 2.5em;
   }
+  #already-played-template-container #thank-you-page-template-child-three .socialcomponent .social_icons a span,
   #Thank-you-page-template-container #thank-you-page-template-child-three .socialcomponent .social_icons a span {
     display: none;
   }
+  #already-played-template-container #thank-you-page-template-child-four #thank-you-page-child-four-header,
   #Thank-you-page-template-container #thank-you-page-template-child-four #thank-you-page-child-four-header {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -184,6 +208,7 @@
     -webkit-padding-start: 20px;
             padding-inline-start: 20px;
   }
+  #already-played-template-container #thank-you-page-template-child-four #thank-you-page-child-four-description,
   #Thank-you-page-template-container #thank-you-page-template-child-four #thank-you-page-child-four-description {
     font-family: "NimbusSanLOT";
     font-style: normal;
@@ -192,6 +217,7 @@
     line-height: 16px;
     color: rgba(0, 0, 0, 0.5);
   }
+  #already-played-template-container #thank-you-page-template-child-four #thank-you-page-child-four-text-link p a,
   #Thank-you-page-template-container #thank-you-page-template-child-four #thank-you-page-child-four-text-link p a {
     font-style: normal;
     font-weight: 700;
@@ -301,11 +327,13 @@
 }
 
 #faq-template-container,
+#already-played-template-container,
 #competition-landing-page-child-six,
 #thank-you-page-accordion {
   color: #000000;
 }
 #faq-template-container .cmp-accordion__item,
+#already-played-template-container .cmp-accordion__item,
 #competition-landing-page-child-six .cmp-accordion__item,
 #thank-you-page-accordion .cmp-accordion__item {
   background: #ffffff;
@@ -314,22 +342,26 @@
   margin-bottom: 15px;
 }
 #faq-template-container .cmp-accordion__item[data-cmp-expanded],
+#already-played-template-container .cmp-accordion__item[data-cmp-expanded],
 #competition-landing-page-child-six .cmp-accordion__item[data-cmp-expanded],
 #thank-you-page-accordion .cmp-accordion__item[data-cmp-expanded] {
   border-radius: 35px;
 }
 #faq-template-container .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
+#already-played-template-container .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
 #competition-landing-page-child-six .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
 #thank-you-page-accordion .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header {
   padding: 16px 0;
   border-bottom: 1px solid rgba(0, 155, 222, 0.5);
 }
 #faq-template-container .cmp-accordion__item .cmp-accordion__header,
+#already-played-template-container .cmp-accordion__item .cmp-accordion__header,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header {
   margin: 0;
 }
 #faq-template-container .cmp-accordion__item .cmp-accordion__header button,
+#already-played-template-container .cmp-accordion__item .cmp-accordion__header button,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button {
   background: transparent;
@@ -340,6 +372,7 @@
   padding: 0;
 }
 #faq-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
+#already-played-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title {
   text-align: left;
@@ -351,6 +384,7 @@
   line-height: 150%;
 }
 #faq-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
+#already-played-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon {
   flex: 0 0 20%;
@@ -359,16 +393,19 @@
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/images/Accordion-Plus.png") no-repeat right center;
 }
 #faq-template-container .cmp-accordion__panel--hidden,
+#already-played-template-container .cmp-accordion__panel--hidden,
 #competition-landing-page-child-six .cmp-accordion__panel--hidden,
 #thank-you-page-accordion .cmp-accordion__panel--hidden {
   display: none;
 }
 #faq-template-container .cmp-accordion__panel--expanded,
+#already-played-template-container .cmp-accordion__panel--expanded,
 #competition-landing-page-child-six .cmp-accordion__panel--expanded,
 #thank-you-page-accordion .cmp-accordion__panel--expanded {
   display: block;
 }
 #faq-template-container .cmp-accordion__panel--expanded p,
+#already-played-template-container .cmp-accordion__panel--expanded p,
 #competition-landing-page-child-six .cmp-accordion__panel--expanded p,
 #thank-you-page-accordion .cmp-accordion__panel--expanded p {
   color: rgba(0, 0, 0, 0.5);
@@ -761,6 +798,72 @@
   #competition-landing-main-content-container.cmp-container.closed {
     display: none;
   }
+  /* header Mobile for Thank you page */
+  #already-played-header-mobile {
+    position: relative;
+  }
+  #already-played-header-mobile .aem-Grid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background: #e71d2b;
+    justify-content: center;
+    max-width: calc(100% - 40px);
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation::after {
+    position: absolute;
+    top: 44%;
+    left: 40px;
+    content: "";
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 6px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    left: 0;
+    z-index: 9;
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li {
+    display: none;
+    padding: 5px 20px;
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
+    display: block;
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation.languageOpened li {
+    display: block;
+  }
+  #already-played-header-mobile .aem-Grid .image {
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+  }
+  #already-played-header-mobile .aem-Grid .text {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 9;
+  }
+  /* End CSS */
 }
 /* End CSS */
 #competition-landing-template-container #competition-landing-page-child-one {
@@ -2924,6 +3027,67 @@
     font-size: 14px;
     line-height: 17px;
     color: #e71d2b;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #already-played-template-container #already-played-child-one {
+    background: #e71d2b;
+    padding: 0 20px 60px;
+    color: #ffffff;
+  }
+  #already-played-template-container #already-played-child-one .teaser {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  #already-played-template-container #already-played-child-one .teaser .cmp-teaser__content .cmp-teaser__title {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #ffffff;
+  }
+  #already-played-template-container #already-played-child-one .teaser .cmp-teaser__content .cmp-teaser__description {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  #already-played-template-container #already-played-child-one .text #already-played-child-one-title {
+    font-family: "Pinup";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffd140;
+  }
+  #already-played-template-container #already-played-child-one .text #already-played-child-one-title p {
+    margin: 24px 0;
+  }
+  #already-played-template-container #already-played-child-one .timer {
+    margin: 0 -12px;
+  }
+  #already-played-template-container #already-played-child-two {
+    background: #e71d2b;
+  }
+  #already-played-template-container #already-played-child-two .markuptext .already-played-title {
+    font-family: "Pinup";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  #already-played-template-container #already-played-child-two .markuptext .already-played-title span {
+    color: #f7e62a;
   }
 }
 body {

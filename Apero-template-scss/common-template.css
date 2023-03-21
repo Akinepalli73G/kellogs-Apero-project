@@ -98,11 +98,13 @@
 }
 
 #faq-template-container,
+#already-played-template-container,
 #competition-landing-page-child-six,
 #thank-you-page-accordion {
   color: #000000;
 }
 #faq-template-container .cmp-accordion__item,
+#already-played-template-container .cmp-accordion__item,
 #competition-landing-page-child-six .cmp-accordion__item,
 #thank-you-page-accordion .cmp-accordion__item {
   background: #ffffff;
@@ -111,22 +113,26 @@
   margin-bottom: 15px;
 }
 #faq-template-container .cmp-accordion__item[data-cmp-expanded],
+#already-played-template-container .cmp-accordion__item[data-cmp-expanded],
 #competition-landing-page-child-six .cmp-accordion__item[data-cmp-expanded],
 #thank-you-page-accordion .cmp-accordion__item[data-cmp-expanded] {
   border-radius: 35px;
 }
 #faq-template-container .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
+#already-played-template-container .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
 #competition-landing-page-child-six .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
 #thank-you-page-accordion .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header {
   padding: 16px 0;
   border-bottom: 1px solid rgba(0, 155, 222, 0.5);
 }
 #faq-template-container .cmp-accordion__item .cmp-accordion__header,
+#already-played-template-container .cmp-accordion__item .cmp-accordion__header,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header {
   margin: 0;
 }
 #faq-template-container .cmp-accordion__item .cmp-accordion__header button,
+#already-played-template-container .cmp-accordion__item .cmp-accordion__header button,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button {
   background: transparent;
@@ -137,6 +143,7 @@
   padding: 0;
 }
 #faq-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
+#already-played-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title {
   text-align: left;
@@ -148,6 +155,7 @@
   line-height: 150%;
 }
 #faq-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
+#already-played-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon {
   flex: 0 0 20%;
@@ -156,16 +164,19 @@
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/images/Accordion-Plus.png") no-repeat right center;
 }
 #faq-template-container .cmp-accordion__panel--hidden,
+#already-played-template-container .cmp-accordion__panel--hidden,
 #competition-landing-page-child-six .cmp-accordion__panel--hidden,
 #thank-you-page-accordion .cmp-accordion__panel--hidden {
   display: none;
 }
 #faq-template-container .cmp-accordion__panel--expanded,
+#already-played-template-container .cmp-accordion__panel--expanded,
 #competition-landing-page-child-six .cmp-accordion__panel--expanded,
 #thank-you-page-accordion .cmp-accordion__panel--expanded {
   display: block;
 }
 #faq-template-container .cmp-accordion__panel--expanded p,
+#already-played-template-container .cmp-accordion__panel--expanded p,
 #competition-landing-page-child-six .cmp-accordion__panel--expanded p,
 #thank-you-page-accordion .cmp-accordion__panel--expanded p {
   color: rgba(0, 0, 0, 0.5);
@@ -558,5 +569,71 @@
   #competition-landing-main-content-container.cmp-container.closed {
     display: none;
   }
+  /* header Mobile for Thank you page */
+  #already-played-header-mobile {
+    position: relative;
+  }
+  #already-played-header-mobile .aem-Grid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background: #e71d2b;
+    justify-content: center;
+    max-width: calc(100% - 40px);
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation::after {
+    position: absolute;
+    top: 44%;
+    left: 40px;
+    content: "";
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 6px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    left: 0;
+    z-index: 9;
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li {
+    display: none;
+    padding: 5px 20px;
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
+    display: block;
+  }
+  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation.languageOpened li {
+    display: block;
+  }
+  #already-played-header-mobile .aem-Grid .image {
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+  }
+  #already-played-header-mobile .aem-Grid .text {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 9;
+  }
+  /* End CSS */
 }
 /* End CSS *//*# sourceMappingURL=common-template.css.map */
