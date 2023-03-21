@@ -13,4 +13,5 @@ function onBtnClick(e) {
   burgerMenuClose.classList.toggle('opened');
   burgerMenuOpen.classList.toggle('closed');
   document.querySelector('#competition-landing-main-content-container').classList.toggle('closed');
+  document.querySelector('#apero-main-content-container').classList.toggle('closed');
 }

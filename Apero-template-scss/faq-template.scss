@@ -1,0 +1,170 @@
+#faq-child-three {
+  background: #e71d2b;
+  color: #ffffff;
+  .aem-Grid {
+    .text {
+      #faq-child-three-title {
+        font-family: "Pinup-Regular";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #ffffff;
+
+        p {
+          margin: 20px 0 0;
+        }
+      }
+
+      #faq-child-three-description {
+        font-family: "NimbusSanLOT";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff;
+
+        p {
+          margin: 20px 0;
+        }
+      }
+
+      &:nth-child(4) {
+        display: flex;
+        width: 100%;
+        #faq-child-three-text-links {
+          padding: 0 20px 6px;
+          width: fit-content;
+          border-bottom: 2px solid #f7e62a;
+          p {
+            margin: 0;
+            a {
+              font-family: "Pinup-Regular";
+              font-size: 14px;
+              line-height: 16px;
+              color: #ffffff;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#faq-child-one {
+  .breadcrumb {
+    background: #0f76b9;
+    color: #ffffff;
+    position: relative;
+
+    nav ol {
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        position: absolute;
+        top: 44%;
+        left: 20px;
+        height: 8px;
+        background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/breadcrumb-left-arrow.png")
+          no-repeat left center;
+      }
+      li {
+        display: none;
+        &:last-child {
+          display: block;
+          font-family: "NimbusSanLOT";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 150%;
+          letter-spacing: 0.005em;
+        }
+      }
+    }
+  }
+}
+
+#faq-child-two {
+  background: #009bde;
+  color: #ffffff;
+  padding: 20px 20px 85px;
+
+  .text #faq-child-two-title {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #faq-child-two {
+    .text #faq-child-two-title {
+      font-size: 50px;
+      line-height: 60px;
+    }
+  }
+
+  #faq-child-three .aem-Grid {
+    text-align: center;
+    padding: 40px 20px 130px;
+
+    .image {
+      position: relative;
+      height: 65px;
+      .cmp-image {
+        position: absolute;
+        left: 48%;
+      }
+    }
+
+    .text {
+      #faq-child-three-title {
+        font-size: 30px;
+        line-height: 36px;
+      }
+
+      &:nth-child(4) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #faq-child-two {
+    .text #faq-child-two-title {
+      font-size: 30px;
+      line-height: 36px;
+      p {
+        margin: 0 0 40px;
+      }
+    }
+  }
+  #faq-child-three .aem-Grid {
+    width: calc(100% - 40px);
+    text-align: left;
+    padding: 40px 20px 130px;
+
+    .image {
+      display: none;
+    }
+
+    .text {
+      #faq-child-three-title {
+        font-size: 18px;
+        line-height: 22px;
+      }
+
+      &:nth-child(4) {
+        justify-content: left;
+      }
+    }
+  }
+}

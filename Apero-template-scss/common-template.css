@@ -97,10 +97,12 @@
   text-transform: uppercase;
 }
 
+#faq-template-container,
 #competition-landing-page-child-six,
 #thank-you-page-accordion {
   color: #000000;
 }
+#faq-template-container .cmp-accordion__item,
 #competition-landing-page-child-six .cmp-accordion__item,
 #thank-you-page-accordion .cmp-accordion__item {
   background: #ffffff;
@@ -108,19 +110,23 @@
   padding: 16px 24px;
   margin-bottom: 15px;
 }
+#faq-template-container .cmp-accordion__item[data-cmp-expanded],
 #competition-landing-page-child-six .cmp-accordion__item[data-cmp-expanded],
 #thank-you-page-accordion .cmp-accordion__item[data-cmp-expanded] {
   border-radius: 35px;
 }
+#faq-template-container .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
 #competition-landing-page-child-six .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
 #thank-you-page-accordion .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header {
   padding: 16px 0;
   border-bottom: 1px solid rgba(0, 155, 222, 0.5);
 }
+#faq-template-container .cmp-accordion__item .cmp-accordion__header,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header {
   margin: 0;
 }
+#faq-template-container .cmp-accordion__item .cmp-accordion__header button,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button {
   background: transparent;
@@ -130,6 +136,7 @@
   width: 100%;
   padding: 0;
 }
+#faq-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title {
   text-align: left;
@@ -140,6 +147,7 @@
   font-size: 14px;
   line-height: 150%;
 }
+#faq-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon {
   flex: 0 0 20%;
@@ -147,14 +155,17 @@
   height: 25px;
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/images/Accordion-Plus.png") no-repeat right center;
 }
+#faq-template-container .cmp-accordion__panel--hidden,
 #competition-landing-page-child-six .cmp-accordion__panel--hidden,
 #thank-you-page-accordion .cmp-accordion__panel--hidden {
   display: none;
 }
+#faq-template-container .cmp-accordion__panel--expanded,
 #competition-landing-page-child-six .cmp-accordion__panel--expanded,
 #thank-you-page-accordion .cmp-accordion__panel--expanded {
   display: block;
 }
+#faq-template-container .cmp-accordion__panel--expanded p,
 #competition-landing-page-child-six .cmp-accordion__panel--expanded p,
 #thank-you-page-accordion .cmp-accordion__panel--expanded p {
   color: rgba(0, 0, 0, 0.5);

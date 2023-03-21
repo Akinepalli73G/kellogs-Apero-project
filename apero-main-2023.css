@@ -300,10 +300,12 @@
   text-transform: uppercase;
 }
 
+#faq-template-container,
 #competition-landing-page-child-six,
 #thank-you-page-accordion {
   color: #000000;
 }
+#faq-template-container .cmp-accordion__item,
 #competition-landing-page-child-six .cmp-accordion__item,
 #thank-you-page-accordion .cmp-accordion__item {
   background: #ffffff;
@@ -311,19 +313,23 @@
   padding: 16px 24px;
   margin-bottom: 15px;
 }
+#faq-template-container .cmp-accordion__item[data-cmp-expanded],
 #competition-landing-page-child-six .cmp-accordion__item[data-cmp-expanded],
 #thank-you-page-accordion .cmp-accordion__item[data-cmp-expanded] {
   border-radius: 35px;
 }
+#faq-template-container .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
 #competition-landing-page-child-six .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header,
 #thank-you-page-accordion .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header {
   padding: 16px 0;
   border-bottom: 1px solid rgba(0, 155, 222, 0.5);
 }
+#faq-template-container .cmp-accordion__item .cmp-accordion__header,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header {
   margin: 0;
 }
+#faq-template-container .cmp-accordion__item .cmp-accordion__header button,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button {
   background: transparent;
@@ -333,6 +339,7 @@
   width: 100%;
   padding: 0;
 }
+#faq-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title {
   text-align: left;
@@ -343,6 +350,7 @@
   font-size: 14px;
   line-height: 150%;
 }
+#faq-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
 #competition-landing-page-child-six .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon,
 #thank-you-page-accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon {
   flex: 0 0 20%;
@@ -350,14 +358,17 @@
   height: 25px;
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/images/Accordion-Plus.png") no-repeat right center;
 }
+#faq-template-container .cmp-accordion__panel--hidden,
 #competition-landing-page-child-six .cmp-accordion__panel--hidden,
 #thank-you-page-accordion .cmp-accordion__panel--hidden {
   display: none;
 }
+#faq-template-container .cmp-accordion__panel--expanded,
 #competition-landing-page-child-six .cmp-accordion__panel--expanded,
 #thank-you-page-accordion .cmp-accordion__panel--expanded {
   display: block;
 }
+#faq-template-container .cmp-accordion__panel--expanded p,
 #competition-landing-page-child-six .cmp-accordion__panel--expanded p,
 #thank-you-page-accordion .cmp-accordion__panel--expanded p {
   color: rgba(0, 0, 0, 0.5);
@@ -2720,6 +2731,146 @@
     top: -157px;
   }
   /* End CSS */
+}
+#faq-child-three {
+  background: #e71d2b;
+  color: #ffffff;
+}
+#faq-child-three .aem-Grid .text #faq-child-three-title {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#faq-child-three .aem-Grid .text #faq-child-three-title p {
+  margin: 20px 0 0;
+}
+#faq-child-three .aem-Grid .text #faq-child-three-description {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+#faq-child-three .aem-Grid .text #faq-child-three-description p {
+  margin: 20px 0;
+}
+#faq-child-three .aem-Grid .text:nth-child(4) {
+  display: flex;
+  width: 100%;
+}
+#faq-child-three .aem-Grid .text:nth-child(4) #faq-child-three-text-links {
+  padding: 0 20px 6px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 2px solid #f7e62a;
+}
+#faq-child-three .aem-Grid .text:nth-child(4) #faq-child-three-text-links p {
+  margin: 0;
+}
+#faq-child-three .aem-Grid .text:nth-child(4) #faq-child-three-text-links p a {
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#faq-child-one .breadcrumb {
+  background: #0f76b9;
+  color: #ffffff;
+  position: relative;
+}
+#faq-child-one .breadcrumb nav ol::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  position: absolute;
+  top: 44%;
+  left: 20px;
+  height: 8px;
+  background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/breadcrumb-left-arrow.png") no-repeat left center;
+}
+#faq-child-one .breadcrumb nav ol li {
+  display: none;
+}
+#faq-child-one .breadcrumb nav ol li:last-child {
+  display: block;
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.005em;
+}
+
+#faq-child-two {
+  background: #009bde;
+  color: #ffffff;
+  padding: 20px 20px 85px;
+}
+#faq-child-two .text #faq-child-two-title {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 769px) {
+  #faq-child-two .text #faq-child-two-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  #faq-child-three .aem-Grid {
+    text-align: center;
+    padding: 40px 20px 130px;
+  }
+  #faq-child-three .aem-Grid .image {
+    position: relative;
+    height: 65px;
+  }
+  #faq-child-three .aem-Grid .image .cmp-image {
+    position: absolute;
+    left: 48%;
+  }
+  #faq-child-three .aem-Grid .text #faq-child-three-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #faq-child-three .aem-Grid .text:nth-child(4) {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #faq-child-two .text #faq-child-two-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #faq-child-two .text #faq-child-two-title p {
+    margin: 0 0 40px;
+  }
+  #faq-child-three .aem-Grid {
+    width: calc(100% - 40px);
+    text-align: left;
+    padding: 40px 20px 130px;
+  }
+  #faq-child-three .aem-Grid .image {
+    display: none;
+  }
+  #faq-child-three .aem-Grid .text #faq-child-three-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  #faq-child-three .aem-Grid .text:nth-child(4) {
+    justify-content: left;
+  }
 }
 body {
   margin: 0 auto;

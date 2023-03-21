@@ -1,0 +1,140 @@
+#faq-child-three {
+  background: #e71d2b;
+  color: #ffffff;
+}
+#faq-child-three .aem-Grid .text #faq-child-three-title {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#faq-child-three .aem-Grid .text #faq-child-three-title p {
+  margin: 20px 0 0;
+}
+#faq-child-three .aem-Grid .text #faq-child-three-description {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+#faq-child-three .aem-Grid .text #faq-child-three-description p {
+  margin: 20px 0;
+}
+#faq-child-three .aem-Grid .text:nth-child(4) {
+  display: flex;
+  width: 100%;
+}
+#faq-child-three .aem-Grid .text:nth-child(4) #faq-child-three-text-links {
+  padding: 0 20px 6px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 2px solid #f7e62a;
+}
+#faq-child-three .aem-Grid .text:nth-child(4) #faq-child-three-text-links p {
+  margin: 0;
+}
+#faq-child-three .aem-Grid .text:nth-child(4) #faq-child-three-text-links p a {
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#faq-child-one .breadcrumb {
+  background: #0f76b9;
+  color: #ffffff;
+  position: relative;
+}
+#faq-child-one .breadcrumb nav ol::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  position: absolute;
+  top: 44%;
+  left: 20px;
+  height: 8px;
+  background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/breadcrumb-left-arrow.png") no-repeat left center;
+}
+#faq-child-one .breadcrumb nav ol li {
+  display: none;
+}
+#faq-child-one .breadcrumb nav ol li:last-child {
+  display: block;
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.005em;
+}
+
+#faq-child-two {
+  background: #009bde;
+  color: #ffffff;
+  padding: 20px 20px 85px;
+}
+#faq-child-two .text #faq-child-two-title {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 769px) {
+  #faq-child-two .text #faq-child-two-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  #faq-child-three .aem-Grid {
+    text-align: center;
+    padding: 40px 20px 130px;
+  }
+  #faq-child-three .aem-Grid .image {
+    position: relative;
+    height: 65px;
+  }
+  #faq-child-three .aem-Grid .image .cmp-image {
+    position: absolute;
+    left: 48%;
+  }
+  #faq-child-three .aem-Grid .text #faq-child-three-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #faq-child-three .aem-Grid .text:nth-child(4) {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #faq-child-two .text #faq-child-two-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #faq-child-two .text #faq-child-two-title p {
+    margin: 0 0 40px;
+  }
+  #faq-child-three .aem-Grid {
+    width: calc(100% - 40px);
+    text-align: left;
+    padding: 40px 20px 130px;
+  }
+  #faq-child-three .aem-Grid .image {
+    display: none;
+  }
+  #faq-child-three .aem-Grid .text #faq-child-three-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  #faq-child-three .aem-Grid .text:nth-child(4) {
+    justify-content: left;
+  }
+}/*# sourceMappingURL=faq-template.css.map */
