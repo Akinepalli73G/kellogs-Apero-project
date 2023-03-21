@@ -10,10 +10,6 @@
   #Thank-you-page-template-container #thank-you-page-template-child-one {
     padding: 0 20px;
   }
-  #already-played-template-container #thank-you-page-template-child-four,
-  #Thank-you-page-template-container #thank-you-page-template-child-four {
-    padding: 30px 20px 20px;
-  }
   #already-played-template-container #thank-you-page-template-child-one,
   #Thank-you-page-template-container #thank-you-page-template-child-one {
     background: #e71d2b;
@@ -127,6 +123,11 @@
   #already-played-template-container #thank-you-page-template-child-three .socialcomponent .social_icons a span,
   #Thank-you-page-template-container #thank-you-page-template-child-three .socialcomponent .social_icons a span {
     display: none;
+  }
+  #already-played-template-container #thank-you-page-template-child-four,
+  #Thank-you-page-template-container #thank-you-page-template-child-four {
+    background: #ffffff;
+    padding: 30px 20px 20px;
   }
   #already-played-template-container #thank-you-page-template-child-four #thank-you-page-child-four-header,
   #Thank-you-page-template-container #thank-you-page-template-child-four #thank-you-page-child-four-header {

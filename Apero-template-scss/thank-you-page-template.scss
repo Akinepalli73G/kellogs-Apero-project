@@ -10,10 +10,6 @@
     #thank-you-page-template-child-one {
       padding: 0 20px;
     }
-
-    #thank-you-page-template-child-four {
-      padding: 30px 20px 20px;
-    }
     #thank-you-page-template-child-one {
       background: #e71d2b;
 
@@ -123,6 +119,8 @@
       }
     }
     #thank-you-page-template-child-four {
+      background: #ffffff;
+      padding: 30px 20px 20px;
       #thank-you-page-child-four-header {
         font-family: "Pinup-Regular";
         font-style: normal;
@@ -149,12 +147,6 @@
         line-height: 16px;
         color: #e71d2b;
       }
-    }
-  }
-
-  .already-played-title {
-    span {
-
     }
   }
 }

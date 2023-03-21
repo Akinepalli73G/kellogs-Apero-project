@@ -1,5 +1,6 @@
 @media only screen and (max-width: 768px) {
   #already-played-template-container {
+    background: #e71d2b;
     #already-played-child-one {
       background: #e71d2b;
       padding: 0 20px 60px;
@@ -50,26 +51,80 @@
       }
 
       .timer {
-        margin: 0 -12px;
+        margin-left: -5px;
       }
     }
 
     #already-played-child-two {
       background: #e71d2b;
+      padding: 0 0 50px;
       .markuptext {
         .already-played-title {
-          font-family: "Pinup";
+          font-family: "Pinup-Regular";
           font-style: normal;
           font-weight: 700;
           font-size: 30px;
           line-height: 36px;
           text-transform: uppercase;
           color: #ffffff;
+          margin-bottom: 15px;
+          padding: 0 20px;
           span {
             color: #f7e62a;
           }
         }
       }
+
+      .teaser {
+        .cmp-teaser__content {
+          .cmp-teaser__action-container {
+            width: calc(100% - 40px);
+            background: #ffffff;
+            padding: 10px 0;
+            margin: 0 20px;
+            text-align: center;
+            position: relative;
+            z-index: 9;
+            bottom: 20px;
+            a {
+              font-family: "Pinup-Regular";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 21px;
+              text-transform: uppercase;
+              text-decoration: none;
+              color: #e71d2b;
+            }
+          }
+        }
+      }
+    }
+
+    #already-played-child-three {
+      padding-left: 20px;
+      .text {
+        p {
+          font-family: "Pinup-Regular";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          text-transform: uppercase;
+          color: #ffffff;
+          margin: 0 0 15px;
+        }
+      }
+
+      .carousel .cmp-carousel .cmp-carousel__content {
+        .cmp-carousel__actions {
+            display: none;
+        }
+
+        .cmp-carousel__indicators {
+            display: none;
+        }
+      } 
     }
   }
 }

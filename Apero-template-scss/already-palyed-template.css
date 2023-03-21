@@ -1,4 +1,7 @@
 @media only screen and (max-width: 768px) {
+  #already-played-template-container {
+    background: #e71d2b;
+  }
   #already-played-template-container #already-played-child-one {
     background: #e71d2b;
     padding: 0 20px 60px;
@@ -41,21 +44,63 @@
     margin: 24px 0;
   }
   #already-played-template-container #already-played-child-one .timer {
-    margin: 0 -12px;
+    margin-left: -5px;
   }
   #already-played-template-container #already-played-child-two {
     background: #e71d2b;
+    padding: 0 0 50px;
   }
   #already-played-template-container #already-played-child-two .markuptext .already-played-title {
-    font-family: "Pinup";
+    font-family: "Pinup-Regular";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
     color: #ffffff;
+    margin-bottom: 15px;
+    padding: 0 20px;
   }
   #already-played-template-container #already-played-child-two .markuptext .already-played-title span {
     color: #f7e62a;
+  }
+  #already-played-template-container #already-played-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container {
+    width: calc(100% - 40px);
+    background: #ffffff;
+    padding: 10px 0;
+    margin: 0 20px;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+    bottom: 20px;
+  }
+  #already-played-template-container #already-played-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container a {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e71d2b;
+  }
+  #already-played-template-container #already-played-child-three {
+    padding-left: 20px;
+  }
+  #already-played-template-container #already-played-child-three .text p {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 0 15px;
+  }
+  #already-played-template-container #already-played-child-three .carousel .cmp-carousel .cmp-carousel__content .cmp-carousel__actions {
+    display: none;
+  }
+  #already-played-template-container #already-played-child-three .carousel .cmp-carousel .cmp-carousel__content .cmp-carousel__indicators {
+    display: none;
   }
 }/*# sourceMappingURL=already-palyed-template.css.map */
