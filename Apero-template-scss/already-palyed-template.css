@@ -86,6 +86,7 @@
   }
   #already-played-template-container #already-played-child-three {
     padding-left: 20px;
+    padding-bottom: 50px;
   }
   #already-played-template-container #already-played-child-three .text p {
     font-family: "Pinup-Regular";
@@ -96,6 +97,26 @@
     text-transform: uppercase;
     color: #ffffff;
     margin: 0 0 15px;
+  }
+  #already-played-template-container #already-played-child-three .carousel .cmp-carousel .cmp-carousel__content .teaser .cmp-teaser__image img {
+    width: calc(100% - 40px);
+  }
+  #already-played-template-container #already-played-child-three .carousel .cmp-carousel .cmp-carousel__content .teaser .cmp-teaser__content .cmp-teaser__action-container {
+    width: calc(100% - 40px);
+    background: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+  }
+  #already-played-template-container #already-played-child-three .carousel .cmp-carousel .cmp-carousel__content .teaser .cmp-teaser__content .cmp-teaser__action-container a {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e71d2b;
   }
   #already-played-template-container #already-played-child-three .carousel .cmp-carousel .cmp-carousel__content .cmp-carousel__actions {
     display: none;
