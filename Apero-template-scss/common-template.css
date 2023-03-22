@@ -570,9 +570,11 @@
     display: none;
   }
   /* header Mobile for Thank you page */
+  #Thank-you-page-header-mobile,
   #already-played-header-mobile {
     position: relative;
   }
+  #Thank-you-page-header-mobile .aem-Grid,
   #already-played-header-mobile .aem-Grid {
     display: flex;
     align-items: center;
@@ -582,6 +584,7 @@
     justify-content: center;
     max-width: calc(100% - 40px);
   }
+  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow,
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow {
     position: relative;
     border: none;
@@ -593,6 +596,7 @@
     height: 15px;
     background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/down-chevron-15.png") no-repeat right center;
   }
+  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group,
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group {
     position: absolute;
     width: 100%;
@@ -602,12 +606,14 @@
     left: 0;
     z-index: 9;
   }
+  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li,
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li {
     display: none;
     padding: 5px 20px;
     background: #e71d2b;
     z-index: 9;
   }
+  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a,
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a {
     font-family: "NimbusSanLOT";
     font-style: normal;
@@ -618,23 +624,28 @@
     text-decoration: none;
     text-transform: uppercase;
   }
+  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
     display: block;
   }
+  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li {
     display: block;
   }
+  #Thank-you-page-header-mobile .aem-Grid .image,
   #already-played-header-mobile .aem-Grid .image {
     display: flex;
     justify-content: center;
     z-index: 9;
     margin-bottom: 0;
   }
+  #Thank-you-page-header-mobile .aem-Grid .text,
   #already-played-header-mobile .aem-Grid .text {
     display: flex;
     justify-content: flex-end;
     z-index: 9;
   }
+  #Thank-you-page-header-mobile .aem-Grid .text a,
   #already-played-header-mobile .aem-Grid .text a {
     color: #ffffff;
   }

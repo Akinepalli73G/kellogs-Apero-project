@@ -8,27 +8,31 @@
   }
   #already-played-template-container #thank-you-page-template-child-one,
   #Thank-you-page-template-container #thank-you-page-template-child-one {
+    background: #e71d2b;
     padding: 0 20px;
   }
-  #already-played-template-container #thank-you-page-template-child-one,
-  #Thank-you-page-template-container #thank-you-page-template-child-one {
-    background: #e71d2b;
+  #already-played-template-container #thank-you-page-template-child-one #Thank-you-page-header-mobile .aem-Grid,
+  #Thank-you-page-template-container #thank-you-page-template-child-one #Thank-you-page-header-mobile .aem-Grid {
+    padding: 10px 0;
+    max-width: 100%;
   }
-  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-header .languagenavigation,
-  #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-header .languagenavigation {
-    flex: 0 0 45%;
-  }
-  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-header .image,
-  #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-header .image {
-    flex: 0 0 55%;
+  #already-played-template-container #thank-you-page-template-child-one #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav ul,
+  #Thank-you-page-template-container #thank-you-page-template-child-one #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav ul {
+    left: -20px;
+    width: calc(100% + 40px);
   }
   #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-one,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-one {
-    padding: 60px 0;
+    padding: 40px 0 50px;
   }
-  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-one .image,
-  #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-one .image {
-    text-align: center;
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-one .image .cmp-image,
+  #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-one .image .cmp-image {
+    display: flex;
+    justify-content: center;
+  }
+  #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-one .image .cmp-image img,
+  #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-one .image .cmp-image img {
+    width: auto;
   }
   #already-played-template-container #thank-you-page-template-child-one #thank-you-page-content-title,
   #Thank-you-page-template-container #thank-you-page-template-child-one #thank-you-page-content-title {

@@ -8,25 +8,29 @@
       padding: 60px 20px;
     }
     #thank-you-page-template-child-one {
-      padding: 0 20px;
-    }
-    #thank-you-page-template-child-one {
       background: #e71d2b;
-
-      #thank-you-page-header {
-        .languagenavigation {
-          flex: 0 0 45%;
-        }
-
-        .image {
-          flex: 0 0 55%;
+      padding: 0 20px;
+      #Thank-you-page-header-mobile {
+        .aem-Grid {
+          padding: 10px 0;
+          max-width: 100%;
+          .languagenavigation nav ul {
+            left: -20px;
+            width: calc(100% + 40px);
+          }
         }
       }
 
       #thank-you-page-content-one {
-        padding: 60px 0;
+        padding: 40px 0 50px;
         .image {
-          text-align: center;
+          .cmp-image {
+            display: flex;
+            justify-content: center;
+            img {
+              width: auto;
+            }
+          }
         }
       }
 
