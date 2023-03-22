@@ -1,25 +1,27 @@
 opened = false;
 closed = false;
-languageOpened = false
+languageOpened = false;
+const  navLanguageContainer = document.querySelector('.languagenavigation nav');
+const downArrowClickButton = document.createElement("button");
+downArrowClickButton.classList.add('mobile-down-arrow');
+navLanguageContainer.insertBefore(downArrowClickButton, navLanguageContainer.firstElementChild)
 window.onload = function() {
   var clickBurgerMenuClose = document.querySelector('#mobile-burger-menu');
   var clickBurgerMenuOpen = document.querySelector('#burger-close-button');
-  var clickLanguageNavigation = document.querySelector('.languagenavigation nav ul');
   clickBurgerMenuClose.addEventListener('click', onBtnClick);
   clickBurgerMenuOpen.addEventListener('click', onBtnClick);
-  clickLanguageNavigation.addEventListener('click', onLanguageDropdownClick);
 }
-
 
 function onBtnClick(e) {
   var burgerMenuClose = document.querySelector('#mobile-burger-menu-close');
   var burgerMenuOpen = document.querySelector('#mobile-burger-menu-open');
   burgerMenuClose.classList.toggle('opened');
   burgerMenuOpen.classList.toggle('closed');
-  document.querySelector('#competition-landing-main-content-container').classList.toggle('closed');
   document.querySelector('#apero-main-content-container').classList.toggle('closed');
+  document.querySelector('#competition-landing-main-content-container').classList.toggle('closed');
 }
 
-function onLanguageDropdownClick (e) {
-  document.querySelector('.languagenavigation nav')[0].classList.toggle('languageOpened');
-}
+var clickLanguageNavigation = document.querySelector('.languagenavigation nav button');
+clickLanguageNavigation.addEventListener('click', () => {
+  document.querySelector('.languagenavigation nav ul').classList.toggle('languageOpened');
+});

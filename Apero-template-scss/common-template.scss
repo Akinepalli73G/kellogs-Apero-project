@@ -613,18 +613,16 @@
 
       .languagenavigation {
         nav.cmp-languagenavigation {
-          &::after {
-            position: absolute;
-            top: 44%;
-            left: 40px;
-            content: "";
-            border: solid #ffffff;
-            border-width: 0 2px 2px 0;
-            display: inline-block;
-            padding: 3px;
-            margin-left: 6px;
-            transform: rotate(45deg);
-            -webkit-transform: rotate(45deg);
+          .mobile-down-arrow {
+            position: relative;
+            border: none;
+            z-index: 9999;
+            top: 0;
+            left: 5px;
+            display: block;
+            width: 15px;
+            height: 15px;
+            background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/down-chevron-15.png") no-repeat right center;
           }
 
           .cmp-languagenavigation__group {
@@ -639,6 +637,8 @@
             li {
               display: none;
               padding: 5px 20px;
+              background: #e71d2b;
+              z-index: 9;
               a {
                 font-family: "NimbusSanLOT";
                 font-style: normal;
@@ -649,16 +649,16 @@
                 text-decoration: none;
                 text-transform: uppercase;
               }
-  
+
               &:nth-child(1) {
                 display: block;
               }
             }
-          }
 
-          &.languageOpened {
-            li {
-              display: block;
+            &.languageOpened {
+              li {
+                display: block;
+              }
             }
           }
         }
