@@ -570,10 +570,12 @@
     display: none;
   }
   /* header Mobile for Thank you page */
+  #pre-game-header-mobile,
   #Thank-you-page-header-mobile,
   #already-played-header-mobile {
     position: relative;
   }
+  #pre-game-header-mobile .aem-Grid,
   #Thank-you-page-header-mobile .aem-Grid,
   #already-played-header-mobile .aem-Grid {
     display: flex;
@@ -584,6 +586,7 @@
     justify-content: center;
     max-width: calc(100% - 40px);
   }
+  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow,
   #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow,
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow {
     position: relative;
@@ -596,6 +599,7 @@
     height: 15px;
     background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/down-chevron-15.png") no-repeat right center;
   }
+  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group,
   #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group,
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group {
     position: absolute;
@@ -606,6 +610,7 @@
     left: 0;
     z-index: 9;
   }
+  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li,
   #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li,
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li {
     display: none;
@@ -613,6 +618,7 @@
     background: #e71d2b;
     z-index: 9;
   }
+  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a,
   #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a,
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a {
     font-family: "NimbusSanLOT";
@@ -624,14 +630,17 @@
     text-decoration: none;
     text-transform: uppercase;
   }
+  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
   #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
     display: block;
   }
+  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
   #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
   #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li {
     display: block;
   }
+  #pre-game-header-mobile .aem-Grid .image,
   #Thank-you-page-header-mobile .aem-Grid .image,
   #already-played-header-mobile .aem-Grid .image {
     display: flex;
@@ -639,12 +648,14 @@
     z-index: 9;
     margin-bottom: 0;
   }
+  #pre-game-header-mobile .aem-Grid .text,
   #Thank-you-page-header-mobile .aem-Grid .text,
   #already-played-header-mobile .aem-Grid .text {
     display: flex;
     justify-content: flex-end;
     z-index: 9;
   }
+  #pre-game-header-mobile .aem-Grid .text a,
   #Thank-you-page-header-mobile .aem-Grid .text a,
   #already-played-header-mobile .aem-Grid .text a {
     color: #ffffff;
