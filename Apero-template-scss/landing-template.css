@@ -679,11 +679,11 @@
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) {
     justify-content: left;
   }
+  #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid {
+    padding: 35px 0 95px;
+  }
   #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text {
     max-width: 100%;
     padding: 0 20px;
-  }
-  #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-description {
-    margin-bottom: 70px;
   }
 }/*# sourceMappingURL=landing-template.css.map */

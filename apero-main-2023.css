@@ -787,7 +787,15 @@
     display: block;
     width: 15px;
     height: 15px;
-    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/down-chevron-15.png") no-repeat right center;
+    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/down-arrow.png") no-repeat right center;
+    background-size: 10px;
+  }
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow.mobileUpArrow,
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow.mobileUpArrow,
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow.mobileUpArrow,
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow.mobileUpArrow {
+    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/up-chevron.png") no-repeat right center;
+    background-size: 10px;
   }
   #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group,
   #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group,
@@ -806,9 +814,10 @@
   #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li,
   #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li {
     display: none;
-    padding: 5px 20px;
+    padding: 25px 20px;
     background: #e71d2b;
     z-index: 9;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   }
   #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a,
   #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a,
@@ -828,6 +837,15 @@
   #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
   #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
     display: block;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    border-bottom: none;
+  }
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2),
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2),
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2),
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2) {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
   }
   #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
   #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
@@ -1519,12 +1537,12 @@
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) {
     justify-content: left;
   }
+  #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid {
+    padding: 35px 0 95px;
+  }
   #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text {
     max-width: 100%;
     padding: 0 20px;
-  }
-  #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text #competition-landing-eight-description {
-    margin-bottom: 70px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -3074,7 +3092,7 @@
     margin: 0 20px;
     text-align: center;
     position: relative;
-    z-index: 9;
+    z-index: 8;
     bottom: 20px;
   }
   #already-played-template-container #already-played-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container a {
