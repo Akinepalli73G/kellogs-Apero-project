@@ -816,7 +816,7 @@
     position: relative;
     border: none;
     z-index: 9999;
-    top: 0;
+    bottom: 0;
     left: 5px;
     display: block;
     width: 15px;
@@ -858,6 +858,7 @@
     display: flex;
     justify-content: center;
     z-index: 9;
+    margin-bottom: 0;
   }
   #already-played-header-mobile .aem-Grid .text {
     display: flex;
