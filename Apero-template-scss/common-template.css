@@ -1,80 +1,4 @@
 /* Start CSS Common styles for all template */
-#mobile-burger-menu-open,
-#thank-you-page-template-child-one #thank-you-page-header,
-#pre-game-template-child-one {
-  position: relative;
-}
-#mobile-burger-menu-open .aem-Grid,
-#thank-you-page-template-child-one #thank-you-page-header .aem-Grid,
-#pre-game-template-child-one .aem-Grid {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 10px 0;
-}
-#mobile-burger-menu-open .cmp-languagenavigation,
-#mobile-burger-menu-open nav#thank-you-page-language-navigation,
-#mobile-burger-menu-open nav#pre-game-language-navigation,
-#thank-you-page-template-child-one #thank-you-page-header .cmp-languagenavigation,
-#thank-you-page-template-child-one #thank-you-page-header nav#thank-you-page-language-navigation,
-#thank-you-page-template-child-one #thank-you-page-header nav#pre-game-language-navigation,
-#pre-game-template-child-one .cmp-languagenavigation,
-#pre-game-template-child-one nav#thank-you-page-language-navigation,
-#pre-game-template-child-one nav#pre-game-language-navigation {
-  cursor: pointer;
-}
-#mobile-burger-menu-open .cmp-languagenavigation::after,
-#mobile-burger-menu-open nav#thank-you-page-language-navigation::after,
-#mobile-burger-menu-open nav#pre-game-language-navigation::after,
-#thank-you-page-template-child-one #thank-you-page-header .cmp-languagenavigation::after,
-#thank-you-page-template-child-one #thank-you-page-header nav#thank-you-page-language-navigation::after,
-#thank-you-page-template-child-one #thank-you-page-header nav#pre-game-language-navigation::after,
-#pre-game-template-child-one .cmp-languagenavigation::after,
-#pre-game-template-child-one nav#thank-you-page-language-navigation::after,
-#pre-game-template-child-one nav#pre-game-language-navigation::after {
-  position: absolute;
-  top: 45%;
-  content: "";
-  border: solid #ffffff;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 3px;
-  margin-left: 6px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-#mobile-burger-menu-open .cmp-languagenavigation ul,
-#mobile-burger-menu-open nav#thank-you-page-language-navigation ul,
-#mobile-burger-menu-open nav#pre-game-language-navigation ul,
-#thank-you-page-template-child-one #thank-you-page-header .cmp-languagenavigation ul,
-#thank-you-page-template-child-one #thank-you-page-header nav#thank-you-page-language-navigation ul,
-#thank-you-page-template-child-one #thank-you-page-header nav#pre-game-language-navigation ul,
-#pre-game-template-child-one .cmp-languagenavigation ul,
-#pre-game-template-child-one nav#thank-you-page-language-navigation ul,
-#pre-game-template-child-one nav#pre-game-language-navigation ul {
-  list-style: none;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
-}
-#mobile-burger-menu-open .cmp-languagenavigation ul li a,
-#mobile-burger-menu-open nav#thank-you-page-language-navigation ul li a,
-#mobile-burger-menu-open nav#pre-game-language-navigation ul li a,
-#thank-you-page-template-child-one #thank-you-page-header .cmp-languagenavigation ul li a,
-#thank-you-page-template-child-one #thank-you-page-header nav#thank-you-page-language-navigation ul li a,
-#thank-you-page-template-child-one #thank-you-page-header nav#pre-game-language-navigation ul li a,
-#pre-game-template-child-one .cmp-languagenavigation ul li a,
-#pre-game-template-child-one nav#thank-you-page-language-navigation ul li a,
-#pre-game-template-child-one nav#pre-game-language-navigation ul li a {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 #pre-game-template-child-two #thank-you-page-button,
 #pre-game-template-child-two #pre-game-button,
 #thank-you-page-template-child-one #thank-you-page-button,
@@ -414,6 +338,12 @@
     align-items: center;
     justify-content: space-between;
   }
+  #Mobile-header-container #mobile-burger-menu-open .image {
+    z-index: 9;
+  }
+  #Mobile-header-container #mobile-burger-menu-open .button {
+    z-index: 9;
+  }
   #Mobile-header-container #mobile-burger-menu-open .button #mobile-burger-menu {
     border: none;
   }
@@ -570,11 +500,13 @@
     display: none;
   }
   /* header Mobile for Thank you page */
+  #mobile-burger-menu-open,
   #pre-game-header-mobile,
   #Thank-you-page-header-mobile,
   #already-played-header-mobile {
     position: relative;
   }
+  #mobile-burger-menu-open .aem-Grid,
   #pre-game-header-mobile .aem-Grid,
   #Thank-you-page-header-mobile .aem-Grid,
   #already-played-header-mobile .aem-Grid {
@@ -586,9 +518,33 @@
     justify-content: center;
     max-width: calc(100% - 40px);
   }
-  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow,
-  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow,
-  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow {
+  #mobile-burger-menu-open .aem-Grid .image,
+  #pre-game-header-mobile .aem-Grid .image,
+  #Thank-you-page-header-mobile .aem-Grid .image,
+  #already-played-header-mobile .aem-Grid .image {
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+    margin-bottom: 0;
+  }
+  #mobile-burger-menu-open .aem-Grid .text,
+  #pre-game-header-mobile .aem-Grid .text,
+  #Thank-you-page-header-mobile .aem-Grid .text,
+  #already-played-header-mobile .aem-Grid .text {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 9;
+  }
+  #mobile-burger-menu-open .aem-Grid .text a,
+  #pre-game-header-mobile .aem-Grid .text a,
+  #Thank-you-page-header-mobile .aem-Grid .text a,
+  #already-played-header-mobile .aem-Grid .text a {
+    color: #ffffff;
+  }
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow,
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow,
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow,
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow {
     position: relative;
     border: none;
     z-index: 9999;
@@ -599,9 +555,10 @@
     height: 15px;
     background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/down-chevron-15.png") no-repeat right center;
   }
-  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group,
-  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group,
-  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group {
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group,
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group,
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group,
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group {
     position: absolute;
     width: 100%;
     display: flex;
@@ -610,17 +567,19 @@
     left: 0;
     z-index: 9;
   }
-  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li,
-  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li,
-  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li {
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li,
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li,
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li,
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li {
     display: none;
     padding: 5px 20px;
     background: #e71d2b;
     z-index: 9;
   }
-  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a,
-  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a,
-  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a {
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a,
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a,
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a,
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a {
     font-family: "NimbusSanLOT";
     font-style: normal;
     font-weight: 700;
@@ -630,35 +589,17 @@
     text-decoration: none;
     text-transform: uppercase;
   }
-  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
-  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
-  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
     display: block;
   }
-  #pre-game-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
-  #Thank-you-page-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
-  #already-played-header-mobile .aem-Grid .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li {
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li {
     display: block;
-  }
-  #pre-game-header-mobile .aem-Grid .image,
-  #Thank-you-page-header-mobile .aem-Grid .image,
-  #already-played-header-mobile .aem-Grid .image {
-    display: flex;
-    justify-content: center;
-    z-index: 9;
-    margin-bottom: 0;
-  }
-  #pre-game-header-mobile .aem-Grid .text,
-  #Thank-you-page-header-mobile .aem-Grid .text,
-  #already-played-header-mobile .aem-Grid .text {
-    display: flex;
-    justify-content: flex-end;
-    z-index: 9;
-  }
-  #pre-game-header-mobile .aem-Grid .text a,
-  #Thank-you-page-header-mobile .aem-Grid .text a,
-  #already-played-header-mobile .aem-Grid .text a {
-    color: #ffffff;
   }
   /* End CSS */
 }
