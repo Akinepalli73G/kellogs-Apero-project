@@ -602,12 +602,14 @@
           display: block;
           width: 15px;
           height: 15px;
-          background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/down-arrow.png") no-repeat right center;
+          background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/down-arrow.png")
+            no-repeat right center;
           background-size: 10px;
         }
 
         .mobile-down-arrow.mobileUpArrow {
-          background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/up-chevron.png") no-repeat right center;
+          background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/up-chevron.png")
+            no-repeat right center;
           background-size: 10px;
         }
 
@@ -658,6 +660,34 @@
     }
   }
   /* End CSS */
+
+  #carousel-container {
+    display: flex;
+    grid-gap: 20px;
+    .teaser {
+      width: 100%;
+      .cmp-teaser__content {
+        .cmp-teaser__action-container {
+          width: 100%;
+          background: #ffffff;
+          padding: 10px 0;
+          text-align: center;
+          position: relative;
+          margin-top: 10px;
+          a {
+            font-family: "Pinup-Regular";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #e71d2b;
+          }
+        }
+      }
+    }
+  }
 }
 
 /* End CSS */

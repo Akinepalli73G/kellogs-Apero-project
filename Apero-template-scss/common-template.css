@@ -620,5 +620,30 @@
     display: block;
   }
   /* End CSS */
+  #carousel-container {
+    display: flex;
+    grid-gap: 20px;
+  }
+  #carousel-container .teaser {
+    width: 100%;
+  }
+  #carousel-container .teaser .cmp-teaser__content .cmp-teaser__action-container {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+  }
+  #carousel-container .teaser .cmp-teaser__content .cmp-teaser__action-container a {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e71d2b;
+  }
 }
 /* End CSS *//*# sourceMappingURL=common-template.css.map */
