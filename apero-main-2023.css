@@ -3222,6 +3222,7 @@
   }
   #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button .cmp-button {
     width: 100%;
+    margin-bottom: 15px;
   }
   #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button .cmp-button .cmp-button__text {
     font-family: "Pinup";
@@ -3233,7 +3234,6 @@
     background: #ffffff;
     width: 100%;
     padding: 16px 0;
-    margin-bottom: 15px;
   }
   #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button #upload-receipt-icon-button .cmp-button__text {
     font-size: 14px;
@@ -3257,11 +3257,14 @@
   #receipt-upload-template-container #receipt-upload-child-two .teaser {
     position: relative;
   }
-  #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-image__image {
-    width: unset;
-  }
   #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-teaser__image {
     position: relative;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-teaser__image .cmp-image__image {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 14px;
   }
   #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-teaser__content .cmp-teaser__title {
     font-family: "Pinup-Regular";

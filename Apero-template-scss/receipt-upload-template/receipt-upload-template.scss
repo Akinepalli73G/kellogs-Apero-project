@@ -87,6 +87,7 @@
         .button {
           .cmp-button {
             width: 100%;
+            margin-bottom: 15px;
             .cmp-button__text {
               font-family: "Pinup";
               text-transform: uppercase;
@@ -98,7 +99,6 @@
             background: #ffffff;
             width: 100%;
             padding: 16px 0;
-            margin-bottom: 15px;
             .cmp-button__text {
               font-size: 14px;
               line-height: 16px;
@@ -125,12 +125,15 @@
       padding: 24px 10px;
       .teaser {
         position: relative;
-        .cmp-image__image {
-          width: unset;
-        }
         .cmp-teaser {
           &__image {
             position: relative;
+            .cmp-image__image {
+                position: absolute;
+                top: 7px;
+                right: 5px;
+                width: 14px;
+            }
           }
 
           &__content {
