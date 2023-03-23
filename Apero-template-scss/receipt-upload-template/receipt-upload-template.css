@@ -1,0 +1,94 @@
+@media only screen and (max-width: 768px) {
+  #receipt-upload-template-container {
+    background: #e71d2b;
+    color: #ffffff;
+    padding: 0 20px;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one .teaser .cmp-image__image {
+    width: unset;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__image {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0 80px;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__content .cmp-teaser__pretitle {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #ffffff;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__content .cmp-teaser__title {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #f7e62a;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__content .cmp-teaser__description p {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three,
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two {
+    display: flex;
+    align-items: center;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three .cmp-teaser__image,
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two .cmp-teaser__image {
+    flex: 0 0 15%;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three .cmp-teaser__content,
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two .cmp-teaser__content {
+    flex: 0 0 85%;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three .cmp-teaser__content .cmp-teaser__description p,
+  #receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two .cmp-teaser__content .cmp-teaser__description p {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one .teaser:nth-child(3) {
+    padding-bottom: 30px;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button .cmp-button {
+    width: 100%;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button .cmp-button .cmp-button__text {
+    font-family: "Pinup-Regular";
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button #upload-receipt-icon-button {
+    border: none;
+    background: #ffffff;
+    width: 100%;
+    padding: 16px 0;
+    margin-bottom: 15px;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button #upload-receipt-icon-button .cmp-button__text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #e71d2b;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button #dont-have-a-receipt-button {
+    padding: 16px 0;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button #dont-have-a-receipt-button .cmp-button__text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+  }
+}/*# sourceMappingURL=receipt-upload-template.css.map */
