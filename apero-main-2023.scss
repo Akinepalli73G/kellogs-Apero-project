@@ -1,11 +1,12 @@
-@use './Apero-template-scss/pre-game-template.scss';
-@use './Apero-template-scss/thank-you-page-template.scss';
-@use './Apero-template-scss/common-template.scss';
-@use "./Apero-template-scss/landing-template.scss";
-@use "./Apero-template-scss/create-or-login-template.scss";
-@use "./Apero-template-scss/faq-template.scss";
-@use "./Apero-template-scss/homepage-template.scss";
-@use './Apero-template-scss/already-palyed-template.scss';
+@use './Apero-template-scss/pre-game-template/pre-game-template.scss';
+@use './Apero-template-scss/thank-you-page-template/thank-you-page-template.scss';
+@use './Apero-template-scss/common-template/common-template.scss';
+@use "./Apero-template-scss/landing-template/landing-template.scss";
+@use "./Apero-template-scss/create-or-login-template/create-or-login-template.scss";
+@use "./Apero-template-scss/faq-template/faq-template.scss";
+@use "./Apero-template-scss/homepage-template/homepage-template.scss";
+@use './Apero-template-scss/already-palyed-template/already-palyed-template.scss';
+@use './Apero-template-scss/receipt-upload-template/receipt-upload-template.scss';
 
 
 body {
