@@ -637,6 +637,25 @@
               color: #ffffff;
               text-decoration: none;
               text-transform: uppercase;
+
+              // &.selected-language::after {
+              //   content: "";
+              //   position: relative;
+              //   border: none;
+              //   z-index: 9999;
+              //   display: block;
+              //   width: 15px;
+              //   height: 15px;
+              //   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/selected-tick.png")
+              //     no-repeat right center;
+              //   background-size: 10px;
+              // }
+              // &.selected-language::before {
+              //   content: "";
+              //   display: block;
+              //   background: #ffffff;
+              //   opacity: 0.2;
+              // }
             }
 
             &:nth-child(1) {

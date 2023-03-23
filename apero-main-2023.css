@@ -167,6 +167,11 @@
   #Thank-you-page-template-container #thank-you-page-template-child-two #thank-you-page-child-two-text-link p {
     margin-bottom: 6px;
   }
+  #already-played-template-container #thank-you-page-template-child-two #thank-you-page-child-two-text-link a,
+  #Thank-you-page-template-container #thank-you-page-template-child-two #thank-you-page-child-two-text-link a {
+    text-decoration: none;
+    color: #ffffff;
+  }
   #already-played-template-container #thank-you-page-template-child-three,
   #Thank-you-page-template-container #thank-you-page-template-child-three {
     background: #e71d2b;
