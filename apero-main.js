@@ -1,17 +1,3 @@
-// var tinySliderJs = document.createElement("script");
-// var tinySliderCSS = document.createElement("link");
-// tinySliderJs.setAttribute(
-//   "src",
-//   "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"
-// );
-// tinySliderCSS.setAttribute("rel", "stylesheet");
-// tinySliderCSS.setAttribute(
-//   "href",
-//   "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
-// );
-// document.body.appendChild(tinySliderJs);
-// document.head.appendChild(tinySliderCSS);
-
 opened = false;
 closed = false;
 languageOpened = false;
@@ -26,9 +12,6 @@ navLanguageContainer.insertBefore(
 window.onload = function () {
   document.querySelector("#mobile-burger-menu").addEventListener("click", onBtnClick);
   document.querySelector("#burger-close-button").addEventListener("click", onBtnClick);
-  // setTimeout(() => {
-   
-  // }, 500);
 };
 
 function onBtnClick(e) {
@@ -69,6 +52,7 @@ tns({
       items: 2,
     },
   },
+  fixedWidth: 250,
   mouseDrag: true,
   swipeAngle: false,
   speed: 400,

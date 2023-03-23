@@ -17,11 +17,6 @@ body {
 
 @font-face {
   font-family: "Pinup-Regular";
-  src: url("/content/dam/global/promotions/kelloggs-gaming/en_ca/fonts/Pinup-Regular.otf");
-}
-
-@font-face {
-  font-family: "Pinup-Regular";
   src: url("/content/dam/global/promotions/aperopromotions/uk/en/fonts/Pinup-Regular.otf");
 }
 
@@ -30,11 +25,11 @@ body {
   src: url("/content/dam/global/promotions/aperopromotions/uk/en/fonts/NimbusSanLOT-Bol.otf");
 }
 
+.tns-nav,
+.tns-controls,
+.new.newpar.section,
+.cq-placeholder,
 .skip-main {
-  display: none;
-}
-
-.new.newpar.section {
   display: none;
 }
 
