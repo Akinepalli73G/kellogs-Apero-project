@@ -88,7 +88,7 @@
           .cmp-button {
             width: 100%;
             .cmp-button__text {
-              font-family: "Pinup-Regular";
+              font-family: "Pinup";
               text-transform: uppercase;
               margin-bottom: 15px;
             }
@@ -114,6 +114,70 @@
               font-size: 12px;
               line-height: 14px;
               color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+
+    #receipt-upload-child-two {
+      background: #ffffff;
+      padding: 24px 10px;
+      .teaser {
+        position: relative;
+        .cmp-image__image {
+          width: unset;
+        }
+        .cmp-teaser {
+          &__image {
+            position: relative;
+          }
+
+          &__content {
+            .cmp-teaser {
+              &__title {
+                font-family: "Pinup-Regular";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 30px;
+                text-transform: uppercase;
+                color: #e71d2b;
+                margin: 0;
+                a {
+                  text-decoration: none;
+                  text-transform: uppercase;
+                  color: #e71d2b;
+                }
+              }
+
+              &__description {
+                margin: 24px 0;
+                p {
+                  font-family: "NimbusSanLOT";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 14px;
+                  line-height: 20px;
+                  color: #000000;
+                }
+              }
+
+              &__action-container {
+                width: 100%;
+                background: #2e8538;
+                border-radius: 2px;
+                padding: 18px 0;
+                text-align: center;
+                a {
+                  font-family: "Pinup";
+                  font-size: 12px;
+                  line-height: 14px;
+                  text-transform: uppercase;
+                  color: #ffffff;
+                  text-decoration: none;
+                }
+              }
             }
           }
         }

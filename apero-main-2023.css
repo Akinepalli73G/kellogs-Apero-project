@@ -3224,7 +3224,7 @@
     width: 100%;
   }
   #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button .cmp-button .cmp-button__text {
-    font-family: "Pinup-Regular";
+    font-family: "Pinup";
     text-transform: uppercase;
     margin-bottom: 15px;
   }
@@ -3249,6 +3249,60 @@
     font-size: 12px;
     line-height: 14px;
     color: #ffffff;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two {
+    background: #ffffff;
+    padding: 24px 10px;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two .teaser {
+    position: relative;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-image__image {
+    width: unset;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-teaser__image {
+    position: relative;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-teaser__content .cmp-teaser__title {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #e71d2b;
+    margin: 0;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-teaser__content .cmp-teaser__title a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e71d2b;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-teaser__content .cmp-teaser__description {
+    margin: 24px 0;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-teaser__content .cmp-teaser__description p {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container {
+    width: 100%;
+    background: #2e8538;
+    border-radius: 2px;
+    padding: 18px 0;
+    text-align: center;
+  }
+  #receipt-upload-template-container #receipt-upload-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container a {
+    font-family: "Pinup";
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
   }
 }
 body {
