@@ -837,10 +837,44 @@
     text-decoration: none;
     text-transform: uppercase;
   }
-  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a.selected-language::after,
-  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a.selected-language::after,
-  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a.selected-language::after,
-  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li a.selected-language::after {
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    border-bottom: none;
+    background: transparent;
+  }
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2),
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2),
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2),
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2) {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened,
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened,
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened,
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened {
+    background-color: #e71d2b;
+  }
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li {
+    display: block;
+  }
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language,
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language,
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language,
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language {
+    box-shadow: inset 100vw 0 0 0 rgba(255, 255, 255, 0.2);
+  }
+  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language ::after,
+  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language ::after,
+  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language ::after,
+  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language ::after {
     content: "";
     position: relative;
     bottom: 11px;
@@ -851,33 +885,6 @@
     height: 7px;
     background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/selected-tick.png") no-repeat right center;
     background-size: 10px;
-  }
-  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
-  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
-  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1),
-  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
-    display: block;
-    padding-top: 5px;
-    padding-bottom: 35px;
-    border-bottom: none;
-  }
-  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) a.selected-language::after,
-  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) a.selected-language::after,
-  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) a.selected-language::after,
-  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) a.selected-language::after {
-    background: transparent;
-  }
-  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2),
-  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2),
-  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2),
-  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(2) {
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
-  }
-  #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
-  #pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
-  #Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li,
-  #already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li {
-    display: block;
   }
   /* End CSS */
   #carousel-container {
@@ -3349,4 +3356,8 @@ body {
 .cq-placeholder,
 .skip-main {
   display: none;
+}
+
+div.image {
+  margin-bottom: 0;
 }/*# sourceMappingURL=apero-main-2023.css.map */

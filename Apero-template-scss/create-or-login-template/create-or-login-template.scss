@@ -1,6 +1,5 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 769px) {
   /* Start CSS create account / login template */
-
   #create-account-or-login-template {
     #create-account-or-login-template-child-one {
       .cmp-container {
@@ -70,7 +69,14 @@
         }
       }
     }
+  }
+  /* End CSS */
+}
 
+
+@media only screen and (max-width: 768px) {
+  /* Start CSS create account / login template */
+  #create-account-or-login-template {
     #create-account-or-login-container {
       .form-title h2 {
         font-family: "Pinup-Regular";

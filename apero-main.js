@@ -34,9 +34,9 @@ clickLanguageNavigation.addEventListener("click", () => {
 });
 
 Array.from(
-  document.querySelectorAll(".languagenavigation nav ul li a")
+  document.querySelectorAll(".languagenavigation nav ul li")
 ).forEach((selectedLangugae) => {
-  if (window.location.href == selectedLangugae.href) {
+  if (window.location.href == selectedLangugae.querySelector('a').href) {
     selectedLangugae.classList.add("selected-language");
   }
 });
