@@ -44,16 +44,23 @@ Array.from(
 var carouselContainer = document.querySelector(
   "#carousel-container.cmp-container"
 );
-
-tns({
-  container: carouselContainer,
-  responsive: {
-    768: {
-      items: 2,
+if (carouselContainer) {
+  tns({
+    container: carouselContainer,
+    responsive: {
+      768: {
+        items: 2,
+      },
     },
-  },
-  fixedWidth: 250,
-  mouseDrag: true,
-  swipeAngle: false,
-  speed: 400,
-});
+    fixedWidth: 250,
+    mouseDrag: true,
+    swipeAngle: false,
+    speed: 400,
+  });
+}
+
+const breadcrumbGoBackText = document.querySelectorAll('.cmp-breadcrumb__list li:nth-last-child(2) a');
+if (breadcrumbGoBackText) {
+  breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Go back</span>`;
+}
+

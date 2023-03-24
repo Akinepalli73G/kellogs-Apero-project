@@ -2941,21 +2941,32 @@
   color: #ffffff;
   position: relative;
 }
+#faq-child-one .breadcrumb nav ol {
+  -webkit-padding-start: 35px;
+          padding-inline-start: 35px;
+}
 #faq-child-one .breadcrumb nav ol::before {
   content: "";
   display: inline-block;
   width: 15px;
   position: absolute;
-  top: 44%;
+  top: 41%;
   left: 20px;
   height: 8px;
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/breadcrumb-left-arrow.png") no-repeat left center;
+  background-size: 5px;
 }
 #faq-child-one .breadcrumb nav ol li {
   display: none;
 }
-#faq-child-one .breadcrumb nav ol li:last-child {
+#faq-child-one .breadcrumb nav ol li:nth-last-child(2) {
   display: block;
+}
+#faq-child-one .breadcrumb nav ol li:nth-last-child(2) a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#faq-child-one .breadcrumb nav ol li:nth-last-child(2) a span {
   font-family: "NimbusSanLOT";
   font-style: normal;
   font-weight: 700;
