@@ -1,5 +1,5 @@
 /* Start CSS Pre-Game Template */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1990px) {
   #pre-game-template-container {
     background: #e71d2b;
     color: #ffffff;
@@ -68,7 +68,7 @@
 }
 /* End CSS */
 /* Start CSS Thank-You Page Template */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1990px) {
   #already-played-template-container #thank-you-page-template-child-three,
   #already-played-template-container #thank-you-page-template-child-two,
   #Thank-you-page-template-container #thank-you-page-template-child-three,
@@ -1603,7 +1603,7 @@
     padding: 0 20px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 769px) {
   /* Start CSS create account / login template */
   #create-account-or-login-template #create-account-or-login-template-child-one .cmp-container {
     display: flex;
@@ -1661,6 +1661,10 @@
     opacity: 0.5;
     color: #000000 !important;
   }
+  /* End CSS */
+}
+@media only screen and (max-width: 768px) {
+  /* Start CSS create account / login template */
   #create-account-or-login-template #create-account-or-login-container .form-title h2 {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -3077,7 +3081,7 @@
     color: #e71d2b;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1990px) {
   #already-played-template-container {
     background: #e71d2b;
   }
@@ -3185,7 +3189,7 @@
     margin: 0 0 15px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1990px) {
   #receipt-upload-template-container {
     background: #e71d2b;
     color: #ffffff;
