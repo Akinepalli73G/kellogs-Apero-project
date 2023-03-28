@@ -141,6 +141,16 @@
   color: #e71d2b;
 }
 
+.five-sided-pentagon-symbol {
+  height: 150px;
+  background: #f7e62a;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
+          clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
+}
+.five-sided-pentagon-symbol span {
+  display: none;
+}
+
 @media only screen and (min-width: 769px) {
   #Mobile-header-container {
     display: none;

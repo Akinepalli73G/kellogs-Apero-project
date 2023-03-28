@@ -380,6 +380,16 @@
   color: #e71d2b;
 }
 
+.five-sided-pentagon-symbol {
+  height: 150px;
+  background: #f7e62a;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
+          clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
+}
+.five-sided-pentagon-symbol span {
+  display: none;
+}
+
 @media only screen and (min-width: 769px) {
   #Mobile-header-container {
     display: none;
@@ -1603,7 +1613,7 @@
     padding: 0 20px;
   }
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 1990px) {
   /* Start CSS create account / login template */
   #create-account-or-login-template #create-account-or-login-template-child-one .cmp-container {
     display: flex;
@@ -3341,7 +3351,7 @@
     position: absolute;
     background: #ffffff;
     padding: 24px 10px;
-    top: 40%;
+    top: 30%;
     left: 15px;
     width: calc(100% - 45px);
   }
@@ -3403,11 +3413,58 @@
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
   }
 }
+@media only screen and (max-width: 1990px) {
+  #splitters-page-template-container {
+    background: #e71d2b;
+    min-height: 100vh;
+  }
+  #splitters-page-template-container #splitters-page-child-one .image {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: -114px;
+    z-index: 9;
+  }
+  #splitters-page-template-container #splitters-page-child-one .image img {
+    width: unset;
+  }
+  #splitters-page-template-container #splitters-page-child-two {
+    margin: 40px 20px;
+  }
+  #splitters-page-template-container #splitters-page-child-two .text #splitters-page-child-one-text-one {
+    text-align: center;
+  }
+  #splitters-page-template-container #splitters-page-child-two .text #splitters-page-child-one-text-one p {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  #splitters-page-template-container #splitters-page-child-two .text #splitters-page-child-one-text-two p {
+    font-family: "NimbusSanLOT";
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+}
 body {
   margin: 0 auto;
   overflow: hidden;
 }
 
+@media only screen and (min-width: 769px) {
+  body:has(#already-played-template-container,
+  #Thank-you-page-template-container,
+  #splitters-page-template-container,
+  #receipt-upload-template-container,
+  #pre-game-template-container,
+  #create-account-or-login-template) {
+    max-width: 768px;
+  }
+}
 /* font import start */
 @font-face {
   font-family: "Pinup-Regular";
