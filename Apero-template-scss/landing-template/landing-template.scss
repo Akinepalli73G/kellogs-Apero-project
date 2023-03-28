@@ -680,6 +680,9 @@
         .aem-Grid {
           display: flex;
           flex-direction: column-reverse;
+          .image img {
+            margin-top: 100px
+          }
           .container {
             #competition-landing-teaser-hero-content {
               padding: 30px 20px 50px;

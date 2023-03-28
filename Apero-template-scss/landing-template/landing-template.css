@@ -519,6 +519,9 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .image img {
+    margin-top: 100px;
+  }
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content {
     padding: 30px 20px 50px;
   }
