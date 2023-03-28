@@ -5,41 +5,60 @@ mobileUpArrow = false;
 const navLanguageContainer = document.querySelector(".languagenavigation nav");
 const downArrowClickButton = document.createElement("button");
 downArrowClickButton.classList.add("mobile-down-arrow");
-navLanguageContainer.insertBefore(
-  downArrowClickButton,
-  navLanguageContainer.firstElementChild
-);
+if (navLanguageContainer) {
+  navLanguageContainer.insertBefore(
+    downArrowClickButton,
+    navLanguageContainer.firstElementChild
+  );
+}
+
 window.onload = function () {
-  document.querySelector("#mobile-burger-menu").addEventListener("click", onBtnClick);
-  document.querySelector("#burger-close-button").addEventListener("click", onBtnClick);
+  if (document.querySelector("#mobile-burger-menu")) {
+    document
+      .querySelector("#mobile-burger-menu")
+      .addEventListener("click", onBtnClick);
+    document
+      .querySelector("#burger-close-button")
+      .addEventListener("click", onBtnClick);
+  }
 };
 
-function onBtnClick(e) {
-  document.querySelector("#mobile-burger-menu-close").classList.toggle("opened");
+let onBtnClick = (e) => {
+  document
+    .querySelector("#mobile-burger-menu-close")
+    .classList.toggle("opened");
   document.querySelector("#mobile-burger-menu-open").classList.toggle("closed");
-  document.querySelector("#apero-main-content-container").classList.toggle("closed");
-  document.querySelector("#competition-landing-main-content-container").classList.toggle("closed");
-}
+  document
+    .querySelector("#apero-main-content-container")
+    .classList.toggle("closed");
+  document
+    .querySelector("#competition-landing-main-content-container")
+    .classList.toggle("closed");
+};
 
 var clickLanguageNavigation = document.querySelector(
   ".languagenavigation nav button"
 );
-clickLanguageNavigation.addEventListener("click", () => {
-  document
-    .querySelector(".languagenavigation nav ul")
-    .classList.toggle("languageOpened");
-  document
-    .querySelector(".mobile-down-arrow")
-    .classList.toggle("mobileUpArrow");
-});
+if (clickLanguageNavigation) {
+  clickLanguageNavigation.addEventListener("click", () => {
+    document
+      .querySelector(".languagenavigation nav ul")
+      .classList.toggle("languageOpened");
+    document
+      .querySelector(".mobile-down-arrow")
+      .classList.toggle("mobileUpArrow");
+  });
+}
 
-Array.from(
-  document.querySelectorAll(".languagenavigation nav ul li")
-).forEach((selectedLangugae) => {
-  if (window.location.href == selectedLangugae.querySelector('a').href) {
-    selectedLangugae.classList.add("selected-language");
-  }
-});
+if (document.querySelectorAll(".languagenavigation")) {
+  Array.from(
+    document.querySelectorAll(".languagenavigation nav ul li")
+  ).forEach((selectedLangugae) => {
+    if (window.location.href == selectedLangugae.querySelector("a").href) {
+      selectedLangugae.classList.add("selected-language");
+    }
+  });
+}
 
 var carouselContainer = document.querySelector(
   "#carousel-container.cmp-container"
@@ -59,8 +78,33 @@ if (carouselContainer) {
   });
 }
 
-const breadcrumbGoBackText = document.querySelectorAll('.cmp-breadcrumb__list li:nth-last-child(2) a');
-if (breadcrumbGoBackText) {
+const breadcrumbGoBackText = document.querySelectorAll(
+  ".cmp-breadcrumb__list li:nth-last-child(2) a"
+);
+if (breadcrumbGoBackText.length != 0) {
   breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Go back</span>`;
 }
 
+var modal = document.querySelector(".container #receipt-upload-child-two");
+var trigger = document.querySelector(".button #dont-have-a-receipt-button");
+var closeButton = document.querySelector(
+  "#receipt-upload-child-two .teaser .cmp-teaser__image .cmp-image__image"
+);
+var understoodButton = document.querySelector(
+  "#receipt-upload-child-two .teaser .cmp-teaser__action-container .cmp-teaser__action-link"
+);
+
+let toggleModal = () => {
+  modal.classList.toggle("show-modal");
+};
+
+let windowOnClick = (event) => {
+  if (event.target === modal) {
+    toggleModal();
+  }
+};
+
+trigger.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+understoodButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick);

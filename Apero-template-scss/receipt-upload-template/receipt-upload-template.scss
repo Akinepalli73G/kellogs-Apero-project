@@ -105,6 +105,20 @@
               color: #e71d2b;
             }
           }
+        }
+      }
+
+      .container {
+        .button {
+          .cmp-button {
+            width: 100%;
+            margin-bottom: 15px;
+            .cmp-button__text {
+              font-family: "Pinup";
+              text-transform: uppercase;
+              margin-bottom: 15px;
+            }
+          }
 
           #dont-have-a-receipt-button {
             padding: 16px 0;
@@ -114,73 +128,6 @@
               font-size: 12px;
               line-height: 14px;
               color: #ffffff;
-            }
-          }
-        }
-      }
-    }
-
-    #receipt-upload-child-two {
-      background: #ffffff;
-      padding: 24px 10px;
-      .teaser {
-        position: relative;
-        .cmp-teaser {
-          &__image {
-            position: relative;
-            .cmp-image__image {
-                position: absolute;
-                top: 7px;
-                right: 5px;
-                width: 14px;
-            }
-          }
-
-          &__content {
-            .cmp-teaser {
-              &__title {
-                font-family: "Pinup-Regular";
-                font-style: normal;
-                font-weight: 700;
-                font-size: 25px;
-                line-height: 30px;
-                text-transform: uppercase;
-                color: #e71d2b;
-                margin: 0;
-                a {
-                  text-decoration: none;
-                  text-transform: uppercase;
-                  color: #e71d2b;
-                }
-              }
-
-              &__description {
-                margin: 24px 0;
-                p {
-                  font-family: "NimbusSanLOT";
-                  font-style: normal;
-                  font-weight: 700;
-                  font-size: 14px;
-                  line-height: 20px;
-                  color: #000000;
-                }
-              }
-
-              &__action-container {
-                width: 100%;
-                background: #2e8538;
-                border-radius: 2px;
-                padding: 18px 0;
-                text-align: center;
-                a {
-                  font-family: "Pinup-Regular";
-                  font-size: 12px;
-                  line-height: 14px;
-                  text-transform: uppercase;
-                  color: #ffffff;
-                  text-decoration: none;
-                }
-              }
             }
           }
         }
@@ -199,12 +146,99 @@
     //                 min-height: 534px;
     //             }
     //         }
-            
+
     //     }
 
     //     .textsubmitBtn.notPhilippines #upload-submit {
 
     //     }
     // }
+  }
+  #receipt-upload-child-two {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    .teaser {
+      position: absolute;
+      background: #ffffff;
+      padding: 24px 10px;
+      top: 40%;
+      left: 15px;
+      width: calc(100% - 45px);
+      .cmp-teaser {
+        &__image {
+          cursor: pointer;
+          position: relative;
+          .cmp-image__image {
+            position: absolute;
+            top: 7px;
+            right: 5px;
+            width: 14px;
+          }
+        }
+
+        &__content {
+          .cmp-teaser {
+            &__title {
+              font-family: "Pinup-Regular";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 25px;
+              line-height: 30px;
+              text-transform: uppercase;
+              color: #e71d2b;
+              margin: 0;
+              a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #e71d2b;
+              }
+            }
+
+            &__description {
+              margin: 24px 0;
+              p {
+                font-family: "NimbusSanLOT";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+                color: #000000;
+              }
+            }
+
+            &__action-container {
+              width: 100%;
+              background: #2e8538;
+              border-radius: 2px;
+              padding: 18px 0;
+              text-align: center;
+              a {
+                font-family: "Pinup-Regular";
+                font-size: 12px;
+                line-height: 14px;
+                text-transform: uppercase;
+                color: #ffffff;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.show-modal {
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1);
+      transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    }
   }
 }
