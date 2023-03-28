@@ -411,7 +411,6 @@
     background: #e71d2b;
     color: #ffffff;
     .aem-Grid {
-
       .text {
         #competition-landing-seven-title {
           font-family: "Pinup-Regular";
@@ -472,7 +471,7 @@
       position: relative;
       #competion-landing-top-header {
         .aem-Grid {
-          height: 167px;
+          height: 200px;
           clip-path: polygon(100% 0, 0 0, 50% 100%);
           justify-content: center;
         }
@@ -490,50 +489,6 @@
                   display: none;
                 }
               }
-            }
-          }
-        }
-      }
-      #competition-landing-sticky-container {
-        .image {
-          position: absolute;
-          bottom: 30px;
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          z-index: 999;
-        }
-        .button {
-          position: absolute;
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          bottom: 0;
-
-          #competition-landing-apero-barcode-button-desktop {
-            width: 532px;
-            height: 110px;
-            background: #f7e62a;
-            border: 2px solid transparent;
-            clip-path: polygon(50% 0, 0 100%, 100% 100%);
-
-            .cmp-button__icon--Apero-barcode {
-              width: 100px;
-              height: 100px;
-              background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/QR.png")
-                no-repeat center center;
-            }
-
-            .cmp-button__text {
-              font-family: "NimbusSanLOT";
-              font-style: normal;
-              font-weight: 700;
-              font-size: 10px;
-              line-height: 16px;
-              text-transform: uppercase;
-              color: #e71d2b;
-              position: relative;
-              top: 40px;
             }
           }
         }
@@ -592,8 +547,8 @@
 
     #competition-landing-page-child-five {
       .aem-Grid {
-       margin: 0 100px;
-  
+        margin: 0 100px;
+
         .container {
           flex: 1;
           #competition-landing-page-five-sub-child-one {
@@ -615,19 +570,19 @@
                   }
                 }
               }
-  
+
               .text {
                 #competition-landing-five-title {
                   font-size: 50px;
                   line-height: 60px;
-  
+
                   p {
                     max-width: 438px;
                   }
                 }
                 #competition-landing-five-description {
                   color: #ffffff;
-  
+
                   p {
                     max-width: 438px;
                     margin-bottom: 80px;
@@ -651,15 +606,15 @@
     #competition-landing-page-child-six {
       .aem-Grid {
         padding: 100px 80px;
-  
+
         .container {
           flex: 0 0 45%;
-  
+
           .text {
             #competition-landing-six-title {
               font-size: 50px;
               line-height: 60px;
-  
+
               p {
                 margin-top: 0;
               }
@@ -673,7 +628,7 @@
       }
     }
 
-    #competition-landing-page-child-seven .aem-Grid { 
+    #competition-landing-page-child-seven .aem-Grid {
       text-align: center;
       padding: 40px 0 50px;
 
@@ -820,7 +775,7 @@
         max-width: calc(100% - 20px);
         margin: 0 20px;
         flex-direction: column;
-  
+
         .container {
           #competition-landing-page-five-sub-child-one {
             .aem-Grid {
@@ -831,13 +786,13 @@
                   left: 25%;
                 }
               }
-  
+
               .button {
                 #competition-landing-ar-experience-button {
                   width: calc(100% - 20px);
                   align-items: center;
                   flex-direction: column;
-  
+
                   .cmp-button__text {
                     font-weight: 700;
                     font-size: 17.3852px;
@@ -846,7 +801,7 @@
                   }
                 }
               }
-  
+
               .text {
                 text-align: center;
                 #competition-landing-five-title {
@@ -876,16 +831,16 @@
         padding: 20px;
         flex-direction: column;
         max-width: calc(100% - 40px);
-  
+
         .container {
           .text {
             #competition-landing-six-title {
               font-size: 30px;
               line-height: 36px;
             }
-  
+
             #competition-landing-six-text-links-desktop {
-             display: none;
+              display: none;
             }
 
             #competition-landing-six-text-links-mobile {
@@ -896,7 +851,7 @@
       }
     }
 
-    #competition-landing-page-child-seven .aem-Grid { 
+    #competition-landing-page-child-seven .aem-Grid {
       width: calc(100% - 40px);
       text-align: left;
       padding: 40px 20px 50px;

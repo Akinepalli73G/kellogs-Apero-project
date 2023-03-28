@@ -379,7 +379,7 @@
     position: relative;
   }
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid {
-    height: 167px;
+    height: 200px;
     -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
             clip-path: polygon(100% 0, 0 0, 50% 100%);
     justify-content: center;
@@ -395,45 +395,6 @@
   }
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button #competition-landing-mobile-start-now-button {
     display: none;
-  }
-  #competition-landing-template-container #competition-landing-page-child-one #competition-landing-sticky-container .image {
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 999;
-  }
-  #competition-landing-template-container #competition-landing-page-child-one #competition-landing-sticky-container .button {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    bottom: 0;
-  }
-  #competition-landing-template-container #competition-landing-page-child-one #competition-landing-sticky-container .button #competition-landing-apero-barcode-button-desktop {
-    width: 532px;
-    height: 110px;
-    background: #f7e62a;
-    border: 2px solid transparent;
-    -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
-            clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  }
-  #competition-landing-template-container #competition-landing-page-child-one #competition-landing-sticky-container .button #competition-landing-apero-barcode-button-desktop .cmp-button__icon--Apero-barcode {
-    width: 100px;
-    height: 100px;
-    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/QR.png") no-repeat center center;
-  }
-  #competition-landing-template-container #competition-landing-page-child-one #competition-landing-sticky-container .button #competition-landing-apero-barcode-button-desktop .cmp-button__text {
-    font-family: "NimbusSanLOT";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 16px;
-    text-transform: uppercase;
-    color: #e71d2b;
-    position: relative;
-    top: 40px;
   }
   #competition-landing-template-container #competition-landing-page-child-two .image img {
     margin-top: -6px;
