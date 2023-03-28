@@ -106,6 +106,30 @@
             }
           }
         }
+
+        section {
+          margin: 0 0 20px;
+          .content_wrapper {
+            width: 100%;
+            .textsubmitBtn.notPhilippines {
+              top: 10px;
+              position: relative;
+              background: #ffffff;
+              display: flex;
+              padding: 16px 0;
+              width: 100%;
+              justify-content: center;
+              #upload-submit {
+                text-decoration: none;
+                color: #e71d2b;
+                font-family: "Pinup";
+                font-size: 14px;
+                line-height: 16px;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
       }
 
       .container {

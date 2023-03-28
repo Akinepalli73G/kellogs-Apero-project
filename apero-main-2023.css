@@ -3283,6 +3283,29 @@
     line-height: 16px;
     color: #e71d2b;
   }
+  #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container section {
+    margin: 0 0 20px;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container section .content_wrapper {
+    width: 100%;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container section .content_wrapper .textsubmitBtn.notPhilippines {
+    top: 10px;
+    position: relative;
+    background: #ffffff;
+    display: flex;
+    padding: 16px 0;
+    width: 100%;
+    justify-content: center;
+  }
+  #receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container section .content_wrapper .textsubmitBtn.notPhilippines #upload-submit {
+    text-decoration: none;
+    color: #e71d2b;
+    font-family: "Pinup";
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
   #receipt-upload-template-container #receipt-upload-child-one .container .button .cmp-button {
     width: 100%;
     margin-bottom: 15px;
