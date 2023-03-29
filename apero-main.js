@@ -24,16 +24,24 @@ window.onload = function () {
 };
 
 let onBtnClick = (e) => {
+  const apero = document.querySelector("#apero-main-content-container");
+  const errorPage = document.querySelector("#error-page-template-child-one");
+  const landingPage = document.querySelector(
+    "#competition-landing-main-content-container"
+  );
   document
     .querySelector("#mobile-burger-menu-close")
     .classList.toggle("opened");
   document.querySelector("#mobile-burger-menu-open").classList.toggle("closed");
-  document
-    .querySelector("#apero-main-content-container")
-    .classList.toggle("closed");
-  document
-    .querySelector("#competition-landing-main-content-container")
-    .classList.toggle("closed");
+  if (apero) {
+    apero.classList.toggle("closed");
+  }
+  if (errorPage) {
+    errorPage.classList.toggle("closed");
+  }
+  if (landingPage) {
+    landingPage.classList.toggle("closed");
+  }
 };
 
 var clickLanguageNavigation = document.querySelector(
@@ -104,7 +112,9 @@ let windowOnClick = (event) => {
   }
 };
 
-trigger.addEventListener("click", toggleModal);
-closeButton.addEventListener("click", toggleModal);
-understoodButton.addEventListener("click", toggleModal);
-window.addEventListener("click", windowOnClick);
+if (modal || trigger || closeButton || understoodButton) {
+  trigger.addEventListener("click", toggleModal);
+  closeButton.addEventListener("click", toggleModal);
+  understoodButton.addEventListener("click", toggleModal);
+  window.addEventListener("click", windowOnClick);
+}
