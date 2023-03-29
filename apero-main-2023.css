@@ -3587,9 +3587,170 @@
     color: #e71d2b;
   }
 }
+#error-page-template-container #error-page-template-child-one {
+  background: #e71d2b;
+}
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser {
+  text-align: center;
+}
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__pretitle {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  color: #f7e62a;
+}
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__title {
+  margin: 0;
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__title a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h1,
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h2,
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h3,
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h4,
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h5,
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h6 {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  color: #f7e62a;
+}
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description p {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+}
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__action-container {
+  padding: 16px 90px;
+}
+#error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__action-container a {
+  text-decoration: none;
+  background: #ffffff;
+  font-family: "Pinup-Regular";
+  text-transform: uppercase;
+  color: #e71d2b;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 16px 90px;
+}
+
+@media only screen and (min-width: 769px) {
+  #error-page-template-container .nav--secondary {
+    display: none;
+  }
+  #error-page-template-container #error-page-template-child-one {
+    padding: 30px 0 190px;
+    background: #e71d2b;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser {
+    text-align: center;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__image .cmp-image__image {
+    width: 160px;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__pretitle {
+    font-size: 150px;
+    line-height: 180px;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h1,
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h2,
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h3,
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h4,
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h5,
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h6 {
+    margin: 20px auto;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description p {
+    max-width: 448px;
+    margin: 20px auto;
+  }
+  #error-page-template-container #desktop-footer-container .aem-Grid .text #competion-landing-copy-right-text,
+  #error-page-template-container #desktop-footer-container .aem-Grid .socialcomponent,
+  #error-page-template-container #desktop-footer-container .aem-Grid .list {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #error-page-template-container #error-page-template-child-one {
+    padding: 20px;
+    min-height: 100vh;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser {
+    text-align: center;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__image .cmp-image__image {
+    width: 130px;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__pretitle {
+    font-size: 80px;
+    line-height: 96px;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__title {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 10px;
+  }
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h1,
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h2,
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h3,
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h4,
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h5,
+  #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__description h6 {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+  }
+  #error-page-template-container #Mobile-header-container #mobile-burger-menu-open {
+    position: relative;
+  }
+  #error-page-template-container #Mobile-header-container #mobile-burger-menu-open .languagenavigation nav ul {
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+    top: 0;
+  }
+  #error-page-template-container #Mobile-header-container #mobile-burger-menu-open .languagenavigation nav .mobile-down-arrow {
+    bottom: 6px;
+    left: 20px;
+  }
+  #error-page-template-container #Mobile-header-container #mobile-burger-menu-open .button #mobile-burger-menu {
+    background-color: #e71d2b;
+  }
+  #error-page-template-container #Mobile-header-container #mobile-burger-menu-close .button #burger-close-button {
+    background-color: #e71d2b;
+  }
+  #error-page-template-container #Mobile-header-container #mobile-burger-menu-close .navigationV2 .nav--secondary {
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px;
+  }
+  #error-page-template-container #Mobile-header-container #mobile-burger-menu-close .navigationV2 ul {
+    list-style: none;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+  }
+}
 body {
   margin: 0 auto;
   overflow: hidden;
+}
+
+body:has(#error-page-template-container) {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 @media only screen and (min-width: 769px) {

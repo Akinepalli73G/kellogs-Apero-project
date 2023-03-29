@@ -1,0 +1,199 @@
+#error-page-template-container {
+  #error-page-template-child-one {
+    background: #e71d2b;
+    .teaser {
+      #error-template-teaser {
+        text-align: center;
+        .cmp-teaser__content {
+          .cmp-teaser__pretitle {
+            font-family: "Pinup-Regular";
+            font-style: normal;
+            font-weight: 700;
+            color: #f7e62a;
+          }
+          .cmp-teaser__title {
+            margin: 0;
+            font-family: "Pinup-Regular";
+            font-style: normal;
+            font-weight: 700;
+            text-transform: uppercase;
+            a {
+              text-decoration: none;
+              color: #ffffff;
+            }
+          }
+          .cmp-teaser__description {
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+              font-family: "Pinup-Regular";
+              font-style: normal;
+              font-weight: 700;
+              color: #f7e62a;
+            }
+            p {
+              font-family: "NimbusSanLOT";
+              font-style: normal;
+              font-weight: 700;
+              color: #ffffff;
+              font-size: 16px;
+              line-height: 24px;
+            }
+          }
+          .cmp-teaser__action-container {
+            padding: 16px 90px;
+            a {
+              text-decoration: none;
+              background: #ffffff;
+              font-family: "Pinup-Regular";
+              text-transform: uppercase;
+              color: #e71d2b;
+              font-size: 14px;
+              line-height: 16px;
+              padding: 16px 90px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #error-page-template-container {
+    .nav--secondary {
+      display: none;
+    }
+    #error-page-template-child-one {
+      padding: 30px 0 190px;
+      background: #e71d2b;
+      .teaser {
+        #error-template-teaser {
+          text-align: center;
+          .cmp-teaser__image {
+            .cmp-image__image {
+              width: 160px;
+            }
+          }
+          .cmp-teaser__content {
+            .cmp-teaser__pretitle {
+              font-size: 150px;
+              line-height: 180px;
+            }
+            .cmp-teaser__title {
+              font-size: 50px;
+              line-height: 60px;
+            }
+            .cmp-teaser__description {
+              h1,
+              h2,
+              h3,
+              h4,
+              h5,
+              h6 {
+                margin: 20px auto;
+                font-size: 30px;
+                line-height: 36px;
+              }
+              p {
+                max-width: 448px;
+                margin: 20px auto;
+              }
+            }
+          }
+        }
+      }
+    }
+    #desktop-footer-container {
+      .aem-Grid {
+        .text #competion-landing-copy-right-text,
+        .socialcomponent,
+        .list {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #error-page-template-container {
+    #error-page-template-child-one {
+      padding: 20px;
+      min-height: 100vh;
+      .teaser {
+        #error-template-teaser {
+          text-align: center;
+          .cmp-teaser__image {
+            .cmp-image__image {
+              width: 130px;
+            }
+          }
+          .cmp-teaser__content {
+            .cmp-teaser__pretitle {
+              font-size: 80px;
+              line-height: 96px;
+            }
+            .cmp-teaser__title {
+              font-size: 30px;
+              line-height: 36px;
+              margin: 10px;
+            }
+            .cmp-teaser__description {
+              h1,
+              h2,
+              h3,
+              h4,
+              h5,
+              h6 {
+                font-size: 20px;
+                line-height: 24px;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #Mobile-header-container {
+      #mobile-burger-menu-open {
+        position: relative;
+        .languagenavigation {
+          nav {
+            ul {
+              padding-inline-start: 0;
+              top: 0;
+            }
+            .mobile-down-arrow {
+              bottom: 6px;
+              left: 20px;
+            }
+          }
+        }
+        .button #mobile-burger-menu {
+          background-color: #e71d2b;
+        }
+      }
+
+      #mobile-burger-menu-close {
+        .button #burger-close-button {
+          background-color: #e71d2b;
+        }
+
+        .navigationV2 {
+          .nav--secondary {
+            padding-inline-start: 20px;
+          }
+          ul {
+            list-style: none;
+            padding-inline-start: 0;
+          }
+        }
+      }
+    }
+  }
+}

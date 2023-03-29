@@ -8,10 +8,15 @@
 @use "./Apero-template-scss/already-palyed-template/already-palyed-template.scss";
 @use "./Apero-template-scss/receipt-upload-template/receipt-upload-template.scss";
 @use "./Apero-template-scss/splitters-page-template-container/splitters-page-template-container.scss";
+@use "./Apero-template-scss/error-page-template/error-page-template.scss";
 
 body {
   margin: 0 auto;
   overflow: hidden;
+}
+body:has(#error-page-template-container) {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 @media only screen and (min-width: 769px) {
