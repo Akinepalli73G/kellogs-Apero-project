@@ -139,6 +139,128 @@
   }
 }
 
+/* header Mobile for Thank you page */
+#splitters-page-child-two,
+#mobile-burger-menu-open,
+#pre-game-header-mobile,
+#Thank-you-page-header-mobile,
+#already-played-header-mobile {
+  position: relative;
+  .aem-Grid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background: #e71d2b;
+    justify-content: center;
+    max-width: calc(100% - 40px);
+
+    .image {
+      display: flex;
+      justify-content: center;
+      z-index: 9;
+      margin-bottom: 0;
+    }
+
+    .text {
+      display: flex;
+      justify-content: flex-end;
+      z-index: 9;
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .languagenavigation {
+    nav.cmp-languagenavigation {
+      .mobile-down-arrow {
+        position: relative;
+        border: none;
+        z-index: 9999;
+        bottom: 0;
+        left: 5px;
+        display: block;
+        width: 15px;
+        height: 15px;
+        background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/down-arrow.png")
+          no-repeat right center;
+        background-size: 10px;
+      }
+
+      .mobile-down-arrow.mobileUpArrow {
+        background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/up-chevron.png")
+          no-repeat right center;
+        background-size: 10px;
+      }
+
+      .cmp-languagenavigation__group {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        top: 20px;
+        left: 0;
+        z-index: 9;
+
+        li {
+          display: none;
+          padding: 25px 20px;
+          background-color: #e71d2b;
+          z-index: 9;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+          a {
+            font-family: "NimbusSanLOT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+
+          &:nth-child(1) {
+            display: block;
+            padding-top: 5px;
+            padding-bottom: 35px;
+            border-bottom: none;
+            background: transparent;
+          }
+          &:nth-child(2) {
+            border-top: 1px solid rgba(255, 255, 255, 0.4);
+          }
+        }
+
+        &.languageOpened {
+          background-color: #e71d2b;
+          li {
+            display: block;
+
+            &.selected-language {
+              box-shadow: inset 100vw 0 0 0 rgba(255, 255, 255, 0.2);
+              ::after {
+                content: "";
+                position: relative;
+                bottom: 11px;
+                border: none;
+                z-index: 9999;
+                display: flex;
+                width: 100%;
+                height: 7px;
+                background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/selected-tick.png")
+                  no-repeat right center;
+                background-size: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* End CSS */
+
 @media only screen and (min-width: 769px) {
   #Mobile-header-container {
     display: none;
@@ -619,127 +741,6 @@
   #desktop-barcode-sticky-container {
     display: none;
   }
-
-  /* header Mobile for Thank you page */
-  #mobile-burger-menu-open,
-  #pre-game-header-mobile,
-  #Thank-you-page-header-mobile,
-  #already-played-header-mobile {
-    position: relative;
-    .aem-Grid {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      padding: 10px 20px;
-      background: #e71d2b;
-      justify-content: center;
-      max-width: calc(100% - 40px);
-
-      .image {
-        display: flex;
-        justify-content: center;
-        z-index: 9;
-        margin-bottom: 0;
-      }
-
-      .text {
-        display: flex;
-        justify-content: flex-end;
-        z-index: 9;
-        a {
-          color: #ffffff;
-        }
-      }
-    }
-
-    .languagenavigation {
-      nav.cmp-languagenavigation {
-        .mobile-down-arrow {
-          position: relative;
-          border: none;
-          z-index: 9999;
-          bottom: 0;
-          left: 5px;
-          display: block;
-          width: 15px;
-          height: 15px;
-          background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/down-arrow.png")
-            no-repeat right center;
-          background-size: 10px;
-        }
-
-        .mobile-down-arrow.mobileUpArrow {
-          background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/up-chevron.png")
-            no-repeat right center;
-          background-size: 10px;
-        }
-
-        .cmp-languagenavigation__group {
-          position: absolute;
-          width: 100%;
-          display: flex;
-          flex-direction: column;
-          top: 20px;
-          left: 0;
-          z-index: 9;
-
-          li {
-            display: none;
-            padding: 25px 20px;
-            background-color: #e71d2b;
-            z-index: 9;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-            a {
-              font-family: "NimbusSanLOT";
-              font-style: normal;
-              font-weight: 700;
-              font-size: 12px;
-              line-height: 15px;
-              color: #ffffff;
-              text-decoration: none;
-              text-transform: uppercase;
-            }
-
-            &:nth-child(1) {
-              display: block;
-              padding-top: 5px;
-              padding-bottom: 35px;
-              border-bottom: none;
-              background: transparent;
-            }
-            &:nth-child(2) {
-              border-top: 1px solid rgba(255, 255, 255, 0.4);
-            }
-          }
-
-          &.languageOpened {
-            background-color: #e71d2b;
-            li {
-              display: block;
-
-              &.selected-language {
-                box-shadow: inset 100vw 0 0 0 rgba(255, 255, 255, 0.2);
-                ::after {
-                  content: "";
-                  position: relative;
-                  bottom: 11px;
-                  border: none;
-                  z-index: 9999;
-                  display: flex;
-                  width: 100%;
-                  height: 7px;
-                  background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/selected-tick.png")
-                    no-repeat right center;
-                  background-size: 10px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  /* End CSS */
 
   #carousel-container {
     display: flex;

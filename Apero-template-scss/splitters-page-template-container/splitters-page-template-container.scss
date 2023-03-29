@@ -38,8 +38,119 @@
           }
         }
       }
+
+      .languagenavigation {
+        position: relative;
+        #splitter-template-language-navigator {
+          .mobile-down-arrow {
+            top: 35px;
+            left: 90%;
+            background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/chevron-down-red.png")
+              no-repeat right center;
+            background-size: 14px;
+          }
+          .mobile-down-arrow.mobileUpArrow {
+            background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/chevron-up-red.png")
+              no-repeat right center;
+            background-size: 14px;
+          }
+          ul {
+            li {
+              padding: 16px 20px;
+              margin-right: 10px;
+              background: #ffffff;
+              border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+              a {
+                font-family: "NimbusSanLOT";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 22px;
+                color: #000000;
+              }
+              &:nth-child(1) {
+                margin-right: 0;
+              }
+            }
+            &.languageOpened {
+              background-color: #e71d2b;
+              li {
+                display: block;
+                &.selected-language {
+                  box-shadow: inset 100vw 0 0 0 rgba(255, 255, 255, 0.2);
+                  a {
+                    color: #e71d2b;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
     #splitters-page-child-three {
+      padding: 40px 20px;
+      .text {
+        text-align: center;
+        .cmp-text {
+          p {
+            font-family: "Pinup-Regular";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+            text-align: center;
+            color: #ffffff;
+            text-transform: uppercase;
+          }
+        }
+      }
+
+      .container {
+        .cmp-container {
+          display: flex;
+          grid-gap: 20px;
+          width: calc(100%);
+          flex-wrap: wrap;
+          .teaser {
+            flex: 0 0 48%;
+            .cmp-teaser {
+              &__image {
+                .cmp-image__image {
+                  height: 200px;
+                }
+              }
+              &__content {
+                text-align: center;
+                .cmp-teaser {
+                  &__title {
+                    margin: 10px 0;
+                    a {
+                      font-family: "Pinup-Regular";
+                      font-style: normal;
+                      font-weight: 700;
+                      font-size: 18px;
+                      line-height: 22px;
+                      color: #ffffff;
+                      text-decoration: none;
+                      text-transform: uppercase;
+                    }
+                  }
+
+                  &__action-container {
+                    background: #ffffff;
+                    padding: 16px 0;
+                    a {
+                      text-decoration: none;
+                      color: #e71d2b;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
