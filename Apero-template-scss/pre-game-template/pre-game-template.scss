@@ -78,6 +78,21 @@
           margin: 25px 0 20px;
         }
       }
+
+      .proceedButton {
+        display: block !important;
+        #proceedButton {
+          font-family: "Pinup-Regular";
+          font-size: 14px;
+          line-height: 16px;
+          width: calc(100% - 40px);
+          margin: 0 20px;
+          background: #ffffff;
+          border: none;
+          padding: 16px 0;
+          color: #e71d2b;
+        }
+      }
     }
   }
 }
