@@ -3635,7 +3635,7 @@
   line-height: 24px;
 }
 #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__action-container {
-  padding: 16px 90px;
+  padding: 16px 0;
 }
 #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__action-container a {
   text-decoration: none;
