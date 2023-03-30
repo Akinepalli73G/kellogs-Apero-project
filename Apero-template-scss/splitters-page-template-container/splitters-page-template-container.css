@@ -72,7 +72,7 @@
     display: block;
   }
   #splitters-page-template-container #splitters-page-child-two .languagenavigation #splitter-template-language-navigator ul.languageOpened li.selected-language {
-    box-shadow: inset 90vw 0 0 0 #F2F2F2;
+    box-shadow: inset 95vw 0 0 0 #F2F2F2;
   }
   #splitters-page-template-container #splitters-page-child-two .languagenavigation #splitter-template-language-navigator ul.languageOpened li.selected-language a {
     color: #e71d2b;
