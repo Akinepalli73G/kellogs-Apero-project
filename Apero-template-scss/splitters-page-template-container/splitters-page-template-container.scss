@@ -78,9 +78,14 @@
               li {
                 display: block;
                 &.selected-language {
-                  box-shadow: inset 100vw 0 0 0 rgba(255, 255, 255, 0.2);
+                  box-shadow: inset 90vw 0 0 0 #F2F2F2;
                   a {
                     color: #e71d2b;
+                  }
+                  ::after {
+                    content: none;
+                    height: 0;
+                    background: none;
                   }
                 }
               }
@@ -114,7 +119,7 @@
           width: calc(100%);
           flex-wrap: wrap;
           .teaser {
-            flex: 0 0 48%;
+            flex: 0 0 47%;
             .cmp-teaser {
               &__image {
                 .cmp-image__image {
