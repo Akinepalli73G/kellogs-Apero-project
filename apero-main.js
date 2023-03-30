@@ -78,6 +78,9 @@ if (carouselContainer) {
       768: {
         items: 2,
       },
+      1990: {
+        item: 4,
+      }
     },
     fixedWidth: 250,
     mouseDrag: true,

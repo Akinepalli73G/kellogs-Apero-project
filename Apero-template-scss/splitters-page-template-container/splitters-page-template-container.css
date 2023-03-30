@@ -109,6 +109,8 @@
   }
   #splitters-page-template-container #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__image .cmp-image__image {
     height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   #splitters-page-template-container #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__content {
     text-align: center;
@@ -133,5 +135,15 @@
   #splitters-page-template-container #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__content .cmp-teaser__action-container a {
     text-decoration: none;
     color: #e71d2b;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container .cmp-container .teaser .cmp-teaser__image .cmp-image__image {
+    height: 160px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container .cmp-container .teaser .cmp-teaser__image .cmp-image__image {
+    height: 200px;
   }
 }/*# sourceMappingURL=splitters-page-template-container.css.map */

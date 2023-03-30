@@ -274,7 +274,7 @@
 
   #competition-landing-page-child-five {
     background: #e71d2b;
-    .aem-Grid {
+    > .aem-Grid {
       display: flex;
       justify-content: center;
 
@@ -348,15 +348,18 @@
 
             .image {
               position: relative;
-              top: 74px;
+              top: 105px;
               z-index: 99;
+              img {
+                width: auto;
+              }
             }
 
             .markuptext {
               height: 180px;
               background: yellow;
               clip-path: polygon(50% 0, 0 100%, 100% 100%);
-              margin-top: -106px;
+              margin-top: -75px;
             }
           }
         }
@@ -495,16 +498,7 @@
       }
     }
 
-    #competition-landing-page-child-two {
-      .image {
-        img {
-          margin-top: -6px;
-        }
-      }
-    }
-
     #competition-landing-page-child-three {
-      margin-top: -6px;
       .aem-Grid {
         .image {
           width: 50%;
@@ -546,8 +540,8 @@
     }
 
     #competition-landing-page-child-five {
-      .aem-Grid {
-        margin: 0 100px;
+      > .aem-Grid {
+        padding: 0 100px;
 
         .container {
           flex: 1;
@@ -575,10 +569,6 @@
                 #competition-landing-five-title {
                   font-size: 50px;
                   line-height: 60px;
-
-                  p {
-                    max-width: 438px;
-                  }
                 }
                 #competition-landing-five-description {
                   color: #ffffff;

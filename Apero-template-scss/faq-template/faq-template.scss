@@ -1,3 +1,12 @@
+
+#faq-template-container {
+  #faq-child-one > .container:last-child,
+  #apero-main-content-container {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+}
+
 #faq-child-three {
   background: #e71d2b;
   color: #ffffff;
@@ -111,7 +120,7 @@
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 769px) {
   #faq-child-two {
     .text #faq-child-two-title {
       font-size: 50px;
