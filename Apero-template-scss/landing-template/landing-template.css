@@ -283,9 +283,6 @@
   top: 105px;
   z-index: 99;
 }
-#competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .image img {
-  width: auto;
-}
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext {
   height: 180px;
   background: yellow;
@@ -453,6 +450,9 @@
     max-width: 438px;
     margin-bottom: 80px;
   }
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .image img {
+    width: auto;
+  }
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext {
     width: 518px;
   }
@@ -573,38 +573,38 @@
   #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container {
     padding: 0 20px 100px;
   }
-  #competition-landing-template-container #competition-landing-page-child-five .aem-Grid {
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid {
     max-width: calc(100% - 20px);
     margin: 0 20px;
     flex-direction: column;
   }
-  #competition-landing-template-container #competition-landing-page-child-five .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image img {
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image img {
     width: 178px;
     height: 141px;
     left: 25%;
   }
-  #competition-landing-template-container #competition-landing-page-child-five .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button {
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button {
     width: calc(100% - 20px);
     align-items: center;
     flex-direction: column;
   }
-  #competition-landing-template-container #competition-landing-page-child-five .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__text {
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__text {
     font-weight: 700;
     font-size: 17.3852px;
     line-height: 21px;
     margin-top: 10px;
   }
-  #competition-landing-template-container #competition-landing-page-child-five .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text {
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text {
     text-align: center;
   }
-  #competition-landing-template-container #competition-landing-page-child-five .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-title {
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-title {
     font-size: 30px;
     line-height: 36px;
   }
-  #competition-landing-template-container #competition-landing-page-child-five .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description {
-    color: #000000;
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description {
+    color: #ffffff;
   }
-  #competition-landing-template-container #competition-landing-page-child-five .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext {
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext {
     width: 100%;
   }
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid {

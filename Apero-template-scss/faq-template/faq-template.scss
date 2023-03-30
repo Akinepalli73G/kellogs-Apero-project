@@ -120,7 +120,7 @@
   }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (min-width: 769px) {
   #faq-child-two {
     .text #faq-child-two-title {
       font-size: 50px;
@@ -128,9 +128,10 @@
     }
   }
 
-  #faq-child-three .aem-Grid {
+  #faq-child-three > .aem-Grid {
     text-align: center;
     padding: 40px 20px 130px;
+    max-width: calc(100% - 40px);
 
     .image {
       position: relative;

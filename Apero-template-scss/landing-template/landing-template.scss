@@ -350,9 +350,6 @@
               position: relative;
               top: 105px;
               z-index: 99;
-              img {
-                width: auto;
-              }
             }
 
             .markuptext {
@@ -584,6 +581,11 @@
 
           #competition-landing-page-five-sub-child-two {
             .aem-Grid {
+              .image {
+                img {
+                  width: auto;
+                }
+              }
               .markuptext {
                 width: 518px;
               }
@@ -764,7 +766,7 @@
     }
 
     #competition-landing-page-child-five {
-      .aem-Grid {
+      > .aem-Grid {
         max-width: calc(100% - 20px);
         margin: 0 20px;
         flex-direction: column;
@@ -802,7 +804,7 @@
                   line-height: 36px;
                 }
                 #competition-landing-five-description {
-                  color: #000000;
+                  color: #ffffff;
                 }
               }
             }
