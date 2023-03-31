@@ -309,7 +309,6 @@
   display: block;
   width: -moz-fit-content;
   width: fit-content;
-  border-bottom: 2px solid #f7e62a;
 }
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop p,
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile p {
@@ -325,6 +324,10 @@
   text-align: center;
   color: #ffffff;
   text-decoration: none;
+  border-bottom: 2px solid #f7e62a;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 20px 10px;
 }
 #competition-landing-template-container #competition-landing-page-child-seven {
   background: #e71d2b;

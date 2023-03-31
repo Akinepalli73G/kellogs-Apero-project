@@ -252,6 +252,14 @@
                   no-repeat right center;
                 background-size: 10px;
               }
+              &:nth-child(1) {
+                box-shadow: none;
+                ::after {
+                  content: none;
+                  background: none;
+                  height: none;
+                }
+              }
             }
           }
         }

@@ -315,6 +315,22 @@
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/selected-tick.png") no-repeat right center;
   background-size: 10px;
 }
+#splitters-page-child-two .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language:nth-child(1),
+#mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language:nth-child(1),
+#pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language:nth-child(1),
+#Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language:nth-child(1),
+#already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language:nth-child(1) {
+  box-shadow: none;
+}
+#splitters-page-child-two .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language:nth-child(1) ::after,
+#mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language:nth-child(1) ::after,
+#pre-game-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language:nth-child(1) ::after,
+#Thank-you-page-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language:nth-child(1) ::after,
+#already-played-header-mobile .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li.selected-language:nth-child(1) ::after {
+  content: none;
+  background: none;
+  height: none;
+}
 
 /* End CSS */
 @media only screen and (min-width: 769px) {
