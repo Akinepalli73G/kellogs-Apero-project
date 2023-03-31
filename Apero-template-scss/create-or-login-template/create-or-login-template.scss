@@ -246,22 +246,12 @@
 
                                   label {
                                     margin-left: 0;
-                                    padding: 7px 16px;
-                                    &::before {
-                                      content: "";
-                                      position: relative;
-                                      left: 0;
-                                      top: 0em;
-                                      width: unset;
-                                      height: unset;
-                                      border: none;
-                                      border-radius: unset;
-                                      background: transparent;
+                                    padding: 10px 25px;
+                                    &::before,
+                                    &::after {
+                                      top: 12px;
                                     }
                                   }
-                                }
-                                .gigya-error-msg-active  {
-                                  display: none;
                                 }
                               }
 
