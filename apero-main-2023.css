@@ -3687,7 +3687,7 @@
     text-align: center;
   }
   #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__image .cmp-image__image {
-    width: 160px;
+    width: unset;
   }
   #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__pretitle {
     font-size: 150px;
@@ -3726,7 +3726,7 @@
     text-align: center;
   }
   #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__image .cmp-image__image {
-    width: 130px;
+    width: unset;
   }
   #error-page-template-container #error-page-template-child-one .teaser #error-template-teaser .cmp-teaser__content .cmp-teaser__pretitle {
     font-size: 80px;
