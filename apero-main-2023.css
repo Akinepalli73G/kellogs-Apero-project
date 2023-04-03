@@ -770,6 +770,7 @@
     position: fixed;
     top: 100%;
     width: 100%;
+    z-index: 999;
   }
   #desktop-barcode-sticky-container .image {
     position: absolute;
@@ -793,11 +794,10 @@
     border: 2px solid transparent;
     -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
             clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  }
-  #desktop-barcode-sticky-container .button #competition-landing-apero-barcode-button-desktop .cmp-button__icon--Apero-barcode {
-    width: 100px;
-    height: 100px;
-    background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/QR.png") no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
   }
   #desktop-barcode-sticky-container .button #competition-landing-apero-barcode-button-desktop .cmp-button__text {
     font-family: "NimbusSanLOT";
@@ -1266,6 +1266,7 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__icon--ar-experience {
   width: 62px;

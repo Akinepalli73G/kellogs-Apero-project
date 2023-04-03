@@ -490,6 +490,7 @@
     position: fixed;
     top: 100%;
     width: 100%;
+    z-index: 999;
     .image {
       position: absolute;
       bottom: 30px;
@@ -511,13 +512,17 @@
         background: #f7e62a;
         border: 2px solid transparent;
         clip-path: polygon(50% 0, 0 100%, 100% 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
 
-        .cmp-button__icon--Apero-barcode {
-          width: 100px;
-          height: 100px;
-          background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/QR.png")
-            no-repeat center center;
-        }
+        // .cmp-button__icon--Apero-barcode {
+        //   width: 100px;
+        //   height: 100px;
+        //   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/QR.png")
+        //     no-repeat center center;
+        // }
 
         .cmp-button__text {
           font-family: "NimbusSanLOT";

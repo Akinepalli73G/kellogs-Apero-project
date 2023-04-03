@@ -244,6 +244,7 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__icon--ar-experience {
   width: 62px;
