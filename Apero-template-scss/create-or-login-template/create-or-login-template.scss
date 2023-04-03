@@ -73,7 +73,6 @@
   /* End CSS */
 }
 
-
 @media only screen and (max-width: 768px) {
   /* Start CSS create account / login template */
   #create-account-or-login-template {
@@ -161,7 +160,7 @@
                                   top: -137px;
                                   height: 50px !important;
                                   left: 20px;
-                                  width: 50%;
+                                  width: 100%;
                                   z-index: 9;
                                 }
 
@@ -258,14 +257,34 @@
                               .gigya-composite-control-checkbox.privacy-reg,
                               .gigya-composite-control-checkbox.tnc-reg {
                                 .gigya-checkbox-container {
+                                  padding: 10px 0;
                                   border: 1px solid rgba(0, 0, 0, 0.1);
                                   border-radius: 100px;
+
+                                  &.gigya-terms-valid {
+                                    label {
+                                      &::before {
+                                        background: #3bae49;
+                                      }
+                                      &::after {
+                                        color: #ffffff;
+                                        font-size: 10px;
+                                        top: 15px;
+                                        left: 6px;
+                                      }
+                                    }
+                                  }
 
                                   label {
                                     &::before {
                                       top: 25%;
-                                      border: 0.833333px solid #B6B6B6;
+                                      border: 0.833333px solid #b6b6b6;
                                       border-radius: 2.5px;
+                                      width: 18px;
+                                      height: 18px;
+                                    }
+                                    &::after {
+                                      top: 8px;
                                     }
                                     .gigya-label-text.gigya-checkbox-text {
                                       font-family: "NimbusSanLOT";
@@ -286,15 +305,38 @@
 
                               .gigya-composite-control-checkbox.privacy-reg {
                                 .gigya-checkbox-container {
+                                  &.gigya-terms-valid {
+                                    label {
+                                      &::after {
+                                        top: 8px;
+                                      }
+                                    }
+                                  }
                                   label {
                                     &::before {
                                       top: 14%;
+                                    }
+                                    &::after {
+                                      top: 0px;
                                     }
                                   }
                                 }
                               }
 
-                              .gigya-composite-control:has(.gigya-error-msg-active) {
+                              .gigya-composite-control-checkbox.tnc-reg:has(
+                                  .gigya-error-msg-active
+                                ),
+                              .gigya-composite-control-checkbox.privacy-reg:has(
+                                  .gigya-error-msg-active
+                                ) {
+                                .gigya-checkbox-container {
+                                  border: 1px solid #e71d2b;
+                                }
+                              }
+
+                              .gigya-composite-control:has(
+                                  .gigya-error-msg-active
+                                ) {
                                 .gigya-input-password,
                                 .gigya-input-text {
                                   margin-bottom: 0;
@@ -303,10 +345,10 @@
                               }
                               .gigya-error-msg-active {
                                 text-align: left;
-                                font-family: 'NimbusSanLOT';
+                                font-family: "NimbusSanLOT";
                                 font-size: 10px;
                                 line-height: 22px;
-                                color: #E71D2B;
+                                color: #e71d2b;
                                 padding-top: 0;
                               }
                             }
