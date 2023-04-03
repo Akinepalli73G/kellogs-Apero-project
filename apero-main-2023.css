@@ -318,6 +318,7 @@
   align-items: center;
   width: 100%;
   padding: 0;
+  color: #000000;
 }
 #faq-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
 #already-played-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
@@ -1597,7 +1598,7 @@
     padding: 0 20px 100px;
   }
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid {
-    max-width: calc(100% - 20px);
+    max-width: calc(100% - 40px);
     margin: 0 20px;
     flex-direction: column;
   }
