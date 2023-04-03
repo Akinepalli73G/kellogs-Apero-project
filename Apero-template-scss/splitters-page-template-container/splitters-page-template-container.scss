@@ -43,9 +43,12 @@
         position: relative;
         margin-top: -30px;
         #splitter-template-language-navigator {
+          display: flex;
+          flex-direction: row-reverse;
+          padding: 0 20px;
           .mobile-down-arrow {
             top: 35px;
-            left: 90%;
+            left: 0;
             background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/chevron-down-red.png")
               no-repeat right center;
             background-size: 14px;
