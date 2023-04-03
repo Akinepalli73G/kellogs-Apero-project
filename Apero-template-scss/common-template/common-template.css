@@ -697,7 +697,7 @@
   #sticky-footer-buttons-mobile-container {
     position: fixed;
     background: #ffffff;
-    top: 87%;
+    bottom: 0;
     height: 90px;
     padding: 0 20px;
     width: 100%;
