@@ -161,12 +161,12 @@
   }
 }
 @media only screen and (max-width: 500px) {
-  .container .cmp-container .teaser .cmp-teaser__image .cmp-image__image {
+  #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__image .cmp-image__image {
     height: 160px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .container .cmp-container .teaser .cmp-teaser__image .cmp-image__image {
+  #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__image .cmp-image__image {
     height: 200px;
   }
 }/*# sourceMappingURL=splitters-page-template-container.css.map */

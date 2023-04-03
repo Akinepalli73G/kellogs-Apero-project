@@ -188,13 +188,15 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .container {
-    .cmp-container {
-      .teaser {
-        .cmp-teaser {
-          &__image {
-            .cmp-image__image {
-              height: 160px;
+  #splitters-page-child-three {
+    .container {
+      .cmp-container {
+        .teaser {
+          .cmp-teaser {
+            &__image {
+              .cmp-image__image {
+                height: 160px;
+              }
             }
           }
         }
@@ -204,13 +206,15 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .container {
-    .cmp-container {
-      .teaser {
-        .cmp-teaser {
-          &__image {
-            .cmp-image__image {
-              height: 200px;
+  #splitters-page-child-three {
+    .container {
+      .cmp-container {
+        .teaser {
+          .cmp-teaser {
+            &__image {
+              .cmp-image__image {
+                height: 200px;
+              }
             }
           }
         }
