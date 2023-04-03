@@ -66,6 +66,7 @@
   width: 100%;
   padding: 0;
   color: #000000;
+  outline: none;
 }
 #faq-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
 #already-played-template-container .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title,
