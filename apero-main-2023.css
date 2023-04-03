@@ -257,16 +257,21 @@
 #thank-you-page-template-child-one #thank-you-page-button,
 #thank-you-page-template-child-one #pre-game-button {
   background: #ffffff;
-  width: 100%;
   border-radius: 2px;
   border: none;
   padding: 0;
   font-weight: 200;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 16px 0;
 }
 #pre-game-template-child-two #thank-you-page-button span,
 #pre-game-template-child-two #pre-game-button span,
 #thank-you-page-template-child-one #thank-you-page-button span,
 #thank-you-page-template-child-one #pre-game-button span {
+  font-family: "Pinup-Regular";
   font-size: 14px;
   line-height: 16px;
   text-align: center;
