@@ -194,15 +194,18 @@
                                 border: none;
                               }
 
-                              .fa-eye-slash::before {
-                                display: inline-block;
-                                position: relative;
-                                top: 22px;
-                                content: "";
-                                width: 24px;
-                                height: 14px;
-                                background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/eye.png")
-                                  no-repeat center center;
+                              .fa-eye,
+                              .fa-eye-slash {
+                                &::before {
+                                  display: inline-block;
+                                  position: relative;
+                                  top: 22px;
+                                  content: "";
+                                  width: 24px;
+                                  height: 14px;
+                                  background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/eye.png")
+                                    no-repeat center center;
+                                }
                               }
 
                               .gigya-composite-control-link {
@@ -370,6 +373,34 @@
                               }
                             }
                           }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .kstl-regv6-reg-only {
+            #kgsasgigyaForms {
+              #kgsasgigyaForms_content {
+                .gigya-screen {
+                  #gigya-otp-update-form {
+                    .gigya-layout-row {
+                      label {
+                        a {
+                          color: #e71d2b;
+                        }
+                      }
+                      .gigya-composite-control.gigya-composite-control-submit {
+                        width: calc(100% - 25px);
+                        .gigya-input-submit {
+                          background: #2e8538;
+                          border: none;
+                          font-family: "Pinup-Regular";
+                          font-size: 12px;
+                          line-height: 14px;
                         }
                       }
                     }
