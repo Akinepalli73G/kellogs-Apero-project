@@ -278,6 +278,14 @@
                                     }
                                   }
 
+                                  &.gigya-terms-valid:has(.gigya-empty) {
+                                    label {
+                                      &::before {
+                                        background: transparent;
+                                      }
+                                    }
+                                  }
+
                                   label {
                                     &::before {
                                       top: 25%;
@@ -389,12 +397,14 @@
                   #gigya-otp-update-form {
                     .gigya-layout-row {
                       label {
+                        font-weight: normal;
                         a {
                           color: #e71d2b;
                         }
                       }
                       .gigya-composite-control.gigya-composite-control-submit {
-                        width: calc(100% - 25px);
+                        margin-right: 10px;
+                        width: calc(100% - 10px);
                         .gigya-input-submit {
                           background: #2e8538;
                           border: none;
