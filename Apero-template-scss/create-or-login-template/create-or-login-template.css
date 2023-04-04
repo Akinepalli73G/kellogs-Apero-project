@@ -1359,5 +1359,8 @@
     font-size: 12px;
     line-height: 14px;
   }
+  #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form .gig-tfa-button-container .gig-tfa-button.gig-tfa-button-submit {
+    background: #2E8538;
+  }
   /* End CSS */
 }/*# sourceMappingURL=create-or-login-template.css.map */
