@@ -17,8 +17,6 @@
             font-family: "Pinup-Regular";
             font-style: normal;
             font-weight: 700;
-            font-size: 45px;
-            line-height: 54px;
             color: #0f76b9;
           }
 
@@ -26,8 +24,6 @@
             font-family: "Pinup-Regular";
             font-style: normal;
             font-weight: 700;
-            font-size: 30px;
-            line-height: 36px;
             color: #e71d2b;
           }
 
@@ -49,8 +45,6 @@
             #competition-landing-teaser-hero-title {
               font-family: "Pinup-Regular";
               font-style: normal;
-              font-weight: 700;
-              font-size: 70px;
               line-height: 84px;
               p {
                 margin: 0;
@@ -60,8 +54,6 @@
               font-family: "NimbusSanLOT";
               font-style: normal;
               font-weight: 700;
-              font-size: 16px;
-              line-height: 24px;
             }
           }
         }
@@ -477,6 +469,16 @@
           height: 200px;
           clip-path: polygon(100% 0, 0 0, 50% 100%);
           justify-content: center;
+
+          #competiton-landing-blue-title {
+            font-size: 45px;
+            line-height: 54px;
+          }
+
+          #competition-landing-red-title {
+            font-size: 30px;
+            line-height: 36px;
+          }
         }
       }
       #competition-landing-hero-teaser-container {
@@ -485,6 +487,15 @@
           .container {
             #competition-landing-teaser-hero-content {
               padding: 264px 64px 0 100px;
+              #competition-landing-teaser-hero-title {
+                font-size: 70px;
+                line-height: 84px;
+              }
+
+              #competition-landing-teaser-hero-description {
+                font-size: 16px;
+                line-height: 24px;
+              }
 
               .button {
                 display: none;
@@ -664,9 +675,19 @@
           background: #f7e62a;
           clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
 
+          #competiton-landing-blue-title {
+            font-size: 35px;
+            line-height: 40px;
+          }
+
+          #competition-landing-red-title {
+            font-size: 20px;
+            line-height: 24px;
+          }
+
           .text {
             #competiton-landing-blue-title {
-              margin-top: 20px;
+              margin-top: 10px;
             }
           }
         }
@@ -681,6 +702,16 @@
           .container {
             #competition-landing-teaser-hero-content {
               padding: 30px 20px 50px;
+
+              #competition-landing-teaser-hero-title {
+                font-size: 45px;
+                line-height: 54px;
+              }
+
+              #competition-landing-teaser-hero-description {
+                font-size: 14px;
+                line-height: 20px;
+              }
 
               .button {
                 display: block;
