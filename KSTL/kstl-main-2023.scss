@@ -1,0 +1,19 @@
+@use "../KSTL/landing-page-template/landing-page-template.scss";
+
+body {
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: "Pinup-Regular";
+}
+
+/* font import start */
+
+@font-face {
+  font-family: "Pinup-Regular";
+  src: url("/content/dam/pringles/en_GB/kstl_2023/uk/en/fonts/Pinup-Regular.otf");
+}
+
+@font-face {
+  font-family: "NimbusSanLOT";
+  src: url("/content/dam/pringles/en_GB/kstl_2023/uk/en/fonts/NimbusSanLOT-Bol.otf");
+}
