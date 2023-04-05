@@ -519,15 +519,15 @@
             clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
   }
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 45px;
+    line-height: 54px;
   }
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competition-landing-red-title {
     font-size: 20px;
     line-height: 24px;
   }
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text #competiton-landing-blue-title {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid {
     display: flex;
