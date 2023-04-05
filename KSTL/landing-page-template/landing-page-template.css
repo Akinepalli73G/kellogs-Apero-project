@@ -1,1 +1,51 @@
-/*# sourceMappingURL=landing-page-template.css.map */
+#KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer {
+  position: relative;
+}
+#KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer {
+  height: 200px;
+  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  background: #f7e62a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-title-blue {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  color: #0f76b9;
+}
+#KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-description-red {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  color: #e71d2b;
+}
+#KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .coreContainer {
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  #KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-title-blue {
+    font-size: 45px;
+    line-height: 54px;
+  }
+  #KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-description-red {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-title-blue {
+    font-size: 45px;
+    line-height: 54px;
+  }
+  #KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-description-red {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}/*# sourceMappingURL=landing-page-template.css.map */
