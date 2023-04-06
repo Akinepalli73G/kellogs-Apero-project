@@ -15,7 +15,7 @@
     padding: 16px 0;
 
     span {
-      font-family: 'Pinup-Regular';
+      font-family: "Pinup-Regular";
       font-size: 14px;
       line-height: 16px;
       text-align: center;
@@ -275,6 +275,28 @@
   }
 }
 /* End CSS */
+
+#pre-game-template-container,
+#already-played-template-container {
+  .logout-v6 {
+    justify-content: right;
+    display: flex;
+    cursor: pointer;
+    z-index: 999;
+
+    #logout-Button {
+      border: none;
+      font-family: "NimbusSanLOT";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 22px;
+      color: #ffffff;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
 
 @media only screen and (min-width: 769px) {
   #Mobile-header-container {

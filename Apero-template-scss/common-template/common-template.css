@@ -340,6 +340,26 @@
 }
 
 /* End CSS */
+#pre-game-template-container .logout-v6,
+#already-played-template-container .logout-v6 {
+  justify-content: right;
+  display: flex;
+  cursor: pointer;
+  z-index: 999;
+}
+#pre-game-template-container .logout-v6 #logout-Button,
+#already-played-template-container .logout-v6 #logout-Button {
+  border: none;
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 769px) {
   #Mobile-header-container {
     display: none;
