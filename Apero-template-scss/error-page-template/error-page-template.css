@@ -142,6 +142,7 @@
     left: 20px;
   }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-open .button #mobile-burger-menu {
+    visibility: hidden;
     background-color: #e71d2b;
   }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-close .button #burger-close-button {
