@@ -254,7 +254,7 @@
   font-weight: 700;
   font-size: 50px;
   line-height: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 }
 #KSTL-landing-container-child-five > .coreContainer .markupText .kstl-rich-text .kstl-four-description {
@@ -263,7 +263,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #KSTL-landing-container-child-five-sub-child-two .image {
@@ -282,6 +282,44 @@
   margin-top: -75px;
   width: 518px;
   margin: -75px auto 0;
+}
+
+.coreContainer:has(> #KSTL-landing-container-child-six) {
+  background: #009bde;
+  color: #ffffff;
+  display: flex;
+  padding: 80px 100px;
+}
+.coreContainer:has(> #KSTL-landing-container-child-six) .coreContainer,
+.coreContainer:has(> #KSTL-landing-container-child-six) #KSTL-landing-container-child-six {
+  flex: 1;
+}
+.coreContainer:has(> #KSTL-landing-container-child-six) #KSTL-landing-container-child-six .coreContainer .markupText .kstl-rich-text .kstl-six-title {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.coreContainer:has(> #KSTL-landing-container-child-six) #KSTL-landing-container-child-six .coreContainer .markupText .kstl-rich-text .kstl-six-description {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 25px 0;
+}
+.coreContainer:has(> #KSTL-landing-container-child-six) #KSTL-landing-container-child-six .coreContainer .buttonLink {
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  line-height: 16px;
+  border-bottom: 2px solid #f7e62a;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 20px 7px;
+  margin-bottom: 25px;
 }
 
 @media only screen and (min-width: 768px) {

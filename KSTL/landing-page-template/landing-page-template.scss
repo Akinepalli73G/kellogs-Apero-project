@@ -279,21 +279,21 @@
     .markupText {
       .kstl-rich-text {
         .kstl-four-title {
-          font-family: 'Pinup-Regular';
+          font-family: "Pinup-Regular";
           font-style: normal;
           font-weight: 700;
           font-size: 50px;
           line-height: 60px;
-          color: #FFFFFF;
+          color: #ffffff;
           text-transform: uppercase;
         }
         .kstl-four-description {
-          font-family: 'NimbusSanLOT';
+          font-family: "NimbusSanLOT";
           font-style: normal;
           font-weight: 700;
           font-size: 14px;
           line-height: 20px;
-          color: #FFFFFF;
+          color: #ffffff;
         }
       }
     }
@@ -317,6 +317,51 @@
     margin-top: -75px;
     width: 518px;
     margin: -75px auto 0;
+  }
+}
+
+.coreContainer:has(> #KSTL-landing-container-child-six) {
+  background: #009bde;
+  color: #ffffff;
+  display: flex;
+  padding: 80px 100px;
+  .coreContainer,
+  #KSTL-landing-container-child-six {
+    flex: 1;
+  }
+  #KSTL-landing-container-child-six {
+    .coreContainer {
+      .markupText {
+        .kstl-rich-text {
+          .kstl-six-title {
+            font-family: "Pinup-Regular";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 60px;
+            color: #ffffff;
+          }
+          .kstl-six-description {
+            font-family: "NimbusSanLOT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #ffffff;
+            padding: 25px 0;
+          }
+        }
+      }
+      .buttonLink {
+        font-family: "Pinup-Regular";
+        font-size: 14px;
+        line-height: 16px;
+        border-bottom: 2px solid #f7e62a;
+        width: fit-content;
+        padding: 0 20px 7px;
+        margin-bottom: 25px;
+      }
+    }
   }
 }
 
