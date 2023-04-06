@@ -266,6 +266,24 @@
   color: #FFFFFF;
 }
 
+#KSTL-landing-container-child-five-sub-child-two .image {
+  position: relative;
+  top: 105px;
+  z-index: 9;
+}
+#KSTL-landing-container-child-five-sub-child-two .image .img {
+  max-width: 540px;
+}
+#KSTL-landing-container-child-five-sub-child-two .markupText {
+  height: 180px;
+  background: yellow;
+  -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  margin-top: -75px;
+  width: 518px;
+  margin: -75px auto 0;
+}
+
 @media only screen and (min-width: 768px) {
   #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-title-blue {
     font-size: 45px;
