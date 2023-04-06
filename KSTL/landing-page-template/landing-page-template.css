@@ -72,6 +72,85 @@
 #KSTL-landing-container-child-three > .coreContainer {
   background: #e71d2b;
 }
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container {
+  background: #e71d2b;
+  color: #ffffff;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container .title {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container .title .yellow-promotion {
+  color: #f7e62a;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul {
+  list-style: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  position: relative;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .dashed-line {
+  position: absolute;
+  left: 25px;
+  top: 100%;
+  height: 100px;
+  border-left: 1px dashed #ffffff;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-union-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-note-pad-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-receipt-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-game-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-money-icon {
+  width: 50px;
+  height: 50px;
+  flex: 0 0 30%;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-content {
+  flex: 0 0 70%;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-content .list-item-title {
+  margin-bottom: 10px;
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-content .list-item-description {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-union-icon {
+  background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/union.png") no-repeat left center;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-note-pad-icon {
+  background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/note-pad.png") no-repeat left center;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-game-icon {
+  background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/game.png") no-repeat left center;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-receipt-icon {
+  background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/Receipt.png") no-repeat left center;
+}
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-money-icon {
+  background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/Money.png") no-repeat left center;
+}
 
 @media only screen and (min-width: 768px) {
   #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-title-blue {
