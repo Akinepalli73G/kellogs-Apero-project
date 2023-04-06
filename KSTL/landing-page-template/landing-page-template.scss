@@ -234,7 +234,7 @@
   background: #e71d2b;
 }
 #KSTL-landing-container-child-five {
-  .coreContaine {
+  > .coreContainer {
     position: relative;
     .image {
       img {
@@ -247,6 +247,7 @@
     .coreButton {
       border: none;
       margin-bottom: 20px;
+      padding: 0;
       button {
         font-family: "Pinup-Regular";
         font-style: normal;
@@ -258,6 +259,8 @@
         margin-left: 20px;
         background: transparent;
         border: none;
+        display: flex;
+        align-items: center;
 
         &::before {
           content: "";
@@ -267,6 +270,8 @@
           position: relative;
           background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/ar-experience.png")
             no-repeat left center;
+          background-size: 61px;
+          left: -20px;
         }
       }
     }

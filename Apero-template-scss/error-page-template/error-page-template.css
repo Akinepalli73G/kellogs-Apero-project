@@ -141,6 +141,10 @@
     bottom: 6px;
     left: 20px;
   }
+  #error-page-template-container #Mobile-header-container #mobile-burger-menu-open .image {
+    position: relative;
+    left: 10px;
+  }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-open .button #mobile-burger-menu {
     visibility: hidden;
     background-color: #e71d2b;
