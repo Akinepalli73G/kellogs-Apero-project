@@ -13,6 +13,9 @@
   align-items: center;
   flex-direction: column;
 }
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text {
+  text-align: center;
+}
 #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-title-blue {
   font-family: "Pinup-Regular";
   font-style: normal;
@@ -24,6 +27,50 @@
   font-style: normal;
   font-weight: 700;
   color: #e71d2b;
+}
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) {
+  display: flex;
+}
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) .image,
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two {
+  flex: 1;
+}
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two {
+  background: #e71d2b;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .markupText {
+  padding: 0 64px;
+}
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .markupText .kstl-rich-text {
+  font-family: "Pinup";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  color: #ffffff;
+}
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .markupText .kstl-description-one {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+#KSTL-landing-container-child-three {
+  display: flex;
+}
+#KSTL-landing-container-child-three .coreContainer,
+#KSTL-landing-container-child-three .image {
+  flex: 1;
+}
+#KSTL-landing-container-child-three > .coreContainer {
+  background: #e71d2b;
 }
 
 @media only screen and (min-width: 768px) {
@@ -45,6 +92,18 @@
     font-size: 30px;
     line-height: 36px;
   }
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .markupText {
+    padding: 0 64px;
+  }
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .markupText .kstl-rich-text {
+    font-size: 70px;
+    line-height: 84px;
+  }
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .markupText .kstl-description-one {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 30px;
+  }
 }
 body {
   margin: 0 auto;
@@ -60,4 +119,7 @@ body {
 @font-face {
   font-family: "NimbusSanLOT";
   src: url("/content/dam/pringles/en_GB/kstl_2023/uk/en/fonts/NimbusSanLOT-Bol.otf");
+}
+.image {
+  line-height: 0;
 }/*# sourceMappingURL=kstl-main-2023.css.map */

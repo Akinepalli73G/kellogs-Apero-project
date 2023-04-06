@@ -57,11 +57,23 @@
             font-size: 16px;
             line-height: 24px;
             color: #ffffff;
+            padding-top: 30px;
           }
         }
       }
     }
   }
+}
+
+#KSTL-landing-container-child-three {
+ display: flex;
+ .coreContainer,
+ .image {
+  flex:1;
+ }
+ > .coreContainer {
+  background: #e71d2b;
+ }
 }
 
 @media only screen and (min-width: 768px) {
@@ -94,6 +106,22 @@
         .kstl-one-description-red {
           font-size: 30px;
           line-height: 36px;
+        }
+      }
+    }
+    > .coreContainer:nth-child(3) {
+      #KSTL-landing-container-child-one-sub-child-two {
+        .markupText {
+          padding: 0 64px;
+          .kstl-rich-text {
+            font-size: 70px;
+            line-height: 84px;
+          }
+          .kstl-description-one {
+            font-size: 16px;
+            line-height: 24px;
+            padding-top: 30px;
+          }
         }
       }
     }

@@ -59,6 +59,18 @@
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+  padding-top: 30px;
+}
+
+#KSTL-landing-container-child-three {
+  display: flex;
+}
+#KSTL-landing-container-child-three .coreContainer,
+#KSTL-landing-container-child-three .image {
+  flex: 1;
+}
+#KSTL-landing-container-child-three > .coreContainer {
+  background: #e71d2b;
 }
 
 @media only screen and (min-width: 768px) {
@@ -79,5 +91,17 @@
   #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-description-red {
     font-size: 30px;
     line-height: 36px;
+  }
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .markupText {
+    padding: 0 64px;
+  }
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .markupText .kstl-rich-text {
+    font-size: 70px;
+    line-height: 84px;
+  }
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .markupText .kstl-description-one {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 30px;
   }
 }/*# sourceMappingURL=landing-page-template.css.map */
