@@ -101,6 +101,7 @@
   flex-wrap: wrap;
   margin-bottom: 50px;
   position: relative;
+  color: #ffffff;
 }
 #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .dashed-line {
   position: absolute;
@@ -116,10 +117,10 @@
 #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-money-icon {
   width: 50px;
   height: 50px;
-  flex: 0 0 30%;
+  flex: 0 0 20%;
 }
 #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-content {
-  flex: 0 0 70%;
+  flex: 0 0 80%;
 }
 #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-content .list-item-title {
   margin-bottom: 10px;
@@ -152,6 +153,63 @@
   background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/Money.png") no-repeat left center;
 }
 
+#KSTL-landing-container-child-four {
+  width: 378px;
+  height: 75px;
+  left: calc(50% - 189px);
+  margin-top: -74px;
+  position: absolute;
+  background: #f7e62a;
+  -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
+
+.coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) {
+  display: flex;
+  background: #f7e62a;
+}
+.coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) #KSTL-landing-container-child-four-sub-child-two {
+  display: flex;
+}
+.coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) #KSTL-landing-container-child-four-sub-child-two .coreContainer .markupText {
+  height: 100%;
+}
+.coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) #KSTL-landing-container-child-four-sub-child-two .coreContainer .markupText .kstl-rich-text {
+  height: 100%;
+}
+.coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) #KSTL-landing-container-child-four-sub-child-two .coreContainer .markupText .kstl-rich-text .kstl-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  padding: 0 55px;
+}
+.coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) #KSTL-landing-container-child-four-sub-child-two .coreContainer .markupText .kstl-rich-text .kstl-content .kstl-title {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #0f76b9;
+}
+.coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) #KSTL-landing-container-child-four-sub-child-two .coreContainer .markupText .kstl-rich-text .kstl-content .kstl-description {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.coreContainer:has(> #KSTL-landing-container-child-five) {
+  display: flex;
+  padding: 0 100px;
+  background: #e71d2b;
+}
+
 @media only screen and (min-width: 768px) {
   #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-title-blue {
     font-size: 45px;
@@ -182,6 +240,9 @@
     font-size: 16px;
     line-height: 24px;
     padding-top: 30px;
+  }
+  #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container {
+    padding: 80px 80px 0;
   }
 }
 body {
