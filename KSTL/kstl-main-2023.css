@@ -1,7 +1,7 @@
-#KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer {
+#KSTL-main-container > .coreContainer {
   position: relative;
 }
-#KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer {
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) {
   height: 200px;
   -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
   clip-path: polygon(100% 0, 0 0, 50% 100%);
@@ -13,38 +13,35 @@
   align-items: center;
   flex-direction: column;
 }
-#KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-title-blue {
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-title-blue {
   font-family: "Pinup-Regular";
   font-style: normal;
   font-weight: 700;
   color: #0f76b9;
 }
-#KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-description-red {
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-description-red {
   font-family: "Pinup-Regular";
   font-style: normal;
   font-weight: 700;
   color: #e71d2b;
 }
-#KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .coreContainer {
-  position: relative;
-}
 
 @media only screen and (min-width: 768px) {
-  #KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-title-blue {
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-title-blue {
     font-size: 45px;
     line-height: 54px;
   }
-  #KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-description-red {
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-description-red {
     font-size: 20px;
     line-height: 24px;
   }
 }
 @media only screen and (min-width: 769px) {
-  #KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-title-blue {
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-title-blue {
     font-size: 45px;
     line-height: 54px;
   }
-  #KSTL-main-container #KSTL-landing-container-child-one-sub-child-two > .coreContainer > .coreContainer .markupText .kstl-rich-text .kstl-one-description-red {
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-description-red {
     font-size: 30px;
     line-height: 36px;
   }

@@ -1,7 +1,7 @@
 #KSTL-main-container {
-  #KSTL-landing-container-child-one-sub-child-two > .coreContainer {
+  > .coreContainer {
     position: relative;
-    > .coreContainer {
+    > .coreContainer:nth-child(2) {
       height: 200px;
       -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
       clip-path: polygon(100% 0, 0 0, 50% 100%);
@@ -13,6 +13,7 @@
       align-items: center;
       flex-direction: column;
       .markupText .kstl-rich-text {
+        text-align: center;
         .kstl-one-title-blue {
           font-family: "Pinup-Regular";
           font-style: normal;
@@ -28,29 +29,34 @@
         }
       }
     }
-  }
-
-  #KSTL-landing-container-child-one-sub-child-two
-    > .coreContainer
-    > .coreContainer
-    .coreContainer {
-    position: relative;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  #KSTL-main-container {
-    #KSTL-landing-container-child-one-sub-child-two > .coreContainer {
-      > .coreContainer {
-        .markupText .kstl-rich-text {
-          .kstl-one-title-blue {
-            font-size: 45px;
-            line-height: 54px;
+    > .coreContainer:nth-child(3) {
+      display: flex;
+      .image,
+      #KSTL-landing-container-child-one-sub-child-two {
+        flex: 1;
+      }
+      #KSTL-landing-container-child-one-sub-child-two {
+        background: #e71d2b;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        .markupText {
+          padding: 0 64px;
+          .kstl-rich-text {
+            font-family: "Pinup";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 84px;
+            color: #ffffff;
           }
-
-          .kstl-one-description-red {
-            font-size: 20px;
+          .kstl-description-one {
+            font-family: "NimbusSanLOT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
             line-height: 24px;
+            color: #ffffff;
           }
         }
       }
@@ -58,20 +64,36 @@
   }
 }
 
-@media only screen and (min-width: 769px) {
-  #KSTL-main-container {
-    #KSTL-landing-container-child-one-sub-child-two > .coreContainer {
-      > .coreContainer {
-        .markupText .kstl-rich-text {
-          .kstl-one-title-blue {
-            font-size: 45px;
-            line-height: 54px;
-          }
+@media only screen and (min-width: 768px) {
+  #KSTL-main-container > .coreContainer {
+    > .coreContainer:nth-child(2) {
+      .markupText .kstl-rich-text {
+        .kstl-one-title-blue {
+          font-size: 45px;
+          line-height: 54px;
+        }
 
-          .kstl-one-description-red {
-            font-size: 30px;
-            line-height: 36px;
-          }
+        .kstl-one-description-red {
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #KSTL-main-container > .coreContainer {
+    > .coreContainer:nth-child(2) {
+      .markupText .kstl-rich-text {
+        .kstl-one-title-blue {
+          font-size: 45px;
+          line-height: 54px;
+        }
+
+        .kstl-one-description-red {
+          font-size: 30px;
+          line-height: 36px;
         }
       }
     }
