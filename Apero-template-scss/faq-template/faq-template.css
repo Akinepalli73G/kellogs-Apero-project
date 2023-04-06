@@ -1,9 +1,3 @@
-#faq-template-container #faq-child-one > .container:last-child,
-#faq-template-container #apero-main-content-container {
-  margin: 0 auto;
-  max-width: 768px;
-}
-
 #faq-child-three {
   background: #e71d2b;
   color: #ffffff;
@@ -131,6 +125,23 @@
   #faq-child-three > .aem-Grid .text:nth-child(4) {
     justify-content: center;
   }
+  #apero-main-content-container #faq-text-links-desktop {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  #apero-main-content-container #faq-text-links-desktop p {
+    margin: 0;
+  }
+  #faq-child-one .breadcrumb {
+    padding-left: 60px;
+  }
+  #faq-child-one .breadcrumb nav ol::before {
+    left: 80px;
+  }
 }
 @media only screen and (max-width: 768px) {
   #faq-child-two .text #faq-child-two-title {
@@ -154,5 +165,10 @@
   }
   #faq-child-three .aem-Grid .text:nth-child(4) {
     justify-content: left;
+  }
+  #apero-main-content-container #faq-text-links-desktop,
+  #apero-main-content-container #competition-landing-six-text-links-mobile,
+  #apero-main-content-container #competition-landing-page-child-eight {
+    display: none;
   }
 }/*# sourceMappingURL=faq-template.css.map */

@@ -1045,12 +1045,15 @@
   }
 }
 /* End CSS */
+#apero-main-content-container #competition-landing-page-child-one,
 #competition-landing-template-container #competition-landing-page-child-one {
   position: relative;
 }
+#apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header,
 #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header {
   position: relative;
 }
+#apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid,
 #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid {
   position: absolute;
   width: 100%;
@@ -1059,73 +1062,91 @@
   align-items: center;
   flex-direction: column;
 }
+#apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text,
 #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text {
   text-align: center;
 }
+#apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text #competiton-landing-blue-title,
 #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text #competiton-landing-blue-title {
   font-family: "Pinup-Regular";
   font-style: normal;
   font-weight: 700;
   color: #0f76b9;
 }
+#apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text #competition-landing-red-title,
 #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text #competition-landing-red-title {
   font-family: "Pinup-Regular";
   font-style: normal;
   font-weight: 700;
   color: #e71d2b;
 }
+#apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text p,
 #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text p {
   margin: 0;
 }
+#apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid,
 #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid {
   display: flex;
 }
+#apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container,
 #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container {
   background: #e71d2b;
   flex: 1;
 }
+#apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content,
 #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content {
   color: #ffffff;
 }
+#apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-title,
 #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-title {
   font-family: "Pinup-Regular";
   font-style: normal;
   line-height: 84px;
 }
+#apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-title p,
 #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-title p {
   margin: 0;
 }
+#apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-description,
 #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-description {
   font-family: "NimbusSanLOT";
   font-style: normal;
   font-weight: 700;
 }
+#apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .image,
 #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .image {
   flex: 1;
 }
+#apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .image img,
 #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .image img {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
+#apero-main-content-container #competition-landing-page-child-two .image img,
 #competition-landing-template-container #competition-landing-page-child-two .image img {
   width: 100%;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid {
   display: flex;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .image img,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .image img {
   width: 100%;
   height: auto;
   max-width: 100%;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container {
   background: #e71d2b;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container {
   background: #e71d2b;
   color: #ffffff;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container .title,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container .title {
   font-family: "Pinup-Regular";
   font-style: normal;
@@ -1136,14 +1157,17 @@
   color: #ffffff;
   margin-bottom: 60px;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container .title .yellow-promotion,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container .title .yellow-promotion {
   color: #f7e62a;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul {
   list-style: none;
   -webkit-padding-start: 0;
           padding-inline-start: 0;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li {
   display: flex;
   align-items: center;
@@ -1152,6 +1176,7 @@
   margin-bottom: 50px;
   position: relative;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .dashed-line,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .dashed-line {
   position: absolute;
   left: 25px;
@@ -1159,6 +1184,11 @@
   height: 100px;
   border-left: 1px dashed #ffffff;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-union-icon,
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-note-pad-icon,
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-receipt-icon,
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-game-icon,
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-money-icon,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-union-icon,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-note-pad-icon,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-receipt-icon,
@@ -1168,9 +1198,11 @@
   height: 50px;
   flex: 0 0 30%;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-content,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-content {
   flex: 0 0 70%;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-content .list-item-title,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-content .list-item-title {
   margin-bottom: 10px;
   font-family: "Pinup-Regular";
@@ -1179,6 +1211,7 @@
   font-size: 18px;
   line-height: 22px;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-content .list-item-description,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-content .list-item-description {
   font-family: "NimbusSanLOT";
   font-style: normal;
@@ -1186,36 +1219,46 @@
   font-size: 14px;
   line-height: 20px;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-union-icon,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-union-icon {
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/union.png") no-repeat left center;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-note-pad-icon,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-note-pad-icon {
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/note-pad.png") no-repeat left center;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-game-icon,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-game-icon {
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/game.png") no-repeat left center;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-receipt-icon,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-receipt-icon {
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Receipt.png") no-repeat left center;
 }
+#apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-money-icon,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li .list-item-money-icon {
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/Money.png") no-repeat left center;
 }
+#apero-main-content-container #competition-landing-page-child-four .aem-Grid .markuptext,
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .markuptext {
   position: absolute;
   background: #f7e62a;
   -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
           clip-path: polygon(50% 0, 0 100%, 100% 100%);
 }
+#apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2),
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) {
   background: #f7e62a;
 }
+#apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container,
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container {
   display: flex;
 }
+#apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container,
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container {
   background: transparent;
 }
+#apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container,
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container {
   display: flex;
   flex-direction: column;
@@ -1224,6 +1267,7 @@
   align-items: center;
   row-gap: 20px;
 }
+#apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container .text #competition-landing-four-pre-title,
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container .text #competition-landing-four-pre-title {
   font-family: "Pinup-Regular";
   font-style: normal;
@@ -1233,6 +1277,7 @@
   color: #e71d2b;
   text-transform: uppercase;
 }
+#apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container .text #competition-landing-four-title,
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container .text #competition-landing-four-title {
   font-family: "Pinup-Regular";
   font-style: normal;
@@ -1242,6 +1287,7 @@
   color: #0f76b9;
   text-transform: uppercase;
 }
+#apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container .text #competition-landing-four-description,
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container .text #competition-landing-four-description {
   font-family: "NimbusSanLOT";
   font-style: normal;
@@ -1250,32 +1296,40 @@
   line-height: 20px;
   color: #000000;
 }
+#apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container .text p,
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container .text p {
   margin: 0;
   text-align: center;
 }
+#apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .image,
 #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .image {
   display: flex;
   justify-content: center;
 }
+#apero-main-content-container #competition-landing-page-child-five,
 #competition-landing-template-container #competition-landing-page-child-five {
   background: #e71d2b;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid {
   display: flex;
   justify-content: center;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid {
   flex-direction: column;
   margin: 0;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image {
   position: relative;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image img,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image img {
   position: absolute;
   top: -55px;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button {
   margin-top: 100px;
   background: transparent;
@@ -1285,18 +1339,21 @@
   align-items: center;
   text-decoration: none;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__icon--ar-experience,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__icon--ar-experience {
   width: 62px;
   height: 62px;
   display: block;
   background: url("/content/dam/global/promotions/aperopromotions/uk/en/icons/ar-experience.png") no-repeat left center;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__text,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__text {
   font-family: "Pinup-Regular";
   font-style: normal;
   color: #f7e62a;
   text-transform: uppercase;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-title,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-title {
   font-family: "Pinup-Regular";
   font-style: normal;
@@ -1304,9 +1361,11 @@
   color: #ffffff;
   text-transform: uppercase;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-title p,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-title p {
   margin: 0;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description {
   font-family: "NimbusSanLOT";
   font-style: normal;
@@ -1314,15 +1373,18 @@
   font-size: 14px;
   line-height: 20px;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid {
   flex-direction: column;
   margin: 0;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .image,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .image {
   position: relative;
   top: 105px;
   z-index: 99;
 }
+#apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext,
 #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext {
   height: 180px;
   background: yellow;
@@ -1330,10 +1392,12 @@
           clip-path: polygon(50% 0, 0 100%, 100% 100%);
   margin-top: -75px;
 }
+#apero-main-content-container #competition-landing-page-child-six .aem-Grid,
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid {
   background: #009bde;
   display: flex;
 }
+#apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title,
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title {
   font-family: "Pinup-Regular";
   text-transform: uppercase;
@@ -1341,19 +1405,26 @@
   font-weight: 700;
   color: #ffffff;
 }
+#apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title p,
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title p {
   margin-top: 0;
 }
+#apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop,
+#apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile,
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop,
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile {
   display: block;
   width: -moz-fit-content;
   width: fit-content;
 }
+#apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop p,
+#apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile p,
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop p,
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile p {
   margin: 0 20px 6px;
 }
+#apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop p a,
+#apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile p a,
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop p a,
 #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile p a {
   font-family: "Pinup-Regular";
@@ -1369,10 +1440,12 @@
   width: fit-content;
   padding: 0 20px 10px;
 }
+#apero-main-content-container #competition-landing-page-child-seven,
 #competition-landing-template-container #competition-landing-page-child-seven {
   background: #e71d2b;
   color: #ffffff;
 }
+#apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title,
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title {
   font-family: "Pinup-Regular";
   font-style: normal;
@@ -1382,9 +1455,11 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+#apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title p,
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title p {
   margin: 20px 0 0;
 }
+#apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-description,
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-description {
   font-family: "NimbusSanLOT";
   font-style: normal;
@@ -1393,22 +1468,27 @@
   line-height: 20px;
   color: #ffffff;
 }
+#apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-description p,
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-description p {
   margin: 20px 0;
 }
+#apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4),
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) {
   display: flex;
   width: 100%;
 }
+#apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) #competition-landing-seven-text-links,
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) #competition-landing-seven-text-links {
   padding: 0 20px 6px;
   width: -moz-fit-content;
   width: fit-content;
   border-bottom: 2px solid #f7e62a;
 }
+#apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) #competition-landing-seven-text-links p,
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) #competition-landing-seven-text-links p {
   margin: 0;
 }
+#apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) #competition-landing-seven-text-links p a,
 #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) #competition-landing-seven-text-links p a {
   font-family: "Pinup-Regular";
   font-size: 14px;
@@ -1418,185 +1498,235 @@
 }
 
 @media only screen and (min-width: 769px) {
+  #apero-main-content-container #competition-landing-page-child-one,
   #competition-landing-template-container #competition-landing-page-child-one {
     position: relative;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid {
     height: 200px;
     -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
             clip-path: polygon(100% 0, 0 0, 50% 100%);
     justify-content: center;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title {
     font-size: 45px;
     line-height: 54px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competition-landing-red-title,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competition-landing-red-title {
     font-size: 30px;
     line-height: 36px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid {
     display: flex;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content {
     padding: 264px 64px 0 100px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-title,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-title {
     font-size: 70px;
     line-height: 84px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-description,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-description {
     font-size: 16px;
     line-height: 24px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button {
     display: none;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button #competition-landing-mobile-start-now-button,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button #competition-landing-mobile-start-now-button {
     display: none;
   }
+  #apero-main-content-container #competition-landing-page-child-three .aem-Grid .image,
   #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .image {
     width: 50%;
   }
+  #apero-main-content-container #competition-landing-page-child-three .aem-Grid .container,
   #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container {
     width: 50%;
   }
+  #apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container,
   #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container {
     padding: 100px;
   }
+  #apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li:nth-child(4),
   #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li:nth-child(4) {
     display: none;
   }
+  #apero-main-content-container #competition-landing-page-child-four,
   #competition-landing-template-container #competition-landing-page-child-four {
     margin-top: -4px;
   }
+  #apero-main-content-container #competition-landing-page-child-four .aem-Grid .markuptext,
   #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .markuptext {
     width: 378px;
     height: 75px;
     left: calc(50% - 188px);
     margin-top: -70px;
   }
+  #apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .image,
   #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .image {
     flex: 0 0 35%;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid {
     padding: 0 100px;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container {
     flex: 1;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image {
     position: relative;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image img,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image img {
     width: 191px;
     height: 151px;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__text,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__text {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     margin-left: 20px;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-title,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-title {
     font-size: 50px;
     line-height: 60px;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description {
     color: #ffffff;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description p,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description p {
     max-width: 438px;
     margin-bottom: 80px;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .image img,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .image img {
     width: auto;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext {
     width: 518px;
   }
+  #apero-main-content-container #competition-landing-page-child-six .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid {
     padding: 100px 80px;
   }
+  #apero-main-content-container #competition-landing-page-child-six .aem-Grid .container,
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container {
     flex: 0 0 45%;
   }
+  #apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title,
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title {
     font-size: 50px;
     line-height: 60px;
   }
+  #apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title p,
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title p {
     margin-top: 0;
   }
+  #apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile,
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile {
     display: none;
   }
+  #apero-main-content-container #competition-landing-page-child-seven .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid {
     text-align: center;
     padding: 40px 0 50px;
   }
+  #apero-main-content-container #competition-landing-page-child-seven .aem-Grid .image,
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .image {
     position: relative;
     height: 65px;
   }
+  #apero-main-content-container #competition-landing-page-child-seven .aem-Grid .image .cmp-image,
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .image .cmp-image {
     position: absolute;
     left: 48%;
   }
+  #apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title,
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title {
     font-size: 30px;
     line-height: 36px;
   }
+  #apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4),
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) {
     justify-content: center;
   }
+  #apero-main-content-container #competition-landing-page-child-eight .aem-Grid .text,
   #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text {
     padding-left: 100px;
     max-width: 1000px;
   }
 }
 @media only screen and (max-width: 768px) {
+  #apero-main-content-container #competition-landing-page-child-one,
   #competition-landing-template-container #competition-landing-page-child-one {
     position: relative;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid {
     height: 205px;
     background: #f7e62a;
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
             clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
   }
+  #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title {
     font-size: 45px;
     line-height: 54px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competition-landing-red-title,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competition-landing-red-title {
     font-size: 20px;
     line-height: 24px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text #competiton-landing-blue-title,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text #competiton-landing-blue-title {
     margin-top: 20px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid {
     display: flex;
     flex-direction: column-reverse;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .image img,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .image img {
     margin-top: 100px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content {
     padding: 30px 20px 50px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-title,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-title {
     font-size: 45px;
     line-height: 54px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-description,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content #competition-landing-teaser-hero-description {
     font-size: 14px;
     line-height: 20px;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button {
     display: block;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button #competition-landing-mobile-start-now-button,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button #competition-landing-mobile-start-now-button {
     width: 100%;
     background: #ffffff;
@@ -1606,6 +1736,7 @@
     padding: 14px 0;
     text-decoration: none;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button #competition-landing-mobile-start-now-button .cmp-button__text,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid .container #competition-landing-teaser-hero-content .button #competition-landing-mobile-start-now-button .cmp-button__text {
     font-family: "Pinup-Regular";
     font-size: 14px;
@@ -1616,105 +1747,132 @@
     color: #e71d2b;
     justify-content: center;
   }
+  #apero-main-content-container #competition-landing-page-child-one #competition-landing-sticky-container,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-sticky-container {
     display: none;
   }
+  #apero-main-content-container #competition-landing-page-child-two .image img,
   #competition-landing-template-container #competition-landing-page-child-two .image img {
     height: 30px;
   }
+  #apero-main-content-container #competition-landing-page-child-three .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-three .aem-Grid {
     flex-direction: column;
   }
+  #apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container,
   #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container {
     padding: 40px 20px 120px;
   }
+  #apero-main-content-container #competition-landing-page-child-four .aem-Grid .markuptext,
   #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .markuptext {
     width: 100%;
     height: 85px;
     margin-top: -84px;
   }
+  #apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container,
   #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container {
     flex-direction: column;
   }
+  #apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .image:nth-child(1) img,
   #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .image:nth-child(1) img {
     width: 94px;
     height: 86px;
     position: relative;
     top: -40px;
   }
+  #apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .image:nth-child(3),
   #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .image:nth-child(3) {
     display: none;
   }
+  #apero-main-content-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container,
   #competition-landing-template-container #competition-landing-page-child-four .aem-Grid .container:nth-child(2) .cmp-container .container .cmp-container {
     padding: 0 20px 100px;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid {
     max-width: calc(100% - 40px);
     margin: 0 20px;
     flex-direction: column;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image img,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .image img {
     width: 178px;
     height: 141px;
     left: 25%;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button {
     width: calc(100% - 20px);
     align-items: center;
     flex-direction: column;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__text,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .button #competition-landing-ar-experience-button .cmp-button__text {
     font-weight: 700;
     font-size: 17.3852px;
     line-height: 21px;
     margin-top: 10px;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text {
     text-align: center;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-title,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-title {
     font-size: 30px;
     line-height: 36px;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description {
     color: #ffffff;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext {
     width: 100%;
   }
+  #apero-main-content-container #competition-landing-page-child-six .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid {
     padding: 20px;
     flex-direction: column;
     max-width: calc(100% - 40px);
   }
+  #apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title,
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-title {
     font-size: 30px;
     line-height: 36px;
   }
+  #apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop,
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-desktop {
     display: none;
   }
+  #apero-main-content-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile,
   #competition-landing-template-container #competition-landing-page-child-six .aem-Grid .container .text #competition-landing-six-text-links-mobile {
     margin: 30px 0 60px;
   }
+  #apero-main-content-container #competition-landing-page-child-seven .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid {
     width: calc(100% - 40px);
     text-align: left;
     padding: 40px 20px 50px;
   }
+  #apero-main-content-container #competition-landing-page-child-seven .aem-Grid .image,
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .image {
     display: none;
   }
+  #apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title,
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text #competition-landing-seven-title {
     font-size: 18px;
     line-height: 22px;
   }
+  #apero-main-content-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4),
   #competition-landing-template-container #competition-landing-page-child-seven .aem-Grid .text:nth-child(4) {
     justify-content: left;
   }
+  #apero-main-content-container #competition-landing-page-child-eight .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid {
     padding: 35px 0 125px;
   }
+  #apero-main-content-container #competition-landing-page-child-eight .aem-Grid .text,
   #competition-landing-template-container #competition-landing-page-child-eight .aem-Grid .text {
     max-width: 100%;
     padding: 0 20px;
@@ -3086,12 +3244,6 @@
   }
   /* End CSS */
 }
-#faq-template-container #faq-child-one > .container:last-child,
-#faq-template-container #apero-main-content-container {
-  margin: 0 auto;
-  max-width: 768px;
-}
-
 #faq-child-three {
   background: #e71d2b;
   color: #ffffff;
@@ -3219,6 +3371,23 @@
   #faq-child-three > .aem-Grid .text:nth-child(4) {
     justify-content: center;
   }
+  #apero-main-content-container #faq-text-links-desktop {
+    font-family: "NimbusSanLOT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  #apero-main-content-container #faq-text-links-desktop p {
+    margin: 0;
+  }
+  #faq-child-one .breadcrumb {
+    padding-left: 60px;
+  }
+  #faq-child-one .breadcrumb nav ol::before {
+    left: 80px;
+  }
 }
 @media only screen and (max-width: 768px) {
   #faq-child-two .text #faq-child-two-title {
@@ -3242,6 +3411,11 @@
   }
   #faq-child-three .aem-Grid .text:nth-child(4) {
     justify-content: left;
+  }
+  #apero-main-content-container #faq-text-links-desktop,
+  #apero-main-content-container #competition-landing-six-text-links-mobile,
+  #apero-main-content-container #competition-landing-page-child-eight {
+    display: none;
   }
 }
 #homepage-template-container #apero-main-content-container {

@@ -1,3 +1,4 @@
+#apero-main-content-container,
 #competition-landing-template-container {
   #competition-landing-page-child-one {
     position: relative;
@@ -461,6 +462,7 @@
 }
 
 @media only screen and (min-width: 769px) {
+  #apero-main-content-container,
   #competition-landing-template-container {
     #competition-landing-page-child-one {
       position: relative;
@@ -666,6 +668,7 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  #apero-main-content-container,
   #competition-landing-template-container {
     #competition-landing-page-child-one {
       position: relative;

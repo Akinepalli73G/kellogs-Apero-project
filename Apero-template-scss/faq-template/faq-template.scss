@@ -1,12 +1,3 @@
-
-#faq-template-container {
-  #faq-child-one > .container:last-child,
-  #apero-main-content-container {
-    margin: 0 auto;
-    max-width: 768px;
-  }
-}
-
 #faq-child-three {
   background: #e71d2b;
   color: #ffffff;
@@ -98,7 +89,7 @@
               letter-spacing: 0.005em;
             }
           }
-        } 
+        }
       }
     }
   }
@@ -153,6 +144,31 @@
       }
     }
   }
+
+  #apero-main-content-container {
+    #faq-text-links-desktop {
+      font-family: "NimbusSanLOT";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      color: #ffffff;
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  #faq-child-one {
+    .breadcrumb {
+      padding-left: 60px;
+      nav ol {
+        &::before {
+          left: 80px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -183,6 +199,13 @@
       &:nth-child(4) {
         justify-content: left;
       }
+    }
+  }
+  #apero-main-content-container {
+    #faq-text-links-desktop,
+    #competition-landing-six-text-links-mobile,
+    #competition-landing-page-child-eight {
+      display: none;
     }
   }
 }
