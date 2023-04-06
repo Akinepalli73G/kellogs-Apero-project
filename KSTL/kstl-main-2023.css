@@ -210,6 +210,57 @@
   background: #e71d2b;
 }
 
+#KSTL-landing-container-child-five .coreContaine {
+  position: relative;
+}
+#KSTL-landing-container-child-five .coreContaine .image img {
+  width: 191px;
+  height: 151px;
+  position: relative;
+  top: -42px;
+}
+#KSTL-landing-container-child-five .coreContaine .coreButton {
+  border: none;
+  margin-bottom: 20px;
+}
+#KSTL-landing-container-child-five .coreContaine .coreButton button {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  color: #f7e62a;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 20px;
+  background: transparent;
+  border: none;
+}
+#KSTL-landing-container-child-five .coreContaine .coreButton button::before {
+  content: "";
+  width: 62px;
+  height: 62px;
+  display: block;
+  position: relative;
+  background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/ar-experience.png") no-repeat left center;
+}
+#KSTL-landing-container-child-five .coreContaine .markupText .kstl-rich-text .kstl-four-title {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+#KSTL-landing-container-child-five .coreContaine .markupText .kstl-rich-text .kstl-four-description {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
 @media only screen and (min-width: 768px) {
   #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-title-blue {
     font-size: 45px;
