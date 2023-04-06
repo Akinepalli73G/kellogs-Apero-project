@@ -209,6 +209,15 @@
   padding: 0 100px;
   background: #e71d2b;
 }
+.coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five .coreContaine {
+  position: relative;
+}
+.coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five .coreContaine .image img {
+  width: 191px;
+  height: 151px;
+  position: relative;
+  top: -42px;
+}
 
 @media only screen and (min-width: 768px) {
   #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-title-blue {

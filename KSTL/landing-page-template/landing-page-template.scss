@@ -232,6 +232,19 @@
   display: flex;
   padding: 0 100px;
   background: #e71d2b;
+  #KSTL-landing-container-child-five {
+    .coreContaine {
+      position: relative;
+      .image {
+        img {
+          width: 191px;
+          height: 151px;
+          position: relative;
+          top: -42px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {

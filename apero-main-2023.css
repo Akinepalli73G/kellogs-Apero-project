@@ -593,6 +593,7 @@
 }
 
 /* End CSS */
+#Thank-you-page-template-container .logout-v6,
 #pre-game-template-container .logout-v6,
 #already-played-template-container .logout-v6 {
   justify-content: right;
@@ -600,6 +601,7 @@
   cursor: pointer;
   z-index: 999;
 }
+#Thank-you-page-template-container .logout-v6 #logout-Button,
 #pre-game-template-container .logout-v6 #logout-Button,
 #already-played-template-container .logout-v6 #logout-Button {
   border: none;
