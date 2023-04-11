@@ -797,6 +797,11 @@
   .coreContainer:has(> #KSTL-landing-container-child-six) {
     padding: 80px 100px;
     #KSTL-landing-container-child-six-sub-child-two {
+      .markupText {
+        .kstl-rich-text {
+          margin-left: 30px;
+        }
+      }
       .buttonLink {
         display: none;
       }
