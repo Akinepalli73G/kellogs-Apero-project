@@ -466,6 +466,77 @@
   }
 }
 
+.accordion {
+  margin: 2rem auto;
+}
+
+.accordion-item {
+  background-color: #fff;
+  color: #000000;
+  margin: 1rem 0;
+  border-radius: 90px;
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 16px 24px;
+
+  &:has(.active) {
+    border-radius: 35px;
+
+    .accordion-item-body {
+      border-top: 1px solid rgba(0, 155, 222, 0.5);
+    }
+  }
+}
+
+.accordion-item-header {
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.accordion-item-header::after {
+  content: "";
+  font-size: 14px;
+  display: block;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  left: 0;
+  background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/plus.png")
+    no-repeat left center;
+  background-size: 25px;
+}
+
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.accordion-item-body-content {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 12px 0 0;
+  line-height: 1.5rem;
+}
+
 @media only screen and (max-width: 768px) {
   #KSTL-main-container > .coreContainer {
     > .coreContainer:nth-child(2) {
@@ -587,6 +658,24 @@
   .coreContainer:has(> #KSTL-landing-container-child-six) {
     padding: 80px 20px;
     flex-direction: column;
+
+    #KSTL-landing-container-child-six {
+      .buttonLink {
+        display: none;
+      }
+    }
+
+    #KSTL-landing-container-child-six-sub-child-two {
+      .buttonLink {
+        font-family: "Pinup-Regular";
+        font-size: 14px;
+        line-height: 16px;
+        border-bottom: 2px solid #f7e62a;
+        width: fit-content;
+        padding: 0 20px 7px;
+        margin-bottom: 25px;
+      }
+    }
   }
   .coreContainer:has(> #KSTL-landing-container-child-seven) {
     padding: 40px 20px;
@@ -607,6 +696,9 @@
   }
   #KSTL-landing-container-child-eight {
     padding: 40px 20px;
+  }
+  .accordion {
+    width: 100%;
   }
 }
 
@@ -703,6 +795,11 @@
 
   .coreContainer:has(> #KSTL-landing-container-child-six) {
     padding: 80px 100px;
+    #KSTL-landing-container-child-six-sub-child-two {
+      .buttonLink {
+        display: none;
+      }
+    }
   }
 
   .coreContainer:has(> #KSTL-landing-container-child-seven) {
@@ -725,74 +822,8 @@
   #KSTL-landing-container-child-eight {
     padding: 40px 100px;
   }
-}
 
-.accordion {
-  width: 90%;
-  max-width: 1000px;
-  margin: 2rem auto;
-}
-
-.accordion-item {
-  background-color: #fff;
-  color: #000000;
-  margin: 1rem 0;
-  border-radius: 90px;
-  font-family: "NimbusSanLOT";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 150%;
-  padding: 16px 24px;
-
-  &:has(.active) {
-    border-radius: 35px;
-
-    .accordion-item-body {
-      border-top: 1px solid rgba(0, 155, 222, 0.5);
-    }
+  .accordion {
+    width: 90%;
   }
-}
-
-.accordion-item-header {
-  min-height: 3.5rem;
-  display: flex;
-  align-items: center;
-  position: relative;
-  cursor: pointer;
-  font-family: "NimbusSanLOT";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 150%;
-  padding: 0;
-}
-
-.accordion-item-header::after {
-  content: "\002B";
-  font-size: 14px;
-  position: absolute;
-  right: 1rem;
-}
-
-.accordion-item-header.active::after {
-  content: "\2212";
-}
-
-.accordion-item-body {
-  max-height: 0;
-  overflow: hidden;
-}
-
-.accordion-item-body-content {
-  font-family: 'NimbusSanLOT';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 16px;
-  display: flex;
-  align-items: center;
-  color: rgba(0, 0, 0, 0.5);
-  padding: 12px 0 0;
-  line-height: 1.5rem;
 }
