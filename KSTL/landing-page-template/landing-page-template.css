@@ -256,9 +256,6 @@
   top: 105px;
   z-index: 9;
 }
-#KSTL-landing-container-child-five-sub-child-two .image img {
-  max-width: 540px;
-}
 #KSTL-landing-container-child-five-sub-child-two .markupText {
   height: 180px;
   background: yellow;
@@ -273,7 +270,6 @@
   background: #009bde;
   color: #ffffff;
   display: flex;
-  padding: 80px 100px;
 }
 .coreContainer:has(> #KSTL-landing-container-child-six) .coreContainer,
 .coreContainer:has(> #KSTL-landing-container-child-six) #KSTL-landing-container-child-six {
@@ -310,12 +306,10 @@
 .coreContainer:has(> #KSTL-landing-container-child-seven) {
   background: #e71d2b;
   text-align: center;
-  padding: 40px 0;
 }
 .coreContainer:has(> #KSTL-landing-container-child-seven) #KSTL-landing-container-child-seven {
   background: #e71d2b;
   display: flex;
-  padding: 40px 0;
   color: #ffffff;
   flex-direction: column;
   align-items: center;
@@ -332,8 +326,6 @@
   font-family: "Pinup-Regular";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
 }
 .coreContainer:has(> #KSTL-landing-container-child-seven) #KSTL-landing-container-child-seven .markupText .kstl-rich-text .kstl-seven-description {
   font-family: "NimbusSanLOT";
@@ -376,6 +368,8 @@
 #KSTL-landing-container-child-eight .markupText .kstl-rich-text .KSTL-eight-description a {
   color: #e71d2b;
   text-decoration: underline;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .coreContainer:has(> #desktop-sticky-container) {
@@ -508,13 +502,42 @@
   }
   .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five > .coreContainer .coreButton {
     margin-top: -60px;
+    margin-bottom: 0;
   }
   .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five > .coreContainer .markupText .kstl-four-title {
     font-size: 30px;
     line-height: 36px;
+    padding: 20px 0;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five-sub-child-two .image img {
+    max-width: 100%;
   }
   .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five-sub-child-two .markupText {
     width: 100%;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-six) {
+    padding: 80px 20px;
+    flex-direction: column;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-seven) {
+    padding: 40px 20px;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-seven) #KSTL-landing-container-child-seven {
+    align-items: flex-start;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-seven) #KSTL-landing-container-child-seven .markupText .kstl-rich-text {
+    max-width: 100%;
+    text-align: left;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-seven) #KSTL-landing-container-child-seven .markupText .kstl-rich-text .kstl-seven-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-seven) #KSTL-landing-container-child-seven .image {
+    display: none;
+  }
+  #KSTL-landing-container-child-eight {
+    padding: 40px 20px;
   }
 }
 @media only screen and (min-width: 769px) {
@@ -570,5 +593,25 @@
   .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five > .coreContainer .markupText .kstl-four-title {
     font-size: 50px;
     line-height: 60px;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five-sub-child-two .image img {
+    max-width: 540px;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-six) {
+    padding: 80px 100px;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-seven) {
+    padding: 40px 0;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-seven) #KSTL-landing-container-child-seven .markupText .kstl-rich-text {
+    max-width: 450px;
+    text-align: center;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-seven) #KSTL-landing-container-child-seven .markupText .kstl-rich-text .kstl-seven-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #KSTL-landing-container-child-eight {
+    padding: 40px 100px;
   }
 }/*# sourceMappingURL=landing-page-template.css.map */
