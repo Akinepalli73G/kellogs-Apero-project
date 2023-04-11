@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #KSTL-main-container > .coreContainer {
   position: relative;
 }
@@ -615,6 +616,74 @@
     padding: 40px 100px;
   }
 }
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.accordion-item {
+  background-color: #fff;
+  color: #000000;
+  margin: 1rem 0;
+  border-radius: 90px;
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 16px 24px;
+}
+.accordion-item:has(.active) {
+  border-radius: 35px;
+}
+.accordion-item:has(.active) .accordion-item-body {
+  border-top: 1px solid rgba(0, 155, 222, 0.5);
+}
+
+.accordion-item-header {
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 0;
+}
+
+.accordion-item-header::after {
+  content: "+";
+  font-size: 14px;
+  position: absolute;
+  right: 1rem;
+}
+
+.accordion-item-header.active::after {
+  content: "−";
+}
+
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.accordion-item-body-content {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 12px 0 0;
+  line-height: 1.5rem;
+}
+
 body {
   margin: 0 auto;
   overflow: hidden;
@@ -628,7 +697,7 @@ body {
 }
 @font-face {
   font-family: "NimbusSanLOT";
-  src: url("/content/dam/pringles/en_GB/kstl_2023/uk/en/fonts/NimbusSanLOT-Bol.otf");
+  src: url("/content/dam/pringles/en_GB/fonts/NimbusSanLOT-Bol.otf");
 }
 .image {
   line-height: 0;
