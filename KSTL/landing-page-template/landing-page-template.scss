@@ -172,10 +172,6 @@
 }
 
 #KSTL-landing-container-child-four {
-  width: 378px;
-  height: 75px;
-  left: calc(50% - 189px);
-  margin-top: -74px;
   position: absolute;
   background: #f7e62a;
   -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
@@ -199,7 +195,6 @@
             justify-content: center;
             align-items: center;
             row-gap: 20px;
-            padding: 0 55px;
             .kstl-title {
               font-family: "Pinup-Regular";
               font-style: normal;
@@ -226,7 +221,6 @@
 
 .coreContainer:has(> #KSTL-landing-container-child-five) {
   display: flex;
-  padding: 0 100px;
   background: #e71d2b;
 }
 #KSTL-landing-container-child-five {
@@ -234,10 +228,7 @@
     position: relative;
     .image {
       img {
-        width: 191px;
-        height: 151px;
         position: relative;
-        top: -42px;
       }
     }
     .coreButton {
@@ -278,8 +269,6 @@
           font-family: "Pinup-Regular";
           font-style: normal;
           font-weight: 700;
-          font-size: 50px;
-          line-height: 60px;
           color: #ffffff;
           text-transform: uppercase;
         }
@@ -473,7 +462,7 @@
       align-items: flex-end;
       justify-content: center;
       text-decoration: none;
-      font-family: 'NimbusSanLOT';
+      font-family: "NimbusSanLOT";
       font-style: normal;
       font-weight: 700;
       font-size: 10px;
@@ -489,15 +478,18 @@
       height: 205px;
       -webkit-clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
       clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
-      .markupText .kstl-rich-text {
-        .kstl-one-title-blue {
-          font-size: 45px;
-          line-height: 54px;
-        }
+      .markupText {
+        padding-top: 20px;
+        .kstl-rich-text {
+          .kstl-one-title-blue {
+            font-size: 45px;
+            line-height: 54px;
+          }
 
-        .kstl-one-description-red {
-          font-size: 20px;
-          line-height: 24px;
+          .kstl-one-description-red {
+            font-size: 20px;
+            line-height: 24px;
+          }
         }
       }
     }
@@ -517,11 +509,77 @@
             }
           }
         }
-      } 
+      }
     }
   }
   #desktop-sticky-container {
     display: none;
+  }
+  #KSTL-landing-container-child-three {
+    flex-direction: column;
+    .markupText {
+      padding: 40px 20px 100px;
+    }
+  }
+  #KSTL-landing-container-child-four {
+    width: 100%;
+    height: 85px;
+    margin-top: -84px;
+    left: 0;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) {
+    flex-direction: column;
+    #KSTL-landing-container-child-four-sub-child-two {
+      align-items: center;
+      flex-direction: column;
+      .image {
+        display: block;
+        width: 94px;
+        position: relative;
+        top: -60px;
+      }
+      .markupText {
+        padding: 0 20px 60px;
+        .kstl-pre-title {
+          font-family: "Pinup";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: #e71d2b;
+        }
+      }
+    }
+    .image {
+      display: none;
+    }
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-five) {
+    flex-direction: column;
+    #KSTL-landing-container-child-five {
+      padding: 0 20px;
+      > .coreContainer {
+        text-align: center;
+        .image {
+          img {
+            width: 177px;
+            top: -61px;
+          }
+        }
+        .coreButton {
+          margin-top: -60px;
+        }
+        .markupText {
+          .kstl-four-title {
+            font-size: 30px;
+            line-height: 36px;
+          }
+        }
+      }
+    }
+    #KSTL-landing-container-child-five-sub-child-two .markupText { 
+      width: 100%;
+    }
   }
 }
 
@@ -532,7 +590,7 @@
       -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
       clip-path: polygon(100% 0, 0 0, 50% 100%);
       justify-content: center;
-      
+
       .markupText .kstl-rich-text {
         .kstl-one-title-blue {
           font-size: 45px;
@@ -568,5 +626,44 @@
     .kstl-rich-text
     .list-container {
     padding: 80px 80px 0;
+  }
+
+  #KSTL-landing-container-child-four {
+    width: 378px;
+    height: 75px;
+    left: calc(50% - 189px);
+    margin-top: -74px;
+  }
+
+  .coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) {
+    .markupText {
+      .kstl-content {
+        padding: 0 55px;
+        .kstl-pre-title {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .coreContainer:has(> #KSTL-landing-container-child-five) {
+    padding: 0 100px;
+    #KSTL-landing-container-child-five {
+      > .coreContainer {
+        .image {
+          img {
+            width: 191px;
+            position: relative;
+            top: -61px;
+          }
+        }
+        .markupText {
+          .kstl-four-title {
+            font-size: 50px;
+            line-height: 60px;
+          }
+        }
+      }
+    }
   }
 }
