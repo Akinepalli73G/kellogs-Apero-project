@@ -386,9 +386,11 @@
   font-size: 12px;
   line-height: 16px;
   color: rgba(0, 0, 0, 0.5);
-  max-width: 880px a;
-  max-width-color: #e71d2b;
-  max-width-text-decoration: underline;
+  max-width: 880px;
+}
+#KSTL-landing-container-child-eight .markupText .kstl-rich-text .KSTL-eight-description a {
+  color: #e71d2b;
+  text-decoration: underline;
 }
 
 .coreContainer:has(> #desktop-sticky-container) {
