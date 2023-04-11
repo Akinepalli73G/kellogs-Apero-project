@@ -415,7 +415,7 @@
 }
 
 .accordion {
-  margin: 2rem auto;
+  width: 100%;
 }
 
 .accordion-item {
@@ -429,6 +429,7 @@
   font-size: 14px;
   line-height: 150%;
   padding: 16px 24px;
+  width: 100%;
 }
 .accordion-item:has(.active) {
   border-radius: 35px;
@@ -450,16 +451,19 @@
   line-height: 150%;
   padding: 0;
   justify-content: space-between;
+  width: 100%;
 }
 
-.accordion-item-header::after {
-  content: "";
+.accordion-item-header-text {
+  flex: 0 0 85%;
+}
+
+.accordion-item-header-icon {
   font-size: 14px;
   display: block;
   position: relative;
   width: 25px;
   height: 25px;
-  left: 0;
   background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/plus.png") no-repeat left center;
   background-size: 25px;
 }
@@ -599,6 +603,7 @@
     width: fit-content;
     padding: 0 20px 7px;
     margin-bottom: 25px;
+    margin-top: 30px;
   }
   .coreContainer:has(> #KSTL-landing-container-child-seven) {
     padding: 40px 20px;
@@ -619,9 +624,6 @@
   }
   #KSTL-landing-container-child-eight {
     padding: 40px 20px;
-  }
-  .accordion {
-    width: 100%;
   }
 }
 @media only screen and (min-width: 769px) {
@@ -700,9 +702,6 @@
   }
   #KSTL-landing-container-child-eight {
     padding: 40px 100px;
-  }
-  .accordion {
-    width: 90%;
   }
 }
 body {
