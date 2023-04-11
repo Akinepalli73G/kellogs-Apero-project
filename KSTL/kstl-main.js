@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     ".accordion-item-header"
   );
 
+  const tapToWin = document.querySelectorAll(".KSTLNav li");
+
   accordionItemHeaders.forEach((accordionItemHeader) => {
     console.log("I am about click");
     accordionItemHeader.addEventListener("click", (event) => {
@@ -16,5 +18,14 @@ document.addEventListener("DOMContentLoaded", () => {
         accordionItemBody.style.maxHeight = 0;
       }
     });
+  });
+
+  tapToWin.forEach((liText) => {
+    if (liText.querySelector("a").innerText == "TAP TO WIN £300") {
+      liText.classList.add("tapToWin");
+      const tapToWinIcon = document.createElement("div");
+      tapToWinIcon.classList.add("tapToWinIcon");
+      liText.insertBefore(tapToWinIcon, liText.firstElementChild);
+    }
   });
 });

@@ -828,4 +828,28 @@
   #KSTL-landing-container-child-eight {
     padding: 40px 100px;
   }
+
+  .tapToWin {
+    background: #f7e62a;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 0 !important;
+    border-radius: 2px !important;
+    a {
+      color: #009bde !important;
+    }
+    .tapToWinIcon {
+      content: '';
+      display: block;
+      height: 50px;
+      width: 50px;
+      position: relative;
+      background: #009bde url("/content/dam/pringles/en_GB/images/icons/kstl-icons/tapToWin.png")
+      no-repeat center center;
+      background-size: 13px;
+      padding: 0 13px;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+    }
+  }
 }
