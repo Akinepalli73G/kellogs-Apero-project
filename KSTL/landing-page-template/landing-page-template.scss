@@ -577,6 +577,23 @@
             }
           }
         }
+
+        .coreButton {
+          margin: 0 20px 50px;
+          width: calc(100% - 40px);
+          text-align: center;
+          background: #ffffff;
+          border-radius: 2px;
+          #kstl-start-now-button-mobile {
+            background: none;
+            border: none;
+            font-family: 'Pinup-Regular';
+            font-size: 14px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #E71D2B;
+          }
+        } 
       }
     }
   }
@@ -737,6 +754,10 @@
             padding-top: 30px;
           }
         }
+
+        .coreButton { 
+          display: none;
+        }
       }
     }
   }
@@ -851,5 +872,9 @@
       border-top-right-radius: 2px;
       border-bottom-right-radius: 2px;
     }
+  }
+
+  #kstl-start-now-button-mobile {
+    display: none;
   }
 }

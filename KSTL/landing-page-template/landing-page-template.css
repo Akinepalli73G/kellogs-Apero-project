@@ -517,6 +517,22 @@
     font-size: 14px;
     line-height: 20px;
   }
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .coreButton {
+    margin: 0 20px 50px;
+    width: calc(100% - 40px);
+    text-align: center;
+    background: #ffffff;
+    border-radius: 2px;
+  }
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .coreButton #kstl-start-now-button-mobile {
+    background: none;
+    border: none;
+    font-family: "Pinup-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #E71D2B;
+  }
   #desktop-sticky-container {
     display: none;
   }
@@ -653,6 +669,9 @@
     line-height: 24px;
     padding-top: 30px;
   }
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .coreButton {
+    display: none;
+  }
   #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container {
     padding: 80px 80px 0;
   }
@@ -727,5 +746,8 @@
     padding: 0 13px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
+  }
+  #kstl-start-now-button-mobile {
+    display: none;
   }
 }/*# sourceMappingURL=landing-page-template.css.map */
