@@ -21,3 +21,9 @@ body {
 .image {
   line-height: 0;
 }
+
+[js-page-name="competition-landing-page"] {
+  a.menu-button:focus {
+    outline: none;
+  }
+}
