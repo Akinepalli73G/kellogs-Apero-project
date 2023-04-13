@@ -534,6 +534,9 @@
     text-transform: uppercase;
     color: #E71D2B;
   }
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) .image img {
+    margin-top: 101px;
+  }
   #desktop-sticky-container {
     display: none;
   }
@@ -648,7 +651,8 @@
     height: 200px;
     -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
     clip-path: polygon(100% 0, 0 0, 50% 100%);
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 20px;
   }
   #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) .markupText .kstl-rich-text .kstl-one-title-blue {
     font-size: 45px;

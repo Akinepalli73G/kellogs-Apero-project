@@ -22,8 +22,20 @@ body {
   line-height: 0;
 }
 
-[js-page-name="competition-landing-page"] {
+[js-page-name="tap-to-win-300"] {
   a.menu-button:focus {
     outline: none;
+  }
+
+  .KSTLNav.KSTLNav-show {
+    background: #E71D2B;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  [js-page-name="tap-to-win-300"] {
+    .topMenuAdimo {
+      display: none;
+    }
   }
 }
