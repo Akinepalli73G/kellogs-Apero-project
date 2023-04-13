@@ -422,7 +422,7 @@
 
           .gig-tfa-button-container {
             .gig-tfa-button.gig-tfa-button-submit {
-              background: #2E8538;
+              background: #2e8538;
             }
           }
         }
@@ -430,4 +430,56 @@
     }
   }
   /* End CSS */
+
+  #create-account-or-login-container {
+    .kfr-signup-form section,
+    .kstl-regv6-login-only.ng-scope {
+      margin: 0;
+    }
+    .KSTL-Registration-Login.pod {
+      padding: 0;
+      margin-bottom: 0;
+      border: none;
+      .needs-validation {
+        #KSTL-Registration-wrapper-EmailMsgLabel1 {
+          display: none;
+        }
+        #KSTL-Registration-wrapper-UserName {
+          label {
+            font-family: "NimbusSanLOT";
+            font-size: 14px;
+            line-height: 22px;
+            color: #000000;
+          }
+        }
+        #KSTL-Registration-wrapper-Password {
+          margin-bottom: 80px;
+        }
+        #KSTL-Registration-wrapper-ContinueButton1 {
+          .btn_responsive.mini.btn.btn-primary {
+            width: calc(100% - 20px);
+            background: #2e8538;
+            border-radius: 2px;
+            border: none;
+            text-align: center;
+            span {
+              font-family: "Pinup";
+              font-size: 12px;
+              line-height: 14px;
+              color: #ffffff;
+            }
+          }
+        }
+
+        .ng-form {
+          margin: 0;
+          input {
+            max-width: 100%;
+            background: #f2f2f2;
+            padding: 16px 0;
+          }
+        }
+      }
+    }
+  }
 }

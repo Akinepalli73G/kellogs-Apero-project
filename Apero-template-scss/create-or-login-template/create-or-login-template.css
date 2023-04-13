@@ -1360,7 +1360,49 @@
     line-height: 14px;
   }
   #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form .gig-tfa-button-container .gig-tfa-button.gig-tfa-button-submit {
-    background: #2E8538;
+    background: #2e8538;
   }
   /* End CSS */
+  #create-account-or-login-container .kfr-signup-form section,
+  #create-account-or-login-container .kstl-regv6-login-only.ng-scope {
+    margin: 0;
+  }
+  #create-account-or-login-container .KSTL-Registration-Login.pod {
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+  }
+  #create-account-or-login-container .KSTL-Registration-Login.pod .needs-validation #KSTL-Registration-wrapper-EmailMsgLabel1 {
+    display: none;
+  }
+  #create-account-or-login-container .KSTL-Registration-Login.pod .needs-validation #KSTL-Registration-wrapper-UserName label {
+    font-family: "NimbusSanLOT";
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+  }
+  #create-account-or-login-container .KSTL-Registration-Login.pod .needs-validation #KSTL-Registration-wrapper-Password {
+    margin-bottom: 80px;
+  }
+  #create-account-or-login-container .KSTL-Registration-Login.pod .needs-validation #KSTL-Registration-wrapper-ContinueButton1 .btn_responsive.mini.btn.btn-primary {
+    width: calc(100% - 20px);
+    background: #2e8538;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+  }
+  #create-account-or-login-container .KSTL-Registration-Login.pod .needs-validation #KSTL-Registration-wrapper-ContinueButton1 .btn_responsive.mini.btn.btn-primary span {
+    font-family: "Pinup";
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+  }
+  #create-account-or-login-container .KSTL-Registration-Login.pod .needs-validation .ng-form {
+    margin: 0;
+  }
+  #create-account-or-login-container .KSTL-Registration-Login.pod .needs-validation .ng-form input {
+    max-width: 100%;
+    background: #f2f2f2;
+    padding: 16px 0;
+  }
 }/*# sourceMappingURL=create-or-login-template.css.map */
