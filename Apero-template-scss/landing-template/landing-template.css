@@ -76,9 +76,9 @@
   max-width: 100%;
   height: auto;
 }
-#apero-main-content-container #competition-landing-page-child-two .image img,
-#competition-landing-template-container #competition-landing-page-child-two .image img {
-  width: 100%;
+#apero-main-content-container #competition-landing-page-child-two,
+#competition-landing-template-container #competition-landing-page-child-two {
+  display: none;
 }
 #apero-main-content-container #competition-landing-page-child-three .aem-Grid,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid {
@@ -700,10 +700,6 @@
   #apero-main-content-container #competition-landing-page-child-one #competition-landing-sticky-container,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-sticky-container {
     display: none;
-  }
-  #apero-main-content-container #competition-landing-page-child-two .image img,
-  #competition-landing-template-container #competition-landing-page-child-two .image img {
-    height: 30px;
   }
   #apero-main-content-container #competition-landing-page-child-three .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-three .aem-Grid {

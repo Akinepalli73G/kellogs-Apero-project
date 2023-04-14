@@ -71,11 +71,7 @@
   }
 
   #competition-landing-page-child-two {
-    .image {
-      img {
-        width: 100%;
-      }
-    }
+    display: none;
   }
 
   #competition-landing-page-child-three {
@@ -742,14 +738,6 @@
       }
       #competition-landing-sticky-container {
         display: none;
-      }
-    }
-
-    #competition-landing-page-child-two {
-      .image {
-        img {
-          height: 30px;
-        }
       }
     }
 

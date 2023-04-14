@@ -511,4 +511,43 @@
       }
     }
   }
+
+  #create-account-or-login-container {
+    .kfr-signup-form {
+      .form-wrapper {
+        #kfr-signup-form {
+          .kstl-regv6-reg-only.ng-scope {
+            margin: 0;
+            .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope {
+              border: 0;
+              min-width: 100%;
+              padding: 0;
+
+              .form-group.ng-form.ng-scope {
+                margin: 0;
+                label {
+                  font-family: "NimbusSanLOT";
+                  font-size: 14px;
+                  line-height: 22px;
+                  color: #000000;
+                }
+                input {
+                  max-width: 100%;
+                  background: #f2f2f2;
+                  border-radius: 2px;
+                }
+                .error-field p {
+                  color: #e71d2b;
+                }
+
+                // [for="KSTL-Registration-TermsandConditions"] {
+
+                // }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
