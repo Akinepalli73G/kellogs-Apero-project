@@ -511,10 +511,6 @@
   #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container {
     padding: 100px;
   }
-  #apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li:nth-child(4),
-  #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li:nth-child(4) {
-    display: none;
-  }
   #apero-main-content-container #competition-landing-page-child-four,
   #competition-landing-template-container #competition-landing-page-child-four {
     margin-top: -4px;

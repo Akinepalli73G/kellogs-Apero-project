@@ -307,6 +307,7 @@
   #competition-landing-header-desktop {
     padding: 24px 65px;
     background: #e71d2b;
+    display: none;
 
     .aem-Grid {
       display: flex;
@@ -432,6 +433,7 @@
   }
 
   #desktop-footer-container {
+    display: none;
     .aem-Grid {
       background: #e71d2b;
       color: #ffffff;

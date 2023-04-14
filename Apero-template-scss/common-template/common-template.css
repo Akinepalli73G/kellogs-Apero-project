@@ -369,6 +369,7 @@
   #competition-landing-header-desktop {
     padding: 24px 65px;
     background: #e71d2b;
+    display: none;
   }
   #competition-landing-header-desktop .aem-Grid {
     display: flex;
@@ -471,6 +472,9 @@
     height: 39px;
     width: 39px;
     background: url("/content/dam/global/promotions/aperopromotions/gb/en/icons/Language%20Icon.png") no-repeat center center;
+  }
+  #desktop-footer-container {
+    display: none;
   }
   #desktop-footer-container .aem-Grid {
     background: #e71d2b;
