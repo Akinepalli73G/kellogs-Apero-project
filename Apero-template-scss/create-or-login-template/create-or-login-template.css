@@ -4912,6 +4912,7 @@
     margin: 0;
   }
   #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope {
+    overflow: hidden;
     border: 0;
     min-width: 100%;
     padding: 0;
@@ -4932,5 +4933,40 @@
   }
   #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope .error-field p {
     color: #e71d2b;
+  }
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-PrivacyPolicy,
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsandConditions {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 18px;
+  }
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-PrivacyPolicy label:before,
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsandConditions label:before {
+    border: 0.833333px solid #b6b6b6;
+    border-radius: 2.5px;
+  }
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-PrivacyPolicy:has(.isValid) label::before,
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsandConditions:has(.isValid) label::before {
+    background: #3bae49;
+  }
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-PrivacyPolicy:has(.isValid) label::after,
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsandConditions:has(.isValid) label::after {
+    font-size: 10px;
+    color: #ffffff;
+  }
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope button {
+    width: calc(100% - 30px);
+    background: #2e8538;
+    text-align: center;
+    color: #ffffff;
+  }
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope button span {
+    font-family: "Pinup";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
   }
 }/*# sourceMappingURL=create-or-login-template.css.map */

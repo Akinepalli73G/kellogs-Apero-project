@@ -519,6 +519,7 @@
           .kstl-regv6-reg-only.ng-scope {
             margin: 0;
             .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope {
+              overflow: hidden;
               border: 0;
               min-width: 100%;
               padding: 0;
@@ -539,10 +540,50 @@
                 .error-field p {
                   color: #e71d2b;
                 }
+                #KSTL-Registration-wrapper-PrivacyPolicy,
+                #KSTL-Registration-wrapper-TermsandConditions {
+                  border: 1px solid rgba(0, 0, 0, 0.1);
+                  border-radius: 20px;
+                  padding-top: 10px;
+                  margin-top: 18px;
+                  label {
+                    &:before {
+                      border: 0.833333px solid #b6b6b6;
+                      border-radius: 2.5px;
+                    }
+                  }
+                }
+                #KSTL-Registration-wrapper-PrivacyPolicy:has(.isValid),
+                #KSTL-Registration-wrapper-TermsandConditions:has(.isValid) {
+                  label {
+                    &::before {
+                      background: #3bae49;
+                    }
+                    &::after {
+                      font-size: 10px;
+                      color: #ffffff;
+                    }
+                  }
+                }
 
                 // [for="KSTL-Registration-TermsandConditions"] {
 
                 // }
+
+                button {
+                  width: calc(100% - 30px);
+                  background: #2e8538;
+                  text-align: center;
+                  color: #ffffff;
+                  span {
+                    font-family: "Pinup";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #ffffff;
+                  }
+                }
               }
             }
           }
