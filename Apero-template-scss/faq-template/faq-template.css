@@ -166,9 +166,9 @@
   #faq-child-three .aem-Grid .text:nth-child(4) {
     justify-content: left;
   }
-  #apero-main-content-container #faq-text-links-desktop,
-  #apero-main-content-container #competition-landing-six-text-links-mobile,
-  #apero-main-content-container #competition-landing-page-child-eight {
-    display: none;
+  #faq-template-container #apero-main-content-container #faq-text-links-desktop,
+  #faq-template-container #apero-main-content-container #competition-landing-six-text-links-mobile,
+  #faq-template-container #apero-main-content-container #competition-landing-page-child-eight {
+    display: none !important;
   }
 }/*# sourceMappingURL=faq-template.css.map */

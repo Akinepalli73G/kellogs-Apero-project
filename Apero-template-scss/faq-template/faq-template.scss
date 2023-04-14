@@ -201,11 +201,13 @@
       }
     }
   }
-  #apero-main-content-container {
-    #faq-text-links-desktop,
-    #competition-landing-six-text-links-mobile,
-    #competition-landing-page-child-eight {
-      display: none;
+  #faq-template-container {
+    #apero-main-content-container {
+      #faq-text-links-desktop,
+      #competition-landing-six-text-links-mobile,
+      #competition-landing-page-child-eight {
+        display: none !important;
+      }
     }
   }
 }
