@@ -1397,6 +1397,9 @@
     line-height: 14px;
     color: #ffffff;
   }
+  #create-account-or-login-container .KSTL-Registration-Login.pod .needs-validation #KSTL-Registration-wrapper-ForgotPasswordLink a {
+    color: #e71d2b;
+  }
   #create-account-or-login-container .KSTL-Registration-Login.pod .needs-validation .ng-form {
     margin: 0;
   }
