@@ -130,64 +130,6 @@
                               height: 0 !important;
                               margin: 0;
                             }
-                            #kgsasgigyaForms_social_11,
-                            #kgsasgigyaForms_social_12,
-                            #kgsasgigyaForms_social_9,
-                            #kgsasgigyaForms_social_10,
-                            #kgsasgigyaForms_social_7,
-                            #kgsasgigyaForms_social_8,
-                            #kgsasgigyaForms_social_5,
-                            #kgsasgigyaForms_social_4,
-                            #kgsasgigyaForms_social_6,
-                            #kgsasgigyaForms_social_2,
-                            #kgsasgigyaForms_social_3,
-                            #kgsasgigyaForms_social_1,
-                            #kgsasgigyaForms_social_0 {
-                              height: 0 !important;
-                              #kgsasgigyaForms_social_12_uiContainer,
-                              #kgsasgigyaForms_social_11uiContainer,
-                              #kgsasgigyaForms_social_10_uiContainer,
-                              #kgsasgigyaForms_social_9_uiContainer,
-                              #kgsasgigyaForms_social_8_uiContainer,
-                              #kgsasgigyaForms_social_7_uiContainer,
-                              #kgsasgigyaForms_social_5_uiContainer,
-                              #kgsasgigyaForms_social_6_uiContainer,
-                              #kgsasgigyaForms_social_4_uiContainer,
-                              #kgsasgigyaForms_social_2_uiContainer,
-                              #kgsasgigyaForms_social_3_uiContainer,
-                              #kgsasgigyaForms_social_1_uiContainer,
-                              #kgsasgigyaForms_social_0_uiContainer {
-                                height: 0 !important;
-                                .gigya-login-providers {
-                                  height: 0 !important;
-
-                                  .gigya-login-providers-container {
-                                    width: 50% !important;
-                                    margin: 0;
-                                  }
-                                }
-                                .gigya-login-provider-row {
-                                  height: 0 !important;
-                                }
-                                #Facebook_btn {
-                                  position: absolute;
-                                  top: -137px;
-                                  height: 50px !important;
-                                  left: 20px;
-                                  width: 100%;
-                                  z-index: 9;
-                                }
-
-                                #Google_btn {
-                                  position: absolute;
-                                  top: -137px;
-                                  height: 50px !important;
-                                  left: 75%;
-                                  width: 50%;
-                                  z-index: 9;
-                                }
-                              }
-                            }
 
                             .responsive.with-site-login {
                               .gigya-label-text {
@@ -448,6 +390,59 @@
             .gig-tfa-button.gig-tfa-button-submit {
               background: #2e8538;
             }
+          }
+        }
+      }
+
+      #kgsasgigyaForms_social_9,
+      #kgsasgigyaForms_social_8,
+      #kgsasgigyaForms_social_7,
+      #kgsasgigyaForms_social_6,
+      #kgsasgigyaForms_social_5,
+      #kgsasgigyaForms_social_4,
+      #kgsasgigyaForms_social_3,
+      #kgsasgigyaForms_social_2,
+      #kgsasgigyaForms_social_1,
+      #kgsasgigyaForms_social_0 {
+        height: 0 !important;
+        #kgsasgigyaForms_social_9_uiContainer,
+        #kgsasgigyaForms_social_8_uiContainer,
+        #kgsasgigyaForms_social_7_uiContainer,
+        #kgsasgigyaForms_social_6_uiContainer,
+        #kgsasgigyaForms_social_5_uiContainer,
+        #kgsasgigyaForms_social_4_uiContainer,
+        #kgsasgigyaForms_social_3_uiContainer,
+        #kgsasgigyaForms_social_2_uiContainer,
+        #kgsasgigyaForms_social_1_uiContainer,
+        #kgsasgigyaForms_social_0_uiContainer {
+          height: 0 !important;
+          .gigya-login-providers {
+            height: 0 !important;
+
+            .gigya-login-providers-container {
+              width: 50% !important;
+              margin: 0;
+            }
+          }
+          .gigya-login-provider-row {
+            height: 0 !important;
+          }
+          #Facebook_btn {
+            position: absolute;
+            top: -137px;
+            height: 50px !important;
+            left: 20px;
+            width: 100%;
+            z-index: 9;
+          }
+
+          #Google_btn {
+            position: absolute;
+            top: -137px;
+            height: 50px !important;
+            left: 75%;
+            width: 50%;
+            z-index: 9;
           }
         }
       }
