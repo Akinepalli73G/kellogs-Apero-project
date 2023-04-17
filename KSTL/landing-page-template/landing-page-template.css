@@ -149,6 +149,10 @@
   background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/Money.png") no-repeat left center;
 }
 
+#KSTL-landing-container-child-two .image {
+  display: none;
+}
+
 #KSTL-landing-container-child-four {
   position: absolute;
   background: #f7e62a;

@@ -6935,6 +6935,9 @@
   line-height: 150%;
   letter-spacing: 0.005em;
 }
+#faq-child-one .image {
+  display: none;
+}
 
 #faq-child-two {
   background: #009bde;
