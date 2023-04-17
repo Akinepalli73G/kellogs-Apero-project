@@ -39,8 +39,12 @@
     color: #e71d2b;
   }
   #create-account-or-login-template #create-account-or-login-template-child-one .markuptext {
+    display: none;
     height: 50px;
     padding: 0 20px;
+  }
+  #create-account-or-login-template #create-account-or-login-template-child-one #apero-or-seperator-container {
+    display: none;
   }
   #create-account-or-login-template #create-account-or-login-template-child-one #apero-or-seperator-container .separator {
     flex: 0 0 40%;
@@ -1473,4 +1477,12 @@
     line-height: 14px;
     color: #ffffff;
   }
+}
+#create-account-or-login-template:has(#Facebook_btn) #create-account-or-login-template-child-one .markuptext,
+#create-account-or-login-template:has(#Google_btn) #create-account-or-login-template-child-one .markuptext {
+  display: block;
+}
+#create-account-or-login-template:has(#Facebook_btn) #create-account-or-login-template-child-one #apero-or-seperator-container,
+#create-account-or-login-template:has(#Google_btn) #create-account-or-login-template-child-one #apero-or-seperator-container {
+  display: flex;
 }/*# sourceMappingURL=create-or-login-template.css.map */

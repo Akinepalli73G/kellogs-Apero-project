@@ -47,11 +47,13 @@
       }
 
       .markuptext {
+        display: none;
         height: 50px;
         padding: 0 20px;
       }
 
       #apero-or-seperator-container {
+        display: none;
         .separator {
           flex: 0 0 40%;
           opacity: 0.5;
@@ -586,6 +588,20 @@
           }
         }
       }
+    }
+  }
+}
+
+
+#create-account-or-login-template:has(#Facebook_btn),
+#create-account-or-login-template:has(#Google_btn) {
+  #create-account-or-login-template-child-one {
+    .markuptext {
+      display: block;
+    }
+  
+    #apero-or-seperator-container {
+      display: flex;
     }
   }
 }
