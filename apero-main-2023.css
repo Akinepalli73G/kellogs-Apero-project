@@ -1825,6 +1825,10 @@
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description {
     color: #ffffff;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two,
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two {
+    margin-top: -60px;
+  }
   #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext {
     width: 100%;
@@ -6833,6 +6837,8 @@
   #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsandConditions:has(.isValid) label::after {
     font-size: 10px;
     color: #ffffff;
+    left: 4px;
+    top: 5px;
   }
   #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope button {
     width: calc(100% - 30px);
@@ -7021,9 +7027,8 @@
     justify-content: left;
   }
   #faq-template-container #apero-main-content-container #faq-text-links-desktop,
-  #faq-template-container #apero-main-content-container #competition-landing-six-text-links-mobile,
   #faq-template-container #apero-main-content-container #competition-landing-page-child-eight {
-    display: none !important;
+    display: none;
   }
 }
 #homepage-template-container #apero-main-content-container {

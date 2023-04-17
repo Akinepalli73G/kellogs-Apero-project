@@ -772,6 +772,10 @@
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-one .aem-Grid .text #competition-landing-five-description {
     color: #ffffff;
   }
+  #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two,
+  #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two {
+    margin-top: -60px;
+  }
   #apero-main-content-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext,
   #competition-landing-template-container #competition-landing-page-child-five > .aem-Grid .container #competition-landing-page-five-sub-child-two .aem-Grid .markuptext {
     width: 100%;

@@ -170,8 +170,7 @@
     justify-content: left;
   }
   #faq-template-container #apero-main-content-container #faq-text-links-desktop,
-  #faq-template-container #apero-main-content-container #competition-landing-six-text-links-mobile,
   #faq-template-container #apero-main-content-container #competition-landing-page-child-eight {
-    display: none !important;
+    display: none;
   }
 }/*# sourceMappingURL=faq-template.css.map */
