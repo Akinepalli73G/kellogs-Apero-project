@@ -84,9 +84,6 @@
   line-height: 150%;
   letter-spacing: 0.005em;
 }
-#faq-child-one .image {
-  display: none;
-}
 
 #faq-child-two {
   background: #009bde;
@@ -101,6 +98,10 @@
   line-height: 36px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+#faq-child-one > .container:nth-child(3) .image {
+  display: none;
 }
 
 @media only screen and (min-width: 769px) {
@@ -157,7 +158,7 @@
   #faq-child-three .aem-Grid {
     width: calc(100% - 40px);
     text-align: left;
-    padding: 40px 20px 130px;
+    padding: 40px 20px;
   }
   #faq-child-three .aem-Grid .image {
     display: none;
@@ -169,8 +170,8 @@
   #faq-child-three .aem-Grid .text:nth-child(4) {
     justify-content: left;
   }
-  #faq-template-container #apero-main-content-container #faq-text-links-desktop,
-  #faq-template-container #apero-main-content-container #competition-landing-page-child-eight {
-    display: none;
+  #faq-template-container #apero-main-content-container #competition-landing-six-text-links-mobile,
+  #faq-template-container #apero-main-content-container #faq-text-links-desktop {
+    display: none !important;
   }
 }/*# sourceMappingURL=faq-template.css.map */

@@ -3456,9 +3456,6 @@
   line-height: 150%;
   letter-spacing: 0.005em;
 }
-#faq-child-one .image {
-  display: none;
-}
 
 #faq-child-two {
   background: #009bde;
@@ -3473,6 +3470,10 @@
   line-height: 36px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+#faq-child-one > .container:nth-child(3) .image {
+  display: none;
 }
 
 @media only screen and (min-width: 769px) {
@@ -3529,7 +3530,7 @@
   #faq-child-three .aem-Grid {
     width: calc(100% - 40px);
     text-align: left;
-    padding: 40px 20px 130px;
+    padding: 40px 20px;
   }
   #faq-child-three .aem-Grid .image {
     display: none;
@@ -3541,9 +3542,9 @@
   #faq-child-three .aem-Grid .text:nth-child(4) {
     justify-content: left;
   }
-  #faq-template-container #apero-main-content-container #faq-text-links-desktop,
-  #faq-template-container #apero-main-content-container #competition-landing-page-child-eight {
-    display: none;
+  #faq-template-container #apero-main-content-container #competition-landing-six-text-links-mobile,
+  #faq-template-container #apero-main-content-container #faq-text-links-desktop {
+    display: none !important;
   }
 }
 #homepage-template-container #apero-main-content-container {
@@ -3600,14 +3601,20 @@
   }
 }
 @media only screen and (max-width: 1990px) {
+  #Thank-you-page-template-container,
+  #thank-you-page-template-child-one,
   #already-played-template-container {
     background: #e71d2b;
   }
+  #Thank-you-page-template-container #already-played-child-one,
+  #thank-you-page-template-child-one #already-played-child-one,
   #already-played-template-container #already-played-child-one {
     background: #e71d2b;
     padding: 0 20px 60px;
     color: #ffffff;
   }
+  #Thank-you-page-template-container #already-played-child-one .teaser,
+  #thank-you-page-template-child-one #already-played-child-one .teaser,
   #already-played-template-container #already-played-child-one .teaser {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -3617,13 +3624,19 @@
     text-transform: uppercase;
     color: #ffffff;
   }
+  #Thank-you-page-template-container #already-played-child-one .teaser .cmp-teaser__image,
+  #thank-you-page-template-child-one #already-played-child-one .teaser .cmp-teaser__image,
   #already-played-template-container #already-played-child-one .teaser .cmp-teaser__image {
     display: flex;
     justify-content: center;
   }
+  #Thank-you-page-template-container #already-played-child-one .teaser .cmp-teaser__image img,
+  #thank-you-page-template-child-one #already-played-child-one .teaser .cmp-teaser__image img,
   #already-played-template-container #already-played-child-one .teaser .cmp-teaser__image img {
     width: unset;
   }
+  #Thank-you-page-template-container #already-played-child-one .teaser .cmp-teaser__content .cmp-teaser__title,
+  #thank-you-page-template-child-one #already-played-child-one .teaser .cmp-teaser__content .cmp-teaser__title,
   #already-played-template-container #already-played-child-one .teaser .cmp-teaser__content .cmp-teaser__title {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -3632,6 +3645,8 @@
     line-height: 42px;
     color: #ffffff;
   }
+  #Thank-you-page-template-container #already-played-child-one .teaser .cmp-teaser__content .cmp-teaser__description,
+  #thank-you-page-template-child-one #already-played-child-one .teaser .cmp-teaser__content .cmp-teaser__description,
   #already-played-template-container #already-played-child-one .teaser .cmp-teaser__content .cmp-teaser__description {
     font-family: "NimbusSanLOT";
     font-style: normal;
@@ -3640,6 +3655,8 @@
     line-height: 20px;
     color: #ffffff;
   }
+  #Thank-you-page-template-container #already-played-child-one .text #already-played-child-one-title,
+  #thank-you-page-template-child-one #already-played-child-one .text #already-played-child-one-title,
   #already-played-template-container #already-played-child-one .text #already-played-child-one-title {
     font-family: "Pinup";
     font-style: normal;
@@ -3648,16 +3665,24 @@
     line-height: 22px;
     color: #ffd140;
   }
+  #Thank-you-page-template-container #already-played-child-one .text #already-played-child-one-title p,
+  #thank-you-page-template-child-one #already-played-child-one .text #already-played-child-one-title p,
   #already-played-template-container #already-played-child-one .text #already-played-child-one-title p {
     margin: 24px 0;
   }
+  #Thank-you-page-template-container #already-played-child-one .timer,
+  #thank-you-page-template-child-one #already-played-child-one .timer,
   #already-played-template-container #already-played-child-one .timer {
     margin-left: -5px;
   }
+  #Thank-you-page-template-container #already-played-child-two,
+  #thank-you-page-template-child-one #already-played-child-two,
   #already-played-template-container #already-played-child-two {
     background: #e71d2b;
     padding: 0 0 50px;
   }
+  #Thank-you-page-template-container #already-played-child-two .markuptext .already-played-title,
+  #thank-you-page-template-child-one #already-played-child-two .markuptext .already-played-title,
   #already-played-template-container #already-played-child-two .markuptext .already-played-title {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -3669,9 +3694,13 @@
     margin-bottom: 15px;
     padding: 0 20px;
   }
+  #Thank-you-page-template-container #already-played-child-two .markuptext .already-played-title span,
+  #thank-you-page-template-child-one #already-played-child-two .markuptext .already-played-title span,
   #already-played-template-container #already-played-child-two .markuptext .already-played-title span {
     color: #f7e62a;
   }
+  #Thank-you-page-template-container #already-played-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container,
+  #thank-you-page-template-child-one #already-played-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container,
   #already-played-template-container #already-played-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container {
     width: calc(100% - 40px);
     background: #ffffff;
@@ -3682,6 +3711,8 @@
     z-index: 8;
     bottom: 20px;
   }
+  #Thank-you-page-template-container #already-played-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container a,
+  #thank-you-page-template-child-one #already-played-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container a,
   #already-played-template-container #already-played-child-two .teaser .cmp-teaser__content .cmp-teaser__action-container a {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -3692,10 +3723,14 @@
     text-decoration: none;
     color: #e71d2b;
   }
+  #Thank-you-page-template-container #already-played-child-three,
+  #thank-you-page-template-child-one #already-played-child-three,
   #already-played-template-container #already-played-child-three {
     padding-left: 20px;
     padding-bottom: 50px;
   }
+  #Thank-you-page-template-container #already-played-child-three .text p,
+  #thank-you-page-template-child-one #already-played-child-three .text p,
   #already-played-template-container #already-played-child-three .text p {
     font-family: "Pinup-Regular";
     font-style: normal;
