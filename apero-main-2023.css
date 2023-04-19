@@ -467,9 +467,10 @@
 #Thank-you-page-header-mobile .aem-Grid .image,
 #already-played-header-mobile .aem-Grid .image {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   z-index: 9;
   margin-bottom: 0;
+  margin-left: 20px;
 }
 #splitters-page-child-two .aem-Grid .text,
 #mobile-burger-menu-open .aem-Grid .text,
@@ -486,6 +487,14 @@
 #Thank-you-page-header-mobile .aem-Grid .text a,
 #already-played-header-mobile .aem-Grid .text a {
   color: #ffffff;
+}
+#splitters-page-child-two .aem-Grid:has(.languagenavigation) .image,
+#mobile-burger-menu-open .aem-Grid:has(.languagenavigation) .image,
+#pre-game-header-mobile .aem-Grid:has(.languagenavigation) .image,
+#Thank-you-page-header-mobile .aem-Grid:has(.languagenavigation) .image,
+#already-played-header-mobile .aem-Grid:has(.languagenavigation) .image {
+  justify-content: center;
+  margin-left: 0;
 }
 #splitters-page-child-two .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow,
 #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow,
@@ -1059,6 +1068,11 @@
   }
   #carousel-container .teaser {
     width: 100%;
+  }
+  #carousel-container .teaser .cmp-teaser__image .cmp-image__image {
+    height: 247px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   #carousel-container .teaser .cmp-teaser__content .cmp-teaser__action-container {
     width: 100%;

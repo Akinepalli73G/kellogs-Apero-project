@@ -164,9 +164,10 @@
 
     .image {
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
       z-index: 9;
       margin-bottom: 0;
+      margin-left: 20px;
     }
 
     .text {
@@ -176,6 +177,13 @@
       a {
         color: #ffffff;
       }
+    }
+  }
+
+  .aem-Grid:has(.languagenavigation) {
+    .image {
+      justify-content: center;
+      margin-left: 0;
     }
   }
 
@@ -792,6 +800,12 @@
     grid-gap: 20px;
     .teaser {
       width: 100%;
+      .cmp-teaser__image {
+        .cmp-image__image {
+          height: 247px;
+          object-fit: cover;
+        }
+      }
       .cmp-teaser__content {
         .cmp-teaser__action-container {
           width: 100%;
