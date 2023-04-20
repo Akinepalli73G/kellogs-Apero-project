@@ -68,11 +68,13 @@
 #KSTL-landing-container-child-three > .coreContainer {
   background: #e71d2b;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile {
   background: #e71d2b;
   color: #ffffff;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container .title {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop .title,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile .title {
   font-family: "Pinup-Regular";
   font-style: normal;
   font-weight: 700;
@@ -82,15 +84,18 @@
   color: #ffffff;
   margin-bottom: 60px;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container .title .yellow-promotion {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop .title .yellow-promotion,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile .title .yellow-promotion {
   color: #f7e62a;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul {
   list-style: none;
   -webkit-padding-start: 0;
           padding-inline-start: 0;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li {
   display: flex;
   align-items: center;
   width: 100%;
@@ -99,26 +104,34 @@
   position: relative;
   color: #ffffff;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .dashed-line {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .dashed-line,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .dashed-line {
   position: absolute;
   left: 25px;
   top: 100%;
   height: 100px;
   border-left: 1px dashed #ffffff;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-union-icon,
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-note-pad-icon,
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-receipt-icon,
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-game-icon,
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-money-icon {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-union-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-note-pad-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-receipt-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-game-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-money-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-union-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-note-pad-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-receipt-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-game-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-money-icon {
   width: 50px;
   height: 50px;
   flex: 0 0 20%;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-content {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-content,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-content {
   flex: 0 0 80%;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-content .list-item-title {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-content .list-item-title,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-content .list-item-title {
   margin-bottom: 10px;
   font-family: "Pinup-Regular";
   font-style: normal;
@@ -126,26 +139,32 @@
   font-size: 18px;
   line-height: 22px;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-content .list-item-description {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-content .list-item-description,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-content .list-item-description {
   font-family: "NimbusSanLOT";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-union-icon {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-union-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-union-icon {
   background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/union.png") no-repeat left center;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-note-pad-icon {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-note-pad-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-note-pad-icon {
   background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/note-pad.png") no-repeat left center;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-game-icon {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-game-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-game-icon {
   background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/game.png") no-repeat left center;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-receipt-icon {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-receipt-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-receipt-icon {
   background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/Receipt.png") no-repeat left center;
 }
-#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container ul li .list-item-money-icon {
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li .list-item-money-icon,
+#KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li .list-item-money-icon {
   background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/Money.png") no-repeat left center;
 }
 
@@ -544,21 +563,18 @@
     font-size: 14px;
     line-height: 20px;
   }
-  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .coreButton {
-    margin: 0 20px 50px;
-    width: calc(100% - 40px);
-    text-align: center;
-    background: #ffffff;
-    border-radius: 2px;
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .buttonLink {
+    margin: 0 20px;
   }
-  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .coreButton #kstl-start-now-button-mobile {
-    background: none;
-    border: none;
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .buttonLink a {
+    width: 100%;
+    text-align: center;
     font-family: "Pinup-Regular";
     font-size: 14px;
     line-height: 16px;
-    text-transform: uppercase;
+    background: #ffffff;
     color: #e71d2b;
+    text-transform: uppercase;
   }
   #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) .image img {
     margin-top: 101px;
@@ -672,7 +688,7 @@
     padding: 40px 20px;
   }
   .kstl-four-ar-experience-desktop,
-  .list-items-desktop {
+  .list-container-desktop {
     display: none;
   }
 }
@@ -704,10 +720,10 @@
     line-height: 24px;
     padding-top: 30px;
   }
-  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .coreButton {
+  #KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) #KSTL-landing-container-child-one-sub-child-two .buttonLink {
     display: none;
   }
-  #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container {
+  #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop {
     padding: 80px 80px 0;
   }
   #KSTL-landing-container-child-four {
@@ -786,6 +802,7 @@
     display: none;
   }
   .kstl-four-ar-experience-mobile,
+  .list-container-mobile,
   .list-items-mobile {
     display: none;
   }
