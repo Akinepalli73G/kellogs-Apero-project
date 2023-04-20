@@ -743,6 +743,10 @@
   #KSTL-landing-container-child-eight {
     padding: 40px 20px;
   }
+
+  .list-items-desktop {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -901,6 +905,10 @@
   }
 
   #kstl-start-now-button-mobile {
+    display: none;
+  }
+
+  .list-items-mobile {
     display: none;
   }
 }

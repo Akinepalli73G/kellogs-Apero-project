@@ -660,6 +660,9 @@
   #KSTL-landing-container-child-eight {
     padding: 40px 20px;
   }
+  .list-items-desktop {
+    display: none;
+  }
 }
 @media only screen and (min-width: 769px) {
   #KSTL-main-container > .coreContainer > .coreContainer:nth-child(2) {
@@ -768,6 +771,9 @@
     border-bottom-right-radius: 2px;
   }
   #kstl-start-now-button-mobile {
+    display: none;
+  }
+  .list-items-mobile {
     display: none;
   }
 }/*# sourceMappingURL=landing-page-template.css.map */
