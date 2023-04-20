@@ -1557,12 +1557,18 @@
     height: 200px;
     -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
             clip-path: polygon(100% 0, 0 0, 50% 100%);
-    justify-content: center;
+    justify-content: flex-start;
   }
   #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title {
     font-size: 45px;
     line-height: 54px;
+    margin-top: 25px;
+  }
+  #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title h1,
+  #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title h1 {
+    font-size: 45px;
+    margin: 0;
   }
   #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competition-landing-red-title,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competition-landing-red-title {

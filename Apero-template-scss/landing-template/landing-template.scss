@@ -467,11 +467,16 @@
         .aem-Grid {
           height: 200px;
           clip-path: polygon(100% 0, 0 0, 50% 100%);
-          justify-content: center;
+          justify-content: flex-start;
 
           #competiton-landing-blue-title {
             font-size: 45px;
             line-height: 54px;
+            margin-top: 25px;
+            h1 {
+              font-size: 45px;
+              margin: 0;
+            }
           }
 
           #competition-landing-red-title {
