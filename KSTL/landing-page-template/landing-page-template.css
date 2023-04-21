@@ -207,6 +207,7 @@
   font-size: 50px;
   line-height: 60px;
   color: #0f76b9;
+  text-align: center;
 }
 .coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) #KSTL-landing-container-child-four-sub-child-two .coreContainer .markupText .kstl-rich-text .kstl-content .kstl-description {
   font-family: "NimbusSanLOT";
@@ -666,6 +667,15 @@
     padding: 0 20px 7px;
     margin-bottom: 25px;
     margin-top: 30px;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-six) #KSTL-landing-container-child-six-sub-child-two .buttonLink a {
+    font-family: "Pinup-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
   }
   .coreContainer:has(> #KSTL-landing-container-child-seven) {
     padding: 40px 20px;

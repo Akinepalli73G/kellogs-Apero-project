@@ -121,3 +121,17 @@ if (modal || trigger || closeButton || understoodButton) {
   understoodButton.addEventListener("click", toggleModal);
   window.addEventListener("click", windowOnClick);
 }
+
+
+document.querySelectorAll('#competition-landing-eight-description p a')[0].addEventListener('click', function(event) {
+  event.preventDefault(); // prevent default behavior of clicking on an anchor tag
+
+  const currentUrl = window.location.href;
+  const urlParts = currentUrl.split('/');
+  const language = urlParts[3];
+  const country = urlParts[5];
+  const fileName = urlParts[urlParts.length - 1];
+
+  const newUrl = `${window.location.host}/${language}_${country}/pdf/${fileName}`;
+  window.location.href = newUrl;
+});

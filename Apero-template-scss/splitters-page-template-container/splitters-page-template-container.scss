@@ -109,7 +109,7 @@
               &::after {
                 content: "";
                 width: 10px;
-                height: 55px;
+                max-height: 55px;
                 position: relative;
                 display: block;
                 background-color: #ffffff;

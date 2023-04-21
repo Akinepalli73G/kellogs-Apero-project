@@ -4102,7 +4102,7 @@
   #splitters-page-template-container #splitters-page-child-two .languagenavigation #splitter-template-language-navigator ul.languageOpened::after {
     content: "";
     width: 10px;
-    height: 55px;
+    max-height: 55px;
     position: relative;
     display: block;
     background-color: #ffffff;
@@ -4378,6 +4378,7 @@ div.image {
 }
 
 a {
+  color: #e71d2b;
   text-decoration: none;
 }
 

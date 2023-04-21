@@ -209,6 +209,7 @@
               font-size: 50px;
               line-height: 60px;
               color: #0f76b9;
+              text-align: center;
             }
             .kstl-description {
               font-family: "NimbusSanLOT";
@@ -730,6 +731,15 @@
         padding: 0 20px 7px;
         margin-bottom: 25px;
         margin-top: 30px;
+        a {
+          font-family: "Pinup-Regular";
+          font-size: 14px;
+          line-height: 16px;
+          border: none;
+          color: #ffffff;
+          padding: 0;
+          margin: 0;
+        }
       }
     }
   }
