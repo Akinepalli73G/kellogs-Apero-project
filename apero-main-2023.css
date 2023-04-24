@@ -1092,6 +1092,10 @@
     text-decoration: none;
     color: #e71d2b;
   }
+  #mobile-burger-menu-close #competition-landing-eight-description p a {
+    color: #ffffff !important;
+    text-decoration: underline;
+  }
 }
 /* End CSS */
 #apero-main-content-container #competition-landing-page-child-one,
