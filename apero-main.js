@@ -80,7 +80,7 @@ if (carouselContainer) {
       },
       1990: {
         item: 4,
-      }
+      },
     },
     fixedWidth: 250,
     mouseDrag: true,
@@ -122,16 +122,28 @@ if (modal || trigger || closeButton || understoodButton) {
   window.addEventListener("click", windowOnClick);
 }
 
-
-document.querySelectorAll('#competition-landing-eight-description p a')[0].addEventListener('click', function(event) {
-  event.preventDefault(); // prevent default behavior of clicking on an anchor tag
-
-  const currentUrl = window.location.href;
-  const urlParts = currentUrl.split('/');
-  const language = urlParts[3];
-  const country = urlParts[5];
-  const fileName = urlParts[urlParts.length - 1];
-
-  const newUrl = `${window.location.host}/${language}_${country}/pdf/${fileName}`;
-  window.location.href = newUrl;
+document.addEventListener("DOMContentLoaded", () => {
+  const anchor = document.querySelectorAll(
+    "#competition-landing-eight-description p a"
+  ); // replace with the appropriate selector
+  if (anchor) {
+    anchor.forEach((anchorShortendUrl) => {
+      anchorShortendUrl.addEventListener("click", (event) => {
+        event.preventDefault();
+        const currentUrl = anchorShortendUrl.getAttribute("href");
+        const urlParts = currentUrl.split("/");
+        if (urlParts[7] && urlParts[6]) {
+          const language = urlParts[7];
+          const country = urlParts[6];
+          const fileName = urlParts[urlParts.length - 1];
+          const newUrl = `/${language}_${country.toUpperCase()}/pdf/${fileName}`;
+          if (currentUrl != newUrl) {
+            window.location.href = newUrl;
+          }
+        } else {
+          window.location.href = currentUrl;
+        }
+      });
+    });
+  }
 });

@@ -6,9 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const tapToWin = document.querySelectorAll(".KSTLNav li");
 
   accordionItemHeaders.forEach((accordionItemHeader) => {
-    console.log("I am about click");
     accordionItemHeader.addEventListener("click", (event) => {
-      console.log("I am  clicked");
       accordionItemHeader.classList.toggle("active");
       const accordionItemBody = accordionItemHeader.nextElementSibling;
       if (accordionItemHeader.classList.contains("active")) {
