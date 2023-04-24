@@ -1740,16 +1740,20 @@
   #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title {
     font-size: 45px;
-    line-height: 54px;
+    margin-top: 20px;
+    line-height: 45px;
+  }
+  #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title h1,
+  #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competiton-landing-blue-title h1 {
+    font-size: 45px;
+    margin: 0;
+    line-height: 45px;
   }
   #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competition-landing-red-title,
   #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid #competition-landing-red-title {
     font-size: 20px;
     line-height: 24px;
-  }
-  #apero-main-content-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text #competiton-landing-blue-title,
-  #competition-landing-template-container #competition-landing-page-child-one #competion-landing-top-header .aem-Grid .text #competiton-landing-blue-title {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   #apero-main-content-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid,
   #competition-landing-template-container #competition-landing-page-child-one #competition-landing-hero-teaser-container .aem-Grid {
@@ -4170,6 +4174,9 @@
 @media only screen and (max-width: 768px) {
   #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__image .cmp-image__image {
     height: 200px;
+  }
+  #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__content .cmp-teaser__title {
+    height: 80px;
   }
 }
 #error-page-template-container #error-page-template-child-one {

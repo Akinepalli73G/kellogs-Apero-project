@@ -169,4 +169,7 @@
   #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__image .cmp-image__image {
     height: 200px;
   }
+  #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__content .cmp-teaser__title {
+    height: 80px;
+  }
 }/*# sourceMappingURL=splitters-page-template-container.css.map */

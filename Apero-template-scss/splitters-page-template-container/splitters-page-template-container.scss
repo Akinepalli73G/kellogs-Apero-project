@@ -216,6 +216,12 @@
                 height: 200px;
               }
             }
+
+            &__content {
+              .cmp-teaser__title {
+                height: 80px;
+              }
+            }
           }
         }
       }

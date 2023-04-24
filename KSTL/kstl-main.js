@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
   tapToWin.forEach((liText) => {
     if (liText.querySelector("a").innerText == "TAP TO WIN £300") {
       liText.classList.add("tapToWin");
-      const tapToWinIcon = document.createElement("div");
+      const tapToWinIcon = document.createElement("a");
+      tapToWinIcon.setAttribute.add('href', liText.querySelector("a").href);
       tapToWinIcon.classList.add("tapToWinIcon");
       liText.insertBefore(tapToWinIcon, liText.firstElementChild);
     }

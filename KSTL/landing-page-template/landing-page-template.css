@@ -797,13 +797,14 @@
     color: #009bde !important;
   }
   .tapToWin .tapToWinIcon {
+    cursor: pointer;
     content: "";
     display: block;
-    height: 50px;
+    height: 100%;
     width: 50px;
     position: relative;
-    background: #009bde url("/content/dam/pringles/en_GB/images/icons/kstl-icons/tapToWin.png") no-repeat center center;
-    background-size: 13px;
+    background: #009bde url("/content/dam/pringles/en_GB/images/icons/kstl-icons/tapToWin.png") no-repeat center center !important;
+    background-size: 13px !important;
     padding: 0 13px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
