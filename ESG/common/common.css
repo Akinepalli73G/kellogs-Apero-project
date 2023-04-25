@@ -49,39 +49,5 @@
   position: relative;
   width: 20px;
   height: 20px;
-  background: url("/content/dam/global/promotions/kellogs-esg-2023/gb/en/icons/Account.png") center right center;
-}
-
-body {
-  margin: 0 auto;
-  overflow-x: hidden;
-}
-
-/* font import start */
-@font-face {
-  font-family: "Pinup-Regular";
-  src: url("/content/dam/global/promotions/aperopromotions/gb/en/fonts/Pinup-Regular.otf");
-}
-@font-face {
-  font-family: "NimbusSanLOT";
-  src: url("/content/dam/global/promotions/aperopromotions/gb/en/fonts/NimbusSanLOT-Bol.otf");
-}
-.tns-nav,
-.tns-controls,
-.new.newpar.section,
-.cq-placeholder,
-.skip-main {
-  display: none;
-}
-
-div.image {
-  margin-bottom: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.ghost {
-  display: none;
-}/*# sourceMappingURL=esg-main-2023.css.map */
+  background: url("/content/dam/global/promotions/kellogs-esg-2023/gb/en/icons/Account.png") no-repeat center center;
+}/*# sourceMappingURL=common.css.map */

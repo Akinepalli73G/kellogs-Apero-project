@@ -1,0 +1,74 @@
+#esg-desktop-container {
+  display: flex;
+  grid-gap: 24px;
+  margin: 10px 100px;
+  align-items: center;
+
+  .image {
+    .cmp-image__image {
+      height: 56px;
+      object-fit: cover;
+    }
+  }
+
+  .navigationV2 {
+    flex: 0 0 70%;
+    display: flex;
+    justify-content: flex-end;
+    .nav--container {
+      .nav--main {
+        ul {
+          padding: 0;
+          list-style: none;
+          display: flex;
+          grid-gap: 20px;
+
+          li { 
+            a {
+                font-family: "Lilita One";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+                color: #009bde;
+            }
+          }
+        }
+      }
+    }
+
+    .nav--secondary {
+      display: none;
+    }
+  }
+
+  .languagenavigation {
+    nav {
+      ul {
+        padding-inline-start: 0px;
+        list-style: none;
+
+        li {
+          a {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+
+  .button {
+    #esg-account-icon {
+      display: block;
+      position: relative;
+      width: 20px;
+      height: 20px;
+      background: url("/content/dam/global/promotions/kellogs-esg-2023/gb/en/icons/Account.png") no-repeat center center;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 @use "../ESG/holding/holding.scss";
+@use "../ESG/common/common.scss";
 
 body {
   margin: 0 auto;
@@ -33,7 +34,6 @@ div.image {
 }
 
 a {
-  color: #e71d2b;
   text-decoration: none;
 }
 
