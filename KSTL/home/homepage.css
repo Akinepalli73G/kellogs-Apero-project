@@ -1,0 +1,203 @@
+.kstl-home-page-container > .grid__item:nth-child(3) {
+  padding: 30px 20px;
+}
+.kstl-home-page-container > .grid__item:nth-child(3) .kstl-rich-text .KSTL-home-page-title {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.kstl-home-page-container > .grid__item:nth-child(3) .kstl-rich-text .KSTL-home-page-description {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  cursor: pointer;
+}
+.kstl-home-page-container > .grid__item:nth-child(3) .kstl-rich-text .KSTL-home-page-description a {
+  color: #e71d2b;
+  text-decoration: underline;
+}
+.kstl-home-page-container > .grid__item:nth-child(3) .kstl-rich-text .KSTL-home-page-description a :hover {
+  color: #e71d2b;
+}
+
+@media only screen and (max-width: 768px) {
+  .kstl-desktop-home-page-content {
+    display: none;
+  }
+  .kstl-mobile-home-page-content {
+    position: relative;
+  }
+  .kstl-mobile-home-page-content .grid__item .kstl-home-page-desktop {
+    height: 205px;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 100%, 0 50%);
+    position: absolute;
+    width: 100%;
+    background: #f7e62a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: -35px;
+  }
+  .kstl-mobile-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-ar-experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+  }
+  .kstl-mobile-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-ar-experience .ar-experience-icon {
+    width: 62px;
+    height: 62px;
+    display: block;
+    position: relative;
+    background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/ar-experience.png") no-repeat left center;
+    background-size: 61px;
+  }
+  .kstl-mobile-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-ar-experience span {
+    font-family: "Pinup";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.6508px;
+    line-height: 13px;
+    color: #0f76b9;
+  }
+  .kstl-mobile-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-blue-tile {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.9404px;
+    line-height: 48px;
+    color: #0f76b9;
+  }
+  .kstl-mobile-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-red-title {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.0412px;
+    line-height: 20px;
+    color: #e71d2b;
+  }
+  .kstl-mobile-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-blue-pre-title {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.7778px;
+    line-height: 21px;
+    color: #0f76b9;
+  }
+  .kstl-mobile-home-page-content .grid__item:nth-child(2) img {
+    font-size: 0;
+    width: 100%;
+  }
+  .kstl-mobile-home-page-content .grid__item:nth-child(3) {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    width: 100%;
+  }
+  .kstl-mobile-home-page-content .grid__item:nth-child(3) a {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    text-align: center;
+    background: #ffffff;
+    color: #ffffff;
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .kstl-home-page-container > .grid__item:nth-child(3) {
+    padding: 30px 20px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .kstl-desktop-home-page-content {
+    position: relative;
+  }
+  .kstl-desktop-home-page-content .grid__item .kstl-home-page-desktop {
+    height: 376px;
+    -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    justify-content: flex-start;
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    background: #f7e62a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .kstl-desktop-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-ar-experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+  }
+  .kstl-desktop-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-ar-experience .ar-experience-icon {
+    width: 62px;
+    height: 62px;
+    display: block;
+    position: relative;
+    background: url("/content/dam/pringles/en_GB/images/icons/kstl-icons/ar-experience.png") no-repeat left center;
+    background-size: 61px;
+  }
+  .kstl-desktop-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-ar-experience span {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.7778px;
+    line-height: 21px;
+    color: #0f76b9;
+  }
+  .kstl-desktop-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-blue-tile {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66.6667px;
+    line-height: 80px;
+    color: #0f76b9;
+  }
+  .kstl-desktop-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-red-title {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.4444px;
+    line-height: 34px;
+    color: #e71d2b;
+  }
+  .kstl-desktop-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-blue-pre-title {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.7778px;
+    line-height: 21px;
+    color: #0f76b9;
+  }
+  .kstl-desktop-home-page-content .grid__item:nth-child(2) img {
+    width: 100%;
+  }
+  .kstl-desktop-home-page-content .grid__item:nth-child(3) img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    margin: 0 auto;
+  }
+  .kstl-mobile-home-page-content {
+    display: none;
+  }
+  .kstl-home-page-container > .grid__item:nth-child(3) {
+    padding: 40px 100px;
+  }
+  .kstl-home-page-container > .grid__item:nth-child(3) .KSTL-home-page-description {
+    max-width: 1000px;
+  }
+}/*# sourceMappingURL=homepage.css.map */
