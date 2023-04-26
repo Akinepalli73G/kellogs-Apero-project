@@ -189,7 +189,7 @@
     position: relative;
     width: 40px;
     height: 40px;
-    background: url("/content/dam/global/promotions/kellogs-esg-2023/gb/en/icons/Account.png") no-repeat center center;
+    background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/Account.png") no-repeat center center;
     background-size: 38px;
   }
   #esg-mobile-container {
@@ -199,6 +199,87 @@
 @media only screen and (max-width: 768px) {
   #esg-desktop-container {
     display: none;
+  }
+  #esg-mobile-container #burger-menu {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+  #esg-mobile-container #burger-menu .languagenavigation,
+  #esg-mobile-container #burger-menu .image,
+  #esg-mobile-container #burger-menu .button {
+    flex-basis: 33.33%;
+  }
+  #esg-mobile-container #burger-menu .languagenavigation nav ul {
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+    list-style: none;
+  }
+  #esg-mobile-container #burger-menu .languagenavigation nav ul li a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  #esg-mobile-container #burger-menu .button {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #esg-mobile-container #burger-menu .button .cmp-button {
+    background: none;
+    border: none;
+  }
+  #esg-mobile-container #burger-menu .button .cmp-button .cmp-button__icon.cmp-button__icon--esg-burger-icon {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/Burger-menu.png") no-repeat center center;
+    background-size: 24px;
+  }
+  #esg-mobile-container #burger-close-menu .button .cmp-button {
+    background: none;
+    border: none;
+  }
+  #esg-mobile-container #burger-close-menu .button .cmp-button .cmp-button__icon.cmp-button__icon--burger-close-icon {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/close.png") no-repeat center center;
+    background-size: 47px;
+  }
+  #esg-mobile-container #burger-close-menu .navigationV2 .nav--container nav ul {
+    list-style: none;
+    -webkit-padding-start: 26px;
+            padding-inline-start: 26px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 24px;
+    max-width: calc(100% - 46px);
+  }
+  #esg-mobile-container #burger-close-menu .navigationV2 .nav--container nav ul li a,
+  #esg-mobile-container #burger-close-menu .navigationV2 .nav--container nav ul li span {
+    font-family: "Lilita One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  #esg-mobile-container #burger-close-menu .navigationV2 .nav--container .nav--secondary {
+    border-top: 1px solid #ebebeb;
+    margin: 24px 20px;
+  }
+  #esg-mobile-container #burger-close-menu .navigationV2 .nav--container .nav--secondary ul {
+    -webkit-padding-start: 6px;
+            padding-inline-start: 6px;
+    margin: 24px 0;
   }
 }
 body {
