@@ -10,34 +10,42 @@ navLanguageContainer.forEach((navLanguage) => {
   if (navLanguage) {
     const downArrowClickButton = document.createElement("button");
     downArrowClickButton.classList.add("mobile-down-arrow");
-    if (navLanguage) {
-      navLanguage.insertBefore(
-        downArrowClickButton,
-        navLanguage.firstElementChild
-      );
-    }
+    navLanguage.appendChild(downArrowClickButton)
   }
 });
 
-var clickLanguageNavigation = document.querySelectorAll(
-  ".languagenavigation nav button"
+const desktopLanguagenavigationClicked = document.querySelector(
+  ".languagenavigation #desktop-language-navigation button"
 );
-if (clickLanguageNavigation) {
-  clickLanguageNavigation.forEach((clickNavigation) => {
-    clickNavigation.addEventListener("click", () => {
-      document
-        .querySelector(".languagenavigation nav ul")
-        .classList.toggle("languageOpened");
-      document
-        .querySelector(".mobile-down-arrow")
-        .classList.toggle("mobileUpArrow");
-      document.querySelector("body").classList.toggle("languageOpened");
-      document
-        .querySelector("#esg-main-container")
-        .classList.toggle("languageOpened");
-    });
-  });
-}
+const mobileLanguagenavigationClicked = document.querySelector(
+  ".languagenavigation #mobile-language-navigation button"
+);
+
+desktopLanguagenavigationClicked.addEventListener("click", () => {
+  document
+    .querySelector(".languagenavigation nav ul")
+    .classList.toggle("languageOpened");
+  document
+    .querySelector(".mobile-down-arrow")
+    .classList.toggle("mobileUpArrow");
+  document.querySelector("body").classList.toggle("languageOpened");
+  document
+    .querySelector("#esg-main-container")
+    .classList.toggle("languageOpened");
+});
+
+mobileLanguagenavigationClicked.addEventListener("click", () => {
+  document
+    .querySelectorAll(".languagenavigation nav ul")[1]
+    .classList.toggle("languageOpened");
+  document
+    .querySelectorAll(".mobile-down-arrow")[1]
+    .classList.toggle("mobileUpArrow");
+  document.querySelector("body").classList.toggle("languageOpened");
+  document
+    .querySelector("#esg-main-container")
+    .classList.toggle("languageOpened");
+});
 
 if (document.querySelectorAll(".languagenavigation")) {
   Array.from(
