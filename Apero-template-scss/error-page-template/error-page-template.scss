@@ -53,7 +53,6 @@
               color: #e71d2b;
               font-size: 14px;
               line-height: 16px;
-              padding: 16px 24px;
             }
           }
         }
@@ -101,6 +100,12 @@
               p {
                 max-width: 448px;
                 margin: 20px auto;
+              }
+            }
+
+            .cmp-teaser__action-container {
+              a {
+                padding: 16px 90px;
               }
             }
           }
@@ -152,6 +157,12 @@
                 font-size: 20px;
                 line-height: 24px;
                 margin: 0;
+              }
+            }
+
+            .cmp-teaser__action-container {
+              a {
+                padding: 16px 40px;
               }
             }
           }
