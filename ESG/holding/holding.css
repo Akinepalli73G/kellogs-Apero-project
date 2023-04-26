@@ -1,1 +1,98 @@
-/*# sourceMappingURL=holding.css.map */
+#holding-page-template-main-container {
+  background: #009bde;
+  position: relative;
+}
+#holding-page-template-main-container #coming-soon-teaser-media-container .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container {
+  position: absolute;
+  bottom: 95px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 {
+  margin: 0;
+  font-family: "Lilita One";
+  font-style: normal;
+  text-transform: uppercase;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 .orange-cream-title {
+  color: #fec45e;
+  margin-right: 10px;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 .white-title {
+  color: #ffffff;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container .text {
+  margin: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container .text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container .button a {
+  text-decoration: none;
+  padding: 12px 40px;
+  background: #ffffff;
+  border-radius: 90px;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container .button a span {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media only screen and (min-width: 769px) {
+  #holding-page-template-main-container #coming-soon-teaser-content-container {
+    grid-gap: 16px;
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container .markuptext,
+  #holding-page-template-main-container #coming-soon-teaser-content-container .text,
+  #holding-page-template-main-container #coming-soon-teaser-content-container .button {
+    max-width: 600px;
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container .button {
+    margin-top: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #holding-page-template-main-container #coming-soon-teaser-media-container .image img {
+    height: 620px;
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container {
+    grid-gap: 24px;
+    padding: 0 20px;
+    width: calc(100% - 40px);
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 51px;
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container .button {
+    margin-top: 12px;
+  }
+}/*# sourceMappingURL=holding.css.map */

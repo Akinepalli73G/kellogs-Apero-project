@@ -1,4 +1,124 @@
+#holding-page-template-main-container {
+  background: #009bde;
+  position: relative;
+  #coming-soon-teaser-media-container {
+    .image {
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+  #coming-soon-teaser-content-container {
+    position: absolute;
+    bottom: 95px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+
+    .markuptext {
+      h1 {
+        margin: 0;
+        font-family: "Lilita One";
+        font-style: normal;
+        text-transform: uppercase;
+        .orange-cream-title {
+          color: #fec45e;
+          margin-right: 10px;
+        }
+        .white-title {
+          color: #ffffff;
+        }
+      }
+    }
+
+    .text {
+      margin: 0;
+      font-family: "Open Sans";
+      font-style: normal;
+      color: #ffffff;
+      text-align: center;
+      p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        margin: 0;
+      }
+    }
+
+    .button {
+      a {
+        text-decoration: none;
+        padding: 12px 40px;
+        background: #ffffff;
+        border-radius: 90px;
+        span {
+          font-family: "Lilita One";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 21px;
+          text-transform: uppercase;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 769px) {
+  #holding-page-template-main-container {
+    #coming-soon-teaser-content-container {
+      grid-gap: 16px;
+      .markuptext,
+      .text,
+      .button {
+        max-width: 600px;
+      }
+
+      .markuptext {
+        h1 {
+          font-weight: 400;
+          font-size: 70px;
+          line-height: 80px;
+        }
+      }
+
+      .button {
+        margin-top: 12px;
+      }
+    }
+  }
 }
 @media only screen and (max-width: 768px) {
+  #holding-page-template-main-container {
+    #coming-soon-teaser-media-container {
+        .image {
+          img {
+            height: 620px;
+          }
+        }
+      }
+    #coming-soon-teaser-content-container {
+      grid-gap: 24px;
+      padding: 0 20px;
+      width: calc(100% - 40px);
+
+      .markuptext {
+        h1 {
+          font-weight: 400;
+          font-size: 45px;
+          line-height: 51px;
+        }
+      }
+
+      .button {
+        margin-top: 12px;
+      }
+    }
+  }
 }

@@ -1,57 +1,166 @@
-#esg-desktop-container {
-  display: flex;
-  grid-gap: 24px;
-  margin: 10px 100px;
-  align-items: center;
+#holding-page-template-main-container {
+  background: #009bde;
+  position: relative;
 }
-#esg-desktop-container .image .cmp-image__image {
-  height: 56px;
+#holding-page-template-main-container #coming-soon-teaser-media-container .image img {
   -o-object-fit: cover;
      object-fit: cover;
 }
-#esg-desktop-container .navigationV2 {
-  flex: 0 0 70%;
+#holding-page-template-main-container #coming-soon-teaser-content-container {
+  position: absolute;
+  bottom: 95px;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
 }
-#esg-desktop-container .navigationV2 .nav--container .nav--main ul {
-  padding: 0;
-  list-style: none;
-  display: flex;
-  grid-gap: 20px;
-}
-#esg-desktop-container .navigationV2 .nav--container .nav--main ul li a {
+#holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 {
+  margin: 0;
   font-family: "Lilita One";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 23px;
-  color: #009bde;
+  text-transform: uppercase;
 }
-#esg-desktop-container .navigationV2 .nav--secondary {
-  display: none;
+#holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 .orange-cream-title {
+  color: #fec45e;
+  margin-right: 10px;
 }
-#esg-desktop-container .languagenavigation nav ul {
-  -webkit-padding-start: 0px;
-          padding-inline-start: 0px;
-  list-style: none;
+#holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 .white-title {
+  color: #ffffff;
 }
-#esg-desktop-container .languagenavigation nav ul li a {
+#holding-page-template-main-container #coming-soon-teaser-content-container .text {
+  margin: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container .text p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container .button a {
+  text-decoration: none;
+  padding: 12px 40px;
+  background: #ffffff;
+  border-radius: 90px;
+}
+#holding-page-template-main-container #coming-soon-teaser-content-container .button a span {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
   color: #000000;
 }
-#esg-desktop-container .button #esg-account-icon {
-  display: block;
-  position: relative;
-  width: 20px;
-  height: 20px;
-  background: url("/content/dam/global/promotions/kellogs-esg-2023/gb/en/icons/Account.png") center right center;
-}
 
+@media only screen and (min-width: 769px) {
+  #holding-page-template-main-container #coming-soon-teaser-content-container {
+    grid-gap: 16px;
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container .markuptext,
+  #holding-page-template-main-container #coming-soon-teaser-content-container .text,
+  #holding-page-template-main-container #coming-soon-teaser-content-container .button {
+    max-width: 600px;
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container .button {
+    margin-top: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #holding-page-template-main-container #coming-soon-teaser-media-container .image img {
+    height: 620px;
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container {
+    grid-gap: 24px;
+    padding: 0 20px;
+    width: calc(100% - 40px);
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 51px;
+  }
+  #holding-page-template-main-container #coming-soon-teaser-content-container .button {
+    margin-top: 12px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #esg-desktop-container {
+    display: flex;
+    grid-gap: 24px;
+    margin: 10px 100px;
+    align-items: center;
+  }
+  #esg-desktop-container .image .cmp-image__image {
+    height: 56px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #esg-desktop-container .navigationV2 {
+    flex: 0 0 70%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #esg-desktop-container .navigationV2 .nav--container .nav--main ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    grid-gap: 20px;
+  }
+  #esg-desktop-container .navigationV2 .nav--container .nav--main ul li a {
+    font-family: "Lilita One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #009bde;
+    text-transform: uppercase;
+  }
+  #esg-desktop-container .navigationV2 .nav--secondary {
+    display: none;
+  }
+  #esg-desktop-container .languagenavigation nav ul {
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+    list-style: none;
+  }
+  #esg-desktop-container .languagenavigation nav ul li a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+  #esg-desktop-container .button #esg-account-icon {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: url("/content/dam/global/promotions/kellogs-esg-2023/gb/en/icons/Account.png") no-repeat center center;
+    background-size: 38px;
+  }
+  #esg-mobile-container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #esg-desktop-container {
+    display: none;
+  }
+}
 body {
   margin: 0 auto;
   overflow-x: hidden;

@@ -1,53 +1,65 @@
-#esg-desktop-container {
-  display: flex;
-  grid-gap: 24px;
-  margin: 10px 100px;
-  align-items: center;
+@media only screen and (min-width: 769px) {
+  #esg-desktop-container {
+    display: flex;
+    grid-gap: 24px;
+    margin: 10px 100px;
+    align-items: center;
+  }
+  #esg-desktop-container .image .cmp-image__image {
+    height: 56px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #esg-desktop-container .navigationV2 {
+    flex: 0 0 70%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #esg-desktop-container .navigationV2 .nav--container .nav--main ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    grid-gap: 20px;
+  }
+  #esg-desktop-container .navigationV2 .nav--container .nav--main ul li a {
+    font-family: "Lilita One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #009bde;
+    text-transform: uppercase;
+  }
+  #esg-desktop-container .navigationV2 .nav--secondary {
+    display: none;
+  }
+  #esg-desktop-container .languagenavigation nav ul {
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+    list-style: none;
+  }
+  #esg-desktop-container .languagenavigation nav ul li a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+  #esg-desktop-container .button #esg-account-icon {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: url("/content/dam/global/promotions/kellogs-esg-2023/gb/en/icons/Account.png") no-repeat center center;
+    background-size: 38px;
+  }
+  #esg-mobile-container {
+    display: none;
+  }
 }
-#esg-desktop-container .image .cmp-image__image {
-  height: 56px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-#esg-desktop-container .navigationV2 {
-  flex: 0 0 70%;
-  display: flex;
-  justify-content: flex-end;
-}
-#esg-desktop-container .navigationV2 .nav--container .nav--main ul {
-  padding: 0;
-  list-style: none;
-  display: flex;
-  grid-gap: 20px;
-}
-#esg-desktop-container .navigationV2 .nav--container .nav--main ul li a {
-  font-family: "Lilita One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 23px;
-  color: #009bde;
-}
-#esg-desktop-container .navigationV2 .nav--secondary {
-  display: none;
-}
-#esg-desktop-container .languagenavigation nav ul {
-  -webkit-padding-start: 0px;
-          padding-inline-start: 0px;
-  list-style: none;
-}
-#esg-desktop-container .languagenavigation nav ul li a {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
-}
-#esg-desktop-container .button #esg-account-icon {
-  display: block;
-  position: relative;
-  width: 20px;
-  height: 20px;
-  background: url("/content/dam/global/promotions/kellogs-esg-2023/gb/en/icons/Account.png") no-repeat center center;
+@media only screen and (max-width: 768px) {
+  #esg-desktop-container {
+    display: none;
+  }
 }/*# sourceMappingURL=common.css.map */
