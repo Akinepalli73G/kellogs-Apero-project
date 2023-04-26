@@ -211,6 +211,9 @@ body.languageOpened {
     background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/Burger-menu.png") no-repeat center center;
     background-size: 24px;
   }
+  #esg-mobile-container #burger-menu .languagenavigation {
+    visibility: initial;
+  }
   #esg-mobile-container #burger-close-menu {
     display: none;
     position: relative;
@@ -262,11 +265,15 @@ body.languageOpened {
             padding-inline-start: 6px;
     margin: 24px 0;
   }
-  .languagenavigation.burgerMenuOpened,
+  .languagenavigation.burgerMenuClosed,
   .cmp-button__icon--esg-burger-icon.burgerMenuOpened {
-    display: none;
+    visibility: hidden !important;
   }
   #burger-close-menu.burgerMenuOpened {
-    display: block;
+    display: block !important;
+  }
+  #esg-main-container.burgerMenuOpened,
+  #esg-footer-container.burgerMenuOpened {
+    display: none;
   }
 }/*# sourceMappingURL=common.css.map */

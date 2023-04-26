@@ -13,21 +13,23 @@ if (navLanguageContainer) {
   );
 }
 
-var clickLanguageNavigation = document.querySelector(
+var clickLanguageNavigation = document.querySelectorAll(
   ".languagenavigation nav button"
 );
 if (clickLanguageNavigation) {
-  clickLanguageNavigation.addEventListener("click", () => {
-    document
-      .querySelector(".languagenavigation nav ul")
-      .classList.toggle("languageOpened");
-    document
-      .querySelector(".mobile-down-arrow")
-      .classList.toggle("mobileUpArrow");
-    document.querySelector("body").classList.toggle("languageOpened");
-    document
-      .querySelector("#esg-main-container")
-      .classList.toggle("languageOpened");
+  clickLanguageNavigation.forEach((clickNavigation) => {
+    clickNavigation.addEventListener("click", () => {
+      document
+        .querySelector(".languagenavigation nav ul")
+        .classList.toggle("languageOpened");
+      document
+        .querySelector(".mobile-down-arrow")
+        .classList.toggle("mobileUpArrow");
+      document.querySelector("body").classList.toggle("languageOpened");
+      document
+        .querySelector("#esg-main-container")
+        .classList.toggle("languageOpened");
+    });
   });
 }
 
@@ -48,22 +50,25 @@ burgerMenuOpened = false;
 burgerMenuClosed = false;
 
 let onBtnClick = () => {
-  document
-    .querySelector(".button .cmp-button__icon--esg-burger-icon")
-    .classList.toggle("burgerMenuOpened");
-  document
-    .querySelectorAll("#burger-menu .languagenavigation")
-    .classList.toggle("burgerMenuOpened");
-  document
-    .querySelectorAll("#burger-close-menu")
-    .classList.toggle("burgerMenuOpened");
-}
+  burgerMenuButton = document.querySelector(
+    ".button .cmp-button__icon--esg-burger-icon"
+  );
+  burgerMenuButton.classList.toggle("burgerMenuOpened");
+  langauageNavigationHide = document.querySelectorAll(
+    "#burger-menu .languagenavigation"
+  );
+  langauageNavigationHide[0].classList.toggle("burgerMenuClosed");
+  burgerMenuClose = document.querySelectorAll("#burger-close-menu");
+  burgerMenuClose[0].classList.toggle("burgerMenuOpened");
+  document.querySelectorAll("#esg-main-container")[0].classList.toggle('burgerMenuOpened');
+  document.querySelectorAll("#esg-footer-container")[0].classList.toggle('burgerMenuOpened');
+};
+
 document
   .querySelector(".button .cmp-button__icon--esg-burger-icon")
-  .addEventListener("click", (onBtnClick));
+  .addEventListener("click", onBtnClick);
 document
   .querySelector(".button .cmp-button__icon--burger-close-icon")
-  .addEventListener("click", (onBtnClick));
-
+  .addEventListener("click", onBtnClick);
 
 // clcik on burger menu close

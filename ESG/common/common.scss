@@ -246,6 +246,10 @@ body.languageOpened {
           }
         }
       }
+
+      .languagenavigation {
+        visibility: initial;
+      }
     }
 
     #burger-close-menu {
@@ -310,12 +314,17 @@ body.languageOpened {
     }
   }
 
-  .languagenavigation.burgerMenuOpened,
+  .languagenavigation.burgerMenuClosed,
   .cmp-button__icon--esg-burger-icon.burgerMenuOpened {
-    display: none;
+    visibility: hidden !important;
   }
 
   #burger-close-menu.burgerMenuOpened {
-    display: block;
+    display: block !important;
+  }
+
+  #esg-main-container.burgerMenuOpened,
+  #esg-footer-container.burgerMenuOpened {
+    display: none;
   }
 }
