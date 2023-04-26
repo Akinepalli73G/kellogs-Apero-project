@@ -41,22 +41,124 @@
   }
 }
 
+.languagenavigation {
+  position: relative;
+  nav {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    ul {
+      padding-inline-start: 0;
+      list-style: none;
+      li {
+        display: none;
+        a {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #000000;
+          text-transform: uppercase;
+        }
+
+        &:nth-child(1) {
+          display: block;
+        }
+
+        &:nth-child(2) {
+          border-top: 1px solid rgba(255, 255, 255, 0.4);
+        }
+      }
+
+      &.languageOpened {
+        padding-right: 60px;
+        margin: 0;
+        position: absolute;
+        top: -12px;
+        z-index: 999;
+        left: 0;
+        background: #ffffff;
+        border-radius: 6px;
+        li {
+          display: block;
+          padding: 12px;
+
+          &.selectedLanguage {
+            &::after {
+              content: "";
+              position: relative;
+              bottom: 0;
+              border: none;
+              z-index: 9999;
+              display: flex;
+              width: 100%;
+              right: -54px;
+              top: -18px;
+              height: 10px;
+              background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/selected-language.png")
+                no-repeat right center;
+              background-size: 10px;
+            }
+            &:nth-child(1) {
+              box-shadow: none;
+              &::after {
+                content: none;
+                background: none;
+                height: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .mobile-down-arrow {
+      position: relative;
+      border: none;
+      z-index: 9999;
+      display: block;
+      width: 15px;
+      height: 15px;
+      background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/down-arrow.png")
+        no-repeat right center;
+      background-size: 10px;
+    }
+
+    .mobile-down-arrow.mobileUpArrow {
+      background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/up-arrow.png")
+        no-repeat right center;
+      background-size: 10px;
+    }
+  }
+}
+
+body.languageOpened {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+#esg-main-container.languageOpened {
+  filter: blur(2px);
+}
+
 @media only screen and (min-width: 769px) {
   #esg-desktop-container {
     display: flex;
     grid-gap: 24px;
     margin: 10px 100px;
     align-items: center;
+    flex-wrap: wrap;
 
     .image {
+      flex-basis: 15%;
       .cmp-image__image {
-        height: 56px;
         object-fit: cover;
       }
     }
 
     .navigationV2 {
-      flex: 0 0 70%;
+      flex-basis: 65%;
       display: flex;
       justify-content: flex-end;
       .nav--container {
@@ -91,23 +193,6 @@
       flex-basis: 10%;
       display: flex;
       justify-content: center;
-      nav {
-        ul {
-          padding-inline-start: 0px;
-          list-style: none;
-
-          li {
-            a {
-              font-family: "Open Sans";
-              font-style: normal;
-              font-weight: 600;
-              font-size: 16px;
-              line-height: 24px;
-              color: #000000;
-            }
-          }
-        }
-      }
     }
 
     .button {
@@ -144,26 +229,6 @@
         flex-basis: 33.33%;
       }
 
-      .languagenavigation {
-        nav {
-          ul {
-            padding-inline-start: 0;
-            list-style: none;
-            li {
-              a {
-                font-family: "Open Sans";
-                font-style: normal;
-                font-weight: 600;
-                font-size: 12px;
-                line-height: 16px;
-                color: #000000;
-                text-transform: uppercase;
-              }
-            }
-          }
-        }
-      }
-
       .button {
         display: flex;
         justify-content: flex-end;
@@ -184,7 +249,14 @@
     }
 
     #burger-close-menu {
+      display: none;
+      position: relative;
       .button {
+        position: absolute;
+        top: 18px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
         .cmp-button {
           background: none;
           border: none;
@@ -236,5 +308,14 @@
         }
       }
     }
+  }
+
+  .languagenavigation.burgerMenuOpened,
+  .cmp-button__icon--esg-burger-icon.burgerMenuOpened {
+    display: none;
+  }
+
+  #burger-close-menu.burgerMenuOpened {
+    display: block;
   }
 }
