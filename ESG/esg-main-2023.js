@@ -3,15 +3,21 @@
 languageOpened = false;
 mobileUpArrow = false;
 selectedLanguage = false;
-const navLanguageContainer = document.querySelector(".languagenavigation nav");
-const downArrowClickButton = document.createElement("button");
-downArrowClickButton.classList.add("mobile-down-arrow");
-if (navLanguageContainer) {
-  navLanguageContainer.insertBefore(
-    downArrowClickButton,
-    navLanguageContainer.firstElementChild
-  );
-}
+const navLanguageContainer = document.querySelectorAll(
+  ".languagenavigation nav"
+);
+navLanguageContainer.forEach((navLanguage) => {
+  if (navLanguage) {
+    const downArrowClickButton = document.createElement("button");
+    downArrowClickButton.classList.add("mobile-down-arrow");
+    if (navLanguage) {
+      navLanguage.insertBefore(
+        downArrowClickButton,
+        navLanguage.firstElementChild
+      );
+    }
+  }
+});
 
 var clickLanguageNavigation = document.querySelectorAll(
   ".languagenavigation nav button"
@@ -60,8 +66,12 @@ let onBtnClick = () => {
   langauageNavigationHide[0].classList.toggle("burgerMenuClosed");
   burgerMenuClose = document.querySelectorAll("#burger-close-menu");
   burgerMenuClose[0].classList.toggle("burgerMenuOpened");
-  document.querySelectorAll("#esg-main-container")[0].classList.toggle('burgerMenuOpened');
-  document.querySelectorAll("#esg-footer-container")[0].classList.toggle('burgerMenuOpened');
+  document
+    .querySelectorAll("#esg-main-container")[0]
+    .classList.toggle("burgerMenuOpened");
+  document
+    .querySelectorAll("#esg-footer-container")[0]
+    .classList.toggle("burgerMenuOpened");
 };
 
 document

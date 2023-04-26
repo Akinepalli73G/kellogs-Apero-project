@@ -65,24 +65,22 @@
         &:nth-child(1) {
           display: block;
         }
-
-        &:nth-child(2) {
-          border-top: 1px solid rgba(255, 255, 255, 0.4);
-        }
       }
 
       &.languageOpened {
-        padding-right: 60px;
         margin: 0;
         position: absolute;
-        top: -12px;
+        top: -25px;
         z-index: 999;
         left: 0;
         background: #ffffff;
         border-radius: 6px;
+        width: 100%;
         li {
           display: block;
-          padding: 12px;
+          margin: 0 12px;
+          padding: 12px 0;
+          border-top: 2px solid #ebebeb;
 
           &.selectedLanguage {
             &::after {
@@ -93,15 +91,17 @@
               z-index: 9999;
               display: flex;
               width: 100%;
-              right: -54px;
+              right: 0;
               top: -18px;
-              height: 10px;
+              height: 13px;
+              margin-top: -13px;
               background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/selected-language.png")
                 no-repeat right center;
-              background-size: 10px;
+              background-size: 13px;
             }
             &:nth-child(1) {
               box-shadow: none;
+              border-top: none;
               &::after {
                 content: none;
                 background: none;
@@ -120,12 +120,21 @@
       display: block;
       width: 15px;
       height: 15px;
+      top: 0;
+      left: 0;
       background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/down-arrow.png")
         no-repeat right center;
       background-size: 10px;
     }
 
     .mobile-down-arrow.mobileUpArrow {
+      position: absolute;
+      border: none;
+      top: -12px;
+      left: -12px;
+      width: 100%;
+      z-index: 9999;
+      display: flex;
       background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/up-arrow.png")
         no-repeat right center;
       background-size: 10px;
@@ -311,6 +320,10 @@ body.languageOpened {
           }
         }
       }
+    }
+
+    .languagenavigation nav {
+      justify-content: flex-end;
     }
   }
 
