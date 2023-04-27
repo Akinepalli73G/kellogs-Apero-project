@@ -477,12 +477,12 @@ body {
 
 /* font import start */
 @font-face {
-  font-family: "Pinup-Regular";
-  src: url("/content/dam/global/promotions/aperopromotions/gb/en/fonts/Pinup-Regular.otf");
+  font-family: "Lilita One";
+  src: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/fonts/LilitaOne-Regular.ttf");
 }
 @font-face {
-  font-family: "NimbusSanLOT";
-  src: url("/content/dam/global/promotions/aperopromotions/gb/en/fonts/NimbusSanLOT-Bol.otf");
+  font-family: "Open Sans";
+  src: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/fonts/OpenSans-VariableFont_wdth,wght.ttf");
 }
 .tns-nav,
 .tns-controls,
