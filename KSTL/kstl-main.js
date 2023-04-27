@@ -3,8 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
     ".accordion-item-header"
   );
 
-  const tapToWin = document.querySelectorAll(".KSTLNav li");
-
   accordionItemHeaders.forEach((accordionItemHeader) => {
     accordionItemHeader.addEventListener("click", (event) => {
       accordionItemHeader.classList.toggle("active");
@@ -18,15 +16,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  tapToWin.forEach((liText) => {
-    if (liText.querySelector("a").innerText == "TAP TO WIN £300") {
-      liText.classList.add("tapToWin");
-      const tapToWinIcon = document.createElement("a"); 
-      tapToWinIcon.classList.add("tapToWinIcon");
-      if (document.querySelectorAll('.tapToWinIcon')) {
-        tapToWinIcon.setAttribute('href', liText.querySelector("a").href);
-      }
-      liText.insertBefore(tapToWinIcon, liText.firstElementChild);
-    }
-  });
+  const tapToWin = document.querySelectorAll(".KSTLNav li:last-of-type")[0];
+  tapToWin.classList.add("tapToWin");
+  const tapToWinIcon = document.createElement("a");
+  tapToWinIcon.classList.add("tapToWinIcon");
+  if (document.getElementsByClassName("tapToWinIcon")) {
+    tapToWinIcon.setAttribute("href", tapToWin.querySelector("a").href);
+  }
+  tapToWin.appendChild(tapToWinIcon);
 });
