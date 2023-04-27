@@ -307,7 +307,7 @@ body.languageOpened {
        object-fit: cover;
   }
   #esg-desktop-container .navigationV2 {
-    flex-basis: 70%;
+    flex-basis: 65%;
     display: flex;
     justify-content: flex-end;
   }
@@ -332,10 +332,10 @@ body.languageOpened {
   #esg-desktop-container .languagenavigation {
     flex-basis: 10%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
   #esg-desktop-container .button {
-    flex-basis: 5%;
+    flex-basis: 10%;
     display: flex;
     justify-content: flex-end;
   }
@@ -347,13 +347,12 @@ body.languageOpened {
     background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/Account.png") no-repeat center center;
     background-size: 38px;
   }
-  #esg-mobile-container {
+  #esg-desktop-container .logout-v6 {
+    flex-basis: 10%;
+    justify-content: flex-end;
     display: none;
   }
-  .logout-v6 {
-    display: none;
-  }
-  .logout-v6 #logout-Button {
+  #esg-desktop-container .logout-v6 #logout-Button {
     font-family: "Lilita One";
     font-style: normal;
     font-weight: 400;
@@ -365,6 +364,9 @@ body.languageOpened {
     background: #000000;
     border-radius: 90px;
     border: none;
+  }
+  #esg-mobile-container {
+    display: none;
   }
 }
 @media only screen and (max-width: 768px) {

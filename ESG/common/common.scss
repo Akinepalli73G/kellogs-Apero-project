@@ -185,7 +185,7 @@ body.languageOpened {
     }
 
     .navigationV2 {
-      flex-basis: 70%;
+      flex-basis: 65%;
       display: flex;
       justify-content: flex-end;
       .nav--container {
@@ -219,11 +219,11 @@ body.languageOpened {
     .languagenavigation {
       flex-basis: 10%;
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
     }
 
     .button {
-      flex-basis: 5%;
+      flex-basis: 10%;
       display: flex;
       justify-content: flex-end;
       #esg-account-icon {
@@ -236,25 +236,28 @@ body.languageOpened {
         background-size: 38px;
       }
     }
+
+    .logout-v6 {
+      flex-basis: 10%;
+      justify-content: flex-end;
+      display: none;
+      #logout-Button {
+        font-family: 'Lilita One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding: 12px 24px;
+        background: #000000;
+        border-radius: 90px;
+        border: none;
+      }
+    }
   }
   #esg-mobile-container {
     display: none;
-  }
-  .logout-v6 {
-    display: none;
-    #logout-Button {
-      font-family: 'Lilita One';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 21px;
-      text-transform: uppercase;
-      color: #ffffff;
-      padding: 12px 24px;
-      background: #000000;
-      border-radius: 90px;
-      border: none;
-    }
   }
 }
 
