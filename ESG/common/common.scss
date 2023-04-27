@@ -173,7 +173,6 @@ body.languageOpened {
 @media only screen and (min-width: 769px) {
   #esg-desktop-container {
     display: flex;
-    grid-gap: 24px;
     margin: 10px 100px;
     align-items: center;
     flex-wrap: wrap;
@@ -186,7 +185,7 @@ body.languageOpened {
     }
 
     .navigationV2 {
-      flex-basis: 65%;
+      flex-basis: 70%;
       display: flex;
       justify-content: flex-end;
       .nav--container {
@@ -224,6 +223,9 @@ body.languageOpened {
     }
 
     .button {
+      flex-basis: 5%;
+      display: flex;
+      justify-content: flex-end;
       #esg-account-icon {
         display: block;
         position: relative;

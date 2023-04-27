@@ -250,7 +250,6 @@ body.languageOpened {
 @media only screen and (min-width: 769px) {
   #esg-desktop-container {
     display: flex;
-    grid-gap: 24px;
     margin: 10px 100px;
     align-items: center;
     flex-wrap: wrap;
@@ -263,7 +262,7 @@ body.languageOpened {
        object-fit: cover;
   }
   #esg-desktop-container .navigationV2 {
-    flex-basis: 65%;
+    flex-basis: 70%;
     display: flex;
     justify-content: flex-end;
   }
@@ -289,6 +288,11 @@ body.languageOpened {
     flex-basis: 10%;
     display: flex;
     justify-content: center;
+  }
+  #esg-desktop-container .button {
+    flex-basis: 5%;
+    display: flex;
+    justify-content: flex-end;
   }
   #esg-desktop-container .button #esg-account-icon {
     display: block;
