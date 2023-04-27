@@ -64,6 +64,12 @@
 
         &:nth-child(1) {
           display: block;
+          position: relative;
+          z-index: 999999;
+          a {
+            position: relative;
+            z-index: 99999;
+          }
         }
       }
 
@@ -260,6 +266,16 @@ body.languageOpened {
 
       .languagenavigation {
         visibility: initial;
+        nav {
+          justify-content: flex-start;
+          .cmp-languagenavigation__group.languageOpened {
+            top: -13px;
+          }
+
+          .mobile-down-arrow.mobileUpArrow {
+            top: 0;
+          }
+        }
       }
     }
 
@@ -322,10 +338,6 @@ body.languageOpened {
           }
         }
       }
-    }
-
-    .languagenavigation nav {
-      justify-content: flex-start;
     }
   }
 

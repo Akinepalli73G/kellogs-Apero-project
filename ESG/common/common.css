@@ -60,6 +60,12 @@
 }
 .languagenavigation nav ul li:nth-child(1) {
   display: block;
+  position: relative;
+  z-index: 999999;
+}
+.languagenavigation nav ul li:nth-child(1) a {
+  position: relative;
+  z-index: 99999;
 }
 .languagenavigation nav ul.languageOpened {
   margin: 0;
@@ -226,6 +232,15 @@ body.languageOpened {
   #esg-mobile-container #burger-menu .languagenavigation {
     visibility: initial;
   }
+  #esg-mobile-container #burger-menu .languagenavigation nav {
+    justify-content: flex-start;
+  }
+  #esg-mobile-container #burger-menu .languagenavigation nav .cmp-languagenavigation__group.languageOpened {
+    top: -13px;
+  }
+  #esg-mobile-container #burger-menu .languagenavigation nav .mobile-down-arrow.mobileUpArrow {
+    top: 0;
+  }
   #esg-mobile-container #burger-close-menu {
     display: none;
     position: relative;
@@ -276,9 +291,6 @@ body.languageOpened {
     -webkit-padding-start: 6px;
             padding-inline-start: 6px;
     margin: 24px 0;
-  }
-  #esg-mobile-container .languagenavigation nav {
-    justify-content: flex-start;
   }
   .languagenavigation.burgerMenuClosed,
   .cmp-button__icon--esg-burger-icon.burgerMenuOpened {
