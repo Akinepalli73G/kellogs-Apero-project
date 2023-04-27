@@ -1,3 +1,4 @@
+#error-page-template-main-container,
 #holding-page-template-main-container {
   background: #009bde;
   position: relative;
@@ -25,7 +26,6 @@
         text-transform: uppercase;
         .orange-cream-title {
           color: #fec45e;
-          margin-right: 10px;
         }
         .white-title {
           color: #ffffff;
@@ -71,6 +71,7 @@
 }
 
 @media only screen and (min-width: 769px) {
+  #error-page-template-main-container,
   #holding-page-template-main-container {
     #coming-soon-teaser-content-container {
       grid-gap: 16px;
@@ -93,16 +94,38 @@
       }
     }
   }
-}
-@media only screen and (max-width: 768px) {
-  #holding-page-template-main-container {
-    #coming-soon-teaser-media-container {
-        .image {
-          img {
-            height: 620px;
+
+  #error-page-template-main-container {
+    #coming-soon-teaser-content-container {
+      .markuptext {
+        text-align: center;
+        h1 {
+          .orange-cream-title {
+            font-weight: 400;
+            font-size: 120px;
+            line-height: 137px;
+          }
+
+          .white-title {
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 57px;
           }
         }
       }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #error-page-template-main-container,
+  #holding-page-template-main-container {
+    #coming-soon-teaser-media-container {
+      .image {
+        img {
+          height: 620px;
+        }
+      }
+    }
     #coming-soon-teaser-content-container {
       grid-gap: 24px;
       padding: 0 20px;
@@ -118,6 +141,27 @@
 
       .button {
         margin-top: 12px;
+      }
+    }
+  }
+
+  #error-page-template-main-container {
+    #coming-soon-teaser-content-container {
+      .markuptext {
+        text-align: center;
+        h1 {
+          .orange-cream-title {
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 91px;
+          }
+
+          .white-title {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 34px;
+          }
+        }
       }
     }
   }
