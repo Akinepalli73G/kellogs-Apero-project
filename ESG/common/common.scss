@@ -241,16 +241,20 @@ body.languageOpened {
     display: none;
   }
   .logout-v6 {
-    font-family: 'Lilita One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 12px 24px;
-    background: #000000;
-    border-radius: 90px;
+    display: none;
+    #logout-Button {
+      font-family: 'Lilita One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding: 12px 24px;
+      background: #000000;
+      border-radius: 90px;
+      border: none;
+    }
   }
 }
 

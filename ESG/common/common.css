@@ -208,6 +208,9 @@ body.languageOpened {
     display: none;
   }
   .logout-v6 {
+    display: none;
+  }
+  .logout-v6 #logout-Button {
     font-family: "Lilita One";
     font-style: normal;
     font-weight: 400;
@@ -218,6 +221,7 @@ body.languageOpened {
     padding: 12px 24px;
     background: #000000;
     border-radius: 90px;
+    border: none;
   }
 }
 @media only screen and (max-width: 768px) {
