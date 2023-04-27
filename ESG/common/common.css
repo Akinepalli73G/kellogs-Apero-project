@@ -36,11 +36,6 @@
 .languagenavigation {
   position: relative;
 }
-.languagenavigation nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 .languagenavigation nav ul {
   -webkit-padding-start: 0;
           padding-inline-start: 0;
@@ -58,14 +53,23 @@
   color: #000000;
   text-transform: uppercase;
 }
+.languagenavigation nav ul li .mobile-down-arrow,
+.languagenavigation nav ul li .mobile-down-arrow.mobile-up-arrow {
+  display: none;
+}
 .languagenavigation nav ul li:nth-child(1) {
-  display: block;
+  display: flex;
+  align-items: center;
   position: relative;
   z-index: 999999;
 }
 .languagenavigation nav ul li:nth-child(1) a {
   position: relative;
   z-index: 99999;
+}
+.languagenavigation nav ul li:nth-child(1) .mobile-down-arrow,
+.languagenavigation nav ul li:nth-child(1) .mobile-down-arrow.mobile-up-arrow {
+  display: block;
 }
 .languagenavigation nav ul.languageOpened {
   margin: 0;
@@ -78,10 +82,16 @@
   width: 100%;
 }
 .languagenavigation nav ul.languageOpened li {
-  display: block;
+  display: flex;
   margin: 0 12px;
   padding: 12px 0;
   border-top: 2px solid #ebebeb;
+  align-items: center;
+  flex-wrap: wrap;
+  width: calc(100% - 24px);
+}
+.languagenavigation nav ul.languageOpened li a {
+  flex-basis: 80%;
 }
 .languagenavigation nav ul.languageOpened li.selectedLanguage::after {
   content: "";
@@ -122,13 +132,9 @@
   background-size: 10px;
 }
 .languagenavigation nav .mobile-down-arrow.mobileUpArrow {
-  position: absolute;
   border: none;
-  top: -12px;
-  left: -12px;
-  width: 100%;
   z-index: 9999;
-  display: flex;
+  display: block;
   background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/up-arrow.png") no-repeat right center;
   background-size: 10px;
 }

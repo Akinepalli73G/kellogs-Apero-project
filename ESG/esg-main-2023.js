@@ -4,7 +4,7 @@ languageOpened = false;
 mobileUpArrow = false;
 selectedLanguage = false;
 const navLanguageContainer = document.querySelectorAll(
-  ".languagenavigation nav"
+  ".languagenavigation nav li"
 );
 navLanguageContainer.forEach((navLanguage) => {
   if (navLanguage) {
@@ -14,37 +14,25 @@ navLanguageContainer.forEach((navLanguage) => {
   }
 });
 
-const desktopLanguagenavigationClicked = document.querySelector(
+const desktopLanguagenavigationClicked = document.querySelectorAll(
   ".languagenavigation #desktop-language-navigation button"
 );
-const mobileLanguagenavigationClicked = document.querySelector(
+const mobileLanguagenavigationClicked = document.querySelectorAll(
   ".languagenavigation #mobile-language-navigation button"
 );
 
-desktopLanguagenavigationClicked.addEventListener("click", () => {
-  document
-    .querySelector(".languagenavigation nav ul")
-    .classList.toggle("languageOpened");
-  document
-    .querySelector(".mobile-down-arrow")
-    .classList.toggle("mobileUpArrow");
+desktopLanguagenavigationClicked[0].addEventListener("click", () => {
+  document.querySelector(".languagenavigation nav ul").classList.toggle("languageOpened");
+  desktopLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
   document.querySelector("body").classList.toggle("languageOpened");
-  document
-    .querySelector("#esg-main-container")
-    .classList.toggle("languageOpened");
+  document.querySelector("#esg-main-container").classList.toggle("languageOpened");
 });
 
-mobileLanguagenavigationClicked.addEventListener("click", () => {
-  document
-    .querySelectorAll(".languagenavigation nav ul")[1]
-    .classList.toggle("languageOpened");
-  document
-    .querySelectorAll(".mobile-down-arrow")[1]
-    .classList.toggle("mobileUpArrow");
+mobileLanguagenavigationClicked[0].addEventListener("click", () => {
+  document.querySelectorAll(".languagenavigation nav ul")[1].classList.toggle("languageOpened");
+  mobileLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
   document.querySelector("body").classList.toggle("languageOpened");
-  document
-    .querySelector("#esg-main-container")
-    .classList.toggle("languageOpened");
+  document.querySelector("#esg-main-container").classList.toggle("languageOpened");
 });
 
 if (document.querySelectorAll(".languagenavigation")) {

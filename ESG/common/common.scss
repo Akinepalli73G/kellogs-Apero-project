@@ -44,9 +44,6 @@
 .languagenavigation {
   position: relative;
   nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     ul {
       padding-inline-start: 0;
       list-style: none;
@@ -62,13 +59,24 @@
           text-transform: uppercase;
         }
 
+        .mobile-down-arrow,
+        .mobile-down-arrow.mobile-up-arrow {
+          display: none;
+        }
+
         &:nth-child(1) {
-          display: block;
+          display: flex;
+          align-items: center;
           position: relative;
           z-index: 999999;
           a {
             position: relative;
             z-index: 99999;
+          }
+
+          .mobile-down-arrow,
+          .mobile-down-arrow.mobile-up-arrow {
+            display: block;
           }
         }
       }
@@ -83,10 +91,17 @@
         border-radius: 6px;
         width: 100%;
         li {
-          display: block;
+          display: flex;
           margin: 0 12px;
           padding: 12px 0;
           border-top: 2px solid #ebebeb;
+          align-items: center;
+          flex-wrap: wrap;
+          width: calc(100% - 24px);
+
+          a {
+            flex-basis: 80%;
+          }
 
           &.selectedLanguage {
             &::after {
@@ -136,13 +151,9 @@
     }
 
     .mobile-down-arrow.mobileUpArrow {
-      position: absolute;
       border: none;
-      top: -12px;
-      left: -12px;
-      width: 100%;
       z-index: 9999;
-      display: flex;
+      display: block;
       background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/up-arrow.png")
         no-repeat right center;
       background-size: 10px;
