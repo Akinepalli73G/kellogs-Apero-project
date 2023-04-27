@@ -350,6 +350,18 @@ body.languageOpened {
   #esg-mobile-container {
     display: none;
   }
+  .logout-v6 {
+    font-family: "Lilita One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 12px 24px;
+    background: #000000;
+    border-radius: 90px;
+  }
 }
 @media only screen and (max-width: 768px) {
   #esg-desktop-container {
@@ -452,6 +464,7 @@ body.languageOpened {
   #burger-close-menu.burgerMenuOpened {
     display: block !important;
   }
+  .logout-v6,
   #esg-main-container.burgerMenuOpened,
   #esg-footer-container.burgerMenuOpened {
     display: none;
