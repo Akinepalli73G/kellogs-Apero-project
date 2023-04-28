@@ -125,7 +125,6 @@
     font-family: "NimbusSanLOT";
     font-size: 14px;
     line-height: 22px;
-    text-transform: capitalize;
     color: #000000;
   }
   #create-account-or-login-template #create-account-or-login-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2.portrait #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-required-display.gigya-reset,
