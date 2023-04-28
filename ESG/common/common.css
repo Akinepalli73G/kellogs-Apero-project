@@ -222,6 +222,11 @@ body.languageOpened {
     border-radius: 90px;
     border: none;
   }
+  #esg-desktop-container .navigationV2,
+  #esg-desktop-container .languagenavigation,
+  #esg-desktop-container .button {
+    visibility: hidden !important;
+  }
   #esg-mobile-container {
     display: none;
   }
@@ -268,6 +273,10 @@ body.languageOpened {
   }
   #esg-mobile-container #burger-menu .languagenavigation nav .mobile-down-arrow.mobileUpArrow {
     top: 0;
+  }
+  #esg-mobile-container #burger-menu .languagenavigation,
+  #esg-mobile-container #burger-menu .button {
+    visibility: hidden !important;
   }
   #esg-mobile-container #burger-close-menu {
     display: none;

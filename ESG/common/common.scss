@@ -255,6 +255,12 @@ body.languageOpened {
         border: none;
       }
     }
+
+    .navigationV2,
+    .languagenavigation,
+    .button {
+      visibility: hidden !important;
+    }
   }
   #esg-mobile-container {
     display: none;
@@ -308,6 +314,11 @@ body.languageOpened {
             top: 0;
           }
         }
+      }
+
+      .languagenavigation,
+      .button {
+        visibility: hidden !important;
       }
     }
 
