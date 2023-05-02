@@ -65,6 +65,12 @@
 #KSTL-landing-container-child-three .image {
   flex: 1;
 }
+#KSTL-landing-container-child-three .coreContainer img,
+#KSTL-landing-container-child-three .image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 #KSTL-landing-container-child-three > .coreContainer {
   background: #e71d2b;
 }
