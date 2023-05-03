@@ -654,6 +654,13 @@
     margin-top: -60px;
     margin-bottom: 0;
   }
+  .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five > .coreContainer .coreButton button {
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five > .coreContainer .coreButton button::before {
+    left: 0;
+  }
   .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five > .coreContainer .markupText .kstl-four-title {
     font-size: 30px;
     line-height: 36px;
@@ -761,10 +768,19 @@
     padding: 0 55px;
   }
   .coreContainer:has(> #KSTL-landing-container-child-four-sub-child-two) .markupText .kstl-content .kstl-pre-title {
-    display: none;
+    font-family: "Pinup";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #e71d2b;
   }
   .coreContainer:has(> #KSTL-landing-container-child-five) {
     padding: 0 100px;
+    flex-wrap: wrap;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five {
+    flex-basis: 50%;
   }
   .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five > .coreContainer .image img {
     width: 191px;
@@ -774,6 +790,11 @@
   .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five > .coreContainer .markupText .kstl-four-title {
     font-size: 50px;
     line-height: 60px;
+  }
+  .coreContainer:has(> #KSTL-landing-container-child-five) .coreContainer:has(> #KSTL-landing-container-child-five-sub-child-two) {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
   }
   .coreContainer:has(> #KSTL-landing-container-child-five) #KSTL-landing-container-child-five-sub-child-two .image img {
     max-width: 540px;
