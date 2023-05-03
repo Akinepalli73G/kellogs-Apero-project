@@ -48,6 +48,8 @@
     align-items: center;
     flex-direction: column;
     top: -35px;
+    padding: 0 20px;
+    text-align: center;
   }
   .kstl-mobile-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-ar-experience {
     display: flex;
@@ -79,7 +81,6 @@
     font-size: 39.9404px;
     line-height: 48px;
     color: #0f76b9;
-    margin: 10px 0;
   }
   .kstl-mobile-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-red-title {
     font-family: "Pinup-Regular";
@@ -139,6 +140,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
   }
   .kstl-desktop-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-ar-experience {
     display: flex;
@@ -213,5 +215,11 @@
   }
   #main_container .kstl-home-page-container .kstl-desktop-home-page-content {
     font-size: 0;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1399px) {
+  .kstl-desktop-home-page-content .grid__item .kstl-home-page-desktop .kstl-home-blue-tile {
+    font-size: 45px;
+    line-height: 50px;
   }
 }/*# sourceMappingURL=homepage.css.map */
