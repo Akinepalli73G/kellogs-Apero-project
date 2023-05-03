@@ -1977,6 +1977,7 @@
   }
   #create-account-or-login-template #create-account-or-login-template-child-one .text p a {
     color: #e71d2b;
+    text-decoration: underline;
   }
   #create-account-or-login-template #create-account-or-login-template-child-one .markuptext {
     display: none;
