@@ -1,1 +1,140 @@
-/*# sourceMappingURL=brand.css.map */
+.monty-brand-one-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #e71d2b;
+}
+.monty-brand-one-container .kstl-rich-text .montey-content-one h2.monty-white {
+  font-family: "Pinup";
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.monty-brand-one-container .kstl-rich-text .montey-content-one h6.monty-yellow {
+  font-family: "Pinup";
+  font-style: normal;
+  font-weight: 700;
+  color: #f7e62a;
+}
+.monty-brand-one-container .kstl-rich-text .montey-content-two h5.monty-hedaing-white {
+  font-family: "Pinup";
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.monty-brand-two-container {
+  display: flex;
+  flex-wrap: wrap;
+  background: #009e80;
+  color: #ffffff;
+}
+.monty-brand-two-container .kstl-rich-text .monty-brand-two-content h5.monty-brand-two-heading-one {
+  font-family: "Pinup";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-two {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.monty-brand-two-container .kstl-rich-text .monty-brand-two-content h6.monty-brand-two-heading-two {
+  font-family: "Pinup";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-three-container p {
+  font-family: "NimbusSanLOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .monty-brand-one-container .kstl-rich-text .montey-content-one h2.monty-white {
+    font-size: 45px;
+    line-height: 54px;
+  }
+  .monty-brand-one-container .kstl-rich-text .montey-content-one h6.monty-yellow {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .monty-brand-one-container .kstl-rich-text .montey-content-two h5.monty-hedaing-white {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h5.monty-brand-two-heading-one {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-two {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h6.monty-brand-two-heading-two {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-three-container p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .monty-brand-one-container > .grid__item:nth-child(1),
+  .monty-brand-one-container > .grid__item:nth-child(2) {
+    flex-basis: 50%;
+  }
+  .monty-brand-one-container > .grid__item:nth-child(3) {
+    flex-basis: 100%;
+  }
+  .monty-brand-one-container .kstl-rich-text .montey-content-one h2.monty-white {
+    font-size: 60px;
+    line-height: 72px;
+  }
+  .monty-brand-one-container .kstl-rich-text .montey-content-one h6.monty-yellow {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .monty-brand-one-container .kstl-rich-text .montey-content-two h5.monty-hedaing-white {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .monty-brand-two-container .grid__item {
+    flex-basis: 50%;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h5.monty-brand-two-heading-one {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-two {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h6.monty-brand-two-heading-two {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-three-container p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}/*# sourceMappingURL=brand.css.map */
