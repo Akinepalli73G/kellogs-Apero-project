@@ -89,12 +89,6 @@ if (carouselContainer) {
   });
 }
 
-const breadcrumbGoBackText = document.querySelectorAll(
-  ".cmp-breadcrumb__list li:nth-last-child(2) a"
-);
-if (breadcrumbGoBackText.length != 0) {
-  breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Go back</span>`;
-}
 
 var modal = document.querySelector(".container #receipt-upload-child-two");
 var trigger = document.querySelector(".button #dont-have-a-receipt-button");
@@ -145,5 +139,19 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     });
+  }
+
+  const breadcrumbGoBackText = document.querySelectorAll(
+    ".cmp-breadcrumb__list li:nth-last-child(2) a"
+  );
+  if (breadcrumbGoBackText.length != 0) {
+    const currentUrl = breadcrumbGoBackText[0].getAttribute("href");
+    let backButtonText = currentUrl.split("/");
+    let language = backButtonText[1].split("_")
+    if (language[0] == "en") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Back</span>`;
+    } else {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Go back</span>`;
+    }
   }
 });
