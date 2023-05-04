@@ -87,6 +87,13 @@
 
 @media only screen and (max-width: 768px) {
   .monty-brand-one-container {
+    padding: 40px 20px;
+    > .grid__item:nth-child(2) {
+      img {
+        position: relative;
+        right: -20px;
+      }
+    }
     .kstl-rich-text {
       .montey-content-one {
         h2.monty-white {
@@ -96,6 +103,7 @@
         h6.monty-yellow {
           font-size: 18px;
           line-height: 22px;
+          padding-bottom: 16px;
         }
       }
 
@@ -103,16 +111,28 @@
         h5.monty-hedaing-white {
           font-size: 20px;
           line-height: 24px;
+          text-align: center;
+          padding: 40px 0 20px;
         }
       }
     }
   }
   .monty-brand-two-container {
+    flex-direction: column-reverse;
+    padding: 40px 20px 0;
+    > .grid__item:nth-child(1) {
+      line-height: 0;
+      padding: 0 15px;
+    }
+    > .grid__item:nth-child(2) {
+      text-align: center;
+    }
     .kstl-rich-text {
       .monty-brand-two-content {
         h5.monty-brand-two-heading-one {
           font-size: 20px;
           line-height: 24px;
+          margin-bottom: 20px;
         }
         .monty-brand-two-text-two {
           font-size: 12px;
@@ -122,9 +142,11 @@
         h6.monty-brand-two-heading-two {
           font-size: 18px;
           line-height: 22px;
+          margin: 40px 0 32px;
         }
 
         .monty-brand-two-text-three-container {
+          margin-bottom: 10px;
           p {
             font-size: 12px;
             line-height: 16px;
@@ -136,12 +158,17 @@
 }
 @media only screen and (min-width: 769px) {
   .monty-brand-one-container {
+    padding: 60px 0 0 60px;
     > .grid__item:nth-child(1),
     > .grid__item:nth-child(2) {
       flex-basis: 50%;
     }
     > .grid__item:nth-child(3) {
       flex-basis: 100%;
+      margin: 60px 158px;
+    }
+    > .grid__item:nth-child(2) { 
+        padding-left: 200px;
     }
 
     .kstl-rich-text {
@@ -166,11 +193,20 @@
   }
 
   .monty-brand-two-container {
+    padding: 60px 60px 0;
+    > .grid__item:nth-child(1) {
+      display: flex;
+      align-items: flex-end;
+      img {
+        padding-right: 120px;
+      }
+    }
     .grid__item {
       flex-basis: 50%;
     }
     .kstl-rich-text {
       .monty-brand-two-content {
+        padding-top: 60px;
         h5.monty-brand-two-heading-one {
           font-size: 30px;
           line-height: 36px;
@@ -178,6 +214,7 @@
         .monty-brand-two-text-two {
           font-size: 16px;
           line-height: 24px;
+          padding: 20px 0;
         }
 
         h6.monty-brand-two-heading-two {

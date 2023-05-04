@@ -69,6 +69,13 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .monty-brand-one-container {
+    padding: 40px 20px;
+  }
+  .monty-brand-one-container > .grid__item:nth-child(2) img {
+    position: relative;
+    right: -20px;
+  }
   .monty-brand-one-container .kstl-rich-text .montey-content-one h2.monty-white {
     font-size: 45px;
     line-height: 54px;
@@ -76,14 +83,29 @@
   .monty-brand-one-container .kstl-rich-text .montey-content-one h6.monty-yellow {
     font-size: 18px;
     line-height: 22px;
+    padding-bottom: 16px;
   }
   .monty-brand-one-container .kstl-rich-text .montey-content-two h5.monty-hedaing-white {
     font-size: 20px;
     line-height: 24px;
+    text-align: center;
+    padding: 40px 0 20px;
+  }
+  .monty-brand-two-container {
+    flex-direction: column-reverse;
+    padding: 40px 20px 0;
+  }
+  .monty-brand-two-container > .grid__item:nth-child(1) {
+    line-height: 0;
+    padding: 0 15px;
+  }
+  .monty-brand-two-container > .grid__item:nth-child(2) {
+    text-align: center;
   }
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h5.monty-brand-two-heading-one {
     font-size: 20px;
     line-height: 24px;
+    margin-bottom: 20px;
   }
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-two {
     font-size: 12px;
@@ -92,6 +114,10 @@
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h6.monty-brand-two-heading-two {
     font-size: 18px;
     line-height: 22px;
+    margin: 40px 0 32px;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-three-container {
+    margin-bottom: 10px;
   }
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-three-container p {
     font-size: 12px;
@@ -99,12 +125,19 @@
   }
 }
 @media only screen and (min-width: 769px) {
+  .monty-brand-one-container {
+    padding: 60px 0 0 60px;
+  }
   .monty-brand-one-container > .grid__item:nth-child(1),
   .monty-brand-one-container > .grid__item:nth-child(2) {
     flex-basis: 50%;
   }
   .monty-brand-one-container > .grid__item:nth-child(3) {
     flex-basis: 100%;
+    margin: 60px 158px;
+  }
+  .monty-brand-one-container > .grid__item:nth-child(2) {
+    padding-left: 200px;
   }
   .monty-brand-one-container .kstl-rich-text .montey-content-one h2.monty-white {
     font-size: 60px;
@@ -118,8 +151,21 @@
     font-size: 30px;
     line-height: 36px;
   }
+  .monty-brand-two-container {
+    padding: 60px 60px 0;
+  }
+  .monty-brand-two-container > .grid__item:nth-child(1) {
+    display: flex;
+    align-items: flex-end;
+  }
+  .monty-brand-two-container > .grid__item:nth-child(1) img {
+    padding-right: 120px;
+  }
   .monty-brand-two-container .grid__item {
     flex-basis: 50%;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content {
+    padding-top: 60px;
   }
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h5.monty-brand-two-heading-one {
     font-size: 30px;
@@ -128,6 +174,7 @@
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-two {
     font-size: 16px;
     line-height: 24px;
+    padding: 20px 0;
   }
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h6.monty-brand-two-heading-two {
     font-size: 20px;
