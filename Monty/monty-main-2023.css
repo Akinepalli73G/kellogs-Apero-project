@@ -116,6 +116,9 @@
   background: #009e80;
   color: #ffffff;
 }
+.monty-brand-two-container > .grid__item:nth-child(1) {
+  line-height: 0;
+}
 .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h5.monty-brand-two-heading-one {
   font-family: "Pinup";
   font-style: normal;
@@ -261,6 +264,9 @@
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h6.monty-brand-two-heading-two {
     font-size: 20px;
     line-height: 24px;
+  }
+  .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-three-container {
+    margin-top: 20px;
   }
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-three-container p {
     font-size: 12px;

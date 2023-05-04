@@ -41,6 +41,9 @@
   flex-wrap: wrap;
   background: #009e80;
   color: #ffffff;
+  > .grid__item:nth-child(1) {
+    line-height: 0;
+  }
 
   .kstl-rich-text {
     .monty-brand-two-content {
@@ -223,6 +226,7 @@
         }
 
         .monty-brand-two-text-three-container {
+          margin-top: 20px;
           p {
             font-size: 12px;
             line-height: 16px;
