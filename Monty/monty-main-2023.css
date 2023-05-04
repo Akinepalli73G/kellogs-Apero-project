@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+}
+
+/* font import start */
+@font-face {
+  font-family: "Pinup-Regular";
+  src: url("/content/dam/pringles/en_GB/fonts/Pinup.woff2");
+}
+@font-face {
+  font-family: "NimbusSanLOT";
+  src: url("/content/dam/pringles/en_GB/fonts/NimbusSanLOT-Bol.otf");
+}
+.image {
+  line-height: 0;
+}/*# sourceMappingURL=monty-main-2023.css.map */
