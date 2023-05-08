@@ -779,7 +779,6 @@
     color: #e71d2b;
   }
   .coreContainer:has(> #KSTL-landing-container-child-five) {
-    padding: 0 100px;
     flex-wrap: wrap;
     justify-content: space-between;
   }
