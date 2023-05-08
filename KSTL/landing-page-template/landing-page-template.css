@@ -57,6 +57,9 @@
   color: #ffffff;
   padding-top: 30px;
 }
+#KSTL-main-container > .coreContainer > .coreContainer:nth-child(3) .image img {
+  width: 100%;
+}
 
 #KSTL-landing-container-child-three {
   display: flex;

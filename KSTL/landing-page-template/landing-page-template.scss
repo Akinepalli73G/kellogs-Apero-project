@@ -36,6 +36,8 @@
         color: #ffffff;
         display: flex;
         align-items: center;
+        
+
         .markupText {
           padding: 0 64px;
           .kstl-rich-text {
@@ -55,6 +57,11 @@
             color: #ffffff;
             padding-top: 30px;
           }
+        }
+      }
+      .image {
+        img {
+          width: 100%;
         }
       }
     }
