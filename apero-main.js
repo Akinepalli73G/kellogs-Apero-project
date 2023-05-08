@@ -150,6 +150,58 @@ document.addEventListener("DOMContentLoaded", () => {
     let language = backButtonText[1].split("_")
     if (language[0] == "en") {
       breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Back</span>`;
+    } else if (language[0] == "fr") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Retour</span>`;
+    } else if (language[0] == "es") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Volver</span>`;
+    } else if (language[0] == "it") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Indietro</span>`;
+    } else if (language[0] == "de") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Zurück</span>`;
+    } else if (language[0] == "sq") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Kthehu</span>`;
+    } else if (language[0] == "bq") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Назад</span>`;
+    } else if (language[0] == "hr") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Natrag</span>`;
+    } else if (language[0] == "cs") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Zpět</span>`;
+    } else if (language[0] == "da") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Tilbage</span>`;
+    } else if (language[0] == "nl") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Terug</span>`;
+    } else if (language[0] == "et") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Tagasi</span>`;
+    } else if (language[0] == "fi") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Takaisin</span>`;
+    } else if (language[0] == "el") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Πίσω</span>`;
+    } else if (language[0] == "hu") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Vissza</span>`;
+    } else if (language[0] == "is") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Til baka</span>`;
+    } else if (language[0] == "lv") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Atpakaļ</span>`;
+    } else if (language[0] == "lt") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Atgal</span>`;
+    } else if (language[0] == "mk") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Назад</span>`;
+    } else if (language[0] == "no") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Tilbake</span>`;
+    } else if (language[0] == "pl") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Powrót</span>`;
+    } else if (language[0] == "pt") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Voltar</span>`;
+    } else if (language[0] == "ro") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Înapoi</span>`;
+    } else if (language[0] == "sr") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Nazad</span>`;
+    } else if (language[0] == "sk") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Späť</span>`;
+    } else if (language[0] == "sl") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Nazaj</span>`;
+    } else if (language[0] == "sv") {
+      breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Tillbaka</span>`;
     } else {
       breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Go back</span>`;
     }

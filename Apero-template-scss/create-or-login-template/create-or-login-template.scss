@@ -321,6 +321,12 @@
                                 padding-top: 0;
                               }
                             }
+                            #register-site-login {
+                              div:first-child {
+                                display: block;
+                                width: 100%;
+                              }
+                            }
                           }
 
                           #gigya-register-form .gigya-layout-row.with-divider {
@@ -473,9 +479,8 @@
             color: #000000;
           }
         }
-        #KSTL-Registration-wrapper-Password {
-          margin-bottom: 80px;
-        }
+
+        #KSTL-Registration-wrapper-ContinueButton,
         #KSTL-Registration-wrapper-ContinueButton1 {
           .btn_responsive.mini.btn.btn-primary {
             width: calc(100% - 20px);
@@ -565,6 +570,37 @@
                   }
                 }
 
+                #KSTL-Registration-wrapper-Country {
+                  .label-after {
+                    margin-left: 0;
+                    padding: 6px 22px;
+                    background: #f2f2f2;
+                    display: flex;
+                    flex-direction: row;
+                    &::after,
+                    &::before {
+                      top: 6px;
+                    }
+                  }
+                }
+                #KSTL-Registration-wrapper-Privacy#Policy,
+                #KSTL-Registration-wrapper-TermsConditions {
+                  > div {
+                    display: flex;
+                    align-items: center;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    border-radius: 20px;
+                    padding: 15px;
+                    [type="checkbox"]:not(:checked) {
+                      left: 20px;
+                    }
+                    .ng-scope {
+                      position: relative;
+                      left: 10px;
+                    }
+                  }
+                }
+
                 // [for="KSTL-Registration-TermsandConditions"] {
 
                 // }
@@ -592,14 +628,13 @@
   }
 }
 
-
 #create-account-or-login-template:has(#Facebook_btn),
 #create-account-or-login-template:has(#Google_btn) {
   #create-account-or-login-template-child-one {
     .markuptext {
       display: block;
     }
-  
+
     #apero-or-seperator-container {
       display: flex;
     }
