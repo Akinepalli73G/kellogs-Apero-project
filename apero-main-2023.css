@@ -4133,12 +4133,14 @@
   }
   #splitters-page-template-container #splitters-page-child-three .container .cmp-container {
     display: flex;
-    grid-gap: 20px;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   #splitters-page-template-container #splitters-page-child-three .container .cmp-container .teaser {
-    flex: 0 0 47%;
+    box-sizing: border-box;
+    width: 50%;
+    flex-basis: calc(50% - 10px);
   }
   #splitters-page-template-container #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__image .cmp-image__image {
     height: 200px;
@@ -4160,6 +4162,7 @@
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
+    word-break: break-all;
   }
   #splitters-page-template-container #splitters-page-child-three .container .cmp-container .teaser .cmp-teaser__content .cmp-teaser__action-container {
     background: #ffffff;

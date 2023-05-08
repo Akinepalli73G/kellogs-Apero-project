@@ -140,11 +140,13 @@
       .container {
         .cmp-container {
           display: flex;
-          grid-gap: 20px;
-          width: calc(100%);
+          width: 100%;
           flex-wrap: wrap;
+          justify-content: space-between;
           .teaser {
-            flex: 0 0 47%;
+            box-sizing: border-box;
+            width: 50%;
+            flex-basis: calc(50% - 10px);
             .cmp-teaser {
               &__image {
                 .cmp-image__image {
@@ -166,6 +168,7 @@
                       color: #ffffff;
                       text-decoration: none;
                       text-transform: uppercase;
+                      word-break: break-all;
                     }
                   }
 
