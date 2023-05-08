@@ -872,8 +872,10 @@
   .coreContainer:has(> #KSTL-landing-container-child-five) {
     padding: 0 100px;
     flex-wrap: wrap;
+    justify-content: space-between;
     #KSTL-landing-container-child-five {
-      flex-basis: 50%;
+      flex-basis: calc(50% - 100px);
+      box-sizing: border-box;
       > .coreContainer {
         .image {
           img {
@@ -892,7 +894,8 @@
     }
     .coreContainer:has(> #KSTL-landing-container-child-five-sub-child-two) {
       display: flex;
-      flex-basis: 50%;
+      flex-basis: calc(50% - 100px);
+      box-sizing: border-box;
       justify-content: center;
     }
     #KSTL-landing-container-child-five-sub-child-two {
