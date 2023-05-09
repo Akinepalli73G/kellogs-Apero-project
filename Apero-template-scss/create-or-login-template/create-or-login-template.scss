@@ -166,6 +166,10 @@
                                 }
                               }
 
+                              .gigya-container.gigya-visible-when.gigya-container-enabled {
+                                width: 100%;
+                              }
+
                               .gigya-composite-control-link {
                                 text-align: left;
                                 font-family: "NimbusSanLOT";
@@ -214,7 +218,7 @@
                                   }
                                 }
                               }
-
+                              .gigya-composite-control-checkbox.consent-reg,
                               .gigya-composite-control-checkbox.privacy-reg,
                               .gigya-composite-control-checkbox.tnc-reg {
                                 border: 1px solid rgba(0, 0, 0, 0.1);
@@ -289,7 +293,8 @@
                                   }
                                 }
                               }
-
+                              
+                              .gigya-composite-control-checkbox.consent-reg:has(.gigya-error-msg-active),
                               .gigya-composite-control-checkbox.tnc-reg:has(
                                   .gigya-error-msg-active
                                 ),
@@ -547,7 +552,8 @@
                   color: #e71d2b;
                 }
                 #KSTL-Registration-wrapper-PrivacyPolicy,
-                #KSTL-Registration-wrapper-TermsandConditions {
+                #KSTL-Registration-wrapper-TermsandConditions,
+                #KSTL-Registration-wrapper-TermsConditions1 {
                   border: 1px solid rgba(0, 0, 0, 0.1);
                   border-radius: 20px;
                   padding-top: 10px;
@@ -560,7 +566,8 @@
                   }
                 }
                 #KSTL-Registration-wrapper-PrivacyPolicy:has(.isValid),
-                #KSTL-Registration-wrapper-TermsandConditions:has(.isValid) {
+                #KSTL-Registration-wrapper-TermsandConditions:has(.isValid) 
+                #KSTL-Registration-wrapper-TermsConditions1:has(.isValid){
                   label {
                     &::before {
                       background: #3bae49;
@@ -591,7 +598,7 @@
                 #KSTL-Registration-wrapper-TermsConditions {
                   > div {
                     display: flex;
-                    align-items: center;
+                    align-items: flex-start;
                     border: 1px solid rgba(0, 0, 0, 0.1);
                     border-radius: 20px;
                     padding: 15px;
@@ -602,6 +609,7 @@
                     .ng-scope {
                       position: relative;
                       left: 10px;
+                      top: -3px;
                     }
                   }
                 }
