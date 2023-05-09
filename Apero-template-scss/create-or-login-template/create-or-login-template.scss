@@ -327,6 +327,10 @@
                                 width: 100%;
                               }
                             }
+                            .gigya-composite-control.gigya-spacer {
+                              height: 0;
+                              padding-bottom: 0;
+                            }
                           }
 
                           #gigya-register-form .gigya-layout-row.with-divider {

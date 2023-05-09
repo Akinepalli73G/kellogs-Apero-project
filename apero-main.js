@@ -89,7 +89,6 @@ if (carouselContainer) {
   });
 }
 
-
 var modal = document.querySelector(".container #receipt-upload-child-two");
 var trigger = document.querySelector(".button #dont-have-a-receipt-button");
 var closeButton = document.querySelector(
@@ -141,13 +140,31 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const clickNavigationAnchor = document.querySelectorAll(
+    "#mobile-burger-menu-close ul li a"
+  );
+  if (clickNavigationAnchor) {
+    clickNavigationAnchor.forEach((clickNavigation) => {
+      const targetEmptey = clickNavigation.getAttribute("target");
+      if (!targetEmptey) {
+        clickNavigation.addEventListener("click", (event) => {
+          event.preventDefault();
+          const href = clickNavigation.getAttribute("href");
+          if (href) {
+            location.href = href;
+          }
+        });
+      }
+    });
+  }
+
   const breadcrumbGoBackText = document.querySelectorAll(
     ".cmp-breadcrumb__list li:nth-last-child(2) a"
   );
   if (breadcrumbGoBackText.length != 0) {
     const currentUrl = breadcrumbGoBackText[0].getAttribute("href");
     let backButtonText = currentUrl.split("/");
-    let language = backButtonText[1].split("_")
+    let language = backButtonText[1].split("_");
     if (language[0] == "en") {
       breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Back</span>`;
     } else if (language[0] == "fr") {
