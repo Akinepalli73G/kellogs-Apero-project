@@ -34,7 +34,7 @@
   color: #e71d2b;
 }
 .monty-banner-container .kstl-rich-text .monty-banner-content .monty-description {
-  font-family: "NimbusSanLOT";
+  font-family: "Pinup";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -98,7 +98,7 @@
   font-family: "Pinup";
   font-style: normal;
   font-weight: 700;
-  color: #f7e62a;
+  color: #ffffff;
 }
 .monty-brand-one-container .kstl-rich-text .montey-content-two h5.monty-hedaing-white {
   font-family: "Pinup";
@@ -119,6 +119,31 @@
 .monty-brand-two-container > .grid__item:nth-child(1) {
   line-height: 0;
 }
+.monty-brand-two-container > .grid__item:nth-child(2) a {
+  font-family: "Pinup";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 17px 40px;
+  color: #ffffff;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #e71d2b;
+  border-radius: 2px;
+  border: none;
+  margin-top: 20px;
+}
+.monty-brand-two-container > .grid__item:nth-child(2) .kstl-rich-text p {
+  font-family: "Pinup";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
 .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h5.monty-brand-two-heading-one {
   font-family: "Pinup";
   font-style: normal;
@@ -128,7 +153,7 @@
   color: #ffffff;
 }
 .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-two {
-  font-family: "NimbusSanLOT";
+  font-family: "Pinup";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -144,13 +169,21 @@
   color: #ffffff;
 }
 .monty-brand-two-container .kstl-rich-text .monty-brand-two-content .monty-brand-two-text-three-container p {
-  font-family: "NimbusSanLOT";
+  font-family: "Pinup";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   color: #ffffff;
   margin: 0;
+}
+.monty-brand-two-container .kstl-rich-text p {
+  font-family: "Pinup";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 768px) {
@@ -186,6 +219,9 @@
   }
   .monty-brand-two-container > .grid__item:nth-child(2) {
     text-align: center;
+  }
+  .monty-brand-two-container > .grid__item:nth-child(2) a {
+    margin: 20px 30px;
   }
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content h5.monty-brand-two-heading-one {
     font-size: 20px;
