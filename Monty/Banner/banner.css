@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  background: url("/content/dam/pringles/en_GB/images/banners/monty/background-banner.png") no-repeat center center;
+  background: #E71D2B;
 }
 .monty-banner-container a {
-  color: #e71d2b;
+  color: #ffffff;
 }
 .monty-banner-container a.kstl-default-button {
   font-family: "Pinup";
@@ -13,17 +13,17 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  color: #ffffff;
-  background: red;
+  color: #e71d2b;
+  background: #ffffff;
   padding: 14px 30px;
   text-transform: uppercase;
   border: none;
 }
 .monty-banner-container a :hover {
-  color: #e71d2b;
+  color: #ffffff;
 }
 .monty-banner-container .kstl-rich-text .monty-banner-content {
-  color: #e71d2b;
+  color: #ffffff;
 }
 .monty-banner-container .kstl-rich-text .monty-banner-content .monty-title {
   font-family: "Pinup";
@@ -31,7 +31,8 @@
   font-weight: 700;
   font-size: 50px;
   line-height: 60px;
-  color: #e71d2b;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 .monty-banner-container .kstl-rich-text .monty-banner-content .monty-description {
   font-family: "Pinup";
@@ -39,7 +40,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #e71d2b;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 768px) {
@@ -48,7 +50,7 @@
     padding: 20px;
   }
   .monty-banner-container .kstl-rich-text .monty-banner-content {
-    color: #e71d2b;
+    color: #ffffff;
   }
   .monty-banner-container .kstl-rich-text .monty-banner-content .monty-title {
     font-size: 30px;
@@ -68,7 +70,7 @@
     padding: 0 80px 0 60px;
   }
   .monty-banner-container .kstl-rich-text .monty-banner-content {
-    color: #e71d2b;
+    color: #ffffff;
   }
   .monty-banner-container .kstl-rich-text .monty-banner-content .monty-title {
     font-size: 50px;

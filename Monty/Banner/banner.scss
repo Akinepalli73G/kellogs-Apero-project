@@ -2,37 +2,37 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  background: url("/content/dam/pringles/en_GB/images/banners/monty/background-banner.png")
-    no-repeat center center;
+  background: #E71D2B;
 
   a {
-    color: #e71d2b;
+    color: #ffffff;
     &.kstl-default-button {
       font-family: "Pinup";
       font-style: normal;
       font-weight: 700;
       font-size: 14px;
       line-height: 17px;
-      color: #ffffff;
-      background: red;
+      color: #e71d2b;
+      background: #ffffff;
       padding: 14px 30px;
       text-transform: uppercase;
       border: none;
     }
     :hover {
-      color: #e71d2b;
+      color: #ffffff;
     }
   }
   .kstl-rich-text {
     .monty-banner-content {
-      color: #e71d2b;
+      color: #ffffff;
       .monty-title {
         font-family: "Pinup";
         font-style: normal;
         font-weight: 700;
         font-size: 50px;
         line-height: 60px;
-        color: #e71d2b;
+        color: #ffffff;
+        text-transform: uppercase;
       }
 
       .monty-description {
@@ -41,7 +41,8 @@
         font-weight: 700;
         font-size: 16px;
         line-height: 24px;
-        color: #e71d2b;
+        color: #ffffff;
+        text-transform: uppercase;
       }
     }
   }
@@ -55,7 +56,7 @@
     }
     .kstl-rich-text {
       .monty-banner-content {
-        color: #e71d2b;
+        color: #ffffff;
         .monty-title {
           font-size: 30px;
           line-height: 36px;
@@ -80,7 +81,7 @@
     }
     .kstl-rich-text {
       .monty-banner-content {
-        color: #e71d2b;
+        color: #ffffff;
         .monty-title {
           font-size: 50px;
           line-height: 60px;
