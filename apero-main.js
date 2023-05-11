@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
       breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Zurück</span>`;
     } else if (language[0] == "sq") {
       breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Kthehu</span>`;
-    } else if (language[0] == "bq") {
+    } else if (language[0] == "bg") {
       breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Назад</span>`;
     } else if (language[0] == "hr") {
       breadcrumbGoBackText[0].innerHTML = `<span itemprop="name">Natrag</span>`;
