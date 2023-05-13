@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 
     .markuptext {
       h1 {
@@ -97,6 +98,11 @@
 
   #error-page-template-main-container {
     #coming-soon-teaser-content-container {
+      .markuptext,
+      .text,
+      .button {
+        max-width: 100%;
+      }
       .markuptext {
         text-align: center;
         h1 {

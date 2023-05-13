@@ -115,6 +115,31 @@ if (modal || trigger || closeButton || understoodButton) {
   window.addEventListener("click", windowOnClick);
 }
 
+const clickNavigationAnchor = document.querySelectorAll(
+  "#mobile-burger-menu-close ul li a"
+);
+
+if (clickNavigationAnchor) {
+  clickNavigationAnchor.forEach((clickNavigation) => {
+    const targetEmptey = clickNavigation.getAttribute("target");
+    if (!targetEmptey) {
+      clickNavigation.addEventListener("click", (event) => {
+        if (isInternalLink(clickNavigation) ) {
+          event.preventDefault();
+          const closeButton = document.querySelector('.cmp-button__icon.cmp-button__icon--burger-menu-close');
+          closeButton.click();
+          const targetId = clickNavigation.getAttribute('href').slice(1);
+          const targetElem = document.getElementById(targetId);
+          targetElem.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    }
+  });
+}
+
+const isInternalLink = link => link.getAttribute('href').startsWith('#');
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const anchor = document.querySelectorAll(
     "#competition-landing-eight-description p a"
@@ -137,24 +162,6 @@ document.addEventListener("DOMContentLoaded", () => {
           window.location.href = currentUrl;
         }
       });
-    });
-  }
-
-  const clickNavigationAnchor = document.querySelectorAll(
-    "#mobile-burger-menu-close ul li a"
-  );
-  if (clickNavigationAnchor) {
-    clickNavigationAnchor.forEach((clickNavigation) => {
-      const targetEmptey = clickNavigation.getAttribute("target");
-      if (!targetEmptey) {
-        clickNavigation.addEventListener("click", (event) => {
-          event.preventDefault();
-          const href = clickNavigation.getAttribute("href");
-          if (href) {
-            location.href = href;
-          }
-        });
-      }
     });
   }
 

@@ -17,6 +17,7 @@
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 #error-page-template-main-container #coming-soon-teaser-content-container .markuptext h1,
 #holding-page-template-main-container #coming-soon-teaser-content-container .markuptext h1 {
@@ -91,6 +92,11 @@
   #error-page-template-main-container #coming-soon-teaser-content-container .button,
   #holding-page-template-main-container #coming-soon-teaser-content-container .button {
     margin-top: 12px;
+  }
+  #error-page-template-main-container #coming-soon-teaser-content-container .markuptext,
+  #error-page-template-main-container #coming-soon-teaser-content-container .text,
+  #error-page-template-main-container #coming-soon-teaser-content-container .button {
+    max-width: 100%;
   }
   #error-page-template-main-container #coming-soon-teaser-content-container .markuptext {
     text-align: center;

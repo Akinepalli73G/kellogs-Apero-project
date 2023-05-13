@@ -4456,7 +4456,7 @@
 }
 body {
   margin: 0 auto;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body:has(#error-page-template-container) {
