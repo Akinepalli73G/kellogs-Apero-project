@@ -117,6 +117,7 @@
   flex-wrap: wrap;
   background: #009e80;
   color: #ffffff;
+  overflow: hidden;
 }
 .monty-brand-two-container > .grid__item:nth-child(1) {
   line-height: 0;
@@ -217,6 +218,16 @@
   .monty-brand-two-container > .grid__item:nth-child(1) {
     line-height: 0;
     padding: 0 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .monty-brand-two-container > .grid__item:nth-child(1) img {
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    bottom: -40px;
   }
   .monty-brand-two-container > .grid__item:nth-child(2) {
     text-align: center;
@@ -274,17 +285,26 @@
     line-height: 36px;
   }
   .monty-brand-two-container {
-    padding: 60px 60px 0;
+    padding: 0 60px 0;
+    overflow: hidden;
   }
   .monty-brand-two-container > .grid__item:nth-child(1) {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
   }
   .monty-brand-two-container > .grid__item:nth-child(1) img {
-    padding-right: 120px;
+    position: relative;
+    bottom: -90px;
+    height: 600px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .monty-brand-two-container .grid__item {
     flex-basis: 50%;
+  }
+  .monty-brand-two-container > .grid__item:nth-child(2) {
+    margin-top: 90px;
   }
   .monty-brand-two-container .kstl-rich-text .monty-brand-two-content {
     padding-top: 60px;
