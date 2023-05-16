@@ -1518,11 +1518,13 @@
     border-radius: 2.5px;
   }
   #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-PrivacyPolicy:has(.isValid) label::before,
-  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsandConditions:has(.isValid) #KSTL-Registration-wrapper-TermsConditions1:has(.isValid) label::before {
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsandConditions:has(.isValid) label::before,
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsConditions1:has(.isValid) label::before {
     background: #3bae49;
   }
   #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-PrivacyPolicy:has(.isValid) label::after,
-  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsandConditions:has(.isValid) #KSTL-Registration-wrapper-TermsConditions1:has(.isValid) label::after {
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsandConditions:has(.isValid) label::after,
+  #create-account-or-login-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsConditions1:has(.isValid) label::after {
     font-size: 10px;
     color: #ffffff;
     left: 4px;
