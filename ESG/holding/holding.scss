@@ -135,7 +135,8 @@
     #coming-soon-teaser-content-container {
       grid-gap: 24px;
       padding: 0 20px;
-      width: calc(100% - 40px);
+      width: calc(100% - 40px); 
+      bottom: 50px;
 
       .markuptext {
         h1 {

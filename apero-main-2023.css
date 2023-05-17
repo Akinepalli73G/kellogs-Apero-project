@@ -394,6 +394,12 @@
 #thank-you-page-accordion .cmp-accordion__panel--expanded p {
   color: rgba(0, 0, 0, 0.5);
 }
+#faq-template-container .cmp-accordion__panel--expanded p a,
+#already-played-template-container .cmp-accordion__panel--expanded p a,
+#competition-landing-page-child-six .cmp-accordion__panel--expanded p a,
+#thank-you-page-accordion .cmp-accordion__panel--expanded p a {
+  word-break: break-word;
+}
 
 #competition-landing-terms-condition-mobile .aem-Grid,
 #competition-landing-page-child-eight .aem-Grid {
