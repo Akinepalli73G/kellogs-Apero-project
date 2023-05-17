@@ -255,7 +255,7 @@
   top: -6px;
   height: 13px;
   margin-top: -13px;
-  background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/selected-language.png") no-repeat right center;
+  background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/selected-language.png") no-repeat right center;
   background-size: 13px;
 }
 .languagenavigation nav ul.languageOpened li.selectedLanguage:nth-child(1) {
@@ -278,14 +278,14 @@
   z-index: 9999;
   top: 0;
   left: 0;
-  background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/down-arrow.png") no-repeat right center;
+  background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/down-arrow.png") no-repeat right center;
   background-size: 10px;
 }
 .languagenavigation nav .mobile-down-arrow.mobileUpArrow {
   border: none;
   z-index: 9999;
   display: block;
-  background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/up-arrow.png") no-repeat right center;
+  background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/up-arrow.png") no-repeat right center;
   background-size: 10px;
 }
 
@@ -351,7 +351,7 @@ body.languageOpened {
     position: relative;
     width: 40px;
     height: 40px;
-    background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/Account.png") no-repeat center center;
+    background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/Account.png") no-repeat center center;
     background-size: 38px;
   }
   #esg-desktop-container .logout-v6 {
@@ -409,7 +409,7 @@ body.languageOpened {
     position: relative;
     width: 30px;
     height: 30px;
-    background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/Burger-menu.png") no-repeat center center;
+    background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/Burger-menu.png") no-repeat center center;
     background-size: 24px;
   }
   #esg-mobile-container #burger-menu .languagenavigation {
@@ -448,7 +448,7 @@ body.languageOpened {
     position: relative;
     width: 50px;
     height: 50px;
-    background: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/icons/close.png") no-repeat center center;
+    background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/close.png") no-repeat center center;
     background-size: 47px;
   }
   #esg-mobile-container #burger-close-menu .navigationV2 .nav--container nav ul {
@@ -500,11 +500,11 @@ body {
 /* font import start */
 @font-face {
   font-family: "Lilita One";
-  src: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/fonts/LilitaOne-Regular.ttf");
+  src: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/fonts/LilitaOne-Regular.ttf");
 }
 @font-face {
   font-family: "Open Sans";
-  src: url("/content/dam/global/promotions/kelloggs-esg-2023/gb/en/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+  src: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/fonts/OpenSans-VariableFont_wdth,wght.ttf");
 }
 .tns-nav,
 .tns-controls,
