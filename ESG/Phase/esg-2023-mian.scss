@@ -1,0 +1,42 @@
+@use "../../ESG/Phase/competition-landing-page/competition-landing-page.scss";
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 769px) {
+}
+
+/* font import start */
+
+@font-face {
+  font-family: "Lilita One";
+  src: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/fonts/LilitaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+.tns-nav,
+.tns-controls,
+.new.newpar.section,
+.cq-placeholder,
+.skip-main {
+  display: none;
+}
+
+div.image {
+  margin-bottom: 0;
+  line-height: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ghost {
+  display: none;
+}

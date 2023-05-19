@@ -1,0 +1,94 @@
+.esg-main-container {
+  .hero-teaser {
+    > .cmp-container {
+      position: relative;
+      > .container:nth-child(1) {
+        position: relative;
+        .image {
+          img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+          }
+        }
+      }
+      > .container:nth-child(2) {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        > .cmp-container {
+          > .image:nth-child(1) {
+            img {
+              height: 50px;
+            }
+          }
+
+          > .text:nth-child(2) {
+            font-family: "Lilita One";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 34px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #ffffff;
+          }
+
+          > .teaser {
+            .cmp-teaser {
+              position: relative;
+              .cmp-teaser__image {
+                position: relative;
+              }
+              .cmp-teaser__content {
+                position: absolute;
+                width: 300px;
+                top: 54%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                .cmp-teaser__title {
+                  font-family: "Lilita One";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 40px;
+                  line-height: 46px;
+                  display: flex;
+                  align-items: center;
+                  text-align: center;
+                  text-transform: uppercase;
+                  color: #ffffff;
+                  margin: 0;
+                }
+
+                .cmp-teaser__description {
+                  p {
+                    font-family: "Lilita One";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 23px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #fec45e;
+                    margin: 8px 0 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
