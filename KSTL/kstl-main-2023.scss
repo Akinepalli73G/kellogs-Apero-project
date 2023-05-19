@@ -42,7 +42,7 @@ body {
 }
 
 @media only screen and (min-width: 769px) {
-    #main_container:has(#kstl-home-page-container),
+    #main_container:has(.kstl-home-page-container),
     #main_container:has(#KSTL-main-container) {
       .header-belt {
         height: 110px !important;
