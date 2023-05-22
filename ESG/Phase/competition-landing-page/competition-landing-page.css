@@ -95,6 +95,8 @@
   line-height: 24px;
   text-align: center;
   color: #ffffff;
+  margin: 0 auto;
+  max-width: 610px;
 }
 .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(6) .cmp-container {
   display: flex;

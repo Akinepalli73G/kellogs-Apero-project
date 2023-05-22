@@ -1,16 +1,84 @@
 .text {
   &.orange {
-    color: #FEC45E;
+    color: #fec45e;
   }
+
   &.white {
-    color: #FFFFFF;
+    color: #ffffff;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Lilita One";
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
   }
 }
 
 @media only screen and (min-width: 769px) {
-
+  h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  h2 {
+    font-size: 60px;
+    line-height: 69px;
+  }
+  h3 {
+    font-size: 50px;
+    line-height: 57px;
+  }
+  h4 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  h5 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 23px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-
+  h1 {
+    font-size: 45px;
+    line-height: 51px;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  h4 {
+    font-size: 25px;
+    line-height: 29px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  h6 {
+    font-size: 18px;
+    line-height: 21px;
+  }
 }
