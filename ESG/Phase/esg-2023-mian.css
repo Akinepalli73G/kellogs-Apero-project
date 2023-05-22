@@ -37,11 +37,16 @@
   justify-content: flex-end;
 }
 .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container {
-  max-width: 330px;
   margin: 0 auto;
 }
 .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text {
   padding: 0 10px;
+}
+.esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text:nth-child(2) {
+  margin-top: 8px;
+}
+.esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2) {
+  margin-top: 20px;
 }
 .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(5) .cmp-container {
   display: flex;
@@ -51,9 +56,6 @@
 }
 
 @media only screen and (min-width: 769px) {
-  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img {
-    height: 50px;
-  }
   .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) {
     margin-top: 20px;
   }
@@ -62,8 +64,8 @@
     max-width: 610px;
     bottom: 40px;
   }
-  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) .text:nth-child(2) {
-    margin-top: 8px;
+  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container {
+    max-width: 330px;
   }
   .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2) {
     margin-top: 20px;
@@ -73,28 +75,30 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img {
-    height: 50px;
+  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(1) .image img {
+    height: 900px;
+  }
+  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container {
+    width: calc(100% - 40px);
+    padding: 0 20px;
   }
   .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container {
     height: calc(100% - 40px);
     max-width: 100%;
     bottom: 40px;
+    padding: 0 20px;
   }
-  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) .text {
-    padding: 0 10px;
-  }
-  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) .text:nth-child(2) {
-    margin-top: 8px;
-  }
-  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2) {
-    margin-top: 20px;
+  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container {
+    max-width: 210px;
   }
   .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(5) .cmp-container {
     flex-direction: column;
+  }
+  .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(5) .cmp-container .button {
+    margin-bottom: 20px;
   }
 }
 .text.orange {
