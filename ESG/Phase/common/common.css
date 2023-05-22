@@ -4,24 +4,63 @@
 .text.white {
   color: #ffffff;
 }
-.text h1,
-.text h2,
-.text h3,
-.text h4,
-.text h5,
-.text h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Lilita One";
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
 }
-.text p {
+
+p {
   font-size: 16px;
   line-height: 24px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
+}
+
+.button a {
+  padding: 12px 40px;
+  border-radius: 90px;
+}
+.button span {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.button.esg-primary-white-button a {
+  background: #ffffff;
+}
+.button.esg-primary-white-button a span {
+  color: #000000;
+}
+.button.esg-primary-black-button a {
+  background: #000000;
+}
+.button.esg-primary-black-button a span {
+  color: #ffffff;
+}
+.button.esg-secondary-white-button a {
+  border: 1px solid #ffffff;
+}
+.button.esg-secondary-white-button a span {
+  color: #ffffff;
+}
+.button.esg-secondary-white-button a {
+  border: 1px solid #000000;
+}
+.button.esg-secondary-white-button a span {
+  color: #000000;
 }
 
 @media only screen and (min-width: 769px) {

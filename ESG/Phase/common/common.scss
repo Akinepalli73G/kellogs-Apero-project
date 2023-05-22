@@ -6,26 +6,76 @@
   &.white {
     color: #ffffff;
   }
+}
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Lilita One";
-    font-style: normal;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+}
+
+.button {
+  a {
+    padding: 12px 40px;
+    border-radius: 90px;
+  }
+  span {
+    font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  }
+  &.esg-primary-white-button {
+    a {
+      background: #ffffff;
+      span {
+        color: #000000;
+      }
+    }
   }
 
-  p {
-    font-size: 16px;
-    line-height: 24px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
+  &.esg-primary-black-button {
+    a {
+      background: #000000;
+      span {
+        color: #ffffff;
+      }
+    }
+  }
+
+  &.esg-secondary-white-button {
+    a {
+      border: 1px solid #ffffff;
+      span {
+        color: #ffffff;
+      }
+    }
+  }
+
+  &.esg-secondary-white-button {
+    a {
+      border: 1px solid #000000;
+      span {
+        color: #000000;
+      }
+    }
   }
 }
 
