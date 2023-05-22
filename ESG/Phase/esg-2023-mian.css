@@ -94,12 +94,14 @@ p {
   color: #ffffff;
 }
 .button.esg-secondary-white-button a {
+  padding: 11px 39px;
   border: 1px solid #ffffff;
 }
 .button.esg-secondary-white-button a span {
   color: #ffffff;
 }
 .button.esg-secondary-black-button a {
+  padding: 11px 39px;
   border: 1px solid #000000;
 }
 .button.esg-secondary-black-button a span {

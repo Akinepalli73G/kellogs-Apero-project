@@ -24,7 +24,7 @@ h6 {
 p {
   font-size: 16px;
   line-height: 24px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
 }
@@ -35,12 +35,12 @@ p {
     border-radius: 90px;
   }
   span {
-    font-family: 'Lilita One';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-transform: uppercase;
+    font-family: "Lilita One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
   }
   &.esg-primary-white-button {
     a {
@@ -62,6 +62,7 @@ p {
 
   &.esg-secondary-white-button {
     a {
+      padding: 11px 39px;
       border: 1px solid #ffffff;
       span {
         color: #ffffff;
@@ -71,6 +72,7 @@ p {
 
   &.esg-secondary-black-button {
     a {
+      padding: 11px 39px;
       border: 1px solid #000000;
       span {
         color: #000000;
