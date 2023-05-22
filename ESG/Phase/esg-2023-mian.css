@@ -40,30 +40,6 @@
   grid-gap: 20px;
   margin-top: 30px;
 }
-.esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(5) .cmp-container .button a {
-  padding: 12px 40px;
-  border-radius: 90px;
-}
-.esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(5) .cmp-container .button a span {
-  font-family: "Lilita One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-transform: uppercase;
-}
-.esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(5) .cmp-container .button:nth-child(1) a {
-  background: #ffffff;
-}
-.esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(5) .cmp-container .button:nth-child(1) a span {
-  color: #000000;
-}
-.esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(5) .cmp-container .button:nth-child(2) a {
-  border: 1px solid #ffffff;
-}
-.esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(5) .cmp-container .button:nth-child(2) a span {
-  color: #ffffff;
-}
 
 .text.orange {
   color: #fec45e;
@@ -123,10 +99,10 @@ p {
 .button.esg-secondary-white-button a span {
   color: #ffffff;
 }
-.button.esg-secondary-white-button a {
+.button.esg-secondary-black-button a {
   border: 1px solid #000000;
 }
-.button.esg-secondary-white-button a span {
+.button.esg-secondary-black-button a span {
   color: #000000;
 }
 

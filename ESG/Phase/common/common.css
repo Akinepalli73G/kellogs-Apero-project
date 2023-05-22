@@ -56,10 +56,10 @@ p {
 .button.esg-secondary-white-button a span {
   color: #ffffff;
 }
-.button.esg-secondary-white-button a {
+.button.esg-secondary-black-button a {
   border: 1px solid #000000;
 }
-.button.esg-secondary-white-button a span {
+.button.esg-secondary-black-button a span {
   color: #000000;
 }
 
