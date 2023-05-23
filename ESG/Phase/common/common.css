@@ -4,6 +4,9 @@
 .text.white {
   color: #ffffff;
 }
+.text.sky-blue {
+  color: #009BDE;
+}
 
 h1,
 h2,
@@ -82,6 +85,10 @@ p {
 }
 .button.esg-secondary-black-button button {
   background: transparent;
+}
+
+.esg-carousel-container .cmp-container {
+  display: flex;
 }
 
 @media only screen and (min-width: 769px) {

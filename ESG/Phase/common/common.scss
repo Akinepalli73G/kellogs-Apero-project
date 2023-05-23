@@ -6,6 +6,10 @@
   &.white {
     color: #ffffff;
   }
+
+  &.sky-blue {
+    color:#009BDE;
+  }
 }
 
 h1,
@@ -94,6 +98,12 @@ p {
     button {
       background: transparent;
     }
+  }
+}
+
+.esg-carousel-container {
+  .cmp-container {
+    display: flex;
   }
 }
 
