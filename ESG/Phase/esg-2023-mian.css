@@ -54,6 +54,10 @@
   grid-gap: 20px;
   margin-top: 30px;
 }
+.esg-main-container > .cmp-container .container:nth-child(2) > .cmp-container {
+  display: flex;
+  align-items: center;
+}
 
 @media only screen and (min-width: 769px) {
   .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) {
@@ -129,6 +133,7 @@ p {
   font-weight: 600;
 }
 
+.button button,
 .button a {
   padding: 12px 40px;
   border-radius: 90px;
@@ -141,24 +146,39 @@ p {
   line-height: 21px;
   text-transform: uppercase;
 }
+.button.esg-primary-white-button button,
 .button.esg-primary-white-button a {
   background: #ffffff;
 }
+.button.esg-primary-white-button button span,
 .button.esg-primary-white-button a span {
   color: #000000;
 }
+.button.esg-primary-white-button button {
+  border: none;
+}
+.button.esg-primary-black-button button,
 .button.esg-primary-black-button a {
   background: #000000;
 }
+.button.esg-primary-black-button button span,
 .button.esg-primary-black-button a span {
   color: #ffffff;
 }
+.button.esg-primary-black-button button {
+  border: none;
+}
+.button.esg-secondary-white-button button,
 .button.esg-secondary-white-button a {
   padding: 11px 39px;
   border: 1px solid #ffffff;
 }
+.button.esg-secondary-white-button button span,
 .button.esg-secondary-white-button a span {
   color: #ffffff;
+}
+.button.esg-secondary-white-button button {
+  background: transparent;
 }
 .button.esg-secondary-black-button a {
   padding: 11px 39px;
@@ -166,6 +186,9 @@ p {
 }
 .button.esg-secondary-black-button a span {
   color: #000000;
+}
+.button.esg-secondary-black-button button {
+  background: transparent;
 }
 
 @media only screen and (min-width: 769px) {

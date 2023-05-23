@@ -73,6 +73,15 @@
       }
     }
   }
+
+  > .cmp-container {
+    .container:nth-child(2) {
+      > .cmp-container {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 769px) {

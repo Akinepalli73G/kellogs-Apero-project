@@ -30,6 +30,7 @@ p {
 }
 
 .button {
+  button,
   a {
     padding: 12px 40px;
     border-radius: 90px;
@@ -43,30 +44,42 @@ p {
     text-transform: uppercase;
   }
   &.esg-primary-white-button {
+    button,
     a {
       background: #ffffff;
       span {
         color: #000000;
       }
     }
+    button {
+      border: none;
+    }
   }
 
   &.esg-primary-black-button {
+    button,
     a {
       background: #000000;
       span {
         color: #ffffff;
       }
     }
+    button {
+      border: none;
+    }
   }
 
   &.esg-secondary-white-button {
+    button,
     a {
       padding: 11px 39px;
       border: 1px solid #ffffff;
       span {
         color: #ffffff;
       }
+    }
+    button {
+      background: transparent;
     }
   }
 
@@ -77,6 +90,9 @@ p {
       span {
         color: #000000;
       }
+    }
+    button {
+      background: transparent;
     }
   }
 }
