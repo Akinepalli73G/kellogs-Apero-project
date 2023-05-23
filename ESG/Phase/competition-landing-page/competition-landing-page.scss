@@ -121,6 +121,13 @@
         }
       }
     }
+    > .cmp-container {
+      .container:nth-child(2) {
+        > .cmp-container {
+          margin: 24px 0 24px 100px;
+        }
+      }
+    }
   }
 }
 
