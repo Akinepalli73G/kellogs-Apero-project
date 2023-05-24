@@ -208,6 +208,7 @@
         > .cmp-container {
           justify-content: center;
           flex-direction: column;
+          overflow: hidden;
           > .container:nth-child(1) {
             > .cmp-container {
               > .text {

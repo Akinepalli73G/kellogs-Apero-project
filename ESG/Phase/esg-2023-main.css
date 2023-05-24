@@ -199,6 +199,7 @@
   .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container {
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
   }
   #esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1) > .cmp-container > .text,
   .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1) > .cmp-container > .text {
