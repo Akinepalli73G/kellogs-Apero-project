@@ -2,7 +2,7 @@
 .esg-main-container {
   #esg-hero-teaser,
   .hero-teaser {
-    > .cmp-container {
+    > &.cmp-container {
       position: relative;
       > .container:nth-child(1) {
         position: relative;
@@ -92,7 +92,7 @@
   .esg-main-container {
     #esg-hero-teaser,
     .hero-teaser {
-      > .cmp-container {
+      > &.cmp-container {
         > .container:nth-child(2) {
           > .cmp-container {
             > .text:nth-child(2) {
@@ -164,7 +164,7 @@
   .esg-main-container {
     #esg-hero-teaser,
     .hero-teaser {
-      > .cmp-container {
+      > &.cmp-container {
         > .container:nth-child(1) {
           .image {
             img {
