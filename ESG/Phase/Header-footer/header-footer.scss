@@ -1,0 +1,410 @@
+#esg-footer-container {
+  .aem-Grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 20px;
+    grid-gap: 18px;
+    .socialcomponent {
+      #sociallinks {
+        display: flex;
+        grid-gap: 30px;
+        align-items: center;
+        justify-content: center;
+        a {
+          img {
+            width: 100%;
+            height: 28px;
+            object-fit: cover;
+          }
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .text {
+      p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.languagenavigation {
+  position: relative;
+  nav {
+    ul {
+      padding-inline-start: 0;
+      list-style: none;
+      li {
+        display: none;
+        a {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #000000;
+          text-transform: uppercase;
+        }
+
+        .mobile-down-arrow,
+        .mobile-down-arrow.mobile-up-arrow {
+          display: none;
+        }
+
+        &:nth-child(1) {
+          display: flex;
+          align-items: center;
+          position: relative;
+          z-index: 999999;
+          a {
+            position: relative;
+            z-index: 99999;
+          }
+
+          .mobile-down-arrow,
+          .mobile-down-arrow.mobile-up-arrow {
+            display: block;
+          }
+        }
+      }
+
+      &.languageOpened {
+        margin: 0;
+        position: absolute;
+        top: -25px;
+        z-index: 9999;
+        left: 0;
+        background: #ffffff;
+        border-radius: 6px;
+        width: 100%;
+        li {
+          display: flex;
+          margin: 0 12px;
+          padding: 12px 0;
+          border-top: 2px solid #ebebeb;
+          align-items: center;
+          flex-wrap: wrap;
+          width: calc(100% - 24px);
+
+          a {
+            flex-basis: 80%;
+          }
+
+          &.selectedLanguage {
+            &::after {
+              content: "";
+              position: relative;
+              bottom: 0;
+              border: none;
+              z-index: 9999;
+              display: flex;
+              width: 100%;
+              right: 0;
+              top: -6px;
+              height: 13px;
+              margin-top: -13px;
+              background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/selected-language.png")
+                no-repeat right center;
+              background-size: 13px;
+            }
+            &:nth-child(1) {
+              box-shadow: none;
+              border-top: none;
+              z-index: 999999;
+              position: relative;
+              &::after {
+                content: none;
+                background: none;
+                height: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .mobile-down-arrow {
+      position: relative;
+      border: none;
+      display: block;
+      width: 15px;
+      height: 15px;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+      background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/down-arrow.png")
+        no-repeat right center;
+      background-size: 10px;
+    }
+
+    .mobile-down-arrow.mobileUpArrow {
+      border: none;
+      z-index: 9999;
+      display: block;
+      background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/up-arrow.png")
+        no-repeat right center;
+      background-size: 10px;
+    }
+  }
+}
+
+body.languageOpened {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+#esg-main-container.languageOpened {
+  filter: blur(2px);
+}
+
+@media only screen and (min-width: 769px) {
+  #esg-desktop-container {
+    display: flex;
+    margin: 10px 100px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .image {
+      flex-basis: 15%;
+      img.cmp-image__image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+
+    .navigationV2 {
+      flex-basis: 65%;
+      display: flex;
+      justify-content: flex-end;
+      .nav--container {
+        .nav--main {
+          ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            grid-gap: 20px;
+
+            li {
+              a {
+                font-family: "Lilita One";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+                color: #009bde;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+      }
+
+      .nav--secondary {
+        display: none;
+      }
+    }
+
+    .languagenavigation {
+      flex-basis: 10%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .button {
+      flex-basis: 10%;
+      display: flex;
+      justify-content: flex-end;
+      #esg-account-icon {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/Account.png")
+          no-repeat center center;
+        background-size: 38px;
+      }
+    }
+
+    .logout-v6 {
+      flex-basis: 10%;
+      justify-content: flex-end;
+      display: none;
+      #logout-Button {
+        font-family: "Lilita One";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding: 12px 24px;
+        background: #000000;
+        border-radius: 90px;
+        border: none;
+      }
+    }
+  }
+  #esg-mobile-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #esg-desktop-container {
+    display: none;
+  }
+
+  #esg-mobile-container {
+    #burger-menu {
+      display: flex;
+      align-items: center;
+      padding: 12px 20px;
+      flex-wrap: wrap;
+      width: calc(100% - 40px);
+      .languagenavigation,
+      .image,
+      .button {
+        flex-basis: 33.33%;
+      }
+
+      .button {
+        display: flex;
+        justify-content: flex-end;
+        .cmp-button {
+          background: none;
+          border: none;
+          padding: 0;
+          border-radius: 0;
+          .cmp-button__icon.cmp-button__icon--esg-burger-icon {
+            display: block;
+            position: relative;
+            width: 30px;
+            height: 30px;
+            background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/Burger-menu.png")
+              no-repeat center center;
+            background-size: 24px;
+          }
+        }
+      }
+
+      .languagenavigation {
+        visibility: initial;
+        nav {
+          justify-content: flex-start;
+          .cmp-languagenavigation__group.languageOpened {
+            top: -13px;
+          }
+
+          .mobile-down-arrow.mobileUpArrow {
+            top: 0;
+          }
+        }
+      }
+
+      .image {
+        img.cmp-image__image {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+    }
+
+    #burger-close-menu {
+      display: none;
+      position: relative;
+      .image {
+        img.cmp-image__image {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      .button {
+        position: absolute;
+        top: 18px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        .cmp-button {
+          background: none;
+          border: none;
+          .cmp-button__icon.cmp-button__icon--burger-close-icon {
+            display: block;
+            position: relative;
+            width: 50px;
+            height: 50px;
+            background: url("/content/dam/global/promotions/kelloggs-esg-2023/ie/en/icons/close.png")
+              no-repeat center center;
+            background-size: 47px;
+          }
+        }
+      }
+
+      .navigationV2 {
+        .nav--container {
+          nav {
+            ul {
+              list-style: none;
+              padding-inline-start: 26px;
+              display: flex;
+              flex-direction: column;
+              grid-gap: 24px;
+              max-width: calc(100% - 46px);
+              li {
+                a,
+                span {
+                  font-family: "Lilita One";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 20px;
+                  line-height: 23px;
+                  text-transform: uppercase;
+                  color: #000000;
+                }
+              }
+            }
+          }
+
+          .nav--secondary {
+            border-top: 1px solid #ebebeb;
+            margin: 24px 20px;
+            ul {
+              padding-inline-start: 6px;
+              margin: 24px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .languagenavigation.burgerMenuClosed,
+  .cmp-button__icon--esg-burger-icon.burgerMenuOpened {
+    visibility: hidden !important;
+  }
+
+  #burger-close-menu.burgerMenuOpened {
+    display: block !important;
+  }
+
+  .logout-v6,
+  #esg-main-container.burgerMenuOpened,
+  #esg-footer-container.burgerMenuOpened {
+    display: none;
+  }
+}
