@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", () => {
+
   // Crousel component start
-  var carouselContainer = document.querySelectorAll(
+  var carouselContainer = document.querySelector(
     ".esg-carousel-container .cmp-container"
   );
   if (carouselContainer) {
@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
       container: carouselContainer,
       responsive: {
         768: {
-          items: 2,
+          items: 3,
         },
         1990: {
-          item: 1,
+          item: 5,
         },
       },
-      gutter: 10,
+      gutter: 62,
       fixedWidth: 100,
       mouseDrag: true,
       swipeAngle: false,
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   //carousel end
-});
+
 
 // // language seletor start
 

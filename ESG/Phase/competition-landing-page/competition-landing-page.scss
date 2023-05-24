@@ -78,15 +78,18 @@
   }
 
   > &.cmp-container {
-    > .container.esg-carousel-container {
+    > .container:nth-child(2) {
       > .cmp-container {
-        grid-gap: 62px;
+        display: flex;
         align-items: center;
-        .image {
-          img {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
+        > .container.esg-carousel-container {
+          .cmp-container {
+            .image {
+              img {
+                width: 100px;
+                height: 100px;
+              }
+            }
           }
         }
       }
@@ -134,12 +137,16 @@
       }
     }
     > &.cmp-container {
-     > .container.esg-carousel-container {
+      > .container:nth-child(2) {
         > .cmp-container {
-          flex-direction: row;
           margin: 24px 0;
-          > .text:nth-child(1) {
-            padding: 0 30px 0 100px;
+          > .container:nth-child(1) {
+            flex-basis: 15%;
+            > .cmp-container {
+              > .text {
+                padding: 0 50px;
+              }
+            }
           }
         }
       }
@@ -190,6 +197,21 @@
                     }
                   }
                 }
+              }
+            }
+          }
+        }
+      }
+    }
+    > &.cmp-container {
+      > .container:nth-child(2) {
+        > .cmp-container {
+          justify-content: center;
+          flex-direction: column;
+          > .container:nth-child(1) {
+            > .cmp-container {
+              > .text {
+                padding: 16px 0;
               }
             }
           }
