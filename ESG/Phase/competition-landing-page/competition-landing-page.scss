@@ -77,7 +77,7 @@
     }
   }
 
-  > .cmp-container {
+  > &.cmp-container {
     > .container:nth-child(2) {
       > .cmp-container {
         display: flex;
@@ -126,7 +126,7 @@
         }
       }
     }
-    > .cmp-container {
+    > &.cmp-container {
      > .container:nth-child(2) {
         > .cmp-container {
           flex-wrap: wrap;
