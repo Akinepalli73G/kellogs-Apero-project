@@ -197,9 +197,14 @@
   }
   #esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container,
   .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container {
-    justify-content: center;
-    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
     overflow: hidden;
+  }
+  #esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1),
+  .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1) {
+    width: 100%;
+    text-align: center;
   }
   #esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1) > .cmp-container > .text,
   .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1) > .cmp-container > .text {

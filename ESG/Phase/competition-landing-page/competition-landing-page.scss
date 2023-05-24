@@ -206,10 +206,12 @@
     > &.cmp-container {
       > .container:nth-child(2) {
         > .cmp-container {
-          justify-content: center;
-          flex-direction: column;
+          width: 100%;
+          flex-wrap: wrap;
           overflow: hidden;
           > .container:nth-child(1) {
+            width: 100%;
+            text-align: center;
             > .cmp-container {
               > .text {
                 padding: 16px 0;

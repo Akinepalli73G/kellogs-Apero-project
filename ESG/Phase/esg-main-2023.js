@@ -8,10 +8,10 @@
       container: carouselContainer,
       responsive: {
         768: {
-          items: 3,
+          items: 1,
         },
         1990: {
-          item: 5,
+          items: 5,
         },
       },
       gutter: 62,
