@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Crousel component start
   var carouselContainer = document.querySelectorAll(
-    ".esg-carousel-container > .cmp-container"
+    ".esg-carousel-container .cmp-container"
   );
   if (carouselContainer) {
     tns({
