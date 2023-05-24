@@ -6,11 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-@media only screen and (min-width: 769px) {
-}
-
-/* font import start */
-
 @font-face {
   font-family: "Lilita One";
   src: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/fonts/LilitaOne-Regular.ttf");
@@ -22,10 +17,7 @@ body {
 }
 
 .tns-nav,
-.tns-controls,
-.new.newpar.section,
-.cq-placeholder,
-.skip-main {
+.tns-controls {
   display: none;
 }
 

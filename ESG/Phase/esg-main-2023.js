@@ -1,3 +1,30 @@
+document.addEventListener("DOMContentLoaded", () => {
+  // Crousel component start
+  var carouselContainer = document.querySelectorAll(
+    ".esg-carousel-container > .cmp-container"
+  );
+  if (carouselContainer) {
+    tns({
+      container: carouselContainer,
+      responsive: {
+        768: {
+          items: 2,
+        },
+        1990: {
+          item: 1,
+        },
+      },
+      gutter: 10,
+      fixedWidth: 100,
+      mouseDrag: true,
+      swipeAngle: false,
+      speed: 400,
+    });
+  }
+
+  //carousel end
+});
+
 // // language seletor start
 
 // languageOpened = false;

@@ -1,4 +1,6 @@
+#esg-main-container,
 .esg-main-container {
+  #esg-hero-teaser,
   .hero-teaser {
     > .cmp-container {
       position: relative;
@@ -86,7 +88,9 @@
 }
 
 @media only screen and (min-width: 769px) {
+  #esg-main-container,
   .esg-main-container {
+    #esg-hero-teaser,
     .hero-teaser {
       > .cmp-container {
         > .container:nth-child(2) {
@@ -156,7 +160,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  #esg-main-container,
   .esg-main-container {
+    #esg-hero-teaser,
     .hero-teaser {
       > .cmp-container {
         > .container:nth-child(1) {

@@ -203,4 +203,179 @@
   .esg-main-container .hero-teaser > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(5) .cmp-container .button {
     margin-bottom: 20px;
   }
-}/*# sourceMappingURL=competition-landing-page.css.map */
+}
+.text.orange {
+  color: #fec45e;
+}
+.text.white {
+  color: #ffffff;
+}
+.text.sky-blue {
+  color: #009BDE;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+}
+
+.button button,
+.button a {
+  padding: 12px 40px;
+  border-radius: 90px;
+}
+.button span {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.button.esg-primary-white-button button,
+.button.esg-primary-white-button a {
+  background: #ffffff;
+}
+.button.esg-primary-white-button button span,
+.button.esg-primary-white-button a span {
+  color: #000000;
+}
+.button.esg-primary-white-button button {
+  border: none;
+}
+.button.esg-primary-black-button button,
+.button.esg-primary-black-button a {
+  background: #000000;
+}
+.button.esg-primary-black-button button span,
+.button.esg-primary-black-button a span {
+  color: #ffffff;
+}
+.button.esg-primary-black-button button {
+  border: none;
+}
+.button.esg-secondary-white-button button,
+.button.esg-secondary-white-button a {
+  padding: 11px 39px;
+  border: 1px solid #ffffff;
+}
+.button.esg-secondary-white-button button span,
+.button.esg-secondary-white-button a span {
+  color: #ffffff;
+}
+.button.esg-secondary-white-button button {
+  background: transparent;
+}
+.button.esg-secondary-black-button a {
+  padding: 11px 39px;
+  border: 1px solid #000000;
+}
+.button.esg-secondary-black-button a span {
+  color: #000000;
+}
+.button.esg-secondary-black-button button {
+  background: transparent;
+}
+
+.esg-carousel-container .cmp-container {
+  display: flex;
+}
+
+@media only screen and (min-width: 769px) {
+  h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  h2 {
+    font-size: 60px;
+    line-height: 69px;
+  }
+  h3 {
+    font-size: 50px;
+    line-height: 57px;
+  }
+  h4 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  h5 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 45px;
+    line-height: 51px;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  h4 {
+    font-size: 25px;
+    line-height: 29px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  h6 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Lilita One";
+  src: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/fonts/LilitaOne-Regular.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+.tns-nav,
+.tns-controls {
+  display: none;
+}
+
+div.image {
+  margin-bottom: 0;
+  line-height: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ghost {
+  display: none;
+}
