@@ -231,6 +231,7 @@ body.languageOpened {
     height: 40px;
     background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/icons/Account.png") no-repeat center center;
     background-size: 38px;
+    padding: 0;
   }
   #esg-desktop-container .logout-v6 {
     flex-basis: 10%;

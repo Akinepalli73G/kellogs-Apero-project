@@ -138,6 +138,7 @@
   #esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container,
   .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container {
     margin: 24px 0;
+    overflow: hidden;
   }
   #esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1),
   .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1) {
@@ -595,6 +596,7 @@ body.languageOpened {
     height: 40px;
     background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/icons/Account.png") no-repeat center center;
     background-size: 38px;
+    padding: 0;
   }
   #esg-desktop-container .logout-v6 {
     flex-basis: 10%;
