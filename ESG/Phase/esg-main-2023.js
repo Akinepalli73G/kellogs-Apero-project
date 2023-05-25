@@ -51,6 +51,7 @@ desktopLanguagenavigationClicked[0].addEventListener("click", () => {
   desktopLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
   document.querySelector("body").classList.toggle("languageOpened");
   document.querySelector("#esg-main-container").classList.toggle("languageOpened");
+  document.querySelector("#esg-header-container").classList.toggle("languageOpened");
 });
 
 mobileLanguagenavigationClicked[0].addEventListener("click", () => {

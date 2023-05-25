@@ -171,6 +171,29 @@ body.languageOpened {
 }
 
 @media only screen and (min-width: 769px) {
+  #esg-header-container {
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 999;
+  }
+  #esg-header-container.languageOpened  {
+    top: -90px;
+    background: rgb(0 0 0 / 0%);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    #esg-desktop-container {
+      .image,
+      .navigationV2,
+      .button,
+      .logout-v6 {
+        filter: blur(2px);
+      }
+    }
+  }
   #esg-desktop-container {
     display: flex;
     margin: 10px 100px;
