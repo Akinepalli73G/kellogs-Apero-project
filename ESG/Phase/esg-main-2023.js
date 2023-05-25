@@ -59,6 +59,7 @@ mobileLanguagenavigationClicked[0].addEventListener("click", () => {
   mobileLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
   document.querySelector("body").classList.toggle("languageOpened");
   document.querySelector("#esg-main-container").classList.toggle("languageOpened");
+  document.querySelector("#esg-header-container").classList.toggle("languageOpened");
 });
 
 if (document.querySelectorAll(".languagenavigation")) {
