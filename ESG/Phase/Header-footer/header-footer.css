@@ -1,3 +1,6 @@
+#esg-footer-container {
+  border-top: 1px solid #EBEBEB;
+}
 #esg-footer-container .aem-Grid {
   display: flex;
   flex-direction: column;
