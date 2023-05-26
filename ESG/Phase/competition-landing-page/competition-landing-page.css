@@ -102,6 +102,34 @@
   width: 100px;
   height: 100px;
 }
+#esg-main-container.cmp-container > .container:nth-child(3) .cmp-container,
+.esg-main-container.cmp-container > .container:nth-child(3) .cmp-container {
+  position: relative;
+}
+#esg-main-container.cmp-container > .container:nth-child(3) .cmp-container .image,
+.esg-main-container.cmp-container > .container:nth-child(3) .cmp-container .image {
+  position: relative;
+}
+#esg-main-container.cmp-container > .container:nth-child(3) .cmp-container > .container:nth-child(2) > .cmp-container,
+.esg-main-container.cmp-container > .container:nth-child(3) .cmp-container > .container:nth-child(2) > .cmp-container {
+  position: absolute;
+  max-width: 610px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 70px;
+  left: 0;
+  right: 0;
+}
+#esg-main-container.cmp-container > .container:nth-child(3) .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(3),
+.esg-main-container.cmp-container > .container:nth-child(3) .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(3) {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 @media only screen and (min-width: 769px) {
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2),
@@ -161,6 +189,16 @@
   #esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1) > .cmp-container > .text,
   .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1) > .cmp-container > .text {
     padding: 0 50px;
+  }
+  #esg-main-container.cmp-container > .container:nth-child(3) .cmp-container > .container:nth-child(2) > .cmp-container,
+  .esg-main-container.cmp-container > .container:nth-child(3) .cmp-container > .container:nth-child(2) > .cmp-container {
+    max-width: 610px;
+    grid-gap: 25px;
+  }
+  #esg-main-container.cmp-container > .container:nth-child(3) .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(3),
+  .esg-main-container.cmp-container > .container:nth-child(3) .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(3) {
+    font-size: 120px;
+    line-height: 137px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -236,5 +274,11 @@
   #esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1) > .cmp-container > .text,
   .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(1) > .cmp-container > .text {
     padding: 16px 0;
+  }
+  #esg-main-container.cmp-container > .container:nth-child(3) .cmp-container > .container:nth-child(2) > .cmp-container,
+  .esg-main-container.cmp-container > .container:nth-child(3) .cmp-container > .container:nth-child(2) > .cmp-container {
+    max-width: 100%;
+    width: calc(100% - 40px);
+    padding: 0 20px;
   }
 }/*# sourceMappingURL=competition-landing-page.css.map */

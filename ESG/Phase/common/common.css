@@ -91,6 +91,10 @@ p {
   display: flex;
 }
 
+.image img {
+  width: 100%;
+}
+
 @media only screen and (min-width: 769px) {
   h1 {
     font-size: 70px;
