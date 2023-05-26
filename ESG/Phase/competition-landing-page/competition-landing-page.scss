@@ -6,7 +6,7 @@
       position: relative;
       > .container:nth-child(1) {
         position: relative;
-        background: #009BDE;
+        background: #009bde;
         .image {
           img {
             width: 100%;
@@ -102,20 +102,74 @@
         .image {
           position: relative;
         }
-        >.container:nth-child(3) {
-          >.cmp-container {
+        > .container:nth-child(3) {
+          > .cmp-container {
             position: absolute;
             left: 50%;
             top: 50%;
-            transform: translate(-50%,-50%);
-            >.text:nth-child(3) {
-               p {
-                font-family: 'Lilita One';
+            transform: translate(-50%, -50%);
+            > .text:nth-child(3) {
+              p {
+                font-family: "Lilita One";
                 font-style: normal;
                 font-weight: 400;
                 text-align: center;
                 text-transform: uppercase;
                 margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    > .container:nth-child(4) {
+      > .cmp-container {
+        margin: 80px 100px;
+        > .text {
+          margin-bottom: 80px;
+        }
+        > .container:nth-child(2) {
+          > .cmp-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            align-items: baseline;
+
+            .teaser {
+              flex-basis: 33.33%;
+              text-align: center;
+              .cmp-teaser {
+                text-align: center;
+                .cmp-teaser__image {
+                  img {
+                    height: 120px;
+                    object-fit: cover;
+                  }
+                }
+                .cmp-teaser__content {
+                  max-width: 300px;
+                  margin: 0 auto;
+                  h2.cmp-teaser__title {
+                    font-family: "Open Sans";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                  }
+                  .cmp-teaser__description {
+                    p {
+                      font-family: "Open Sans";
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 14px;
+                      line-height: 20px;
+                      text-align: center;
+                      color: #666666;
+                    }
+                  }
+                }
               }
             }
           }
@@ -131,7 +185,7 @@
     #esg-hero-teaser,
     .hero-teaser {
       > &.cmp-container {
-        >.container:nth-child(1) {
+        > .container:nth-child(1) {
           > .cmp-container {
             > .image:nth-child(2) {
               display: none;
@@ -195,17 +249,17 @@
           > .image:nth-child(2) {
             display: none;
           }
-          >.container:nth-child(3) {
-            >.cmp-container {
+          > .container:nth-child(3) {
+            > .cmp-container {
               display: flex;
               flex-direction: column;
               align-items: center;
               max-width: 610px;
 
-              >.text:nth-child(1) { 
+              > .text:nth-child(1) {
                 margin-bottom: 24px;
               }
-              >.text:nth-child(3) {
+              > .text:nth-child(3) {
                 p {
                   font-size: 120px;
                   line-height: 137px;
@@ -225,7 +279,7 @@
     #esg-hero-teaser,
     .hero-teaser {
       > &.cmp-container {
-        >.container:nth-child(1) {
+        > .container:nth-child(1) {
           > .cmp-container {
             > .image:nth-child(1) {
               display: none;
@@ -259,7 +313,7 @@
                   }
                 }
 
-                >.markuptext:nth-child(2) {
+                > .markuptext:nth-child(2) {
                   margin-top: 40px;
                 }
 
@@ -300,19 +354,19 @@
           > .image:nth-child(1) {
             display: none;
           }
-          >.container:nth-child(3) {
-            >.cmp-container {
+          > .container:nth-child(3) {
+            > .cmp-container {
               max-width: 100%;
               width: calc(100% - 40px);
               padding: 0 20px;
-              >.text:nth-child(1) { 
+              > .text:nth-child(1) {
                 margin-bottom: 18px;
               }
-              >.text:nth-child(3) { 
+              > .text:nth-child(3) {
                 p {
                   font-size: 80px;
                   line-height: 91px;
-                } 
+                }
               }
             }
           }
