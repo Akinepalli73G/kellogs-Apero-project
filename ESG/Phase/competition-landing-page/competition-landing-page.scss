@@ -114,11 +114,14 @@
             left: 0;
             right: 0;
             >.text:nth-child(3) {
-              font-family: 'Lilita One';
-font-style: normal;
-font-weight: 400;
-text-align: center;
-text-transform: uppercase;
+               p {
+                font-family: 'Lilita One';
+                font-style: normal;
+                font-weight: 400;
+                text-align: center;
+                text-transform: uppercase;
+                margin: 0;
+              }
             }
           }
         }
@@ -197,10 +200,14 @@ text-transform: uppercase;
           >.container:nth-child(2) {
             >.cmp-container {
               max-width: 610px;
-              grid-gap: 25px;
+              >.text:nth-child(1) { 
+                margin-bottom: 24px;
+              }
               >.text:nth-child(3) {
-                font-size: 120px;
-                line-height: 137px;
+                p {
+                  font-size: 120px;
+                  line-height: 137px;
+                }
               }
             }
           }
