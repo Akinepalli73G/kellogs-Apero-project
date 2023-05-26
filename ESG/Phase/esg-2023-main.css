@@ -69,7 +69,7 @@
 #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text,
 .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text,
 .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text {
-  padding: 0 10px;
+  padding: 0 20px;
 }
 #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text:nth-child(2),
 #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text:nth-child(2),
@@ -104,6 +104,12 @@
 }
 
 @media only screen and (min-width: 769px) {
+  #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2),
+  #esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2),
+  .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2),
+  .esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) {
+    display: none;
+  }
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2),
   #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2),
   .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2),
@@ -158,10 +164,16 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) .image img,
-  #esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) .image img,
-  .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) .image img,
-  .esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) .image img {
+  #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(1),
+  #esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(1),
+  .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(1),
+  .esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(1) {
+    display: none;
+  }
+  #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img,
+  #esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img,
+  .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img,
+  .esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img {
     height: 900px;
   }
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container,
@@ -183,7 +195,7 @@
   .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container {
     height: calc(100% - 40px);
     max-width: 100%;
-    bottom: 40px;
+    bottom: 0;
     padding: 0 20px;
   }
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container,
@@ -191,6 +203,12 @@
   .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container,
   .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container {
     max-width: 210px;
+  }
+  #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2),
+  #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2),
+  .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2),
+  .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2) {
+    margin-top: 40px;
   }
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container,
   #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container,
