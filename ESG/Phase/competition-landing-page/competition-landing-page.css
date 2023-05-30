@@ -379,5 +379,6 @@
   .esg-main-container.cmp-container > .container:nth-child(4) > .cmp-container > .container:nth-child(2) > .cmp-container {
     grid-gap: 40px;
     flex-direction: column;
+    align-items: center;
   }
 }/*# sourceMappingURL=competition-landing-page.css.map */

@@ -113,6 +113,12 @@ p {
   }
 }
 
+.cmp-video__player.embed-responsive-item {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 @media only screen and (min-width: 769px) {
   h1 {
     font-size: 70px;
@@ -141,6 +147,10 @@ p {
 
   #esg-main-container {
     margin-top: 90px;
+  }
+
+  .cmp-video__player.embed-responsive-item {
+    height: 700px;
   }
 }
 
@@ -171,5 +181,9 @@ p {
   }
   #esg-main-container {
     margin-top: 80px;
+  }
+
+  .cmp-video__player.embed-responsive-item {
+    height: 400px;
   }
 }
