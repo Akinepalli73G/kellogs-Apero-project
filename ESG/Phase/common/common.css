@@ -95,6 +95,13 @@ p {
   width: 100%;
 }
 
+.video .cmp-video {
+  padding: 0;
+}
+.video .cmp-video .cmp-video__player-box {
+  line-height: 0;
+}
+
 .cmp-video__player.embed-responsive-item {
   width: 100%;
   max-width: 100%;

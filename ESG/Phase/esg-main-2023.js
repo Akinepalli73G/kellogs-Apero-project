@@ -1,27 +1,29 @@
-// Crousel component start
-var carouselContainer = document.querySelector(
-  ".esg-carousel-container .cmp-container"
-);
-if (carouselContainer) {
-  tns({
-    container: carouselContainer,
-    responsive: {
-      768: {
-        items: 1,
+document.addEventListener("DOMContentLoaded", () => {
+  // Crousel component start
+  var carouselContainer = document.querySelector(
+    ".esg-carousel-container .cmp-container"
+  );
+  if (carouselContainer) {
+    tns({
+      container: carouselContainer,
+      responsive: {
+        768: {
+          items: 1,
+        },
+        1990: {
+          items: 5,
+        },
       },
-      1990: {
-        items: 5,
-      },
-    },
-    gutter: 62,
-    fixedWidth: 100,
-    mouseDrag: true,
-    swipeAngle: false,
-    speed: 400,
-  });
-}
+      gutter: 62,
+      fixedWidth: 100,
+      mouseDrag: true,
+      swipeAngle: false,
+      speed: 400,
+    });
+  }
 
-//carousel end
+  //carousel end
+});
 
 // language seletor start
 
@@ -35,7 +37,7 @@ navLanguageContainer.forEach((navLanguage) => {
   if (navLanguage) {
     const downArrowClickButton = document.createElement("button");
     downArrowClickButton.classList.add("mobile-down-arrow");
-    navLanguage.appendChild(downArrowClickButton)
+    navLanguage.appendChild(downArrowClickButton);
   }
 });
 
@@ -47,19 +49,31 @@ const mobileLanguagenavigationClicked = document.querySelectorAll(
 );
 
 desktopLanguagenavigationClicked[0].addEventListener("click", () => {
-  document.querySelector(".languagenavigation nav ul").classList.toggle("languageOpened");
+  document
+    .querySelector(".languagenavigation nav ul")
+    .classList.toggle("languageOpened");
   desktopLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
   document.querySelector("body").classList.toggle("languageOpened");
-  document.querySelector("#esg-main-container").classList.toggle("languageOpened");
-  document.querySelector("#esg-header-container").classList.toggle("languageOpened");
+  document
+    .querySelector("#esg-main-container")
+    .classList.toggle("languageOpened");
+  document
+    .querySelector("#esg-header-container")
+    .classList.toggle("languageOpened");
 });
 
 mobileLanguagenavigationClicked[0].addEventListener("click", () => {
-  document.querySelectorAll(".languagenavigation nav ul")[1].classList.toggle("languageOpened");
+  document
+    .querySelectorAll(".languagenavigation nav ul")[1]
+    .classList.toggle("languageOpened");
   mobileLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
   document.querySelector("body").classList.toggle("languageOpened");
-  document.querySelector("#esg-main-container").classList.toggle("languageOpened");
-  document.querySelector("#esg-header-container").classList.toggle("languageOpened");
+  document
+    .querySelector("#esg-main-container")
+    .classList.toggle("languageOpened");
+  document
+    .querySelector("#esg-header-container")
+    .classList.toggle("languageOpened");
 });
 
 if (document.querySelectorAll(".languagenavigation")) {
