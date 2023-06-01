@@ -285,6 +285,15 @@
             }
           }
         }
+
+        
+        > .container.esg-charity:nth-child(1) {
+            flex-basis: 100%;
+            > .cmp-container {
+              max-width: 830px;
+            }
+        }
+        
       }
     }
   }

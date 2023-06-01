@@ -22,6 +22,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const charity = document.querySelectorAll(
+    "#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2)"
+  );
+  if (charity.length == 0) {
+    document
+      .querySelectorAll(
+        "#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1)"
+      )[0]
+      .classList.add("esg-charity");
+  }
+
   //carousel end
 });
 

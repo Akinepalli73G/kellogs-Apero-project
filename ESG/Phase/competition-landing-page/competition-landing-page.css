@@ -289,6 +289,14 @@
   text-transform: uppercase;
   color: #000000;
 }
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container.esg-charity:nth-child(1),
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container.esg-charity:nth-child(1) {
+  flex-basis: 100%;
+}
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container.esg-charity:nth-child(1) > .cmp-container,
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container.esg-charity:nth-child(1) > .cmp-container {
+  max-width: 830px;
+}
 
 @media only screen and (min-width: 769px) {
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2),
