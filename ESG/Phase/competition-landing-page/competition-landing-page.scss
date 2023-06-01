@@ -177,10 +177,10 @@
           flex-basis: 50%;
         }
         > .container:nth-child(2) {
-          background-color: #D51E48;
+          background-color: #d51e48;
           > .cmp-container {
             padding: 80px 100px;
-          } 
+          }
         }
         > .container:nth-child(1) {
           > .cmp-container {
@@ -218,7 +218,7 @@
                   .cmp-teaser__description {
                     margin-top: 10px;
                     h6 {
-                      color: #FEC45E;
+                      color: #fec45e;
                     }
                   }
                 }
@@ -227,7 +227,76 @@
           }
         }
         > .container:nth-child(2) {
-          
+          > .cmp-container {
+            > .container:nth-child(2) {
+              > .cmp-container {
+                background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/BG-charity.png")
+                  no-repeat center center;
+                background-size: 376px;
+                margin-top: 95px;
+                text-align: center;
+                height: 400px;
+                object-fit: cover;
+                > .image:nth-child(1) {
+                  img {
+                    margin-top: -60px;
+                    width: 120px;
+                    height: 120px;
+                  }
+                }
+                > .container:nth-child(2) {
+                  > .cmp-container {
+                    text-align: center;
+                    max-width: 320px;
+                    margin: 30px auto;
+                    > .text:nth-child(2) {
+                      padding: 8px 0;
+                      p {
+                        color: #666666;
+                        small {
+                          color: #666666;
+                        }
+                      }
+                    }
+
+                    > .button:nth-child(3) {
+                      display: flex;
+                      width: 100%;
+                      justify-content: center;
+                      a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row-reverse;
+                        grid-gap: 14px;
+                        padding: 0;
+                        border-radius: 0;
+                        padding-bottom: 10px;
+                        border-bottom: 3px solid #000000;
+                        width: fit-content;
+                        .cmp-button__icon--arrow-right {
+                          background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/icons/arrow-right-45.png")
+                            no-repeat center center;
+                          background-size: 13px;
+                          width: 13px;
+                          height: 13px;
+                        }
+                        .cmp-button__text {
+                          font-family: "Lilita One";
+                          font-style: normal;
+                          font-weight: 400;
+                          font-size: 18px;
+                          line-height: 21px;
+                          text-transform: uppercase;
+                          color: #000000;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }

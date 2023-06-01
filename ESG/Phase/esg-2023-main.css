@@ -179,7 +179,7 @@
 }
 #esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2),
 .esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) {
-  background-color: #D51E48;
+  background-color: #d51e48;
 }
 #esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container,
 .esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container {
@@ -229,8 +229,80 @@
 }
 #esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1) > .cmp-container > .teaser:nth-child(3) .cmp-teaser .cmp-teaser__content .cmp-teaser__description h6,
 .esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1) > .cmp-container > .teaser:nth-child(3) .cmp-teaser .cmp-teaser__content .cmp-teaser__description h6 {
-  color: #FEC45E;
+  color: #fec45e;
 }
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container,
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container {
+  background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/BG-charity.png") no-repeat center center;
+  background-size: 376px;
+  margin-top: 95px;
+  text-align: center;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img,
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img {
+  margin-top: -60px;
+  width: 120px;
+  height: 120px;
+}
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container,
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container {
+  text-align: center;
+  max-width: 320px;
+  margin: 30px auto;
+}
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2),
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) {
+  padding: 8px 0;
+}
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) p,
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) p {
+  color: #666666;
+}
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) p small,
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) p small {
+  color: #666666;
+}
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3),
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) a,
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  grid-gap: 14px;
+  padding: 0;
+  border-radius: 0;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #000000;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) a .cmp-button__icon--arrow-right,
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) a .cmp-button__icon--arrow-right {
+  background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/icons/arrow-right-45.png") no-repeat center center;
+  background-size: 13px;
+  width: 13px;
+  height: 13px;
+}
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) a .cmp-button__text,
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) a .cmp-button__text {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 @media only screen and (min-width: 769px) {
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2),
   #esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2),
