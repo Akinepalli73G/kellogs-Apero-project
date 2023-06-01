@@ -358,6 +358,23 @@
         text-align: center;
       }
     }
+    > .container:nth-child(9) {
+      > .cmp-container {
+        .text {
+          p {
+            small {
+              color:#666666;
+            }
+          }
+          
+          a {
+            color: #000000;
+            font-family: 'Lilita One';
+            text-decoration: underline;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -565,6 +582,11 @@
           max-width: 820px;
           margin: 0 auto;
           padding: 90px 0;
+        }
+      }
+      > .container:nth-child(9) {
+        > .cmp-container {
+          padding: 24px 100px;
         }
       }
     }
@@ -776,6 +798,11 @@
       > .container:nth-child(8) {
         > .cmp-container {
           padding: 40px 20px 50px;
+        }
+      }
+      > .container:nth-child(9) {
+        > .cmp-container {
+          padding: 24px 20px;
         }
       }
     }
