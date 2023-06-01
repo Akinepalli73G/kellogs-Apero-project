@@ -351,6 +351,12 @@
         }
       }
     }
+    > .container:nth-child(8) {
+      background: #009BDE;
+      > .cmp-container {
+        text-align: center;
+      }
+    }
   }
 }
 
@@ -551,6 +557,13 @@
               }
             }
           }
+        }
+      }
+      > .container:nth-child(8) {
+        > .cmp-container {
+          max-width: 820px;
+          margin: 0 auto;
+          padding: 90px 0;
         }
       }
     }
@@ -757,6 +770,11 @@
               align-items: center;
             }
           }
+        }
+      }
+      > .container:nth-child(8) {
+        > .cmp-container {
+          padding: 40px 20px 50px;
         }
       }
     }
