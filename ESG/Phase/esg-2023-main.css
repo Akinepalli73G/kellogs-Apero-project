@@ -143,6 +143,7 @@
 }
 #esg-main-container.cmp-container > .container:nth-child(4) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser .cmp-teaser__image img,
 .esg-main-container.cmp-container > .container:nth-child(4) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser .cmp-teaser__image img {
+  width: unset;
   height: 120px;
   -o-object-fit: cover;
      object-fit: cover;

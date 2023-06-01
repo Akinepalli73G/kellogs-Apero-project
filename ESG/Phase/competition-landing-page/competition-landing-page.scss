@@ -137,6 +137,7 @@
                 text-align: center;
                 .cmp-teaser__image {
                   img {
+                    width: unset;
                     height: 120px;
                     object-fit: cover;
                   }
