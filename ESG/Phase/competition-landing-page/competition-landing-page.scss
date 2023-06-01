@@ -170,11 +170,23 @@
     }
     > .container:nth-child(6) {
       > .cmp-container {
+        display: flex;
+        flex-wrap: wrap;
+        > .container:nth-child(1),
+        > .container:nth-child(2) {
+          flex-basis: 50%;
+        }
+        > .container:nth-child(2) {
+          background-color: #D51E48;
+          > .cmp-container {
+            padding: 80px 100px;
+          } 
+        }
         > .container:nth-child(1) {
           > .cmp-container {
             max-width: 830px;
             margin: 0 auto;
-            padding: 40px 0;
+            padding: 80px 100px;
             > .text:nth-child(2) {
               p {
                 small {
@@ -213,6 +225,9 @@
               }
             }
           }
+        }
+        > .container:nth-child(2) {
+          
         }
       }
     }
