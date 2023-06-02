@@ -8,7 +8,7 @@
   }
 
   &.sky-blue {
-    color:#009BDE;
+    color: #009bde;
   }
 }
 
@@ -122,12 +122,6 @@ p {
   }
 }
 
-.cmp-video__player.embed-responsive-item {
-  width: 100%;
-  max-width: 100%;
-  object-fit: cover;
-}
-
 .accordion {
   padding: 40px 0;
   color: #000000;
@@ -165,7 +159,7 @@ p {
             &__title {
               text-align: left;
               flex: 0 0 80%;
-              font-family: 'Open Sans';
+              font-family: "Open Sans";
               font-style: normal;
               font-weight: 700;
               font-size: 14px;
@@ -206,6 +200,13 @@ p {
   }
 }
 
+.embed {
+  .cmp-embed {
+    line-height: 0;
+    position: relative;
+  }
+}
+
 @media only screen and (min-width: 769px) {
   h1 {
     font-size: 70px;
@@ -236,7 +237,7 @@ p {
     margin-top: 90px;
   }
 
-  .cmp-video__player.embed-responsive-item {
+  .embed .cmp-embed iframe {
     height: 700px;
   }
 }
@@ -270,7 +271,11 @@ p {
     margin-top: 80px;
   }
 
-  .cmp-video__player.embed-responsive-item {
-    height: 400px;
+  .embed {
+    .cmp-embed {
+      iframe {
+        height: 400px;
+      }
+    }
   }
 }

@@ -95,7 +95,6 @@
         }
       }
     }
-
     > .container:nth-child(3) {
       .cmp-container {
         position: relative;
@@ -165,6 +164,34 @@
                 }
               }
             }
+          }
+        }
+      }
+    }
+    > .container:nth-child(5) {
+      > .cmp-container {
+        position: relative;
+        > .embed {
+          .ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg {
+
+          }
+        }
+        > .text:nth-child(2) {
+          position: absolute;
+          top: 45%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          cursor: pointer;
+
+          p {
+            font-family: "Lilita One";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 90px;
+            line-height: 103px;
+            text-transform: capitalize;
+            color: #ffffff;
+            margin: 16px 0;
           }
         }
       }
@@ -298,7 +325,7 @@
     > .container:nth-child(7) {
       > .cmp-container {
         > .container:nth-child(1) {
-          >.cmp-container {
+          > .cmp-container {
             position: relative;
             > .text:nth-child(3) {
               position: absolute;
@@ -308,7 +335,7 @@
           }
         }
         > .container:nth-child(2) {
-          background-color: #36763D;
+          background-color: #36763d;
           .cmp-container {
             display: flex;
             row-gap: 40px;
@@ -328,7 +355,7 @@
                 padding: 0;
                 border-radius: 0;
                 padding-bottom: 10px;
-                border-bottom: 3px solid #FFFFFF;
+                border-bottom: 3px solid #ffffff;
                 width: fit-content;
                 .cmp-button__icon--arrow-right {
                   background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/icons/arrow-outward-rounded-white.png")
@@ -353,7 +380,7 @@
       }
     }
     > .container:nth-child(8) {
-      background: #009BDE;
+      background: #009bde;
       > .cmp-container {
         text-align: center;
       }
@@ -363,13 +390,13 @@
         .text {
           p {
             small {
-              color:#666666;
+              color: #666666;
             }
           }
-          
+
           a {
             color: #000000;
-            font-family: 'Lilita One';
+            font-family: "Lilita One";
             text-decoration: underline;
           }
         }
@@ -492,6 +519,16 @@
           }
         }
       }
+      > .container:nth-child(5) {
+        > .cmp-container {
+          > .text:nth-child(2) {
+            p {
+              font-size: 90px;
+              line-height: 103px;
+            }
+          }
+        }
+      }
       > .container:nth-child(6) {
         > .cmp-container {
           flex-wrap: wrap;
@@ -550,7 +587,7 @@
       > .container:nth-child(7) {
         > .cmp-container {
           > .container:nth-child(1) {
-            >.cmp-container {
+            > .cmp-container {
               > .image:nth-child(2) {
                 display: none;
               }
@@ -707,6 +744,16 @@
           }
         }
       }
+      > .container:nth-child(5) {
+        > .cmp-container {
+          > .text:nth-child(2) {
+            p {
+              font-size: 50px;
+              line-height: 57px;
+            }
+          }
+        }
+      }
       > .container:nth-child(6) {
         > .cmp-container {
           flex-wrap: nowrap;
@@ -770,7 +817,7 @@
       > .container:nth-child(7) {
         > .cmp-container {
           > .container:nth-child(1) {
-            >.cmp-container {
+            > .cmp-container {
               > .image:nth-child(1) {
                 display: none;
               }

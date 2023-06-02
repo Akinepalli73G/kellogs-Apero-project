@@ -5,7 +5,7 @@
   color: #ffffff;
 }
 .text.sky-blue {
-  color: #009BDE;
+  color: #009bde;
 }
 
 h1,
@@ -102,13 +102,6 @@ p {
   line-height: 0;
 }
 
-.cmp-video__player.embed-responsive-item {
-  width: 100%;
-  max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .accordion {
   padding: 40px 0;
   color: #000000;
@@ -168,6 +161,11 @@ p {
   word-break: break-word;
 }
 
+.embed .cmp-embed {
+  line-height: 0;
+  position: relative;
+}
+
 @media only screen and (min-width: 769px) {
   h1 {
     font-size: 70px;
@@ -196,7 +194,7 @@ p {
   #esg-main-container {
     margin-top: 90px;
   }
-  .cmp-video__player.embed-responsive-item {
+  .embed .cmp-embed iframe {
     height: 700px;
   }
 }
@@ -228,7 +226,7 @@ p {
   #esg-main-container {
     margin-top: 80px;
   }
-  .cmp-video__player.embed-responsive-item {
+  .embed .cmp-embed iframe {
     height: 400px;
   }
 }/*# sourceMappingURL=common.css.map */
