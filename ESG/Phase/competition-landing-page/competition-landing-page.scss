@@ -173,7 +173,8 @@
         position: relative;
         > .embed {
           .ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg {
-
+            top: 420px;
+            z-index: 999;
           }
         }
         > .text:nth-child(2) {

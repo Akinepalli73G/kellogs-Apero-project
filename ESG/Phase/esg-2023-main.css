@@ -171,6 +171,11 @@
 .esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container {
   position: relative;
 }
+#esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .embed .ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg,
+.esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .embed .ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg {
+  top: 420px;
+  z-index: 999;
+}
 #esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .text:nth-child(2),
 .esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .text:nth-child(2) {
   position: absolute;
