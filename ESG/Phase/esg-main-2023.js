@@ -22,18 +22,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const charity = document.querySelectorAll(
-    "#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2)"
-  );
-  if (charity.length == 0) {
-    document
-      .querySelectorAll(
-        "#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1)"
-      )[0]
-      .classList.add("esg-charity");
-  }
-
   //carousel end
+  if (document.querySelector("#esg-main-container")) {
+    const charity = document.querySelectorAll(
+      "#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2)"
+    );
+    if (charity.length == 0) {
+      document
+        .querySelectorAll(
+          "#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1)"
+        )[0].classList.add("esg-charity");
+    }
+  }
 });
 
 // language seletor start
@@ -65,9 +65,11 @@ desktopLanguagenavigationClicked[0].addEventListener("click", () => {
     .classList.toggle("languageOpened");
   desktopLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
   document.querySelector("body").classList.toggle("languageOpened");
-  document
-    .querySelector("#esg-main-container")
-    .classList.toggle("languageOpened");
+  if (document.querySelector("#esg-main-container")) {
+    document.querySelectorAll('.root .container .cmp-container')[0].children[2].children[0].classList.toggle("languageOpened");
+  } else {
+    document.querySelectorAll('.root .container .cmp-container')[0].children[1].children[0].classList.toggle("languageOpened");
+  }
   document
     .querySelector("#esg-header-container")
     .classList.toggle("languageOpened");
@@ -79,9 +81,11 @@ mobileLanguagenavigationClicked[0].addEventListener("click", () => {
     .classList.toggle("languageOpened");
   mobileLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
   document.querySelector("body").classList.toggle("languageOpened");
-  document
-    .querySelector("#esg-main-container")
-    .classList.toggle("languageOpened");
+  if (document.querySelector("#esg-main-container")) {
+    document.querySelectorAll('.root .container .cmp-container')[0].children[2].children[0].classList.toggle("languageOpened");
+  } else {
+    document.querySelectorAll('.root .container .cmp-container')[0].children[1].children[0].classList.toggle("languageOpened");
+  }
   document
     .querySelector("#esg-header-container")
     .classList.toggle("languageOpened");
@@ -129,4 +133,26 @@ document
   .querySelector(".button .cmp-button__icon--burger-close-icon")
   .addEventListener("click", onBtnClick);
 
-// clcik on burger menu close
+// click on burger menu close
+
+// youtube video component
+
+const videoOverlay = document.querySelector(
+  "#esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .text:nth-child(2)"
+);
+
+var textOverlay = document.querySelector(
+"#esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .text:nth-child(2)"
+);
+
+// Attach a click event listener to the text overlay
+if (textOverlay && videoOverlay) {
+  textOverlay.addEventListener('click', function() {
+    textOverlay.style.display = 'none';
+    var playVideo = document.querySelector(".ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg");
+    playVideo.click();
+    });
+}
+
+
+

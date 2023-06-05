@@ -980,6 +980,7 @@ p {
     font-size: 20px;
     line-height: 23px;
   }
+  #esg-login-register-container,
   #esg-main-container {
     margin-top: 90px;
   }
@@ -1012,6 +1013,7 @@ p {
     font-size: 18px;
     line-height: 21px;
   }
+  #esg-login-register-container,
   #esg-main-container {
     margin-top: 80px;
   }
@@ -1188,12 +1190,18 @@ body.languageOpened {
 }
 
 @media only screen and (min-width: 769px) {
+  #esg-login-register-container,
   #esg-header-container {
     height: 90px;
   }
+  #esg-login-register-container.languageOpened,
   #esg-header-container.languageOpened {
     top: -90px;
   }
+  #esg-login-register-container.languageOpened #esg-desktop-container .image,
+  #esg-login-register-container.languageOpened #esg-desktop-container .navigationV2,
+  #esg-login-register-container.languageOpened #esg-desktop-container .button,
+  #esg-login-register-container.languageOpened #esg-desktop-container .logout-v6,
   #esg-header-container.languageOpened #esg-desktop-container .image,
   #esg-header-container.languageOpened #esg-desktop-container .navigationV2,
   #esg-header-container.languageOpened #esg-desktop-container .button,
@@ -1280,12 +1288,16 @@ body.languageOpened {
   }
 }
 @media only screen and (max-width: 768px) {
+  #esg-login-register-container,
   #esg-header-container {
     height: 80px;
   }
+  #esg-login-register-container.languageOpened,
   #esg-header-container.languageOpened {
     top: -80px;
   }
+  #esg-login-register-container.languageOpened #esg-mobile-container #burger-menu .image,
+  #esg-login-register-container.languageOpened #esg-mobile-container #burger-menu .button,
   #esg-header-container.languageOpened #esg-mobile-container #burger-menu .image,
   #esg-header-container.languageOpened #esg-mobile-container #burger-menu .button {
     filter: blur(2px);
