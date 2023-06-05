@@ -118,9 +118,11 @@ let onBtnClick = () => {
   langauageNavigationHide[0].classList.toggle("burgerMenuClosed");
   burgerMenuClose = document.querySelectorAll("#burger-close-menu");
   burgerMenuClose[0].classList.toggle("burgerMenuOpened");
-  document
-    .querySelectorAll("#esg-main-container")[0]
-    .classList.toggle("burgerMenuOpened");
+  if (document.querySelector("#esg-main-container")) {
+    document.querySelectorAll('.root .container .cmp-container')[0].children[2].children[0].classList.toggle("burgerMenuOpened");
+  } else {
+    document.querySelectorAll('.root .container .cmp-container')[0].children[1].children[0].classList.toggle("burgerMenuOpened");
+  }
   document
     .querySelectorAll("#esg-footer-container")[0]
     .classList.toggle("burgerMenuOpened");

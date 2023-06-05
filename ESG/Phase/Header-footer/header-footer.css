@@ -148,6 +148,7 @@ body.languageOpened {
           backdrop-filter: blur(2px);
 }
 
+#esg-login-register-container.languageOpened,
 #esg-main-container.languageOpened {
   filter: blur(2px);
 }
