@@ -1,0 +1,10 @@
+#esg-login-register-container > .container:nth-child(1) > .cmp-container .text h3 {
+  color: #009bde;
+}
+#esg-login-register-container > .container:nth-child(1) > .cmp-container .text p {
+  color: #666666;
+}
+#esg-login-register-container > .container:nth-child(1) > .cmp-container .text p a {
+  color: #000000;
+  text-decoration: underline;
+}/*# sourceMappingURL=esg-login-register-container.css.map */

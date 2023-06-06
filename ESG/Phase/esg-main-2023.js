@@ -31,7 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
       document
         .querySelectorAll(
           "#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1)"
-        )[0].classList.add("esg-charity");
+        )[0]
+        .classList.add("esg-charity");
     }
   }
 });
@@ -66,9 +67,13 @@ desktopLanguagenavigationClicked[0].addEventListener("click", () => {
   desktopLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
   document.querySelector("body").classList.toggle("languageOpened");
   if (document.querySelector("#esg-main-container")) {
-    document.querySelectorAll('.root .container .cmp-container')[0].children[2].children[0].classList.toggle("languageOpened");
+    document
+      .querySelectorAll(".root .container .cmp-container")[0]
+      .children[2].children[0].classList.toggle("languageOpened");
   } else {
-    document.querySelectorAll('.root .container .cmp-container')[0].children[1].children[0].classList.toggle("languageOpened");
+    document
+      .querySelectorAll(".root .container .cmp-container")[0]
+      .children[1].children[0].classList.toggle("languageOpened");
   }
   document
     .querySelector("#esg-header-container")
@@ -82,9 +87,13 @@ mobileLanguagenavigationClicked[0].addEventListener("click", () => {
   mobileLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
   document.querySelector("body").classList.toggle("languageOpened");
   if (document.querySelector("#esg-main-container")) {
-    document.querySelectorAll('.root .container .cmp-container')[0].children[2].children[0].classList.toggle("languageOpened");
+    document
+      .querySelectorAll(".root .container .cmp-container")[0]
+      .children[2].children[0].classList.toggle("languageOpened");
   } else {
-    document.querySelectorAll('.root .container .cmp-container')[0].children[1].children[0].classList.toggle("languageOpened");
+    document
+      .querySelectorAll(".root .container .cmp-container")[0]
+      .children[1].children[0].classList.toggle("languageOpened");
   }
   document
     .querySelector("#esg-header-container")
@@ -119,9 +128,13 @@ let onBtnClick = () => {
   burgerMenuClose = document.querySelectorAll("#burger-close-menu");
   burgerMenuClose[0].classList.toggle("burgerMenuOpened");
   if (document.querySelector("#esg-main-container")) {
-    document.querySelectorAll('.root .container .cmp-container')[0].children[2].children[0].classList.toggle("burgerMenuOpened");
+    document
+      .querySelectorAll(".root .container .cmp-container")[0]
+      .children[2].children[0].classList.toggle("burgerMenuOpened");
   } else {
-    document.querySelectorAll('.root .container .cmp-container')[0].children[1].children[0].classList.toggle("burgerMenuOpened");
+    document
+      .querySelectorAll(".root .container .cmp-container")[0]
+      .children[1].children[0].classList.toggle("burgerMenuOpened");
   }
   document
     .querySelectorAll("#esg-footer-container")[0]
@@ -144,17 +157,16 @@ const videoOverlay = document.querySelector(
 );
 
 var textOverlay = document.querySelector(
-"#esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .text:nth-child(2)"
+  "#esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .text:nth-child(2)"
 );
 
 // Attach a click event listener to the text overlay
 if (textOverlay && videoOverlay) {
-  textOverlay.addEventListener('click', function() {
-    textOverlay.style.display = 'none';
-    var playVideo = document.querySelector(".ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg");
+  textOverlay.addEventListener("click", function () {
+    textOverlay.style.display = "none";
+    var playVideo = document.querySelector(
+      ".ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg"
+    );
     playVideo.click();
-    });
+  });
 }
-
-
-

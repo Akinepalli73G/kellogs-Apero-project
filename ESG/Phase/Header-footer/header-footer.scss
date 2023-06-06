@@ -187,7 +187,6 @@ body.languageOpened {
 }
 
 @media only screen and (min-width: 769px) {
-  #esg-login-register-container,
   #esg-header-container {
     height: 90px;
     &.languageOpened {
@@ -297,7 +296,6 @@ body.languageOpened {
 }
 
 @media only screen and (max-width: 768px) {
-  #esg-login-register-container,
   #esg-header-container {
     height: 80px;
     &.languageOpened {
