@@ -152,21 +152,72 @@ document
 
 // youtube video component
 
-const videoOverlay = document.querySelector(
-  "#esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .text:nth-child(2)"
-);
+// Get the text element and the YouTube video iframe
+var textElement = document.querySelector("#esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .text:nth-child(2)");
+var youtubeVideo = document.querySelector('.embed iframe');
 
-var textOverlay = document.querySelector(
-  "#esg-main-container.cmp-container > .container:nth-child(5) > .cmp-container > .text:nth-child(2)"
-);
+// Modify the iframe's src attribute to remove the origin parameter and include the enablejsapi parameter
+var originalSrc = youtubeVideo.getAttribute('src');
+var modifiedSrc = originalSrc.replace(/origin=[^&]+/, '') + '&enablejsapi=1' + '&controls=0';
+youtubeVideo.setAttribute('src', modifiedSrc);
 
-// Attach a click event listener to the text overlay
-if (textOverlay && videoOverlay) {
-  textOverlay.addEventListener("click", function () {
-    textOverlay.style.display = "none";
-    var playVideo = document.querySelector(
-      ".ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg"
-    );
-    playVideo.click();
+
+
+// Listen for the "ended" event on the YouTube video
+youtubeVideo.addEventListener("ended", function() {
+  // Show the text element again
+  textElement.style.display = "block";
+});
+
+// 2. This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement('script');
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// 3. This function creates an <iframe> (and YouTube player)
+//    after the API code downloads.
+var player;
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    videoId: 'M7lc1UVf-VE',
+    events: {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
+    }
   });
 }
+
+// 4. The API will call this function when the video player is ready.
+function onPlayerReady(event) {
+  console.log(player);
+  console.log(event.target);
+  event.target.playVideo();
+}
+
+// 5. The API calls this function when the player's state changes.
+//    The function indicates that when playing a video (state=1),
+//    the player should play for six seconds and then stop.
+var done = false;
+function onPlayerStateChange(event) {
+  if (event.data == YT.PlayerState.PLAYING && !done) {
+    setTimeout(stopVideo, 6000);
+    done = true;
+  }
+}
+function stopVideo() {
+  player.stopVideo();
+}
+
+// Add a click event listener to the text element
+textElement.addEventListener("click", function() {
+  // youtubeVideo.contentWindow.postMessage(JSON.stringify({
+  //   "event": "command",
+  //   "func": "playVideo"
+  // }), "*");
+  // textElement.style.display = "none";
+  player.playVideo();
+});
+
+onYouTubeIframeAPIReady();

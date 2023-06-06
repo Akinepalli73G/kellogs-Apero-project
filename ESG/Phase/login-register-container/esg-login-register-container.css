@@ -1,10 +1,59 @@
-#esg-login-register-container > .container:nth-child(1) > .cmp-container .text h3 {
+#esg-login-register-container > .container:nth-child(1) > .cmp-container {
+  position: relative;
+}
+#esg-login-register-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  bottom: 80px;
+  justify-content: center;
+  z-index: 9;
+}
+#esg-login-register-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) > .cmp-text {
+  max-width: 400px;
+  margin: 0 auto;
+}
+#esg-login-register-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) h3 {
   color: #009bde;
 }
-#esg-login-register-container > .container:nth-child(1) > .cmp-container .text p {
+#esg-login-register-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) p {
   color: #666666;
 }
-#esg-login-register-container > .container:nth-child(1) > .cmp-container .text p a {
+#esg-login-register-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) p a {
   color: #000000;
   text-decoration: underline;
+}
+#esg-login-register-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) {
+  position: relative;
+  height: 120px;
+}
+#esg-login-register-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) > .cmp-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 20px;
+  align-items: flex-end;
+  height: 100%;
+}
+#esg-login-register-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) > .cmp-container .separator {
+  flex-basis: 12%;
+}
+#esg-login-register-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) > .cmp-container .text h6 {
+  color: #666666;
+}
+
+@media only screen and (max-width: 768px) {
+  #esg-login-register-container > .container:nth-child(1) > .cmp-container > .image:nth-child(1) {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #esg-login-register-container > .container:nth-child(1) > .cmp-container > .image:nth-child(1) img {
+    height: 288px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #esg-login-register-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) {
+    display: none;
+  }
 }/*# sourceMappingURL=esg-login-register-container.css.map */
