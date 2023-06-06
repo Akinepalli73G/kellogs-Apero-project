@@ -55,6 +55,12 @@
   #esg-login-register-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) > .cmp-container .separator {
     flex-basis: 45%;
   }
+  #esg-login-register-container > .container:nth-child(2) .gigya-screen.v2.portrait {
+    padding: 0;
+  }
+  #esg-login-register-container > .container:nth-child(2) .gigya-screen.v2.portrait .gigya-composite-control-social-login {
+    right: 100px;
+  }
 }
 @media only screen and (min-width: 769px) {
   #esg-login-register-container > .container:nth-child(1) > .cmp-container > .image:nth-child(1) img {

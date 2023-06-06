@@ -53,9 +53,9 @@
           }
         }
         > .container:nth-child(4) {
-            position: relative;
-            height: 80px;
-            margin-bottom: 20px;
+          position: relative;
+          height: 80px;
+          margin-bottom: 20px;
           > .cmp-container {
             width: calc(100% - 40px);
             padding: 0 20px;
@@ -67,6 +67,14 @@
               flex-basis: 45%;
             }
           }
+        }
+      }
+    }
+    > .container:nth-child(2) {
+      .gigya-screen.v2.portrait {
+        padding: 0;
+        .gigya-composite-control-social-login {
+          right: 100px;
         }
       }
     }
@@ -86,15 +94,15 @@
           display: none;
         }
         > .text:nth-child(3) {
-            position: absolute;
-            width: 100%;
-            bottom: 80px;
-            z-index: 9;
-            > .cmp-text {
-              max-width: 400px;
-              margin: 0 auto;
-            }
+          position: absolute;
+          width: 100%;
+          bottom: 80px;
+          z-index: 9;
+          > .cmp-text {
+            max-width: 400px;
+            margin: 0 auto;
           }
+        }
         > .container:nth-child(4) {
           height: 120px;
           > .cmp-container {
