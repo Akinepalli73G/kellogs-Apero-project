@@ -3,16 +3,8 @@
     > .cmp-container {
       position: relative;
       > .text:nth-child(3) {
-        position: absolute;
-        width: 100%;
         display: flex;
-        bottom: 80px;
         justify-content: center;
-        z-index: 9;
-        > .cmp-text {
-          max-width: 400px;
-          margin: 0 auto;
-        }
         h3 {
           color: #009bde;
         }
@@ -27,20 +19,20 @@
 
       > .container:nth-child(4) {
         position: relative;
-        height: 120px;
         > .cmp-container {
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
-          grid-gap: 20px;
           align-items: flex-end;
           height: 100%;
-          .separator {
-            flex-basis: 12%;
-          }
           .text {
             h6 {
               color: #666666;
+            }
+          }
+          .separator {
+            hr {
+              border: 1px solid rgba(0, 0, 0, 0.1);
             }
           }
         }
@@ -55,6 +47,27 @@
         > .image:nth-child(1) {
           display: none;
         }
+        > .image:nth-child(2) {
+          img {
+            max-height: 150px;
+          }
+        }
+        > .container:nth-child(4) {
+            position: relative;
+            height: 80px;
+            margin-bottom: 20px;
+          > .cmp-container {
+            width: calc(100% - 40px);
+            padding: 0 20px;
+            .text {
+              flex-basis: 10%;
+              text-align: center;
+            }
+            .separator {
+              flex-basis: 45%;
+            }
+          }
+        }
       }
     }
   }
@@ -65,13 +78,31 @@
     > .container:nth-child(1) {
       > .cmp-container {
         > .image:nth-child(1) {
-            img {
-                height: 288px;
-                object-fit: cover;
-            }
-        } 
+          img {
+            height: 288px;
+          }
+        }
         > .image:nth-child(2) {
           display: none;
+        }
+        > .text:nth-child(3) {
+            position: absolute;
+            width: 100%;
+            bottom: 80px;
+            z-index: 9;
+            > .cmp-text {
+              max-width: 400px;
+              margin: 0 auto;
+            }
+          }
+        > .container:nth-child(4) {
+          height: 120px;
+          > .cmp-container {
+            grid-gap: 20px;
+            .separator {
+              flex-basis: 12%;
+            }
+          }
         }
       }
     }
