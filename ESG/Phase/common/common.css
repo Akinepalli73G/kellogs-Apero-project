@@ -191,6 +191,7 @@ p {
     font-size: 20px;
     line-height: 23px;
   }
+  #esg-thank-you-page-container,
   #esg-login-register-container,
   #esg-main-container {
     margin-top: 90px;
@@ -224,6 +225,7 @@ p {
     font-size: 18px;
     line-height: 21px;
   }
+  #esg-thank-you-page-container,
   #esg-login-register-container,
   #esg-main-container {
     margin-top: 80px;
