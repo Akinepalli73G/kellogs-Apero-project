@@ -1,13 +1,120 @@
 #esg-thank-you-page-container {
+  > .container:nth-child(2) {
+    > .cmp-container {
+      margin: 80px 100px;
+      > .text {
+        margin-bottom: 80px;
+      }
+      > .container:nth-child(2) {
+        > .cmp-container {
+          flex-direction: row;
+          .teaser {
+            flex-basis: 33.33%;
+            text-align: center;
+            .cmp-teaser {
+              text-align: center;
+              .cmp-teaser__content {
+                max-width: 300px;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  > .container:nth-child(3) {
+    background: #009bde;
+    > .cmp-container {
+      text-align: center;
+    }
+  }
+  > .container:nth-child(4) {
+    > .cmp-container {
+      .text {
+        p {
+          small {
+            color: #666666;
+          }
+        }
+
+        a {
+          color: #000000;
+          font-family: "Lilita One";
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 769px) {
   #esg-thank-you-page-container {
-   
+    > .container:nth-child(2) {
+      > .cmp-container {
+        margin: 80px 100px;
+        > .text {
+          margin-bottom: 80px;
+        }
+        > .container:nth-child(2) {
+          > .cmp-container {
+            flex-direction: row;
+            .teaser {
+              flex-basis: 33.33%;
+              text-align: center;
+              .cmp-teaser {
+                text-align: center;
+                .cmp-teaser__content {
+                  max-width: 300px;
+                  margin: 0 auto;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    > .container:nth-child(3) {
+      > .cmp-container {
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 90px 0;
+      }
+    }
+    > .container:nth-child(4) {
+      > .cmp-container {
+        padding: 24px 100px;
+      }
+    }
   }
 }
 
 @media only screen and (max-width: 768px) {
   #esg-thank-you-page-container {
+    > .container:nth-child(2) {
+      > .cmp-container {
+        margin: 40px 20px;
+        > .text {
+          margin-bottom: 40px;
+        }
+        > .container:nth-child(2) {
+          > .cmp-container {
+            grid-gap: 40px;
+            flex-direction: column;
+            align-items: center;
+          }
+        }
+      }
+    }
+    > .container:nth-child(3) {
+      > .cmp-container {
+        padding: 40px 20px 50px;
+      }
+    }
+    > .container:nth-child(4) {
+      > .cmp-container {
+        padding: 24px 20px;
+      }
+    }
   }
 }
