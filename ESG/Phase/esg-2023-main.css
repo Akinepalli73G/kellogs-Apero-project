@@ -1287,6 +1287,16 @@ body.languageOpened {
     border-radius: 90px;
     border: none;
   }
+  .root:has(#esg-ready-to-play-page-container) #esg-header-container .button,
+  .root:has(#esg-thank-you-page-container) #esg-header-container .button,
+  .root:has(#esg-faq-container) #esg-header-container .button {
+    display: none;
+  }
+  .root:has(#esg-ready-to-play-page-container) #esg-header-container .logout-v6,
+  .root:has(#esg-thank-you-page-container) #esg-header-container .logout-v6,
+  .root:has(#esg-faq-container) #esg-header-container .logout-v6 {
+    display: flex;
+  }
   #esg-mobile-container {
     display: none;
   }

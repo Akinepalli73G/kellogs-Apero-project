@@ -293,6 +293,20 @@ body.languageOpened {
       }
     }
   }
+
+  .root:has(#esg-ready-to-play-page-container),
+  .root:has(#esg-thank-you-page-container),
+  .root:has( #esg-faq-container) {
+    #esg-header-container {
+      .button {
+        display: none;
+      }
+      .logout-v6 {
+        display: flex;
+      }
+    }
+  }
+
   #esg-mobile-container {
     display: none;
   }
