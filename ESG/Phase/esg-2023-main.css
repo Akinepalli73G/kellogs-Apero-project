@@ -1976,9 +1976,6 @@ body.languageOpened {
 #esg-already-played-container > .container:nth-child(3) > .cmp-container {
   display: flex;
 }
-#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) {
-  background-color: #d51e48;
-}
 #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container {
   margin: 0 auto;
 }
@@ -2010,6 +2007,9 @@ body.languageOpened {
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container > .teaser:nth-child(3) .cmp-teaser .cmp-teaser__content .cmp-teaser__description h6 {
   color: #fec45e;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) {
+  background-color: #d51e48;
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container {
   margin: 0 auto;
@@ -2073,6 +2073,39 @@ body.languageOpened {
   line-height: 21px;
   text-transform: uppercase;
   color: #000000;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .button:nth-child(3) {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .button:nth-child(3) a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  grid-gap: 14px;
+  padding: 0;
+  border-radius: 0;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ffffff;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .button:nth-child(3) a .cmp-button__icon--arrow-right {
+  background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/icons/arrow-outward-rounded-white.png") no-repeat center center;
+  background-size: 13px;
+  width: 13px;
+  height: 13px;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .button:nth-child(3) a .cmp-button__text {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container.esg-charity:nth-child(1) {
   flex-basis: 100%;
@@ -2188,6 +2221,14 @@ body.languageOpened {
   #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1),
   #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) {
     flex-basis: 50%;
+  }
+  #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) {
+    display: inline-block;
+    flex-basis: 100%;
+    width: 100%;
+    height: 100%;
+    background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/already-played-bg.png") no-repeat center center;
+    background-size: 100%;
   }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container {
     padding: 80px 100px;
