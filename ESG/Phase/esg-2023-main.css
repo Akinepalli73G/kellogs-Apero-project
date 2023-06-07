@@ -1649,6 +1649,29 @@ body.languageOpened {
     padding: 24px 20px;
   }
 }
+#esg-faq-container {
+  background: #009bde;
+}
+
+@media only screen and (max-width: 768px) {
+  #esg-faq-container .accordion {
+    padding: 40px 20px 80px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #esg-faq-container .accordion {
+    padding: 40px 0 90px;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  #esg-faq-container > .text:nth-child(3) {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  #esg-faq-container > .text:nth-child(3) .cmp-text {
+    padding: 0 100px;
+  }
+}
 body {
   margin: 0 auto;
   overflow-x: hidden;
