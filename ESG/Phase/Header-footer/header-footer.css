@@ -148,6 +148,7 @@ body.languageOpened {
           backdrop-filter: blur(2px);
 }
 
+#esg-faq-container.languageOpened,
 #esg-ready-to-play-page-container.languageOpened,
 #esg-thank-you-page-container.languageOpened,
 #esg-login-register-container.languageOpened,
