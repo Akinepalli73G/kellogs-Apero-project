@@ -148,6 +148,7 @@ body.languageOpened {
           backdrop-filter: blur(2px);
 }
 
+#esg-already-played-container.languageOpened,
 #esg-faq-container.languageOpened,
 #esg-ready-to-play-page-container.languageOpened,
 #esg-thank-you-page-container.languageOpened,
@@ -258,11 +259,13 @@ body.languageOpened {
     border-radius: 90px;
     border: none;
   }
+  .root:has(#esg-already-played-container) #esg-header-container .button,
   .root:has(#esg-ready-to-play-page-container) #esg-header-container .button,
   .root:has(#esg-thank-you-page-container) #esg-header-container .button,
   .root:has(#esg-faq-container) #esg-header-container .button {
     display: none;
   }
+  .root:has(#esg-already-played-container) #esg-header-container .logout-v6,
   .root:has(#esg-ready-to-play-page-container) #esg-header-container .logout-v6,
   .root:has(#esg-thank-you-page-container) #esg-header-container .logout-v6,
   .root:has(#esg-faq-container) #esg-header-container .logout-v6 {

@@ -167,6 +167,7 @@ body.languageOpened {
   backdrop-filter: blur(2px);
 }
 
+#esg-already-played-container.languageOpened,
 #esg-faq-container.languageOpened,
 #esg-ready-to-play-page-container.languageOpened,
 #esg-thank-you-page-container.languageOpened,
@@ -294,6 +295,7 @@ body.languageOpened {
     }
   }
 
+  .root:has(#esg-already-played-container),
   .root:has(#esg-ready-to-play-page-container),
   .root:has(#esg-thank-you-page-container),
   .root:has( #esg-faq-container) {
