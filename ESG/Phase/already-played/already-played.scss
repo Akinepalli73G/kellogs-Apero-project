@@ -212,6 +212,10 @@
                     flex-basis: 25%;
                     .cmp-teaser__image {
                       line-height: 0;
+                      img {
+                        height: 200px;
+                        object-fit: cover;
+                      }
                     }
                     .cmp-teaser__content {
                       background: #ffffff;
@@ -246,6 +250,7 @@
 
                     p {
                       color: #666666;
+                      margin: 0;
                     }
                     a {
                       font-family: "Lilita One";

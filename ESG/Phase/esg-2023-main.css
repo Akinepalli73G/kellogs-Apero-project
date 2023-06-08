@@ -2105,6 +2105,11 @@ body.languageOpened {
 #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser__image {
   line-height: 0;
 }
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser__image img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser__content {
   background: #ffffff;
   padding: 24px 10px;
@@ -2136,6 +2141,7 @@ body.languageOpened {
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser p {
   color: #666666;
+  margin: 0;
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser a {
   font-family: "Lilita One";
