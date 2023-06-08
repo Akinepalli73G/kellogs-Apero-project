@@ -156,12 +156,84 @@
   text-transform: uppercase;
   color: #000000;
 }
-#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .button:nth-child(3) {
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) {
+  position: relative;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .image:nth-child(1) img {
+  height: 820px;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container {
+  padding: 0 200px;
+  display: flex;
+  grid-gap: 20px;
+  flex-direction: column;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container {
+  display: flex;
+  width: 100%;
+  grid-gap: 20px;
+  align-items: baseline;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser {
+  flex-basis: 25%;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser__image {
+  line-height: 0;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser__content {
+  background: #ffffff;
+  padding: 24px 10px;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  height: 249px;
+  justify-content: space-between;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser__content h2 {
+  font-size: 20px;
+  line-height: 23px;
+  color: #009bde;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser__content h2 a {
+  font-size: 20px;
+  line-height: 23px;
+  color: #009bde;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser__content .cmp-teaser__action-container {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #000000;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser p {
+  color: #666666;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser a {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) {
   display: flex;
   width: 100%;
   justify-content: center;
 }
-#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .button:nth-child(3) a {
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,13 +246,13 @@
   width: -moz-fit-content;
   width: fit-content;
 }
-#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .button:nth-child(3) a .cmp-button__icon--arrow-right {
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) a .cmp-button__icon--arrow-right {
   background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/icons/arrow-outward-rounded-white.png") no-repeat center center;
   background-size: 13px;
   width: 13px;
   height: 13px;
 }
-#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .button:nth-child(3) a .cmp-button__text {
+#esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) a .cmp-button__text {
   font-family: "Lilita One";
   font-style: normal;
   font-weight: 400;
@@ -303,14 +375,12 @@
   #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1),
   #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) {
     flex-basis: 50%;
+    padding-bottom: 220px;
   }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(3) {
-    display: inline-block;
     flex-basis: 100%;
-    width: 100%;
-    height: 100%;
-    background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/already-played-bg.png") no-repeat center center;
-    background-size: 100%;
+    margin-top: -200px;
+    z-index: 9;
   }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container:nth-child(2) > .cmp-container {
     padding: 80px 100px;
