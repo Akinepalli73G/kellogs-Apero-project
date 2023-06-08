@@ -33,6 +33,21 @@ body {
   }
 }
 
+.gr {
+  &.KSTL-home-page-title,
+  &.KSTL-eight-title {
+    font-family: "NimbusSanLOT";
+  }
+ 
+  &.KSTL-home-page-description,
+  &.KSTL-eight-description {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    a {
+      color: #E71D2B;
+    }
+  }
+}
+
 @media only screen and (max-width: 768px) {
   [js-page-name="tap-to-win-300"] {
     .topMenuAdimo {
