@@ -167,6 +167,7 @@ body.languageOpened {
   backdrop-filter: blur(2px);
 }
 
+#esg-receipt-upload-container.languageOpened,
 #esg-already-played-container.languageOpened,
 #esg-faq-container.languageOpened,
 #esg-ready-to-play-page-container.languageOpened,
@@ -295,6 +296,7 @@ body.languageOpened {
     }
   }
 
+  .root:has(#esg-receipt-upload-container),
   .root:has(#esg-already-played-container),
   .root:has(#esg-ready-to-play-page-container),
   .root:has(#esg-thank-you-page-container),
