@@ -1,3 +1,6 @@
+#esg-receipt-upload-container {
+  margin-bottom: 100px;
+}
 #esg-receipt-upload-container > .container:nth-child(1) > .cmp-container {
   position: relative;
 }
@@ -14,6 +17,111 @@
 #esg-receipt-upload-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) p a {
   color: #000000;
   text-decoration: underline;
+}
+#esg-receipt-upload-container > .container:nth-child(2) > .cmp-container section {
+  margin: 0 0 20px;
+}
+#esg-receipt-upload-container > .container:nth-child(2) > .cmp-container section .content_wrapper {
+  width: 100%;
+}
+#esg-receipt-upload-container > .container:nth-child(2) > .cmp-container section .content_wrapper .textsubmitBtn.notPhilippines {
+  top: 10px;
+  position: relative;
+  background: #ffffff;
+  display: flex;
+  padding: 16px 0;
+  width: 100%;
+  justify-content: center;
+}
+#esg-receipt-upload-container > .container:nth-child(2) > .cmp-container section .content_wrapper .textsubmitBtn.notPhilippines #upload-submit {
+  text-decoration: none;
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #666666;
+  border: 1px solid #666666;
+  padding: 12px 40px;
+  border-radius: 90px;
+}
+#esg-receipt-upload-container > .container:nth-child(2) > .cmp-container .image-upload-container {
+  background: none;
+}
+#esg-receipt-upload-container > .container:nth-child(2) > .cmp-container .image-upload-container #file-error-msg {
+  color: #666666;
+  text-align: center;
+  margin: 0;
+}
+#esg-receipt-upload-container > .container:nth-child(2) .button {
+  margin: 12px 0;
+  text-align: center;
+}
+#esg-receipt-upload-container > .container:nth-child(2) .button .cmp-button {
+  border-bottom: 3px solid #000000;
+  border-radius: 0;
+  padding: 0 0 10px;
+}
+#esg-receipt-upload-container > .container:nth-child(2) .button .cmp-button .cmp-button__text {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#esg-dont-have-receipt-upload {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+#esg-dont-have-receipt-upload .teaser {
+  position: absolute;
+  background: #ffffff;
+  padding: 24px 30px;
+  top: 30%;
+  left: 15px;
+  width: calc(100% - 45px);
+  text-align: center;
+}
+#esg-dont-have-receipt-upload .teaser .cmp-teaser__content .cmp-teaser__description {
+  text-align: center;
+  margin: 24px 0;
+}
+#esg-dont-have-receipt-upload .teaser .cmp-teaser__content .cmp-teaser__description p {
+  color: #666666;
+}
+#esg-dont-have-receipt-upload .teaser .cmp-teaser__content .cmp-teaser__action-container {
+  text-align: center;
+  margin: 12px 0;
+}
+#esg-dont-have-receipt-upload .teaser .cmp-teaser__content .cmp-teaser__action-container a {
+  padding: 12px 90px;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 90px;
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+#esg-dont-have-receipt-upload.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
 @media only screen and (max-width: 768px) {

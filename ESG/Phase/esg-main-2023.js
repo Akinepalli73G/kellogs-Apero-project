@@ -164,3 +164,29 @@ if (document.querySelector(".breadcrumb")) {
   const targetElement = BreadcrumbBackButton.querySelector("span");
   targetElement.innerHTML = cutContent;
 }
+
+// don't have receipt with upload
+
+var modal = document.querySelector(".container #esg-dont-have-receipt-upload");
+var trigger = document.querySelector(
+  "#esg-receipt-upload-container > .container:nth-child(2) > .button"
+);
+var okButton = document.querySelector(
+  "#esg-dont-have-receipt-upload .teaser .cmp-teaser__action-container .cmp-teaser__action-link"
+);
+
+let toggleModal = () => {
+  modal.classList.toggle("show-modal");
+};
+
+let windowOnClick = (event) => {
+  if (event.target === modal) {
+    toggleModal();
+  }
+};
+
+if (modal || trigger || okButton) {
+  trigger.addEventListener("click", toggleModal);
+  okButton.addEventListener("click", toggleModal);
+  window.addEventListener("click", windowOnClick);
+}
