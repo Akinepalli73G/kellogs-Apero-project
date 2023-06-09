@@ -368,6 +368,9 @@
   #esg-already-played-container > .container:nth-child(3) > .cmp-container #esg-our-story > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser__content .cmp-teaser__description {
     display: none;
   }
+  #esg-already-played-container > .container:nth-child(3) > .cmp-container #esg-our-story > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3) {
+    margin-top: 80px;
+  }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container:has(#esg-our-better):has(#esg-our-charity):has(#esg-our-story) > .container:nth-child(2) {
     padding-bottom: 60px;
   }
