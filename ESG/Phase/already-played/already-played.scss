@@ -627,6 +627,29 @@
             z-index: 9;
           }
         }
+
+        &:not(:has(#esg-our-charity):has(#esg-our-story)):has(#esg-our-better),
+        &:not(:has(#esg-our-charity)):has(#esg-our-better):has(#esg-our-story) {
+          > .container:nth-child(1) {
+            flex-basis: 100%;
+            .cmp-container {
+              max-width: 830px;
+              .teaser:nth-child(3) .cmp-teaser .cmp-teaser__image img {
+                -o-object-fit: cover;
+                object-fit: cover;
+                width: 510px;
+              }
+            }
+          }
+        }
+        
+        &:not(:has(#esg-our-story)):has(#esg-our-better):has(#esg-our-charity) {
+          > .container:nth-child(1),
+          > .container:nth-child(2) {
+            flex-basis: 50%;
+            padding-bottom: 0;
+          }
+        }
       }
     }
     > .container:nth-child(4) {
