@@ -278,6 +278,9 @@
   #Thank-you-page-template-container #already-played-child-one .timer {
     margin-bottom: 30px;
   }
+  #thank-you-page-button span {
+    font-family: "NimbusSanLOT" !important;
+  }
 }
 /* End CSS */
 /* Start CSS Common styles for all template */
@@ -4494,7 +4497,6 @@ body:has(#error-page-template-container) {
 .tns-nav,
 .tns-controls,
 .new.newpar.section,
-.cq-placeholder,
 .skip-main {
   display: none;
 }

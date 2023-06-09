@@ -195,5 +195,8 @@
   #Thank-you-page-template-container #already-played-child-one .timer {
     margin-bottom: 30px;
   }
+  #thank-you-page-button span {
+    font-family: "NimbusSanLOT" !important;
+  }
 }
 /* End CSS *//*# sourceMappingURL=thank-you-page-template.css.map */
