@@ -1297,6 +1297,13 @@ body.languageOpened {
     border-radius: 90px;
     border: none;
   }
+  .root:has(#esg-receipt-upload-container) #esg-header-container .navigationV2,
+  .root:has(#esg-already-played-container) #esg-header-container .navigationV2,
+  .root:has(#esg-ready-to-play-page-container) #esg-header-container .navigationV2,
+  .root:has(#esg-thank-you-page-container) #esg-header-container .navigationV2,
+  .root:has(#esg-faq-container) #esg-header-container .navigationV2 {
+    flex-basis: 60%;
+  }
   .root:has(#esg-receipt-upload-container) #esg-header-container .button,
   .root:has(#esg-already-played-container) #esg-header-container .button,
   .root:has(#esg-ready-to-play-page-container) #esg-header-container .button,
@@ -1309,6 +1316,7 @@ body.languageOpened {
   .root:has(#esg-ready-to-play-page-container) #esg-header-container .logout-v6,
   .root:has(#esg-thank-you-page-container) #esg-header-container .logout-v6,
   .root:has(#esg-faq-container) #esg-header-container .logout-v6 {
+    flex-basis: 15%;
     display: flex;
   }
   #esg-mobile-container {
@@ -2553,7 +2561,7 @@ body.languageOpened {
     z-index: 9;
   }
   #esg-receipt-upload-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) > .cmp-text {
-    max-width: 400px;
+    max-width: 610px;
     margin: 0 auto;
   }
   #esg-dont-have-receipt-upload {
@@ -2569,6 +2577,19 @@ body.languageOpened {
     background: #ffffff;
     margin: 0 auto;
     padding: 24px 30px;
+  }
+  .Upload-Receipt.upload-here-text {
+    max-width: 610px;
+    border: 2px dashed #666666;
+    border-radius: 8px;
+    background-color: #EBEBEB;
+    font-family: "Lilita One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
   }
 }
 body {

@@ -178,7 +178,7 @@
           bottom: -30px;
           z-index: 9;
           > .cmp-text {
-            max-width: 400px;
+            max-width: 610px;
             margin: 0 auto;
           }
         }
@@ -198,5 +198,18 @@
         padding: 24px 30px;
       }
     }
+  }
+  .Upload-Receipt.upload-here-text {
+    max-width: 610px;
+    border: 2px dashed #666666;
+    border-radius: 8px;
+    background-color: #EBEBEB;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
   }
 }
