@@ -97,7 +97,6 @@
     padding: 24px 30px;
     top: 30%;
     left: 15px;
-    width: calc(100% - 45px);
     text-align: center;
     .cmp-teaser {
       &__content {
@@ -154,6 +153,11 @@
       }
     }
   }
+  #esg-dont-have-receipt-upload {
+    .teaser {
+      width: calc(100% - 90px);
+    }
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -178,6 +182,20 @@
             margin: 0 auto;
           }
         }
+      }
+    }
+  }
+  #esg-dont-have-receipt-upload {
+    z-index: 999;
+    .teaser {
+      padding: 0;
+      width: 100%;
+      background: transparent;
+      .cmp-teaser {
+        max-width: 400px;
+        background: #ffffff;
+        margin: 0 auto;
+        padding: 24px 30px;
       }
     }
   }

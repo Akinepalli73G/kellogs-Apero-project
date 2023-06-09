@@ -29,6 +29,10 @@ p {
   font-weight: 600;
 }
 
+b {
+  color: #000000;
+}
+
 .button button,
 .button a {
   padding: 12px 40px;
