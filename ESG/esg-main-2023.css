@@ -155,9 +155,6 @@
   margin: 40px 20px;
   grid-gap: 18px;
 }
-#esg-footer-container .aem-Grid .socialcomponent {
-  display: none;
-}
 #esg-footer-container .aem-Grid .socialcomponent #sociallinks {
   display: flex;
   grid-gap: 30px;
