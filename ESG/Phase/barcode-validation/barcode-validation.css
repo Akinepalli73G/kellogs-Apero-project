@@ -1,5 +1,5 @@
 #esg-barcode-validation-container {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container {
   position: relative;
@@ -43,6 +43,33 @@
 }
 #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .text:nth-child(3) p {
   color: #666666;
+}
+#esg-barcode-validation-container .codeEntry .promo-code-input-box {
+  width: 300px;
+}
+#esg-barcode-validation-container .codeEntry input[type=text]#key-in-unique-code-box {
+  border: 2px solid #000000;
+}
+#esg-barcode-validation-container .codeEntry .promo-box-wrapper:not(:has(.mandatory-field[style="display: none;"])) .gaming-link-div {
+  margin-top: 0;
+}
+#esg-barcode-validation-container .codeEntry .gaming-link-div {
+  width: 100%;
+  text-align: center;
+}
+#esg-barcode-validation-container .codeEntry .gaming-link-div .responsive-button#Continue {
+  background: none;
+  border: 1px solid #666666;
+  border-radius: 90px;
+  text-align: center;
+  padding: 6px 40px;
+  color: #666666;
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
 }
 
 #esg-dont-have-a-cereal-box {
@@ -105,6 +132,12 @@
   #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .text:nth-child(3) {
     padding: 0 20px;
   }
+  #esg-barcode-validation-container .codeEntry {
+    height: 140px;
+  }
+  #esg-barcode-validation-container .codeEntry:not(:has(.mandatory-field[style="display: none;"])) {
+    height: 150px;
+  }
   #esg-dont-have-a-cereal-box .teaser {
     width: calc(100% - 90px);
   }
@@ -129,6 +162,12 @@
   #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container {
     max-width: 400px;
     margin: 0 auto;
+  }
+  #esg-barcode-validation-container .codeEntry {
+    height: 120px;
+  }
+  #esg-barcode-validation-container .codeEntry:not(:has(.mandatory-field[style="display: none;"])) {
+    height: 130px;
   }
   #esg-dont-have-a-cereal-box {
     z-index: 999;
