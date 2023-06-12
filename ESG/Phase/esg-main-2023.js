@@ -22,17 +22,21 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const mobileCarosuelAlreadyPlayedPage = window.matchMedia("(max-width: 768px)");
+  const mobileCarosuelAlreadyPlayedPage =
+    window.matchMedia("(max-width: 768px)");
   if (mobileCarosuelAlreadyPlayedPage.matches) {
-    const carouselCards = document.querySelector('#esg-our-story > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container');
+    const carouselCards = document.querySelector(
+      "#esg-our-story > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container"
+    );
     if (carouselCards) {
       tns({
-        container: carouselCards,
-        items: 1,
-        loop: false,
+        autoWidth: true,
+        items: 1.5,
+        slideBy: 1.5,
         gutter: 20,
         mouseDrag: true,
-        fixedWidth: 233,
+        lazyload: true,
+        container: carouselCards,
         swipeAngle: false,
         speed: 400,
       });

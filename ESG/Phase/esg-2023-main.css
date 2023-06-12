@@ -2006,8 +2006,8 @@ body.languageOpened {
   position: relative;
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container .cmp-container#esg-our-better > .teaser:nth-child(3) .cmp-teaser .cmp-teaser__image img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container .cmp-container#esg-our-better > .teaser:nth-child(3) .cmp-teaser .cmp-teaser__content {
   position: absolute;
@@ -2096,6 +2096,10 @@ body.languageOpened {
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container .cmp-container#esg-our-story > .container:nth-child(2) > .cmp-container {
   display: flex;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container .cmp-container#esg-our-story > .container:nth-child(2) > .cmp-container > .text {
+  width: 100%;
+  text-align: center;
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container .cmp-container#esg-our-story > .container:nth-child(2) > .cmp-container > .container:nth-child(2) .cmp-container {
   display: flex;

@@ -86,7 +86,7 @@
             position: relative;
             .cmp-teaser__image {
               img {
-                object-fit: cover;
+                object-fit: contain;
               }
             }
             .cmp-teaser__content {
@@ -188,6 +188,10 @@
           width: 100%;
           > .cmp-container {
             display: flex;
+            > .text {
+              width: 100%;
+              text-align: center;
+            }
             > .container:nth-child(2) {
               .cmp-container {
                 display: flex;
