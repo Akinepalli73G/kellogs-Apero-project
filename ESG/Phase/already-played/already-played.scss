@@ -439,6 +439,8 @@
               overflow: hidden;
               flex-wrap: wrap;
               > .container:nth-child(2) {
+                position: relative;
+                margin-bottom: 16px;
                 .cmp-container {
                   grid-gap: 0;
                   align-items: baseline;
@@ -467,10 +469,26 @@
                 }
                 .tns-nav {
                   display: block;
+                  position: absolute;
+                  bottom: -28px;
+                  button {
+                    border: none;
+                    background: none;
+                    width: 77px;
+                    &.tns-nav-active {
+                      border-top: none;
+                      border-left: none;
+                      border-right: none;
+                      border-bottom: 3px solid #fec45e;
+                      width: 77px;
+                      background: none;
+                    }
+                  }
                 }
               }
               .button {
-                margin-top: 80px;
+                border-top: 1px solid #ffffff;
+                padding-top: 40px;
               }
             }
           }
