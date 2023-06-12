@@ -1,0 +1,188 @@
+#esg-barcode-validation-container {
+  margin-bottom: 100px;
+  > .container:nth-child(1) {
+    > .cmp-container {
+      position: relative;
+      > .text:nth-child(3) {
+        display: flex;
+        justify-content: center;
+        h3 {
+          color: #009bde;
+        }
+        p {
+          color: #666666;
+          a {
+            color: #000000;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  > .container:nth-child(2) {
+    > .cmp-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .button {
+        margin: 12px 0;
+        text-align: center;
+        .cmp-button {
+          border-bottom: 3px solid #000000;
+          border-radius: 0;
+          padding: 0 0 10px;
+          .cmp-button__text {
+            font-family: "Lilita One";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #000000;
+          }
+        }
+      }
+
+      > .text:nth-child(3) {
+        p {
+          color: #666666;
+        }
+      }
+    }
+  }
+}
+
+#esg-dont-have-a-cereal-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  .teaser {
+    position: absolute;
+    background: #ffffff;
+    padding: 24px 30px;
+    top: 30%;
+    left: 15px;
+    text-align: center;
+    .cmp-teaser {
+      &__content {
+        .cmp-teaser {
+          &__description {
+            text-align: center;
+            margin: 24px 0;
+            p {
+              color: #666666;
+            }
+          }
+
+          &__action-container {
+            text-align: center;
+            margin: 12px 0;
+            a {
+              padding: 12px 90px;
+              background: #000000;
+              color: #ffffff;
+              border-radius: 90px;
+              font-family: "Lilita One";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 21px;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #esg-barcode-validation-container {
+    > .container:nth-child(1) {
+      > .cmp-container {
+        > .image:nth-child(1) {
+          display: none;
+        }
+        > .image:nth-child(2) {
+          img {
+            max-height: 300px;
+          }
+        }
+      }
+    }
+    > .container:nth-child(2) {
+      > .cmp-container {
+        > .text:nth-child(3) {
+          padding: 0 20px;
+        }
+      }
+    }
+  }
+  #esg-dont-have-a-cereal-box {
+    .teaser {
+      width: calc(100% - 90px);
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #esg-barcode-validation-container {
+    > .container:nth-child(1) {
+      > .cmp-container {
+        > .image:nth-child(1) {
+          img {
+            height: 570px;
+          }
+        }
+        > .image:nth-child(2) {
+          display: none;
+        }
+        > .text:nth-child(3) {
+          position: absolute;
+          width: 100%;
+          bottom: -30px;
+          z-index: 9;
+          > .cmp-text {
+            max-width: 400px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+
+    > .container:nth-child(2) {
+      > .cmp-container {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    }
+  }
+  #esg-dont-have-a-cereal-box {
+    z-index: 999;
+    .teaser {
+      padding: 0;
+      width: 100%;
+      background: transparent;
+      .cmp-teaser {
+        max-width: 400px;
+        background: #ffffff;
+        margin: 0 auto;
+        padding: 24px 30px;
+      }
+    }
+  }
+}

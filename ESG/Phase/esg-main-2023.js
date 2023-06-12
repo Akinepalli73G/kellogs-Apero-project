@@ -210,3 +210,27 @@ if (modal || trigger || okButton) {
   okButton.addEventListener("click", toggleModal);
   window.addEventListener("click", windowOnClick);
 }
+
+// esg-dont-have-a-cereal-box
+
+var modalBarcode = document.querySelector(".container #esg-dont-have-a-cereal-box");
+var triggerBarcode = document.querySelector("#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .button:nth-child(2)");
+var okButtonBarcode = document.querySelector(
+  "#esg-dont-have-a-cereal-box .teaser .cmp-teaser__action-container .cmp-teaser__action-link"
+);
+
+let toggleModalBarcode = () => {
+  modalBarcode.classList.toggle("show-modal");
+};
+
+let windowOnClickBarcode = (event) => {
+  if (event.target === modalBarcode) {
+    toggleModal();
+  }
+};
+
+if (modalBarcode || triggerBarcode || okButtonBarcode) {
+  triggerBarcode.addEventListener("click", toggleModalBarcode);
+  okButtonBarcode.addEventListener("click", toggleModalBarcode);
+  window.addEventListener("click", windowOnClickBarcode);
+}

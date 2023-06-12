@@ -195,6 +195,7 @@ b {
     font-size: 20px;
     line-height: 23px;
   }
+  #esg-barcode-validation-container,
   #esg-receipt-upload-container,
   #esg-already-played-container,
   #esg-faq-container,
@@ -233,6 +234,7 @@ b {
     font-size: 18px;
     line-height: 21px;
   }
+  #esg-barcode-validation-container,
   #esg-receipt-upload-container,
   #esg-already-played-container,
   #esg-faq-container,

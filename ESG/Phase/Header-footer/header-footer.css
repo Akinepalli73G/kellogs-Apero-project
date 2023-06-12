@@ -148,6 +148,7 @@ body.languageOpened {
           backdrop-filter: blur(2px);
 }
 
+#esg-barcode-validation-container.languageOpened,
 #esg-receipt-upload-container.languageOpened,
 #esg-already-played-container.languageOpened,
 #esg-faq-container.languageOpened,
@@ -260,6 +261,7 @@ body.languageOpened {
     border-radius: 90px;
     border: none;
   }
+  .root:has(#esg-barcode-validation-container) #esg-header-container .navigationV2,
   .root:has(#esg-receipt-upload-container) #esg-header-container .navigationV2,
   .root:has(#esg-already-played-container) #esg-header-container .navigationV2,
   .root:has(#esg-ready-to-play-page-container) #esg-header-container .navigationV2,
@@ -267,6 +269,7 @@ body.languageOpened {
   .root:has(#esg-faq-container) #esg-header-container .navigationV2 {
     flex-basis: 60%;
   }
+  .root:has(#esg-barcode-validation-container) #esg-header-container .button,
   .root:has(#esg-receipt-upload-container) #esg-header-container .button,
   .root:has(#esg-already-played-container) #esg-header-container .button,
   .root:has(#esg-ready-to-play-page-container) #esg-header-container .button,
@@ -274,6 +277,7 @@ body.languageOpened {
   .root:has(#esg-faq-container) #esg-header-container .button {
     display: none;
   }
+  .root:has(#esg-barcode-validation-container) #esg-header-container .logout-v6,
   .root:has(#esg-receipt-upload-container) #esg-header-container .logout-v6,
   .root:has(#esg-already-played-container) #esg-header-container .logout-v6,
   .root:has(#esg-ready-to-play-page-container) #esg-header-container .logout-v6,
