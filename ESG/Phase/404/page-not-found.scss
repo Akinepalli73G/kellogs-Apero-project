@@ -1,0 +1,72 @@
+#esg-404-container {
+  position: relative;
+  > .container:nth-child(3) {
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    > .cmp-container {
+      > .text:nth-child(2) {
+        p {
+          b {
+            font-family: "Lilita One";
+            font-style: normal;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+            color: #fec45e;
+          }
+        }
+      }
+
+      > .button:nth-child(5) {
+        margin: 36px 0 12px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #esg-404-container {
+    background: #009BDE;
+    > .image:nth-child(1) {
+      display: none;
+    }
+    > .container:nth-child(3) {
+      > .cmp-container {
+        padding: 0 20px;
+
+        > .text:nth-child(2) {
+          p {
+            b {
+              font-size: 80px;
+              line-height: 91px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 769px) {
+  #esg-404-container {
+    > .image:nth-child(2) {
+      display: none;
+    }
+    > .container:nth-child(3) {
+      > .cmp-container {
+        max-width: 600px;
+        margin: 0 auto;
+
+        > .text:nth-child(2) {
+          p b {
+            font-size: 120px;
+            line-height: 137px;
+          }
+        }
+      }
+    }
+  }
+}

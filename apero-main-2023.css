@@ -1,3 +1,4 @@
+/* Start CSS Pre-Game Template */
 @media only screen and (max-width: 1990px) {
   #pre-game-template-container {
     background: #e71d2b;
@@ -79,6 +80,8 @@
     color: #e71d2b;
   }
 }
+/* End CSS */
+/* Start CSS Thank-You Page Template */
 @media only screen and (max-width: 1990px) {
   #already-played-template-container #thank-you-page-template-child-three,
   #already-played-template-container #thank-you-page-template-child-two,
@@ -279,6 +282,8 @@
     font-family: "NimbusSanLOT" !important;
   }
 }
+/* End CSS */
+/* Start CSS Common styles for all template */
 #pre-game-template-child-two #thank-you-page-button,
 #pre-game-template-child-two #pre-game-button,
 #thank-you-page-template-child-one #thank-you-page-button,
@@ -444,6 +449,7 @@
   display: none;
 }
 
+/* header Mobile for Thank you page */
 #splitters-page-child-two,
 #mobile-burger-menu-open,
 #pre-game-header-mobile,
@@ -633,6 +639,7 @@
   height: none;
 }
 
+/* End CSS */
 #Thank-you-page-template-container .logout-v6,
 #pre-game-template-container .logout-v6,
 #already-played-template-container .logout-v6 {
@@ -1099,7 +1106,7 @@
     text-decoration: underline;
   }
 }
-
+/* End CSS */
 #apero-main-content-container #competition-landing-page-child-one,
 #competition-landing-template-container #competition-landing-page-child-one {
   position: relative;
@@ -1941,6 +1948,7 @@
   }
 }
 @media only screen and (max-width: 1990px) {
+  /* Start CSS create account / login template */
   #create-account-or-login-template #create-account-or-login-template-child-one .cmp-container {
     display: flex;
     justify-content: space-between;
@@ -2002,8 +2010,10 @@
     opacity: 0.5;
     color: #000000 !important;
   }
+  /* End CSS */
 }
 @media only screen and (max-width: 768px) {
+  /* Start CSS create account / login template */
   #create-account-or-login-template #create-account-or-login-container .form-title h2 {
     font-family: "Pinup-Regular";
     font-style: normal;
@@ -3371,6 +3381,7 @@
     width: 50%;
     z-index: 9;
   }
+  /* End CSS */
   #create-account-or-login-container .kfr-signup-form section,
   #create-account-or-login-container .kstl-regv6-login-only.ng-scope {
     margin: 0;
@@ -4474,6 +4485,7 @@ body:has(#error-page-template-container) {
     max-width: 768px;
   }
 }
+/* font import start */
 @font-face {
   font-family: "Pinup-Regular";
   src: url("/content/dam/global/promotions/aperopromotions/gb/en/fonts/Pinup-Regular.otf");
@@ -4500,4 +4512,4 @@ a {
 
 .ghost {
   display: none;
-}
+}/*# sourceMappingURL=apero-main-2023.css.map */

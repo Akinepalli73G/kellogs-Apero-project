@@ -77,6 +77,10 @@
           right: 100px;
         }
       }
+
+      .gigya-composite-control-multi-choice .gigya-multi-choice-item { 
+        overflow: hidden;
+      }
     }
   }
 }

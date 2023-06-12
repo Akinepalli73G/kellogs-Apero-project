@@ -167,6 +167,7 @@ body.languageOpened {
   backdrop-filter: blur(2px);
 }
 
+#esg-404-container.languageOpened,
 #esg-barcode-validation-container.languageOpened,
 #esg-receipt-upload-container.languageOpened,
 #esg-already-played-container.languageOpened,
@@ -297,6 +298,7 @@ body.languageOpened {
     }
   }
 
+  .root:has(#esg-404-container),
   .root:has(#esg-barcode-validation-container),
   .root:has(#esg-receipt-upload-container),
   .root:has(#esg-already-played-container),
