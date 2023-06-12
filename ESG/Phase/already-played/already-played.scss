@@ -189,9 +189,8 @@
           > .cmp-container {
             display: flex;
             > .container:nth-child(2) {
-              > .cmp-container {
+              .cmp-container {
                 display: flex;
-                width: 100%;
                 align-items: baseline;
                 .teaser {
                   .cmp-teaser__image {
@@ -436,10 +435,12 @@
               overflow: hidden;
               flex-wrap: wrap;
               > .container:nth-child(2) {
-                > .cmp-container {
-                  grid-gap: 20px;
+                .cmp-container {
+                  grid-gap: 0;
                   align-items: baseline;
                   flex-direction: row;
+                  width: unset;
+                  justify-content: center;
                   .teaser {
                     flex-basis: 233px;
                     width: 233px;
@@ -459,13 +460,18 @@
                       }
                     }
                   }
-                  > .button:nth-child(3) {
-                    margin-top: 80px;
-                  }
-
+                }
+                .tns-nav {
+                  display: block;
                 }
               }
+              .button {
+                margin-top: 80px;
+              }
             }
+          }
+          .tns-liveregion.tns-visually-hidden {
+            display: none;
           }
         }
 
@@ -537,15 +543,6 @@
       > .cmp-container {
         flex-wrap: wrap;
 
-        #esg-our-charity {
-          > .container:nth-child(2) {
-            > .cmp-container {
-              height: 400px;
-              background-size: 385px !important;
-            }
-          }
-        }
-
         #esg-our-story {
           > .image:nth-child(1) {
             img {
@@ -558,9 +555,11 @@
               padding: 0 200px;
               grid-gap: 20px;
               > .container:nth-child(2) {
-                > .cmp-container {
+                .cmp-container {
                   grid-gap: 20px;
                   align-items: baseline;
+                  justify-content: center;
+                  width: 100%;
                   .teaser {
                     flex-basis: 25%;
                     .cmp-teaser__image {
@@ -608,7 +607,8 @@
           > .container:nth-child(2) {
             > .cmp-container {
               margin: 75px auto 0;
-              background-size: 376px;
+              height: 400px;
+              background-size: 385px !important;
               > .container:nth-child(2) {
                 > .cmp-container {
                   max-width: 320px;
@@ -646,7 +646,7 @@
             }
           }
         }
-        
+
         &:not(:has(#esg-our-story)):has(#esg-our-better):has(#esg-our-charity) {
           > .container:nth-child(1),
           > .container:nth-child(2) {

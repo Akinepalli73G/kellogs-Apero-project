@@ -22,26 +22,23 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // const mobileCarosuelAlreadyPlayedPage = window.matchMedia("(max-width: 768px)");
-  // if (mobileCarosuelAlreadyPlayedPage.matches) {
-  //   const carouselCards = document.querySelector('#esg-our-story > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container');
-  //   if (carouselCards) {
-  //     tns({
-  //       container: carouselCards,
-  //       responsive: {
-  //         768: {
-  //           items: 2,
-  //         }
-  //       },
-  //       gutter: 20,
-  //       fixedWidth: 233,
-  //       mouseDrag: true,
-  //       swipeAngle: false,
-  //       speed: 400,
-  //     });
-  //   }
-  // }
-  //carousel end
+  const mobileCarosuelAlreadyPlayedPage = window.matchMedia("(max-width: 768px)");
+  if (mobileCarosuelAlreadyPlayedPage.matches) {
+    const carouselCards = document.querySelector('#esg-our-story > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container');
+    if (carouselCards) {
+      tns({
+        container: carouselCards,
+        items: 1,
+        loop: false,
+        gutter: 20,
+        mouseDrag: true,
+        fixedWidth: 233,
+        swipeAngle: false,
+        speed: 400,
+      });
+    }
+  }
+  // carousel end
   if (document.querySelector("#esg-main-container")) {
     const charity = document.querySelectorAll(
       "#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2)"
