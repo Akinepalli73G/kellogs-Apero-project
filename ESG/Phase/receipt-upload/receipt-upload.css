@@ -7,6 +7,7 @@
 #esg-receipt-upload-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) {
   display: flex;
   justify-content: center;
+  padding: 0 20px;
 }
 #esg-receipt-upload-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) h3 {
   color: #009bde;

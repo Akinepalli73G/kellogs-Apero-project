@@ -173,16 +173,26 @@ document
 //breadcrumb back button
 
 if (document.querySelector(".breadcrumb")) {
-  const liElements = document.querySelectorAll(".breadcrumb ol li");
-  const secondToLastIndex = liElements.length - 2;
-  const BreadcrumbBackButton = liElements[secondToLastIndex];
-  const elementToCut = document.querySelector(
+  let liElements = document.querySelectorAll(".breadcrumb ol li");
+  let secondToLastIndex = liElements.length - 2;
+  let BreadcrumbBackButton = liElements[secondToLastIndex];
+  let elementToCut = document.querySelector(
     "#esg-faq-container > .text:nth-child(2) p"
   );
-  const cutContent = elementToCut.innerHTML;
-  elementToCut.remove();
-  const targetElement = BreadcrumbBackButton.querySelector("span");
-  targetElement.innerHTML = cutContent;
+  let elementToCutBarcode = document.querySelector('#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2) p');
+  if (elementToCut) {
+    var cutContent = elementToCut.innerHTML;
+    elementToCut.remove();
+    const targetElement = BreadcrumbBackButton.querySelector("span");
+    targetElement.innerHTML = cutContent;
+  }
+  if (elementToCutBarcode) {
+    var cutContent = elementToCutBarcode.innerHTML;
+    elementToCutBarcode.remove();
+    const targetElement = BreadcrumbBackButton.querySelector("span");
+    targetElement.innerHTML = cutContent;
+  }
+  
 }
 
 // don't have receipt with upload

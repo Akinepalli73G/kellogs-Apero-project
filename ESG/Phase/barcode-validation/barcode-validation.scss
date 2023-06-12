@@ -3,9 +3,10 @@
   > .container:nth-child(1) {
     > .cmp-container {
       position: relative;
-      > .text:nth-child(3) {
+      > .text:nth-child(4) {
         display: flex;
         justify-content: center;
+        padding: 0 20px;
         h3 {
           color: #009bde;
         }
@@ -16,6 +17,44 @@
             text-decoration: underline;
           }
         }
+      }
+      .breadcrumb {
+        color: #000000;
+        position: relative;
+
+        nav ol {
+          &::before {
+            content: "";
+            display: inline-block;
+            width: 16px;
+            position: absolute;
+            height: 16px;
+            background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/icons/back-button.png")
+              no-repeat left center;
+            background-size: 16px;
+          }
+          li {
+            display: none;
+            &:nth-last-child(2) {
+              display: block;
+              a {
+                text-decoration: none;
+                color: #000000;
+                span {
+                  font-family: "Lilita One";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 18px;
+                  text-transform: uppercase;
+                }
+              }
+            }
+          }
+        }
+      }
+      > .container:nth-child(3) {
+        position: absolute;
       }
     }
   }
@@ -155,6 +194,20 @@
             max-height: 300px;
           }
         }
+        .breadcrumb {
+          nav ol {
+            padding-inline-start: 40px;
+            margin-block-start: 1em;
+            margin-block-end: 40px;
+            &::before {
+              top: 17px;
+              left: 20px;
+            }
+          }
+        }
+        > .container:nth-child(3) {
+          top: -2px;
+        }
       }
     }
     > .container:nth-child(2) {
@@ -164,7 +217,7 @@
         }
       }
     }
-    .codeEntry { 
+    .codeEntry {
       height: 140px;
     }
     .codeEntry:not(:has(.mandatory-field[style="display: none;"])) {
@@ -190,7 +243,7 @@
         > .image:nth-child(2) {
           display: none;
         }
-        > .text:nth-child(3) {
+        > .text:nth-child(4) {
           position: absolute;
           width: 100%;
           bottom: -30px;
@@ -199,6 +252,20 @@
             max-width: 400px;
             margin: 0 auto;
           }
+        }
+        .breadcrumb {
+          nav ol {
+            padding-inline-start: 105px;
+            margin-block-end: 0;
+            margin-block-start: 3em;
+            &::before {
+              top: 49px;
+              left: 85px;
+            }
+          }
+        }
+        > .container:nth-child(3) {
+          top: -22px;
         }
       }
     }
@@ -209,7 +276,7 @@
         margin: 0 auto;
       }
     }
-    .codeEntry { 
+    .codeEntry {
       height: 120px;
       &:not(:has(.mandatory-field[style="display: none;"])) {
         height: 130px;

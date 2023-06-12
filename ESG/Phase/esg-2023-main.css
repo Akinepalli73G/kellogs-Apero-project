@@ -2485,6 +2485,7 @@ body.languageOpened {
 #esg-receipt-upload-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) {
   display: flex;
   justify-content: center;
+  padding: 0 20px;
 }
 #esg-receipt-upload-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) h3 {
   color: #009bde;
@@ -2663,19 +2664,54 @@ body.languageOpened {
 #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container {
   position: relative;
 }
-#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) {
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(4) {
   display: flex;
   justify-content: center;
+  padding: 0 20px;
 }
-#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) h3 {
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(4) h3 {
   color: #009bde;
 }
-#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) p {
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(4) p {
   color: #666666;
 }
-#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) p a {
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(4) p a {
   color: #000000;
   text-decoration: underline;
+}
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb {
+  color: #000000;
+  position: relative;
+}
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  position: absolute;
+  height: 16px;
+  background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/icons/back-button.png") no-repeat left center;
+  background-size: 16px;
+}
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol li {
+  display: none;
+}
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol li:nth-last-child(2) {
+  display: block;
+}
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol li:nth-last-child(2) a {
+  text-decoration: none;
+  color: #000000;
+}
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol li:nth-last-child(2) a span {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .container:nth-child(3) {
+  position: absolute;
 }
 #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container {
   display: flex;
@@ -2788,6 +2824,21 @@ body.languageOpened {
   #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img {
     max-height: 300px;
   }
+  #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol {
+    -webkit-padding-start: 40px;
+            padding-inline-start: 40px;
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-margin-after: 40px;
+            margin-block-end: 40px;
+  }
+  #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol::before {
+    top: 17px;
+    left: 20px;
+  }
+  #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .container:nth-child(3) {
+    top: -2px;
+  }
   #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .text:nth-child(3) {
     padding: 0 20px;
   }
@@ -2808,15 +2859,30 @@ body.languageOpened {
   #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) {
     display: none;
   }
-  #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) {
+  #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(4) {
     position: absolute;
     width: 100%;
     bottom: -30px;
     z-index: 9;
   }
-  #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) > .cmp-text {
+  #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .text:nth-child(4) > .cmp-text {
     max-width: 400px;
     margin: 0 auto;
+  }
+  #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol {
+    -webkit-padding-start: 105px;
+            padding-inline-start: 105px;
+    -webkit-margin-after: 0;
+            margin-block-end: 0;
+    -webkit-margin-before: 3em;
+            margin-block-start: 3em;
+  }
+  #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol::before {
+    top: 49px;
+    left: 85px;
+  }
+  #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .container:nth-child(3) {
+    top: -22px;
   }
   #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container {
     max-width: 400px;

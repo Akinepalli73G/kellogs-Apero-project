@@ -44,16 +44,16 @@
     }
 
     .breadcrumb {
-        nav ol {
-          padding-inline-start: 40px;
-          margin-block-start: 1em;
-          margin-block-end: 40px;
-          &::before {
-            top: 17px;
-            left: 20px;
-          }
+      nav ol {
+        padding-inline-start: 40px;
+        margin-block-start: 1em;
+        margin-block-end: 40px;
+        &::before {
+          top: 17px;
+          left: 20px;
         }
       }
+    }
   }
 }
 
