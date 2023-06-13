@@ -179,7 +179,9 @@ if (document.querySelector(".breadcrumb")) {
   let elementToCut = document.querySelector(
     "#esg-faq-container > .text:nth-child(2) p"
   );
-  let elementToCutBarcode = document.querySelector('#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2) p');
+  let elementToCutBarcode = document.querySelector(
+    "#esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2) p"
+  );
   if (elementToCut) {
     var cutContent = elementToCut.innerHTML;
     elementToCut.remove();
@@ -192,7 +194,6 @@ if (document.querySelector(".breadcrumb")) {
     const targetElement = BreadcrumbBackButton.querySelector("span");
     targetElement.innerHTML = cutContent;
   }
-  
 }
 
 // don't have receipt with upload
@@ -223,8 +224,12 @@ if (modal || trigger || okButton) {
 
 // esg-dont-have-a-cereal-box
 
-var modalBarcode = document.querySelector(".container #esg-dont-have-a-cereal-box");
-var triggerBarcode = document.querySelector("#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .button:nth-child(2)");
+var modalBarcode = document.querySelector(
+  ".container #esg-dont-have-a-cereal-box"
+);
+var triggerBarcode = document.querySelector(
+  "#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .button:nth-child(2)"
+);
 var okButtonBarcode = document.querySelector(
   "#esg-dont-have-a-cereal-box .teaser .cmp-teaser__action-container .cmp-teaser__action-link"
 );

@@ -39,6 +39,573 @@
       }
     }
   }
+  > .container:nth-child(2) {
+    > .cmp-container {
+      max-width: 420px;
+      margin: 0 auto;
+
+      .registration-v6 {
+        .kfr-signup-form {
+          section:nth-child(1) {
+            margin: 0;
+            .content_wrapper {
+              display: block;
+              max-width: 100%;
+              width: 100%;
+              margin: 0 auto;
+
+              .form-wrapper {
+                .form-title {
+                  h2 {
+                    margin: 0 20px;
+                  }
+                }
+                #kfr-signup-form {
+                  #exitUrl {
+                    display: none;
+                  }
+
+                  .kstl-regv6-reg-only.ng-scope,
+                  .kstl-regv6-login-only.ng-scope {
+                    margin: 0;
+
+                    .App #kgsasgigyaForms {
+                      h1.gigya-screen-caption {
+                        display: none;
+                      }
+                      #kgsasgigyaForms_content {
+                        margin-top: 15px;
+                        .gigya-screen.v2 {
+                          padding: 0 20px;
+                          margin: 0;
+                          width: 100%;
+                          #gigya-register-form .gigya-layout-row.with-divider,
+                          #gigya-login-form .gigya-layout-row.with-divider {
+                            .gigya-composite-control.gigya-composite-control-label {
+                              display: none;
+                            }
+                            .gigya-social-login-container {
+                              height: 0 !important;
+                              margin: 0;
+                            }
+
+                            .responsive.with-site-login {
+                              .gigya-label-text {
+                                font-family: "Open Sans";
+                                font-size: 14px;
+                                line-height: 22px;
+                                color: #000000;
+                              }
+
+                              .gigya-required-display.gigya-reset {
+                                padding: 0;
+                              }
+                              .gigya-input-password,
+                              .gigya-input-text {
+                                background: #f2f2f2;
+                                border-radius: 2px;
+                                border: none;
+                              }
+
+                              .fa-eye,
+                              .fa-eye-slash {
+                                &::before {
+                                  display: inline-block;
+                                  position: relative;
+                                  top: 30px;
+                                  content: "";
+                                  width: 24px;
+                                  height: 24px;
+                                  background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/images/icons/mdi_eye-outline.png")
+                                    no-repeat center center;
+                                  background-size: cover;
+                                }
+                              }
+
+                              .gigya-container.gigya-visible-when.gigya-container-enabled {
+                                width: 100%;
+                              }
+
+                              .gigya-composite-control-link {
+                                text-align: left;
+                                font-family: "Open Sans";
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 20px;
+                                display: flex;
+                                align-items: center;
+                                text-decoration-line: underline;
+                                color: #000000;
+                                margin-bottom: 176px;
+                              }
+
+                              .gigya-composite-control-submit {
+                                .gigya-input-submit {
+                                  font-family: "Pinup";
+                                  font-size: 12px;
+                                  line-height: 14px;
+                                  color: #ffffff;
+                                  background: #2e8538;
+                                  border: none;
+                                  border-radius: 2px;
+                                  max-width: calc(100% - 20px);
+                                }
+                              }
+
+                              .gigya-composite-control.gigya-composite-control-label.register {
+                                display: none;
+                              }
+
+                              .gigya-composite-control-multi-choice.country-reg {
+                                .gigya-multi-choice-item {
+                                  align-items: center;
+                                  border-radius: 2px;
+                                  background: #f2f2f2;
+                                  padding-top: 0;
+
+                                  label {
+                                    margin-left: 0;
+                                    padding: 10px 25px;
+                                    &::before,
+                                    &::after {
+                                      top: 12px;
+                                    }
+                                  }
+                                }
+                              }
+                              .gigya-composite-control-checkbox.consent-reg,
+                              .gigya-composite-control-checkbox.privacy-reg,
+                              .gigya-composite-control-checkbox.tnc-reg {
+                                border: 1px solid rgba(0, 0, 0, 0.1);
+                                margin-top: 18px;
+                                border-radius: 20px;
+                                padding-bottom: 0;
+                                .gigya-checkbox-container {
+                                  padding: 10px 0;
+
+                                  &.gigya-terms-valid {
+                                    label {
+                                      &::before {
+                                        background: #3bae49;
+                                      }
+                                      &::after {
+                                        color: #ffffff;
+                                        font-size: 10px;
+                                        top: 6px;
+                                        left: 6px;
+                                      }
+                                    }
+                                  }
+
+                                  &.gigya-terms-valid:has(.gigya-empty) {
+                                    label {
+                                      &::before {
+                                        background: transparent;
+                                      }
+                                    }
+                                  }
+
+                                  label {
+                                    &::before {
+                                      border: 0.833333px solid #b6b6b6;
+                                      border-radius: 2.5px;
+                                      width: 18px;
+                                      height: 18px;
+                                    }
+                                    &::after {
+                                      top: 6px;
+                                    }
+                                    .gigya-label-text.gigya-checkbox-text {
+                                      font-family: "NimbusSanLOT";
+                                      font-style: normal;
+                                      font-weight: 700;
+                                      font-size: 12px;
+                                      line-height: 16px;
+                                      color: #000000;
+                                    }
+
+                                    a {
+                                      text-decoration-line: underline;
+                                      color: #e71d2b;
+                                    }
+                                  }
+                                }
+                              }
+
+                              .gigya-composite-control-checkbox.privacy-reg {
+                                .gigya-checkbox-container {
+                                  &.gigya-terms-valid {
+                                    label {
+                                      &::after {
+                                        top: 6px;
+                                      }
+                                    }
+                                  }
+                                  label {
+                                    &::after {
+                                      top: 0px;
+                                    }
+                                  }
+                                }
+                              }
+
+                              .gigya-composite-control-checkbox.consent-reg:has(
+                                  .gigya-error-msg-active
+                                ),
+                              .gigya-composite-control-checkbox.tnc-reg:has(
+                                  .gigya-error-msg-active
+                                ),
+                              .gigya-composite-control-checkbox.privacy-reg:has(
+                                  .gigya-error-msg-active
+                                ) {
+                                border: none;
+                                .gigya-checkbox-container {
+                                  border: 1px solid #e71d2b;
+                                }
+                              }
+
+                              .gigya-composite-control:has(
+                                  .gigya-error-msg-active
+                                ) {
+                                border: none;
+                                .gigya-input-password,
+                                .gigya-input-text {
+                                  margin-bottom: 0;
+                                  border: 1px solid #e71d2b;
+                                }
+                              }
+                              .gigya-error-msg-active {
+                                text-align: left;
+                                font-family: "NimbusSanLOT";
+                                font-size: 10px;
+                                line-height: 22px;
+                                color: #e71d2b;
+                                padding-top: 0;
+                              }
+                            }
+                            #register-site-login {
+                              div:first-child {
+                                display: block;
+                                width: 100%;
+                              }
+                            }
+                            .gigya-composite-control.gigya-spacer {
+                              height: 0;
+                              padding-bottom: 0;
+                            }
+                          }
+
+                          #gigya-register-form .gigya-layout-row.with-divider {
+                            #kgsasgigyaForms_social_8,
+                            #kgsasgigyaForms_social_7,
+                            #kgsasgigyaForms_social_6,
+                            #kgsasgigyaForms_social_5,
+                            #kgsasgigyaForms_social_4,
+                            #kgsasgigyaForms_social_3,
+                            #kgsasgigyaForms_social_2,
+                            #kgsasgigyaForms_social_1,
+                            #kgsasgigyaForms_social_0 {
+                              #kgsasgigyaForms_social_8_uiContainer,
+                              #kgsasgigyaForms_social_7_uiContainer,
+                              #kgsasgigyaForms_social_6_uiContainer,
+                              #kgsasgigyaForms_social_5_uiContainer,
+                              #kgsasgigyaForms_social_4_uiContainer,
+                              #kgsasgigyaForms_social_3_uiContainer,
+                              #kgsasgigyaForms_social_2_uiContainer,
+                              #kgsasgigyaForms_social_1_uiContainer,
+                              #kgsasgigyaForms_social_0_uiContainer {
+                                #Facebook_btn,
+                                #Google_btn {
+                                  top: -157px;
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .kstl-regv6-reg-only {
+            #kgsasgigyaForms {
+              #kgsasgigyaForms_content {
+                .gigya-screen {
+                  #gigya-otp-update-form {
+                    .gigya-layout-row {
+                      label {
+                        font-weight: normal;
+                        a {
+                          color: #e71d2b;
+                        }
+                      }
+                      .gigya-composite-control.gigya-composite-control-submit {
+                        margin-right: 10px;
+                        width: calc(100% - 10px);
+                        .gigya-input-submit {
+                          background: #2e8538;
+                          border: none;
+                          font-family: "Pinup-Regular";
+                          font-size: 12px;
+                          line-height: 14px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .gig-tfa-button-container {
+            .gig-tfa-button.gig-tfa-button-submit {
+              background: #2e8538;
+            }
+          }
+        }
+      }
+
+      #kgsasgigyaForms_social_9,
+      #kgsasgigyaForms_social_8,
+      #kgsasgigyaForms_social_7,
+      #kgsasgigyaForms_social_6,
+      #kgsasgigyaForms_social_5,
+      #kgsasgigyaForms_social_4,
+      #kgsasgigyaForms_social_3,
+      #kgsasgigyaForms_social_2,
+      #kgsasgigyaForms_social_1,
+      #kgsasgigyaForms_social_0 {
+        height: 0 !important;
+        #kgsasgigyaForms_social_9_uiContainer,
+        #kgsasgigyaForms_social_8_uiContainer,
+        #kgsasgigyaForms_social_7_uiContainer,
+        #kgsasgigyaForms_social_6_uiContainer,
+        #kgsasgigyaForms_social_5_uiContainer,
+        #kgsasgigyaForms_social_4_uiContainer,
+        #kgsasgigyaForms_social_3_uiContainer,
+        #kgsasgigyaForms_social_2_uiContainer,
+        #kgsasgigyaForms_social_1_uiContainer,
+        #kgsasgigyaForms_social_0_uiContainer {
+          height: 0 !important;
+          .gigya-login-providers {
+            height: 0 !important;
+
+            .gigya-login-providers-container {
+              width: 50% !important;
+              margin: 0;
+            }
+          }
+          .gigya-login-provider-row {
+            height: 0 !important;
+          }
+          #Facebook_btn {
+            position: absolute;
+            top: -137px;
+            height: 50px !important;
+            left: 20px;
+            width: 100%;
+            z-index: 9;
+          }
+
+          #Google_btn {
+            position: absolute;
+            top: -137px;
+            height: 50px !important;
+            left: 75%;
+            width: 50%;
+            z-index: 9;
+          }
+        }
+      }
+
+      .kfr-signup-form section,
+      .kstl-regv6-login-only.ng-scope {
+        margin: 0;
+      }
+      .KSTL-Registration-Login.pod {
+        padding: 0;
+        margin-bottom: 0;
+        border: none;
+        .needs-validation {
+          #KSTL-Registration-wrapper-EmailMsgLabel1 {
+            display: none;
+          }
+          #KSTL-Registration-wrapper-UserName {
+            label {
+              font-family: "NimbusSanLOT";
+              font-size: 14px;
+              line-height: 22px;
+              color: #000000;
+            }
+          }
+
+          #KSTL-Registration-wrapper-ContinueButton,
+          #KSTL-Registration-wrapper-ContinueButton1 {
+            .btn_responsive.mini.btn.btn-primary {
+              width: calc(100% - 20px);
+              background: #2e8538;
+              border-radius: 2px;
+              border: none;
+              text-align: center;
+              span {
+                font-family: "Pinup";
+                font-size: 12px;
+                line-height: 14px;
+                color: #ffffff;
+              }
+            }
+          }
+          #KSTL-Registration-wrapper-ForgotPasswordLink {
+            a {
+              color: #e71d2b;
+            }
+          }
+
+          .ng-form {
+            margin: 0;
+            input {
+              max-width: 100%;
+              background: #f2f2f2;
+              padding: 16px 0;
+            }
+          }
+        }
+      }
+
+      .kfr-signup-form {
+        .form-wrapper {
+          #kfr-signup-form {
+            .kstl-regv6-reg-only.ng-scope {
+              margin: 0;
+              .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope {
+                overflow: hidden;
+                border: 0;
+                min-width: 100%;
+                padding: 0;
+
+                .form-group.ng-form.ng-scope {
+                  margin: 0;
+                  label {
+                    font-family: "NimbusSanLOT";
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #000000;
+                  }
+                  input {
+                    max-width: 100%;
+                    background: #f2f2f2;
+                    border-radius: 2px;
+                  }
+                  .error-field p {
+                    color: #e71d2b;
+                  }
+                  #KSTL-Registration-wrapper-PrivacyPolicy,
+                  #KSTL-Registration-wrapper-TermsandConditions,
+                  #KSTL-Registration-wrapper-TermsConditions1 {
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    border-radius: 20px;
+                    padding-top: 10px;
+                    margin-top: 18px;
+                    label {
+                      &:before {
+                        border: 0.833333px solid #b6b6b6;
+                        border-radius: 2.5px;
+                      }
+                    }
+                  }
+                  #KSTL-Registration-wrapper-PrivacyPolicy:has(.isValid),
+                  #KSTL-Registration-wrapper-TermsandConditions:has(.isValid),
+                  #KSTL-Registration-wrapper-TermsConditions1:has(.isValid) {
+                    label {
+                      &::before {
+                        background: #3bae49;
+                      }
+                      &::after {
+                        font-size: 10px;
+                        color: #ffffff;
+                        left: 4px;
+                        top: 5px;
+                      }
+                    }
+                  }
+
+                  #KSTL-Registration-wrapper-Country {
+                    .label-after {
+                      margin-left: 0;
+                      padding: 6px 22px;
+                      background: #f2f2f2;
+                      display: flex;
+                      flex-direction: row;
+                      &::after,
+                      &::before {
+                        top: 6px;
+                      }
+                    }
+                  }
+                  #KSTL-Registration-wrapper-TermsConditionsConfirm18yrs,
+                  div[id="KSTL-Registration-wrapper-Privacy Policy"],
+                  #KSTL-Registration-wrapper-TermsConditions {
+                    > div {
+                      display: flex;
+                      align-items: flex-start;
+                      border: 1px solid rgba(0, 0, 0, 0.1);
+                      border-radius: 20px;
+                      padding: 15px;
+                      [type="checkbox"]:checked,
+                      [type="checkbox"]:not(:checked) {
+                        left: 20px;
+                      }
+                      .ng-scope {
+                        position: relative;
+                        left: 10px;
+                        top: -3px;
+                      }
+                    }
+                  }
+
+                  // [for="KSTL-Registration-TermsandConditions"] {
+
+                  // }
+
+                  button {
+                    width: calc(100% - 30px);
+                    background: #2e8538;
+                    text-align: center;
+                    color: #ffffff;
+                    span {
+                      font-family: "Pinup";
+                      font-style: normal;
+                      font-weight: 700;
+                      font-size: 12px;
+                      line-height: 14px;
+                      color: #ffffff;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &:has(#Facebook_btn),
+      &:has(#Google_btn) {
+        #create-account-or-login-template-child-one {
+          .markuptext {
+            display: block;
+          }
+
+          #apero-or-seperator-container {
+            display: flex;
+          }
+        }
+      }
+    }
+  }
 }
 @media only screen and (max-width: 768px) {
   #esg-login-register-container {
@@ -57,7 +624,8 @@
           height: 80px;
           margin-bottom: 20px;
           > .cmp-container {
-            width: calc(100% - 40px);
+            max-width: 400px;
+            margin: 0 auto;
             padding: 0 20px;
             .text {
               flex-basis: 10%;
@@ -71,14 +639,14 @@
       }
     }
     > .container:nth-child(2) {
-      .gigya-screen.v2.portrait {
+      .gigya-screen.v2 {
         padding: 0;
         .gigya-composite-control-social-login {
           right: 100px;
         }
       }
 
-      .gigya-composite-control-multi-choice .gigya-multi-choice-item { 
+      .gigya-composite-control-multi-choice .gigya-multi-choice-item {
         overflow: hidden;
       }
     }
@@ -111,11 +679,18 @@
           height: 120px;
           > .cmp-container {
             grid-gap: 20px;
+            max-width: 400px;
+            margin: 0 auto;
             .separator {
-              flex-basis: 12%;
+              flex-basis: 160px;
             }
           }
         }
+      }
+    }
+    > .container:nth-child(2) {
+      .gigya-screen.v2 {
+        padding: 0;
       }
     }
   }
