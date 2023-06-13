@@ -46,6 +46,9 @@
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper .form-title h2 {
   margin: 0 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form #exitUrl {
   display: none;
@@ -145,20 +148,31 @@
   align-items: center;
   text-decoration-line: underline;
   color: #000000;
-  margin-bottom: 176px;
+  margin-bottom: 40px;
+}
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-submit,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-submit,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-submit,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-submit {
+  text-align: center;
+  margin: 0 auto;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-submit .gigya-input-submit,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-submit .gigya-input-submit,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-submit .gigya-input-submit,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-submit .gigya-input-submit {
-  font-family: "Pinup";
-  font-size: 12px;
-  line-height: 14px;
-  color: #ffffff;
-  background: #2e8538;
-  border: none;
-  border-radius: 2px;
-  max-width: calc(100% - 20px);
+  background: none;
+  border: 1px solid #666666;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 80px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #666666;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 80px;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control.gigya-composite-control-label.register,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control.gigya-composite-control-label.register,
@@ -203,9 +217,7 @@
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg {
-  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 18px;
-  border-radius: 20px;
   padding-bottom: 0;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg .gigya-checkbox-container,
@@ -221,6 +233,21 @@
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg .gigya-checkbox-container {
   padding: 10px 0;
+  flex-wrap: wrap;
+}
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg .gigya-checkbox-container label {
+  flex-basis: 80%;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg .gigya-checkbox-container.gigya-terms-valid label::before,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container.gigya-terms-valid label::before,
@@ -310,7 +337,7 @@
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg .gigya-checkbox-container label .gigya-label-text.gigya-checkbox-text,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container label .gigya-label-text.gigya-checkbox-text,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg .gigya-checkbox-container label .gigya-label-text.gigya-checkbox-text {
-  font-family: "NimbusSanLOT";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -330,7 +357,19 @@
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container label a,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg .gigya-checkbox-container label a {
   text-decoration-line: underline;
-  color: #e71d2b;
+  color: #d51e48;
+}
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container {
+  flex-wrap: wrap;
+}
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container label {
+  flex-basis: 80%;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container.gigya-terms-valid label::after,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg .gigya-checkbox-container.gigya-terms-valid label::after,
@@ -370,7 +409,22 @@
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg:has(.gigya-error-msg-active) .gigya-checkbox-container,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg:has(.gigya-error-msg-active) .gigya-checkbox-container,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg:has(.gigya-error-msg-active) .gigya-checkbox-container {
-  border: 1px solid #e71d2b;
+  border: none;
+  flex-wrap: wrap;
+}
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.consent-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.tnc-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label,
+#esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control-checkbox.privacy-reg:has(.gigya-error-msg-active) .gigya-checkbox-container label {
+  flex-basis: 80%;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control:has(.gigya-error-msg-active),
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control:has(.gigya-error-msg-active),
@@ -387,17 +441,18 @@
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control:has(.gigya-error-msg-active) .gigya-input-password,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-composite-control:has(.gigya-error-msg-active) .gigya-input-text {
   margin-bottom: 0;
-  border: 1px solid #e71d2b;
+  border: none;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-error-msg-active,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-error-msg-active,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-error-msg-active,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-login-form .gigya-layout-row.with-divider .responsive.with-site-login .gigya-error-msg-active {
   text-align: left;
-  font-family: "NimbusSanLOT";
-  font-size: 10px;
-  line-height: 22px;
-  color: #e71d2b;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #d51e48;
   padding-top: 0;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider #register-site-login div:first-child,
@@ -738,13 +793,13 @@
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_1_uiContainer #Google_btn,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_0_uiContainer #Facebook_btn,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form section:nth-child(1) .content_wrapper .form-wrapper #kfr-signup-form .kstl-regv6-login-only.ng-scope .App #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen.v2 #gigya-register-form .gigya-layout-row.with-divider #kgsasgigyaForms_social_0 #kgsasgigyaForms_social_0_uiContainer #Google_btn {
-  top: -157px;
+  top: -137px;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form .kstl-regv6-reg-only #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen #gigya-otp-update-form .gigya-layout-row label {
   font-weight: normal;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form .kstl-regv6-reg-only #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen #gigya-otp-update-form .gigya-layout-row label a {
-  color: #e71d2b;
+  color: #d51e48;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form .kstl-regv6-reg-only #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen #gigya-otp-update-form .gigya-layout-row .gigya-composite-control.gigya-composite-control-submit {
   margin-right: 10px;
@@ -1408,7 +1463,7 @@
   display: none;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .KSTL-Registration-Login.pod .needs-validation #KSTL-Registration-wrapper-UserName label {
-  font-family: "NimbusSanLOT";
+  font-family: "Open Sans";
   font-size: 14px;
   line-height: 22px;
   color: #000000;
@@ -1429,7 +1484,7 @@
   color: #ffffff;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .KSTL-Registration-Login.pod .needs-validation #KSTL-Registration-wrapper-ForgotPasswordLink a {
-  color: #e71d2b;
+  color: #d51e48;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .KSTL-Registration-Login.pod .needs-validation .ng-form {
   margin: 0;
@@ -1452,7 +1507,7 @@
   margin: 0;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope label {
-  font-family: "NimbusSanLOT";
+  font-family: "Open Sans";
   font-size: 14px;
   line-height: 22px;
   color: #000000;
@@ -1463,13 +1518,11 @@
   border-radius: 2px;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope .error-field p {
-  color: #e71d2b;
+  color: #d51e48;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-PrivacyPolicy,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsandConditions,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsConditions1 {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
   padding-top: 10px;
   margin-top: 18px;
 }
@@ -1507,8 +1560,6 @@
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsConditions > div {
   display: flex;
   align-items: flex-start;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
   padding: 15px;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope #KSTL-Registration-wrapper-TermsConditionsConfirm18yrs > div [type=checkbox]:checked,
@@ -1546,6 +1597,48 @@
 #esg-login-register-container > .container:nth-child(2) > .cmp-container:has(#Facebook_btn) #create-account-or-login-template-child-one #apero-or-seperator-container, #esg-login-register-container > .container:nth-child(2) > .cmp-container:has(#Google_btn) #create-account-or-login-template-child-one #apero-or-seperator-container {
   display: flex;
 }
+#esg-login-register-container:has(.gigya-reset-password-form) > .container:nth-child(1) > .cmp-container .container:nth-child(4),
+#esg-login-register-container:has(.gigya-reset-password-form) > .container:nth-child(1) > .cmp-container .text:nth-child(3) {
+  display: none;
+}
+#esg-login-register-container:has(.gigya-reset-password-form) #gigya-reset-password-form > .gigya-layout-row > h2.gigya-composite-control.gigya-composite-control-header:nth-child(1) {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #009bde;
+}
+#esg-login-register-container:has(.gigya-reset-password-form) #gigya-reset-password-form > .gigya-layout-row .gigya-composite-control-label:nth-child(2) {
+  text-align: center;
+}
+#esg-login-register-container:has(.gigya-reset-password-form) #gigya-reset-password-form > .gigya-layout-row label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+#esg-login-register-container:has(.gigya-reset-password-form) #gigya-reset-password-form > .gigya-layout-row .gigya-composite-control.gigya-composite-control-submit.submit-wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+#esg-login-register-container:has(.gigya-reset-password-form) #gigya-reset-password-form > .gigya-layout-row .gigya-composite-control.gigya-composite-control-submit.submit-wrapper .gigya-input-submit {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 90px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 50px;
+}
 
 @media only screen and (max-width: 768px) {
   #esg-login-register-container > .container:nth-child(1) > .cmp-container > .image:nth-child(1) {
@@ -1577,8 +1670,19 @@
   #esg-login-register-container > .container:nth-child(2) .gigya-screen.v2 .gigya-composite-control-social-login {
     right: 100px;
   }
+  #esg-login-register-container > .container:nth-child(2) .kstl-regv6-login-only #Facebook_btn {
+    top: -100px !important;
+  }
+  #esg-login-register-container > .container:nth-child(2) .kstl-regv6-login-only #Google_btn {
+    top: -100px !important;
+    left: 100% !important;
+  }
   #esg-login-register-container > .container:nth-child(2) .gigya-composite-control-multi-choice .gigya-multi-choice-item {
     overflow: hidden;
+  }
+  #esg-login-register-container > .container:nth-child(2) #gigya-register-form .gigya-layout-row.with-divider #Facebook_btn,
+  #esg-login-register-container > .container:nth-child(2) #gigya-register-form .gigya-layout-row.with-divider #Google_btn {
+    left: 100% !important;
   }
 }
 @media only screen and (min-width: 769px) {
@@ -1591,7 +1695,7 @@
   #esg-login-register-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) {
     position: absolute;
     width: 100%;
-    bottom: 80px;
+    bottom: 100px;
     z-index: 9;
   }
   #esg-login-register-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) > .cmp-text {
@@ -1611,5 +1715,14 @@
   }
   #esg-login-register-container > .container:nth-child(2) .gigya-screen.v2 {
     padding: 0;
+  }
+  #esg-login-register-container > .container:nth-child(2) .kstl-regv6-login-only #Facebook_btn {
+    top: -110px !important;
+  }
+  #esg-login-register-container > .container:nth-child(2) .kstl-regv6-login-only #Google_btn {
+    top: -110px !important;
+  }
+  #esg-login-register-container > .container:nth-child(2):has(#gigya-register-form) .gigya-screen.v2 {
+    padding: 0 10px !important;
   }
 }/*# sourceMappingURL=esg-login-register-container.css.map */

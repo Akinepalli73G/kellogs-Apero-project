@@ -58,6 +58,9 @@
                 .form-title {
                   h2 {
                     margin: 0 20px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 21px;
                   }
                 }
                 #kfr-signup-form {
@@ -137,19 +140,24 @@
                                 align-items: center;
                                 text-decoration-line: underline;
                                 color: #000000;
-                                margin-bottom: 176px;
+                                margin-bottom: 40px;
                               }
 
                               .gigya-composite-control-submit {
+                                text-align: center;
+                                margin: 0 auto;
                                 .gigya-input-submit {
-                                  font-family: "Pinup";
-                                  font-size: 12px;
-                                  line-height: 14px;
-                                  color: #ffffff;
-                                  background: #2e8538;
-                                  border: none;
-                                  border-radius: 2px;
-                                  max-width: calc(100% - 20px);
+                                  background: none;
+                                  border: 1px solid #666666;
+                                  font-style: normal;
+                                  font-weight: 400;
+                                  font-size: 18px;
+                                  border-radius: 80px;
+                                  line-height: 21px;
+                                  text-transform: uppercase;
+                                  color: #666666;
+                                  width: fit-content;
+                                  padding: 0 80px;
                                 }
                               }
 
@@ -177,12 +185,14 @@
                               .gigya-composite-control-checkbox.consent-reg,
                               .gigya-composite-control-checkbox.privacy-reg,
                               .gigya-composite-control-checkbox.tnc-reg {
-                                border: 1px solid rgba(0, 0, 0, 0.1);
                                 margin-top: 18px;
-                                border-radius: 20px;
                                 padding-bottom: 0;
                                 .gigya-checkbox-container {
                                   padding: 10px 0;
+                                  flex-wrap: wrap;
+                                  label {
+                                    flex-basis: 80%;
+                                  }
 
                                   &.gigya-terms-valid {
                                     label {
@@ -217,7 +227,7 @@
                                       top: 6px;
                                     }
                                     .gigya-label-text.gigya-checkbox-text {
-                                      font-family: "NimbusSanLOT";
+                                      font-family: "Open Sans";
                                       font-style: normal;
                                       font-weight: 700;
                                       font-size: 12px;
@@ -227,7 +237,7 @@
 
                                     a {
                                       text-decoration-line: underline;
-                                      color: #e71d2b;
+                                      color: #d51e48;
                                     }
                                   }
                                 }
@@ -235,6 +245,11 @@
 
                               .gigya-composite-control-checkbox.privacy-reg {
                                 .gigya-checkbox-container {
+                                  flex-wrap: wrap;
+                                  label {
+                                    flex-basis: 80%;
+                                  }
+
                                   &.gigya-terms-valid {
                                     label {
                                       &::after {
@@ -261,7 +276,11 @@
                                 ) {
                                 border: none;
                                 .gigya-checkbox-container {
-                                  border: 1px solid #e71d2b;
+                                  border: none;
+                                  flex-wrap: wrap;
+                                  label {
+                                    flex-basis: 80%;
+                                  }
                                 }
                               }
 
@@ -272,15 +291,16 @@
                                 .gigya-input-password,
                                 .gigya-input-text {
                                   margin-bottom: 0;
-                                  border: 1px solid #e71d2b;
+                                  border: none;
                                 }
                               }
                               .gigya-error-msg-active {
                                 text-align: left;
-                                font-family: "NimbusSanLOT";
-                                font-size: 10px;
-                                line-height: 22px;
-                                color: #e71d2b;
+                                font-family: "Open Sans";
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 150%;
+                                color: #d51e48;
                                 padding-top: 0;
                               }
                             }
@@ -317,7 +337,7 @@
                               #kgsasgigyaForms_social_0_uiContainer {
                                 #Facebook_btn,
                                 #Google_btn {
-                                  top: -157px;
+                                  top: -137px;
                                 }
                               }
                             }
@@ -340,7 +360,7 @@
                       label {
                         font-weight: normal;
                         a {
-                          color: #e71d2b;
+                          color: #d51e48;
                         }
                       }
                       .gigya-composite-control.gigya-composite-control-submit {
@@ -426,6 +446,7 @@
       .kstl-regv6-login-only.ng-scope {
         margin: 0;
       }
+
       .KSTL-Registration-Login.pod {
         padding: 0;
         margin-bottom: 0;
@@ -436,7 +457,7 @@
           }
           #KSTL-Registration-wrapper-UserName {
             label {
-              font-family: "NimbusSanLOT";
+              font-family: "Open Sans";
               font-size: 14px;
               line-height: 22px;
               color: #000000;
@@ -461,7 +482,7 @@
           }
           #KSTL-Registration-wrapper-ForgotPasswordLink {
             a {
-              color: #e71d2b;
+              color: #d51e48;
             }
           }
 
@@ -490,7 +511,7 @@
                 .form-group.ng-form.ng-scope {
                   margin: 0;
                   label {
-                    font-family: "NimbusSanLOT";
+                    font-family: "Open Sans";
                     font-size: 14px;
                     line-height: 22px;
                     color: #000000;
@@ -501,13 +522,11 @@
                     border-radius: 2px;
                   }
                   .error-field p {
-                    color: #e71d2b;
+                    color: #d51e48;
                   }
                   #KSTL-Registration-wrapper-PrivacyPolicy,
                   #KSTL-Registration-wrapper-TermsandConditions,
                   #KSTL-Registration-wrapper-TermsConditions1 {
-                    border: 1px solid rgba(0, 0, 0, 0.1);
-                    border-radius: 20px;
                     padding-top: 10px;
                     margin-top: 18px;
                     label {
@@ -552,8 +571,6 @@
                     > div {
                       display: flex;
                       align-items: flex-start;
-                      border: 1px solid rgba(0, 0, 0, 0.1);
-                      border-radius: 20px;
                       padding: 15px;
                       [type="checkbox"]:checked,
                       [type="checkbox"]:not(:checked) {
@@ -606,6 +623,63 @@
       }
     }
   }
+
+  &:has(.gigya-reset-password-form) {
+    > .container:nth-child(1) {
+      > .cmp-container {
+        .container:nth-child(4),
+        .text:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+    #gigya-reset-password-form {
+      > .gigya-layout-row {
+        > h2.gigya-composite-control.gigya-composite-control-header:nth-child(
+            1
+          ) {
+          font-family: "Lilita One";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 50px;
+          line-height: 57px;
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          color: #009bde;
+        }
+
+        .gigya-composite-control-label:nth-child(2) {
+          text-align: center;
+        }
+
+        label {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+        }
+
+        .gigya-composite-control.gigya-composite-control-submit.submit-wrapper {
+          text-align: center;
+          margin: 0 auto;
+          .gigya-input-submit {
+            font-family: "Lilita One";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #ffffff;
+            background: #000000;
+            border-radius: 90px;
+            width: fit-content;
+            padding: 0 50px;
+          }
+        }
+      }
+    }
+  }
 }
 @media only screen and (max-width: 768px) {
   #esg-login-register-container {
@@ -646,8 +720,26 @@
         }
       }
 
+      .kstl-regv6-login-only {
+        #Facebook_btn {
+          top: -100px !important;
+        }
+
+        #Google_btn {
+          top: -100px !important;
+          left: 100% !important;
+        }
+      }
+
       .gigya-composite-control-multi-choice .gigya-multi-choice-item {
         overflow: hidden;
+      }
+
+      #gigya-register-form .gigya-layout-row.with-divider {
+        #Facebook_btn,
+        #Google_btn {
+          left: 100% !important;
+        }
       }
     }
   }
@@ -668,7 +760,7 @@
         > .text:nth-child(3) {
           position: absolute;
           width: 100%;
-          bottom: 80px;
+          bottom: 100px;
           z-index: 9;
           > .cmp-text {
             max-width: 400px;
@@ -691,6 +783,22 @@
     > .container:nth-child(2) {
       .gigya-screen.v2 {
         padding: 0;
+      }
+
+      .kstl-regv6-login-only {
+        #Facebook_btn {
+          top: -110px !important;
+        }
+
+        #Google_btn {
+          top: -110px !important;
+        }
+      }
+
+      &:has(#gigya-register-form ) {
+        .gigya-screen.v2 {
+          padding: 0 10px !important;
+        }
       }
     }
   }
