@@ -259,10 +259,10 @@ if (clickNavigationAnchor) {
       clickNavigation.addEventListener("click", (event) => {
         if (isInternalLink(clickNavigation) ) {
           event.preventDefault();
-          const closeButton = document.querySelector('#burger-close-menu .button');
-          closeButton.click();
           const targetId = clickNavigation.getAttribute('href').slice(1);
           const targetElem = document.getElementById(targetId);
+          const closeButton = document.querySelector('#burger-close-menu .button');
+          closeButton.click();
           targetElem.scrollIntoView({ behavior: 'smooth' });
         }
       });
@@ -271,3 +271,12 @@ if (clickNavigationAnchor) {
 }
 
 const isInternalLink = link => link.getAttribute('href').startsWith('#');
+
+const showYotubeVideo = document.querySelector('#esg-video-component > .container:nth-child(3) > .cmp-container');
+showYotubeVideo.addEventListener('click', () => {
+  showYotubeVideo.style.zIndex = "-11";
+  const showImage = document.querySelector('#esg-video-component > .image');
+  showImage.style.zIndex = "-1";
+  showImage.style.position = "relative";
+  document.querySelector('#esg-video-component > .embed').style.zIndex = "11";
+});
