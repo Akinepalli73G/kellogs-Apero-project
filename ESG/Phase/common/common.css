@@ -26,11 +26,16 @@ p {
   line-height: 24px;
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 b {
   color: #000000;
+}
+
+small {
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .button button,

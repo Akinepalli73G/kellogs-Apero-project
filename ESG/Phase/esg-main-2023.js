@@ -249,3 +249,25 @@ if (modalBarcode || triggerBarcode || okButtonBarcode) {
   okButtonBarcode.addEventListener("click", toggleModalBarcode);
   window.addEventListener("click", windowOnClickBarcode);
 }
+
+const clickNavigationAnchor = document.querySelectorAll('#burger-close-menu .navigationV2 ul li a');
+
+if (clickNavigationAnchor) {
+  clickNavigationAnchor.forEach((clickNavigation) => {
+    const targetEmptey = clickNavigation.getAttribute("target");
+    if (!targetEmptey) {
+      clickNavigation.addEventListener("click", (event) => {
+        if (isInternalLink(clickNavigation) ) {
+          event.preventDefault();
+          const closeButton = document.querySelector('#burger-close-menu .button');
+          closeButton.click();
+          const targetId = clickNavigation.getAttribute('href').slice(1);
+          const targetElem = document.getElementById(targetId);
+          targetElem.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    }
+  });
+}
+
+const isInternalLink = link => link.getAttribute('href').startsWith('#');
