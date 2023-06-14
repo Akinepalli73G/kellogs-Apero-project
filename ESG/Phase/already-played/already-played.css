@@ -7,6 +7,9 @@
 #esg-already-played-container > .container:nth-child(1) > .cmp-container > .container:nth-child(3) > .cmp-container .text h3 {
   color: #ffffff;
 }
+#esg-already-played-container > .container:nth-child(1) > .cmp-container > .container:nth-child(3) > .cmp-container .text p {
+  font-weight: 400;
+}
 #esg-already-played-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) {
   width: 100%;
   position: absolute;

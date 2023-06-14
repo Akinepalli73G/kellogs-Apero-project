@@ -136,13 +136,26 @@
                   margin-bottom: 56px;
                 }
                 > .button:nth-child(2) {
-                  margin: 24px 0;
+                  margin: 24px auto 24px;
+                  width: 300px;
+                  a {
+                    display: block;
+                    width: 100%;
+                    background: #ffffff;
+                    padding: 12px 0;
+                  }
                 }
                 > .button:nth-child(3) {
-                  margin: 40px 0;
+                  margin: 24px auto 24px;
+                  width: 300px;
+                  a {
+                    display: block;
+                    width: 100%;
+                    padding: 11px 0;
+                  }
                 }
                 > .container:nth-child(4) {
-                  margin-top: 130px;
+                  margin-top: 80px;
                 }
               }
             }
@@ -207,7 +220,23 @@
                   margin-bottom: 0;
                 }
                 > .button:nth-child(2) {
-                  margin: 24px 0 40px;
+                  margin: 16px auto;
+                  width: 300px;
+                  a {
+                    display: block;
+                    width: 100%;
+                    background: #ffffff;
+                    padding: 12px 0;
+                  }
+                }
+                > .button:nth-child(3) {
+                  width: 300px;
+                  margin: 0 auto;
+                  a {
+                    display: block;
+                    width: 100%;
+                    padding: 11px 0;
+                  }
                 }
                 > .container:nth-child(4) {
                   margin-top: 260px;
