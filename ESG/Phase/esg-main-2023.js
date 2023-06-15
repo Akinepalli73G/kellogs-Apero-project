@@ -261,7 +261,7 @@ if (clickNavigationAnchor) {
           event.preventDefault();
           const targetId = clickNavigation.getAttribute('href').slice(1);
           const targetElem = document.getElementById(targetId);
-          const closeButton = document.querySelector('#burger-close-menu .button');
+          const closeButton = document.querySelector(".button .cmp-button__icon--burger-close-icon");
           closeButton.click();
           targetElem.scrollIntoView({ behavior: 'smooth' });
         }

@@ -17,7 +17,7 @@
 .esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) .image img {
   width: 100%;
   max-width: 100%;
-  height: 900px;
+  height: 950px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -77,11 +77,12 @@
 .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text:nth-child(2) {
   margin-top: 8px;
 }
-#esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2),
-#esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2),
-.esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2),
-.esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2) {
-  margin-top: 20px;
+#esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2) h1,
+#esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2) h1,
+.esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2) h1,
+.esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2) h1 {
+  display: flex;
+  flex-direction: column;
 }
 #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container,
 #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container,
@@ -459,6 +460,12 @@
   .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text {
     padding: 0 20px;
   }
+  #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2),
+  #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2),
+  .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2),
+  .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2) {
+    margin-top: 20px;
+  }
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(3),
   #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(3),
   .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(3),
@@ -649,6 +656,7 @@
   .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container {
     width: calc(100% - 40px);
     padding: 0 20px;
+    top: 20px;
   }
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2),
   #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2),
@@ -671,11 +679,11 @@
   .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container {
     max-width: 210px;
   }
-  #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2),
-  #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2),
-  .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2),
-  .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .markuptext:nth-child(2) {
-    margin-top: 40px;
+  #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4),
+  #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4),
+  .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4),
+  .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) {
+    margin-bottom: 20px;
   }
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container,
   #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container,
@@ -1492,7 +1500,7 @@ body.languageOpened {
     font-size: 20px;
     line-height: 23px;
     text-transform: uppercase;
-    color: #000000;
+    color: #009BDE;
   }
   #esg-mobile-container #burger-close-menu .navigationV2 .nav--container .nav--secondary {
     border-top: 1px solid #ebebeb;
