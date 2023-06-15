@@ -175,6 +175,10 @@
 .esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) {
   background-color: #d51e48;
 }
+#esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1),
+.esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1) {
+  background: #ffffff;
+}
 #esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1) > .cmp-container,
 .esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1) > .cmp-container {
   margin: 0 auto;
@@ -611,9 +615,15 @@
   .esg-main-container.cmp-container > .container:nth-child(9) > .cmp-container {
     padding: 24px 100px;
   }
-  #esg-video-component .image img iframe,
+  #esg-video-component > .image img {
+    height: 700px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   #esg-video-component > .embed iframe {
     height: 700px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   #esg-video-component > .container:nth-child(3) > .cmp-container > .text p {
     font-size: 90px;
@@ -801,9 +811,15 @@
   .esg-main-container.cmp-container > .container:nth-child(9) > .cmp-container {
     padding: 24px 20px;
   }
-  #esg-video-component .image img iframe,
+  #esg-video-component > .image img {
+    height: 375px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   #esg-video-component > .embed iframe {
     height: 375px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   #esg-video-component > .container:nth-child(3) > .cmp-container {
     cursor: pointer;

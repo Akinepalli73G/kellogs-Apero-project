@@ -74,6 +74,9 @@
   > .container:nth-child(3) {
     > .cmp-container {
       display: flex;
+      > .container:nth-child(1) {
+        background: #ffffff;
+      }
       .cmp-container#esg-our-better {
         margin: 0 auto;
         > .text:nth-child(2) {

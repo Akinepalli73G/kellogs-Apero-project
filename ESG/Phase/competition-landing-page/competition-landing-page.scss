@@ -175,6 +175,7 @@
           background-color: #d51e48;
         }
         > .container:nth-child(1) {
+          background: #ffffff;
           > .cmp-container {
             margin: 0 auto;
             > .text:nth-child(2) {
@@ -641,10 +642,14 @@
     }
   }
   #esg-video-component {
-    .image img,
+    > .image img {
+      height: 700px;
+      object-fit: cover;
+    }
     > .embed {
       iframe {
         height: 700px;
+        object-fit: cover;
       }
     }
     > .container:nth-child(3) {
@@ -875,10 +880,14 @@
     }
   }
   #esg-video-component {
-    .image img,
+    > .image img {
+      height: 375px;
+      object-fit: cover;
+    }
     > .embed {
       iframe {
         height: 375px;
+        object-fit: cover;
       }
     }
     > .container:nth-child(3) {
