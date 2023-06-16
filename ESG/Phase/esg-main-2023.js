@@ -290,15 +290,15 @@ showYotubeVideo.addEventListener("click", () => {
 const urlExtract = window.location.href;
 var urlLanguageCountry = urlExtract.split("/");
 if (
-  urlLanguageCountry[4] === "de_AT" ||
-  urlLanguageCountry[4] === "da_DK" ||
-  urlLanguageCountry[4] === "fi_FI" ||
-  urlLanguageCountry[4] === "de_DE" ||
-  urlLanguageCountry[4] === "pt_PT" ||
-  urlLanguageCountry[4] === "es_ES" ||    
-  urlLanguageCountry[4] === "sv_SE" ||
-  urlLanguageCountry[4] === "de_CH" ||
-  urlLanguageCountry[4] === "fr_CH" 
+  urlLanguageCountry[3] === "de_AT" ||
+  urlLanguageCountry[3] === "da_DK" ||
+  urlLanguageCountry[3] === "fi_FI" ||
+  urlLanguageCountry[3] === "de_DE" ||
+  urlLanguageCountry[3] === "pt_PT" ||
+  urlLanguageCountry[3] === "es_ES" ||    
+  urlLanguageCountry[3] === "sv_SE" ||
+  urlLanguageCountry[3] === "de_CH" ||
+  urlLanguageCountry[3] === "fr_CH" 
 ) {
   document.querySelector("#esg-video-component").style.display = "none";
 }
