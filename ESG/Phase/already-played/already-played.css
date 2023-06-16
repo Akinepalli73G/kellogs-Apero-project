@@ -259,6 +259,16 @@
 #esg-already-played-container > .container:nth-child(3) > .cmp-container > .container.esg-charity:nth-child(1) > .cmp-container {
   max-width: 830px;
 }
+#esg-already-played-container > .container:nth-child(3) > .cmp-container:has(#esg-our-story) > .container:nth-child(1),
+#esg-already-played-container > .container:nth-child(3) > .cmp-container:has(#esg-our-story) > .container:nth-child(2) {
+  padding-bottom: 0 !important;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container:has(#esg-our-story) #esg-our-story {
+  display: none;
+}
+#esg-already-played-container > .container:nth-child(3) > .cmp-container:has(#esg-our-story) > .container:nth-child(3) {
+  margin-top: 0 !important;
+}
 #esg-already-played-container > .container:nth-child(3) > .cmp-container:has(#esg-our-better):has(#esg-our-charity):has(#esg-our-story) > .container:nth-child(2) {
   background-color: #d51e48;
 }

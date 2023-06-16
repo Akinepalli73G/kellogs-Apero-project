@@ -250,33 +250,55 @@ if (modalBarcode || triggerBarcode || okButtonBarcode) {
   window.addEventListener("click", windowOnClickBarcode);
 }
 
-const clickNavigationAnchor = document.querySelectorAll('#burger-close-menu .navigationV2 ul li a');
+const clickNavigationAnchor = document.querySelectorAll(
+  "#burger-close-menu .navigationV2 ul li a"
+);
 
 if (clickNavigationAnchor) {
   clickNavigationAnchor.forEach((clickNavigation) => {
     const targetEmptey = clickNavigation.getAttribute("target");
     if (!targetEmptey) {
       clickNavigation.addEventListener("click", (event) => {
-        if (isInternalLink(clickNavigation) ) {
+        if (isInternalLink(clickNavigation)) {
           event.preventDefault();
-          const targetId = clickNavigation.getAttribute('href').slice(1);
+          const targetId = clickNavigation.getAttribute("href").slice(1);
           const targetElem = document.getElementById(targetId);
-          const closeButton = document.querySelector(".button .cmp-button__icon--burger-close-icon");
+          const closeButton = document.querySelector(
+            ".button .cmp-button__icon--burger-close-icon"
+          );
           closeButton.click();
-          targetElem.scrollIntoView({ behavior: 'smooth' });
+          targetElem.scrollIntoView({ behavior: "smooth" });
         }
       });
     }
   });
 }
 
-const isInternalLink = link => link.getAttribute('href').startsWith('#');
+const isInternalLink = (link) => link.getAttribute("href").startsWith("#");
 
-const showYotubeVideo = document.querySelector('#esg-video-component > .container:nth-child(3) > .cmp-container');
-showYotubeVideo.addEventListener('click', () => {
+const showYotubeVideo = document.querySelector(
+  "#esg-video-component > .container:nth-child(3) > .cmp-container"
+);
+showYotubeVideo.addEventListener("click", () => {
   showYotubeVideo.style.zIndex = "-11";
-  const showImage = document.querySelector('#esg-video-component > .image');
+  const showImage = document.querySelector("#esg-video-component > .image");
   showImage.style.zIndex = "-1";
   showImage.style.position = "relative";
-  document.querySelector('#esg-video-component > .embed').style.zIndex = "11";
+  document.querySelector("#esg-video-component > .embed").style.zIndex = "11";
 });
+
+const urlExtract = window.location.href;
+var urlLanguageCountry = urlExtract.split("/");
+if (
+  urlLanguageCountry[4] === "de_AT" ||
+  urlLanguageCountry[4] === "da_DK" ||
+  urlLanguageCountry[4] === "fi_FI" ||
+  urlLanguageCountry[4] === "de_DE" ||
+  urlLanguageCountry[4] === "pt_PT" ||
+  urlLanguageCountry[4] === "es_ES" ||    
+  urlLanguageCountry[4] === "sv_SE" ||
+  urlLanguageCountry[4] === "de_CH" ||
+  urlLanguageCountry[4] === "fr_CH" 
+) {
+  document.querySelector("#esg-video-component").style.display = "none";
+}

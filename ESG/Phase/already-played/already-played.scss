@@ -296,6 +296,19 @@
         }
       }
 
+      &:has(#esg-our-story) {
+        > .container:nth-child(1),
+        > .container:nth-child(2) {
+          padding-bottom: 0 !important;
+        }
+        #esg-our-story {
+          display: none;
+        }
+        > .container:nth-child(3) {
+          margin-top: 0 !important;
+        }
+      }
+
       &:has(#esg-our-better):has(#esg-our-charity):has(#esg-our-story) {
         > .container:nth-child(2) {
           background-color: #d51e48;
