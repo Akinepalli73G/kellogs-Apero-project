@@ -39,6 +39,7 @@
 .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img {
   width: 80px;
   height: 50px;
+  margin: 0 auto;
 }
 #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2),
 #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2),
@@ -148,6 +149,7 @@
   height: 120px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 0 auto;
 }
 #esg-main-container.cmp-container > .container:nth-child(4) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content h2.cmp-teaser__title,
 .esg-main-container.cmp-container > .container:nth-child(4) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content h2.cmp-teaser__title {
@@ -3304,6 +3306,7 @@ body.languageOpened {
   height: 120px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 0 auto;
 }
 #esg-thank-you-page-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content h2.cmp-teaser__title {
   font-family: "Open Sans";
@@ -3486,6 +3489,7 @@ body.languageOpened {
 #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img {
   width: 80px;
   height: 50px;
+  margin: 0 auto;
 }
 #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) {
   color: #ffffff;
@@ -3532,6 +3536,7 @@ body.languageOpened {
   line-height: 21px;
   text-transform: uppercase;
   color: #000000;
+  background: #fff;
 }
 #esg-ready-to-play-page-container.cmp-container > .container:nth-child(2) > .cmp-container .text p small {
   color: #666666;
