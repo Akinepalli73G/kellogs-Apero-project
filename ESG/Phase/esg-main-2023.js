@@ -227,9 +227,19 @@ if (modal || trigger || okButton) {
 var modalBarcode = document.querySelector(
   ".container #esg-dont-have-a-cereal-box"
 );
-var triggerBarcode = document.querySelector(
-  "#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3)"
+const ghost = document.querySelector(
+  "#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .ghost"
 );
+if (ghost) {
+  var triggerBarcode = document.querySelector(
+    "#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .button:nth-child(4)"
+  );
+} else {
+  var triggerBarcode = document.querySelector(
+    "#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3)"
+  );
+}
+
 var okButtonBarcode = document.querySelector(
   "#esg-dont-have-a-cereal-box .teaser .cmp-teaser__action-container .cmp-teaser__action-link"
 );
@@ -305,11 +315,13 @@ if (
 
 //barcode validation
 
-document.getElementById('submitButton').addEventListener('click', function() {
-  var urlExtract = document.getElementById('urlInput').value;
+var barcodeValidation = document.getElementById('esg-barcode-validation');
+
+barcodeValidation.addEventListener('click', function() {
+  var urlExtract = window.location.href;
   var urlLanguageCountry = urlExtract.split("/");
   var loginUrl = urlLanguageCountry[3] + "/login.html";
-  var sampleUrl = "https://stage65-betterdays.kelloggs.com/fr_FR/thank-you.html";
+  var succesPageUrl = barcodeValidation.href;
 
   fetch('http://globalpromoservicedev.dmitkellogg.com/promotionservice/api/v1/token/validate?hashcode=123456ef75e4ab2afa4950447059', {
     method: 'GET',
@@ -365,7 +377,7 @@ document.getElementById('submitButton').addEventListener('click', function() {
         // Redirect to the appropriate URL based on the game result
         if (isGameCompleted && gameScore > 0) {
           // Game completed within the given time frame
-          window.location.href = sampleUrl;
+          window.location.href = succesPageUrl;
         } else {
           // Invalid entry, not considered for winner selection
           // Redirect to a different page if desired
