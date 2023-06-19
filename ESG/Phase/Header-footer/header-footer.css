@@ -16,6 +16,7 @@
 }
 #esg-footer-container .aem-Grid .socialcomponent #sociallinks a {
   width: unset;
+  height: unset;
 }
 #esg-footer-container .aem-Grid .socialcomponent #sociallinks a img {
   width: 100%;

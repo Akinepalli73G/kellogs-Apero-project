@@ -30,6 +30,9 @@
 }
 #esg-login-register-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) > .cmp-container .separator hr {
   border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+  margin: 0.6rem 0;
+  background: 0;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container {
   max-width: 420px;
