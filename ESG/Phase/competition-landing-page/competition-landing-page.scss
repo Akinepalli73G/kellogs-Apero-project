@@ -232,9 +232,11 @@
                 height: 400px;
                 > .image:nth-child(1) {
                   img {
-                    margin-top: -50px;
+                    position: relative;
+                    top: -50px;
                     width: 120px;
                     height: 120px;
+                    margin: 0 auto;
                   }
                 }
                 > .container:nth-child(2) {
@@ -242,6 +244,8 @@
                     text-align: center;
                     max-width: 320px;
                     margin: 0 auto;
+                    position: relative;
+                    top: -50px;
                     > .text:nth-child(2) {
                       padding: 8px 0;
                       p {
@@ -823,15 +827,16 @@
               > .container:nth-child(2) {
                 > .cmp-container {
                   background-size: 335px;
-                  margin: 55px auto 0;
+                  margin: 55px auto 0 !important; 
                   height: 385px;
                   > .image:nth-child(1) {
                     img {
-                      margin-top: -30px;
+                      top: -30px;
                     }
                   }
                   > .container:nth-child(2) {
                     > .cmp-container {
+                      top: -25px;
                       > .text:nth-child(2) {
                         padding: 0;
                         p {

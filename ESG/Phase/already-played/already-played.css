@@ -25,6 +25,9 @@
   align-items: center;
   justify-content: center;
 }
+#esg-already-played-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) .socialcomponent #sociallinks a {
+  width: unset;
+}
 #esg-already-played-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) .socialcomponent #sociallinks a img {
   width: 100%;
   height: 40px;
@@ -107,14 +110,18 @@
      object-fit: cover;
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container .cmp-container#esg-our-charity > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img {
-  margin-top: -50px;
+  position: relative;
+  top: -50px;
   width: 120px;
   height: 120px;
+  margin: 0 auto;
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container .cmp-container#esg-our-charity > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container {
   text-align: center;
   max-width: 320px;
   margin: 0 auto;
+  position: relative;
+  top: -50px;
 }
 #esg-already-played-container > .container:nth-child(3) > .cmp-container .cmp-container#esg-our-charity > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) {
   padding: 8px 0;
@@ -340,11 +347,14 @@
   }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container #esg-our-charity > .container:nth-child(2) > .cmp-container {
     background-size: 335px !important;
-    margin: 55px auto 0;
+    margin: 55px auto 0 !important;
     height: 385px;
   }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container #esg-our-charity > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img {
-    margin-top: -30px;
+    top: -30px;
+  }
+  #esg-already-played-container > .container:nth-child(3) > .cmp-container #esg-our-charity > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container {
+    top: -30px;
   }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container #esg-our-charity > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) {
     padding: 0;
@@ -385,6 +395,7 @@
     height: 120px;
     -o-object-fit: cover;
        object-fit: cover;
+    margin: 0 auto;
   }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container #esg-our-story > .container:nth-child(2) > .cmp-container > .container:nth-child(2) .cmp-container .teaser .cmp-teaser__content {
     height: 130px;
