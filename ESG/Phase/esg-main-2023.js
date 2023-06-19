@@ -228,7 +228,7 @@ var modalBarcode = document.querySelector(
   ".container #esg-dont-have-a-cereal-box"
 );
 var triggerBarcode = document.querySelector(
-  "#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .button:nth-child(2)"
+  "#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3)"
 );
 var okButtonBarcode = document.querySelector(
   "#esg-dont-have-a-cereal-box .teaser .cmp-teaser__action-container .cmp-teaser__action-link"
@@ -301,4 +301,91 @@ if (
   urlLanguageCountry[3] === "fr_CH" 
 ) {
   document.querySelector("#esg-video-component").style.display = "none";
+}
+
+//barcode validation
+
+document.getElementById('submitButton').addEventListener('click', function() {
+  var urlExtract = document.getElementById('urlInput').value;
+  var urlLanguageCountry = urlExtract.split("/");
+  var loginUrl = urlLanguageCountry[3] + "/login.html";
+  var sampleUrl = "https://stage65-betterdays.kelloggs.com/fr_FR/thank-you.html";
+
+  fetch('http://globalpromoservicedev.dmitkellogg.com/promotionservice/api/v1/token/validate?hashcode=123456ef75e4ab2afa4950447059', {
+    method: 'GET',
+    headers: {
+      'Authorization': 'Basic YWVtdXNlcjphZW1AMjAyMA==',
+      'Content-Type': 'application/json'
+    }
+  })
+  .then(response => {
+    if (!response.ok) {
+      if (response.status === 401) {
+        // Redirect to login page for authentication failure
+        window.location.href = loginUrl;
+      } else {
+        // Redirect to login page for other API failures
+        window.location.href = loginUrl;
+      }
+    } else {
+      return response.json();
+    }
+  })
+  .then(data => {
+    // Handle the API response data here
+    console.log(data);
+
+    var entryId = data.data.id;
+    var isGameCompleted = true; // Set based on the game completion status
+    var gameScore = calculateGameScore(); // Calculate the game score in milliseconds
+
+    var updateScoreData = {
+      "isGameCompleted": isGameCompleted,
+      "gameScore": gameScore
+    };
+
+    fetch('http://globalpromoservicedev.dmitkellogg.com/promotionservice/api/v1/promotions/entry/' + entryId + '/update/score', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Basic YWRtaW46QTNpWXQ4eVU=',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(updateScoreData)
+    })
+    .then(response => {
+      if (!response.ok) {
+        if (response.status === 401) {
+          // Redirect to login page for authentication failure
+          window.location.href = loginUrl;
+        } else {
+          // Redirect to login page for other API failures
+          window.location.href = loginUrl;
+        }
+      } else {
+        // Redirect to the appropriate URL based on the game result
+        if (isGameCompleted && gameScore > 0) {
+          // Game completed within the given time frame
+          window.location.href = sampleUrl;
+        } else {
+          // Invalid entry, not considered for winner selection
+          // Redirect to a different page if desired
+          window.location.href = loginUrl; // Redirect to the login page as an example
+        }
+      }
+    })
+    .catch(error => {
+      console.error(error);
+    });
+  })
+  .catch(error => {
+    // Redirect to login page in case of API failure
+    window.location.href = loginUrl;
+  });
+});
+
+function calculateGameScore() {
+  // Implement the logic to calculate the game score in milliseconds
+  // Return the calculated game score
+  // Example:
+  return 5000; // 5 seconds
 }
