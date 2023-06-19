@@ -14,7 +14,6 @@
   width: 100%;
   position: absolute;
   bottom: 40px;
-  margin-bottom: 40px;
 }
 #esg-already-played-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) .socialcomponent {
   text-align: center;
@@ -518,7 +517,7 @@
     line-height: 46px;
   }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container #esg-our-charity {
-    padding: 80px 100px;
+    padding: 80px 0;
   }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container #esg-our-charity > .container:nth-child(2) > .cmp-container {
     margin: 75px auto 0;

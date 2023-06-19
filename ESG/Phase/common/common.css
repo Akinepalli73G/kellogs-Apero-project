@@ -175,6 +175,10 @@ small {
   position: relative;
 }
 
+.tns-ovh {
+  padding-bottom: 0 !important;
+}
+
 @media only screen and (min-width: 769px) {
   h1 {
     font-size: 70px;
