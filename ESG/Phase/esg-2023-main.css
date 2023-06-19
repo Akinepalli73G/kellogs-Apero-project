@@ -1161,6 +1161,7 @@ small {
   align-items: center;
   position: relative;
   z-index: 999999;
+  border-top: 0 !important;
 }
 .languagenavigation nav ul li:nth-child(1) a {
   position: relative;
@@ -1169,6 +1170,9 @@ small {
 .languagenavigation nav ul li:nth-child(1) .mobile-down-arrow,
 .languagenavigation nav ul li:nth-child(1) .mobile-down-arrow.mobile-up-arrow {
   display: block;
+}
+.languagenavigation nav ul:only-child:not(:has(li:nth-child(2))) .mobile-down-arrow, .languagenavigation nav ul:not(:has(li:nth-child(2))) .mobile-down-arrow {
+  display: none;
 }
 .languagenavigation nav ul.languageOpened {
   margin: 0;
@@ -3512,7 +3516,22 @@ body.languageOpened {
   display: flex;
   justify-content: center;
   grid-gap: 20px;
-  margin-top: 30px;
+}
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container .proceedButton {
+  display: block !important;
+}
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container .proceedButton #proceedButton {
+  width: 260px;
+  border-radius: 90px;
+  padding: 12px 0;
+  border: none;
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
 }
 #esg-ready-to-play-page-container.cmp-container > .container:nth-child(2) > .cmp-container .text p small {
   color: #666666;
@@ -3557,7 +3576,7 @@ body.languageOpened {
     display: none;
   }
   #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img {
-    height: 900px;
+    height: 650px;
   }
   #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container {
     width: calc(100% - 40px);

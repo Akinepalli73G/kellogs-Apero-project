@@ -48,6 +48,7 @@
     ul {
       padding-inline-start: 0;
       list-style: none;
+
       li {
         display: none;
         a {
@@ -70,6 +71,7 @@
           align-items: center;
           position: relative;
           z-index: 999999;
+          border-top: 0 !important;
           a {
             position: relative;
             z-index: 99999;
@@ -79,6 +81,13 @@
           .mobile-down-arrow.mobile-up-arrow {
             display: block;
           }
+        }
+      }
+
+      &:only-child:not(:has(li:nth-child(2))),
+      &:not(:has(li:nth-child(2))) {
+        .mobile-down-arrow {
+          display: none;
         }
       }
 

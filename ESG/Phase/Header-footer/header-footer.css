@@ -65,6 +65,7 @@
   align-items: center;
   position: relative;
   z-index: 999999;
+  border-top: 0 !important;
 }
 .languagenavigation nav ul li:nth-child(1) a {
   position: relative;
@@ -73,6 +74,9 @@
 .languagenavigation nav ul li:nth-child(1) .mobile-down-arrow,
 .languagenavigation nav ul li:nth-child(1) .mobile-down-arrow.mobile-up-arrow {
   display: block;
+}
+.languagenavigation nav ul:only-child:not(:has(li:nth-child(2))) .mobile-down-arrow, .languagenavigation nav ul:not(:has(li:nth-child(2))) .mobile-down-arrow {
+  display: none;
 }
 .languagenavigation nav ul.languageOpened {
   margin: 0;
