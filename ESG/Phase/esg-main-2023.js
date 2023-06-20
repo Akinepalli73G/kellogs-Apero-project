@@ -289,13 +289,15 @@ const isInternalLink = (link) => link.getAttribute("href").startsWith("#");
 const showYotubeVideo = document.querySelector(
   "#esg-video-component > .container:nth-child(3) > .cmp-container"
 );
-showYotubeVideo.addEventListener("click", () => {
-  showYotubeVideo.style.zIndex = "-11";
-  const showImage = document.querySelector("#esg-video-component > .image");
-  showImage.style.zIndex = "-1";
-  showImage.style.position = "relative";
-  document.querySelector("#esg-video-component > .embed").style.zIndex = "11";
-});
+if (showYotubeVideo) {
+  showYotubeVideo.addEventListener("click", () => {
+    showYotubeVideo.style.zIndex = "-11";
+    const showImage = document.querySelector("#esg-video-component > .image");
+    showImage.style.zIndex = "-1";
+    showImage.style.position = "relative";
+    document.querySelector("#esg-video-component > .embed").style.zIndex = "11";
+  });
+}
 
 const urlExtract = window.location.href;
 var urlLanguageCountry = urlExtract.split("/");
@@ -305,23 +307,23 @@ if (
   urlLanguageCountry[3] === "fi_FI" ||
   urlLanguageCountry[3] === "de_DE" ||
   urlLanguageCountry[3] === "pt_PT" ||
-  urlLanguageCountry[3] === "es_ES" ||    
+  urlLanguageCountry[3] === "es_ES" ||
   urlLanguageCountry[3] === "sv_SE" ||
   urlLanguageCountry[3] === "de_CH" ||
-  urlLanguageCountry[3] === "fr_CH" 
+  urlLanguageCountry[3] === "fr_CH"
 ) {
   document.querySelector("#esg-video-component").style.display = "none";
 }
 
 //barcode validation
 
-var barcodeValidation = document.getElementById('esg-barcode-validation');
+var barcodeValidation = document.getElementById("esg-barcode-validation");
 
 barcodeValidation.addEventListener('click', function() {
   var urlExtract = window.location.href;
   var urlLanguageCountry = urlExtract.split("/");
   var loginUrl = urlLanguageCountry[3] + "/login.html";
-  var succesPageUrl = barcodeValidation.href;
+  var succesPageUrl = "https://stage65-betterdays.kelloggs.com/fr_FR/thank-you.html";
 
   fetch('http://globalpromoservicedev.dmitkellogg.com/promotionservice/api/v1/token/validate?hashcode=123456ef75e4ab2afa4950447059', {
     method: 'GET',
@@ -349,7 +351,7 @@ barcodeValidation.addEventListener('click', function() {
 
     var entryId = data.data.id;
     var isGameCompleted = true; // Set based on the game completion status
-    var gameScore = calculateGameScore(); // Calculate the game score in milliseconds
+    var gameScore = sessionStorage.getItem('gameScore'); // Retrieve gameScore from session storage
 
     var updateScoreData = {
       "isGameCompleted": isGameCompleted,
@@ -394,10 +396,3 @@ barcodeValidation.addEventListener('click', function() {
     window.location.href = loginUrl;
   });
 });
-
-function calculateGameScore() {
-  // Implement the logic to calculate the game score in milliseconds
-  // Return the calculated game score
-  // Example:
-  return 5000; // 5 seconds
-}
