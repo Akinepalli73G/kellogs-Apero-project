@@ -157,6 +157,7 @@ body.languageOpened {
           backdrop-filter: blur(2px);
 }
 
+#esg-puzzle-container.languageOpened,
 #esg-404-container.languageOpened,
 #esg-barcode-validation-container.languageOpened,
 #esg-receipt-upload-container.languageOpened,

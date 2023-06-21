@@ -1,80 +1,78 @@
-// // language seletor start
-
-// languageOpened = false;
-// mobileUpArrow = false;
-// selectedLanguage = false;
-// const navLanguageContainer = document.querySelectorAll(
-//   ".languagenavigation nav li"
-// );
-// navLanguageContainer.forEach((navLanguage) => {
-//   if (navLanguage) {
-//     const downArrowClickButton = document.createElement("button");
-//     downArrowClickButton.classList.add("mobile-down-arrow");
-//     navLanguage.appendChild(downArrowClickButton)
-//   }
-// });
-
-// const desktopLanguagenavigationClicked = document.querySelectorAll(
-//   ".languagenavigation #desktop-language-navigation button"
-// );
-// const mobileLanguagenavigationClicked = document.querySelectorAll(
-//   ".languagenavigation #mobile-language-navigation button"
-// );
-
-// desktopLanguagenavigationClicked[0].addEventListener("click", () => {
-//   document.querySelector(".languagenavigation nav ul").classList.toggle("languageOpened");
-//   desktopLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
-//   document.querySelector("body").classList.toggle("languageOpened");
-//   document.querySelector("#esg-main-container").classList.toggle("languageOpened");
-// });
-
-// mobileLanguagenavigationClicked[0].addEventListener("click", () => {
-//   document.querySelectorAll(".languagenavigation nav ul")[1].classList.toggle("languageOpened");
-//   mobileLanguagenavigationClicked[0].classList.toggle("mobileUpArrow");
-//   document.querySelector("body").classList.toggle("languageOpened");
-//   document.querySelector("#esg-main-container").classList.toggle("languageOpened");
-// });
-
-// if (document.querySelectorAll(".languagenavigation")) {
-//   Array.from(
-//     document.querySelectorAll(".languagenavigation nav ul li")
-//   ).forEach((selectedLangugae) => {
-//     if (window.location.href == selectedLangugae.querySelector("a").href) {
-//       selectedLangugae.classList.toggle("selectedLanguage");
-//     }
-//   });
-// }
-
-// // language seletor end
-
-// // clcik on burger menu open start
-// burgerMenuOpened = false;
-// burgerMenuClosed = false;
-
-// let onBtnClick = () => {
-//   burgerMenuButton = document.querySelector(
-//     ".button .cmp-button__icon--esg-burger-icon"
-//   );
-//   burgerMenuButton.classList.toggle("burgerMenuOpened");
-//   langauageNavigationHide = document.querySelectorAll(
-//     "#burger-menu .languagenavigation"
-//   );
-//   langauageNavigationHide[0].classList.toggle("burgerMenuClosed");
-//   burgerMenuClose = document.querySelectorAll("#burger-close-menu");
-//   burgerMenuClose[0].classList.toggle("burgerMenuOpened");
-//   document
-//     .querySelectorAll("#esg-main-container")[0]
-//     .classList.toggle("burgerMenuOpened");
-//   document
-//     .querySelectorAll("#esg-footer-container")[0]
-//     .classList.toggle("burgerMenuOpened");
-// };
-
-// document
-//   .querySelector(".button .cmp-button__icon--esg-burger-icon")
-//   .addEventListener("click", onBtnClick);
-// document
-//   .querySelector(".button .cmp-button__icon--burger-close-icon")
-//   .addEventListener("click", onBtnClick);
-
-// // clcik on burger menu close
+document.getElementById('submitButton').addEventListener('click', function() {
+    var urlExtract = document.getElementById('urlInput').value;
+    var urlLanguageCountry = urlExtract.split("/");
+    var loginUrl = urlLanguageCountry[3] + "/login.html";
+    var sampleUrl = "https://stage65-betterdays.kelloggs.com/fr_FR/thank-you.html";
+    
+    var username = 'admin';
+    var password = 'A3iYt8yU';
+    var encodedCredentials = btoa(username + ':' + password);
+  
+    fetch('http://globalpromoservicedev.dmitkellogg.com/promotionservice/api/v1/token/validate?hashcode=123456ef75e4ab2afa4950447059', {
+      method: 'GET',
+      headers: {
+        'Authorization': 'Basic ' + encodedCredentials,
+        'Content-Type': 'application/json'
+      }
+    })
+    .then(response => {
+      if (!response.ok) {
+        if (response.status === 401) {
+          // Redirect to login page for authentication failure
+          window.location.href = loginUrl;
+        } else {
+          // Redirect to login page for other API failures
+          window.location.href = loginUrl;
+        }
+      } else {
+        return response.json();
+      }
+    })
+    .then(data => {
+      // Handle the API response data here
+      console.log(data);
+  
+      const entryId = "990187"; // Replace with the actual entry ID
+      const apiUrl = `http://globalpaapservicedev.dmitkellogg.com/promotionservice/api/v1/promotions/entry/${entryId}/update/score`;
+      const username = "gpp_denstu";
+      const password = "Vt1K3lmR8i";
+  
+      const gameScore = sessionStorage.getItem("gameScore"); // Retrieve game score from session storage
+  
+      const headers = new Headers();
+      headers.append("Authorization", `Basic ${btoa(`${username}:${password}`)}`);
+      headers.append("Content-Type", "application/json");
+  
+      const requestBody = JSON.stringify({
+        isGameCompleted: true,
+        gameScore: gameScore,
+      });
+  
+      fetch(apiUrl, {
+        method: "POST",
+        headers: headers,
+        body: requestBody,
+      })
+        .then((response) => {
+          if (response.ok) {
+            // Game score update successful
+            // Redirect to success page
+            window.location.href = "https://stage65-betterdays.kelloggs.com/fr_FR/thank-you.html";
+          } else {
+            // Game score update failed
+            // Redirect to login page
+            window.location.href = urlLanguageCountry[3] + "/login.html";
+          }
+        })
+        .catch((error) => {
+          console.log("Error occurred:", error);
+          // Redirect to login page
+          window.location.href = urlLanguageCountry[3] + "/login.html";
+        });
+    })
+    .catch(error => {
+      // Redirect to login page in case of API failure
+      window.location.href = loginUrl;
+    });
+  });
+  

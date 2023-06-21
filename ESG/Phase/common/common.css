@@ -204,6 +204,7 @@ small {
     font-size: 20px;
     line-height: 23px;
   }
+  #esg-puzzle-container,
   #esg-404-container,
   #esg-barcode-validation-container,
   #esg-receipt-upload-container,
@@ -244,6 +245,7 @@ small {
     font-size: 18px;
     line-height: 21px;
   }
+  #esg-puzzle-container,
   #esg-404-container,
   #esg-barcode-validation-container,
   #esg-receipt-upload-container,
