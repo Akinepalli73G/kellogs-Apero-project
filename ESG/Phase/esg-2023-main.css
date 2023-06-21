@@ -1518,6 +1518,11 @@ body.languageOpened {
     background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/icons/close.png") no-repeat center center;
     background-size: 47px;
   }
+  #esg-mobile-container #burger-close-menu .navigationV2 .nav--container {
+    visibility: inherit;
+    opacity: unset;
+    max-height: unset;
+  }
   #esg-mobile-container #burger-close-menu .navigationV2 .nav--container nav ul {
     list-style: none;
     -webkit-padding-start: 26px;

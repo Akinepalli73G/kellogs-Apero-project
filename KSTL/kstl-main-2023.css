@@ -806,7 +806,7 @@
     max-width: 540px;
   }
   .coreContainer:has(> #KSTL-landing-container-child-six) {
-    padding: 80px 100px;
+    padding: 80px 0;
   }
   .coreContainer:has(> #KSTL-landing-container-child-six) #KSTL-landing-container-child-six-sub-child-two .markupText .kstl-rich-text {
     margin-left: 30px;

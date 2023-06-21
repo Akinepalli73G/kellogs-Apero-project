@@ -461,6 +461,9 @@ body.languageOpened {
 
       .navigationV2 {
         .nav--container {
+          visibility: inherit;
+          opacity: unset;
+          max-height: unset;
           nav {
             ul {
               list-style: none;

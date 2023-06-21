@@ -312,68 +312,70 @@ if (
   urlLanguageCountry[3] === "de_CH" ||
   urlLanguageCountry[3] === "fr_CH"
 ) {
-  document.querySelector("#esg-video-component").style.display = "none";
-}
-
-//barcode validation
-
-var barcodeValidation = document.getElementById("esg-barcode-validation");
-
-barcodeValidation.addEventListener('click', function() {
-  var urlExtract = window.location.href;
-  var urlLanguageCountry = urlExtract.split("/");
-  var loginUrl = urlLanguageCountry[3] + "/login.html";
-  var succesPageUrl = barcodeValidation.href;
-  
-  const username = "gpp_denstu";
-  const password = "Vt1K3lmR8i";
-
-  //const entryId = getCookie("entryId"); // Retrieve entry ID from cookies
-  const entryId = "12592";
-  const apiUrl = `http://globalpaapservicedev.dmitkellogg.com/promotionservice/api/v1/promotions/entry/${entryId}/update/score`;
-  const gameScore = sessionStorage.getItem("gameScore"); // Retrieve game score from session storage
-
-  const headers = new Headers();
-  headers.append("Authorization", `Basic ${btoa(`${username}:${password}`)}`);
-  headers.append("Content-Type", "application/json");
-
-  const requestBody = JSON.stringify({
-    isGameCompleted: true,
-    gameScore: gameScore,
-  });
-
-  fetch(apiUrl, {
-    method: "POST",
-    headers: headers,
-    body: requestBody,
-  })
-    .then((response) => {
-      if (response.ok) {
-        // Game score update successful
-        // Redirect to success page
-        window.location.href = succesPageUrl;
-      } else {
-        // Game score update failed
-        // Redirect to login page
-        window.location.href =loginUrl;
-      }
-    })
-    .catch((error) => {
-      console.log("Error occurred:", error);
-      // Redirect to login page
-      window.location.href = loginUrl;
-    });
-});
-
-// Function to retrieve cookie value by name
-function getCookie(name) {
-  const cookies = document.cookie.split("; ");
-  for (let i = 0; i < cookies.length; i++) {
-    const cookie = cookies[i].split("=");
-    if (cookie[0] === name) {
-      return cookie[1];
-    }
+  if (document.querySelector("#esg-video-component")) {
+    document.querySelector("#esg-video-component").style.display = "none";
   }
-  return "";
 }
 
+// //barcode validation
+
+// var barcodeValidation = document.getElementById("esg-barcode-validation");
+
+// barcodeValidation.addEventListener("click", function () {
+//   var urlExtract = window.location.href;
+//   var urlLanguageCountry = urlExtract.split("/");
+//   var loginUrl = urlLanguageCountry[3] + "/login.html";
+//   var succesPageUrl = barcodeValidation.href;
+
+//   //const entryId = getCookie("entryId"); // Retrieve entry ID from cookies
+//   const entryId = "12592";
+//   const apiUrl = `http://globalpaapservicedev.dmitkellogg.com/promotionservice/api/v1/promotions/entry/${entryId}/update/score`;
+//   //const gameScore = sessionStorage.getItem("gameScore"); // Retrieve game score from session storage
+
+//   const username = "gpp_denstu";
+//   const password = "Vt1K3lmR8i";
+
+//   const encodedCredentials = btoa(username + ":" + password);
+//   const gameScore = 1000;
+//   const requestBody = JSON.stringify({
+//     isGameCompleted: true,
+//     gameScore: gameScore,
+//   });
+
+//   fetch(apiUrl, {
+//     method: "POST",
+//     headers: {
+//       Authorization: "Basic " + encodedCredentials,
+//       "Content-Type": "application/json",
+//     },
+//     body: requestBody,
+//   })
+//     .then((response) => {
+//       if (response.ok) {
+//         // Game score update successful
+//         // Redirect to success page
+//         window.location.href = succesPageUrl;
+//       } else {
+//         // Game score update failed
+//         // Redirect to login page
+//         window.location.href = loginUrl;
+//       }
+//     })
+//     .catch((error) => {
+//       console.log("Error occurred:", error);
+//       // Redirect to login page
+//       window.location.href = loginUrl;
+//     });
+// });
+
+// // Function to retrieve cookie value by name
+// function getCookie(name) {
+//   const cookies = document.cookie.split("; ");
+//   for (let i = 0; i < cookies.length; i++) {
+//     const cookie = cookies[i].split("=");
+//     if (cookie[0] === name) {
+//       return cookie[1];
+//     }
+//   }
+//   return "";
+// }
