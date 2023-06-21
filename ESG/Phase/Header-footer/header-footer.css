@@ -7,6 +7,7 @@
   align-items: center;
   margin: 40px 20px;
   grid-gap: 18px;
+  width: calc(100% - 40px);
 }
 #esg-footer-container .aem-Grid .socialcomponent #sociallinks {
   display: flex;
@@ -184,6 +185,10 @@ body.languageOpened {
   backdrop-filter: blur(2px);
 }
 
+.root:has(#esg-puzzle-container) #esg-header-container.languageOpened {
+  top: 0 !important;
+}
+
 @media only screen and (min-width: 769px) {
   #esg-header-container {
     height: 90px;
@@ -300,6 +305,9 @@ body.languageOpened {
   .root:has(#esg-faq-container) #esg-header-container .logout-v6 {
     flex-basis: 15%;
     display: flex;
+  }
+  .root:has(#esg-puzzle-container) #esg-header-container .navigationV2 {
+    margin-top: 0 !important;
   }
   #esg-mobile-container {
     display: none;
