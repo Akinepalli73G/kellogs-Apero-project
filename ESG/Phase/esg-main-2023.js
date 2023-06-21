@@ -323,76 +323,57 @@ barcodeValidation.addEventListener('click', function() {
   var urlExtract = window.location.href;
   var urlLanguageCountry = urlExtract.split("/");
   var loginUrl = urlLanguageCountry[3] + "/login.html";
-  var succesPageUrl = "https://stage65-betterdays.kelloggs.com/fr_FR/thank-you.html";
+  var succesPageUrl = barcodeValidation.href;
+  
+  const username = "gpp_denstu";
+  const password = "Vt1K3lmR8i";
 
-  fetch('http://globalpromoservicedev.dmitkellogg.com/promotionservice/api/v1/token/validate?hashcode=123456ef75e4ab2afa4950447059', {
-    method: 'GET',
-    headers: {
-      'Authorization': 'Basic YWVtdXNlcjphZW1AMjAyMA==',
-      'Content-Type': 'application/json'
-    }
-  })
-  .then(response => {
-    if (!response.ok) {
-      if (response.status === 401) {
-        // Redirect to login page for authentication failure
-        window.location.href = loginUrl;
-      } else {
-        // Redirect to login page for other API failures
-        window.location.href = loginUrl;
-      }
-    } else {
-      return response.json();
-    }
-  })
-  .then(data => {
-    // Handle the API response data here
-    console.log(data);
+  //const entryId = getCookie("entryId"); // Retrieve entry ID from cookies
+  const entryId = "12592";
+  const apiUrl = `http://globalpaapservicedev.dmitkellogg.com/promotionservice/api/v1/promotions/entry/${entryId}/update/score`;
+  const gameScore = sessionStorage.getItem("gameScore"); // Retrieve game score from session storage
 
-    var entryId = data.data.id;
-    var isGameCompleted = true; // Set based on the game completion status
-    var gameScore = sessionStorage.getItem('gameScore'); // Retrieve gameScore from session storage
+  const headers = new Headers();
+  headers.append("Authorization", `Basic ${btoa(`${username}:${password}`)}`);
+  headers.append("Content-Type", "application/json");
 
-    var updateScoreData = {
-      "isGameCompleted": isGameCompleted,
-      "gameScore": gameScore
-    };
-
-    fetch('http://globalpromoservicedev.dmitkellogg.com/promotionservice/api/v1/promotions/entry/' + entryId + '/update/score', {
-      method: 'POST',
-      headers: {
-        'Authorization': 'Basic YWRtaW46QTNpWXQ4eVU=',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(updateScoreData)
-    })
-    .then(response => {
-      if (!response.ok) {
-        if (response.status === 401) {
-          // Redirect to login page for authentication failure
-          window.location.href = loginUrl;
-        } else {
-          // Redirect to login page for other API failures
-          window.location.href = loginUrl;
-        }
-      } else {
-        // Redirect to the appropriate URL based on the game result
-        if (isGameCompleted && gameScore > 0) {
-          // Game completed within the given time frame
-          window.location.href = succesPageUrl;
-        } else {
-          // Invalid entry, not considered for winner selection
-          // Redirect to a different page if desired
-          window.location.href = loginUrl; // Redirect to the login page as an example
-        }
-      }
-    })
-    .catch(error => {
-      console.error(error);
-    });
-  })
-  .catch(error => {
-    // Redirect to login page in case of API failure
-    window.location.href = loginUrl;
+  const requestBody = JSON.stringify({
+    isGameCompleted: true,
+    gameScore: gameScore,
   });
+
+  fetch(apiUrl, {
+    method: "POST",
+    headers: headers,
+    body: requestBody,
+  })
+    .then((response) => {
+      if (response.ok) {
+        // Game score update successful
+        // Redirect to success page
+        window.location.href = succesPageUrl;
+      } else {
+        // Game score update failed
+        // Redirect to login page
+        window.location.href =loginUrl;
+      }
+    })
+    .catch((error) => {
+      console.log("Error occurred:", error);
+      // Redirect to login page
+      window.location.href = loginUrl;
+    });
 });
+
+// Function to retrieve cookie value by name
+function getCookie(name) {
+  const cookies = document.cookie.split("; ");
+  for (let i = 0; i < cookies.length; i++) {
+    const cookie = cookies[i].split("=");
+    if (cookie[0] === name) {
+      return cookie[1];
+    }
+  }
+  return "";
+}
+
