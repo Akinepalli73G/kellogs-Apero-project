@@ -2382,14 +2382,18 @@ body.languageOpened {
   width: calc(100% - 10px);
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form .kstl-regv6-reg-only #kgsasgigyaForms #kgsasgigyaForms_content .gigya-screen #gigya-otp-update-form .gigya-layout-row .gigya-composite-control.gigya-composite-control-submit .gigya-input-submit {
-  background: #2e8538;
+  background: #000000;
+  color: #ffffff;
   border: none;
-  font-family: "Pinup-Regular";
-  font-size: 12px;
-  line-height: 14px;
+  font-family: "Open Sans";
+  border-radius: 90px;
+  font-size: 18px;
+  line-height: 21px;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .registration-v6 .kfr-signup-form .gig-tfa-button-container .gig-tfa-button.gig-tfa-button-submit {
-  background: #2e8538;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 90px;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container #kgsasgigyaForms_social_9,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container #kgsasgigyaForms_social_8,
@@ -3054,7 +3058,7 @@ body.languageOpened {
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .KSTL-Registration-Login.pod .needs-validation #KSTL-Registration-wrapper-ContinueButton .btn_responsive.mini.btn.btn-primary span,
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .KSTL-Registration-Login.pod .needs-validation #KSTL-Registration-wrapper-ContinueButton1 .btn_responsive.mini.btn.btn-primary span {
-  font-family: "Pinup";
+  font-family: "";
   font-size: 12px;
   line-height: 14px;
   color: #ffffff;
@@ -3155,15 +3159,17 @@ body.languageOpened {
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope button {
   width: calc(100% - 30px);
-  background: #2e8538;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 90px;
   text-align: center;
   color: #ffffff;
 }
 #esg-login-register-container > .container:nth-child(2) > .cmp-container .kfr-signup-form .form-wrapper #kfr-signup-form .kstl-regv6-reg-only.ng-scope .KSTL-Registration-Registration.pod.ng-scope.ng-isolate-scope .form-group.ng-form.ng-scope button span {
-  font-family: "Pinup";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 14px;
   color: #ffffff;
 }
@@ -3214,6 +3220,25 @@ body.languageOpened {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0 50px;
+}
+#esg-login-register-container:has(#gigya-otp-update-form) > .container:nth-child(1) > .cmp-container .container:nth-child(4),
+#esg-login-register-container:has(#gigya-otp-update-form) > .container:nth-child(1) > .cmp-container .text:nth-child(3) {
+  display: none;
+}
+#esg-login-register-container:has(.gigya-composite-control-tfa-verify) > .container:nth-child(1) > .cmp-container .container:nth-child(4),
+#esg-login-register-container:has(.gigya-composite-control-tfa-verify) > .container:nth-child(1) > .cmp-container .text:nth-child(3) {
+  display: none;
+}
+#esg-login-register-container:has(.gigya-composite-control-tfa-verify) .gig-tfa-button.gig-tfa-button-submit {
+  background: #000000 !important;
+  color: #fff !important;
+  font-family: "Open Sans" !important;
+  border-radius: 90px !important;
+  padding-top: 6px !important;
+}
+#esg-login-register-container:has(.gigya-composite-control-tfa-verify) a {
+  color: #000000;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 768px) {

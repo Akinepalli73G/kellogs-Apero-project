@@ -376,11 +376,13 @@
                         margin-right: 10px;
                         width: calc(100% - 10px);
                         .gigya-input-submit {
-                          background: #2e8538;
+                          background: #000000;
+                          color: #ffffff;
                           border: none;
-                          font-family: "Pinup-Regular";
-                          font-size: 12px;
-                          line-height: 14px;
+                          font-family: "Open Sans";
+                          border-radius: 90px;
+                          font-size: 18px;
+                          line-height: 21px;
                         }
                       }
                     }
@@ -392,7 +394,9 @@
 
           .gig-tfa-button-container {
             .gig-tfa-button.gig-tfa-button-submit {
-              background: #2e8538;
+              background: #000000;
+              color: #ffffff;
+              border-radius: 90px;
             }
           }
         }
@@ -482,7 +486,7 @@
               border: none;
               text-align: center;
               span {
-                font-family: "Pinup";
+                font-family: "";
                 font-size: 12px;
                 line-height: 14px;
                 color: #ffffff;
@@ -599,14 +603,16 @@
 
                   button {
                     width: calc(100% - 30px);
-                    background: #2e8538;
+                    background: #000000;
+                    color: #ffffff;
+                    border-radius: 90px;
                     text-align: center;
                     color: #ffffff;
                     span {
-                      font-family: "Pinup";
+                      font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 700;
-                      font-size: 12px;
+                      font-size: 16px;
                       line-height: 14px;
                       color: #ffffff;
                     }
@@ -687,6 +693,40 @@
           }
         }
       }
+    }
+  }
+
+  &:has(#gigya-otp-update-form) {
+    > .container:nth-child(1) {
+      > .cmp-container {
+        .container:nth-child(4),
+        .text:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &:has(.gigya-composite-control-tfa-verify) {
+    > .container:nth-child(1) {
+      > .cmp-container {
+        .container:nth-child(4),
+        .text:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+    .gig-tfa-button.gig-tfa-button-submit {
+      background: #000000 !important;
+      color: #fff !important;
+      font-family: "Open Sans" !important;
+      border-radius: 90px !important;
+      padding-top: 6px !important;
+    }
+
+    a {
+      color: #000000;
+      text-decoration: underline;
     }
   }
 }
@@ -804,7 +844,7 @@
         }
       }
 
-      &:has(#gigya-register-form ) {
+      &:has(#gigya-register-form) {
         .gigya-screen.v2 {
           padding: 0 10px !important;
         }
