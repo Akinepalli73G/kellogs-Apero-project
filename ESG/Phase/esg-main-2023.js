@@ -320,7 +320,7 @@ if (
 if (document.querySelector('#esg-hero-teaser')) {
   var removeSpaceHome = urlLanguageCountry[3].split("_");
   if (urlLanguageCountry[8] === "da" || urlLanguageCountry[8] === "de" || urlLanguageCountry[8] === "fr"
-      || removeSpaceHome[0] === "da" || removeSpaceHome[8] === "de" || removeSpaceHome[8] === "fr" ) {
+      || removeSpaceHome[0] === "da" || removeSpaceHome[0] === "de" || removeSpaceHome[0] === "fr" ) {
     document.querySelector('#esg-hero-teaser > .container:nth-child(2) > .cmp-container').classList.add("esg-home-translation-hero-teaser");
   }
 }
