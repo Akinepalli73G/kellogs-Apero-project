@@ -299,7 +299,7 @@ if (showYotubeVideo) {
   });
 }
 
-const urlExtract = window.location.href;
+var urlExtract = window.location.href;
 var urlLanguageCountry = urlExtract.split("/");
 if (
   urlLanguageCountry[3] === "de_AT" ||
@@ -317,65 +317,10 @@ if (
   }
 }
 
-// //barcode validation
-
-// var barcodeValidation = document.getElementById("esg-barcode-validation");
-
-// barcodeValidation.addEventListener("click", function () {
-//   var urlExtract = window.location.href;
-//   var urlLanguageCountry = urlExtract.split("/");
-//   var loginUrl = urlLanguageCountry[3] + "/login.html";
-//   var succesPageUrl = barcodeValidation.href;
-
-//   //const entryId = getCookie("entryId"); // Retrieve entry ID from cookies
-//   const entryId = "12592";
-//   const apiUrl = `http://globalpaapservicedev.dmitkellogg.com/promotionservice/api/v1/promotions/entry/${entryId}/update/score`;
-//   //const gameScore = sessionStorage.getItem("gameScore"); // Retrieve game score from session storage
-
-//   const username = "gpp_denstu";
-//   const password = "Vt1K3lmR8i";
-
-//   const encodedCredentials = btoa(username + ":" + password);
-//   const gameScore = 1000;
-//   const requestBody = JSON.stringify({
-//     isGameCompleted: true,
-//     gameScore: gameScore,
-//   });
-
-//   fetch(apiUrl, {
-//     method: "POST",
-//     headers: {
-//       Authorization: "Basic " + encodedCredentials,
-//       "Content-Type": "application/json",
-//     },
-//     body: requestBody,
-//   })
-//     .then((response) => {
-//       if (response.ok) {
-//         // Game score update successful
-//         // Redirect to success page
-//         window.location.href = succesPageUrl;
-//       } else {
-//         // Game score update failed
-//         // Redirect to login page
-//         window.location.href = loginUrl;
-//       }
-//     })
-//     .catch((error) => {
-//       console.log("Error occurred:", error);
-//       // Redirect to login page
-//       window.location.href = loginUrl;
-//     });
-// });
-
-// // Function to retrieve cookie value by name
-// function getCookie(name) {
-//   const cookies = document.cookie.split("; ");
-//   for (let i = 0; i < cookies.length; i++) {
-//     const cookie = cookies[i].split("=");
-//     if (cookie[0] === name) {
-//       return cookie[1];
-//     }
-//   }
-//   return "";
-// }
+if (document.querySelector('#esg-hero-teaser')) {
+  var removeSpaceHome = urlLanguageCountry[3].split("_");
+  if (urlLanguageCountry[8] === "da" || urlLanguageCountry[8] === "de" || urlLanguageCountry[8] === "fr"
+      || removeSpaceHome[0] === "da" || removeSpaceHome[8] === "de" || removeSpaceHome[8] === "fr" ) {
+    document.querySelector('#esg-hero-teaser > .container:nth-child(2) > .cmp-container').classList.add("esg-home-translation-hero-teaser");
+  }
+}
