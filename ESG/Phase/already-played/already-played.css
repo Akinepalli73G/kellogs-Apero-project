@@ -548,6 +548,7 @@
     -o-object-fit: cover;
     object-fit: cover;
     width: 510px;
+    margin: 0 auto;
   }
   #esg-already-played-container > .container:nth-child(3) > .cmp-container:not(:has(#esg-our-story)):has(#esg-our-better):has(#esg-our-charity) > .container:nth-child(1),
   #esg-already-played-container > .container:nth-child(3) > .cmp-container:not(:has(#esg-our-story)):has(#esg-our-better):has(#esg-our-charity) > .container:nth-child(2) {

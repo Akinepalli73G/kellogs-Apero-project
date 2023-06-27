@@ -112,9 +112,10 @@
           align-items: center;
           flex-wrap: wrap;
           width: calc(100% - 24px);
+          justify-content: space-between;
 
           a {
-            flex-basis: 80%;
+            flex-basis: 60%;
           }
 
           &.selectedLanguage {
@@ -162,6 +163,7 @@
       background: url("/content/dam/global/promotions/kelloggs-esg-2023/assets/icons/down-arrow.png")
         no-repeat right center;
       background-size: 10px;
+      padding: 0;
     }
 
     .mobile-down-arrow.mobileUpArrow {
@@ -217,7 +219,7 @@ body.languageOpened {
   #esg-header-container {
     height: 90px;
     &.languageOpened {
-      top: -90px;
+      top: 0;
       #esg-desktop-container {
         .image,
         .navigationV2,
@@ -357,7 +359,7 @@ body.languageOpened {
   #esg-header-container {
     height: 80px;
     &.languageOpened {
-      top: -80px;
+      top: 0;
       #esg-mobile-container #burger-menu {
         .image,
         .button {
