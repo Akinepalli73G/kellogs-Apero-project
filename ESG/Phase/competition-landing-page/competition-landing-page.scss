@@ -579,7 +579,7 @@
                   .cmp-teaser__image {
                     img {
                       height: 260px;
-                      object-fit: cover;
+                      object-fit: contain;
                     }
                   }
                   .cmp-teaser__content {
@@ -825,6 +825,7 @@
                     img {
                       max-height: 200px;
                       max-width: 100%;
+                      object-fit: contain;
                     }
                   }
                   .cmp-teaser__content {
