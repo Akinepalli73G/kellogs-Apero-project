@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const mobileCarosuelAlreadyPlayedPage =
+  var mobileCarosuelAlreadyPlayedPage =
     window.matchMedia("(max-width: 768px)");
   if (mobileCarosuelAlreadyPlayedPage.matches) {
     const carouselCards = document.querySelector(
@@ -324,3 +324,36 @@ if (document.querySelector('#esg-hero-teaser')) {
     document.querySelector('#esg-hero-teaser > .container:nth-child(2) > .cmp-container').classList.add("esg-home-translation-hero-teaser");
   }
 }
+
+const clickNavigationAnchorToHome = document.querySelectorAll(
+  ".navigationV2 ul li a"
+);
+
+if (clickNavigationAnchorToHome) {
+  clickNavigationAnchorToHome.forEach((clickNavigationHome) => {
+    const targetEmptey = clickNavigationHome.getAttribute("target");
+    if (!targetEmptey) {
+      clickNavigationHome.addEventListener("click", (event) => {
+        if (isInternalLinkWithHash(clickNavigationHome) ) {
+          let urlExtract = window.location.href;
+          let urlLanguageCountry = urlExtract.split("/");
+          if (urlLanguageCountry[4] != 'home.html') {
+            event.preventDefault();
+            var newHrefHome = clickNavigationHome.hash;
+            clickNavigationHome.href = window.location.origin + "/" + urlLanguageCountry[3] + "/home.html" + newHrefHome;
+            const closeButton = document.querySelector(
+              ".button .cmp-button__icon--burger-close-icon"
+            );
+            if (mobileCarosuelAlreadyPlayedPage && closeButton) {
+              closeButton.click();
+              const targetElem = document.querySelector(newHrefHome);
+              targetElem.scrollIntoView({ behavior: 'smooth' });
+            }
+          }
+        }
+      });
+    }
+  });
+}
+
+const isInternalLinkWithHash = link => link.getAttribute('href').startsWith('#');
