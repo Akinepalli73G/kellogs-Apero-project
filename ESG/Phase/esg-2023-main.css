@@ -3258,6 +3258,10 @@ body.languageOpened {
   color: #000000;
   text-decoration: underline;
 }
+#esg-login-register-container .registration .form-title h2 {
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
 
 @media only screen and (max-width: 768px) {
   #esg-login-register-container > .container:nth-child(1) > .cmp-container > .image:nth-child(1) {
@@ -3318,7 +3322,7 @@ body.languageOpened {
     z-index: 9;
   }
   #esg-login-register-container > .container:nth-child(1) > .cmp-container > .text:nth-child(3) > .cmp-text {
-    max-width: 400px;
+    max-width: 420px;
     margin: 0 auto;
   }
   #esg-login-register-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) {

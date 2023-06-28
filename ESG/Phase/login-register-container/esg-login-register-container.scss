@@ -729,6 +729,15 @@
       text-decoration: underline;
     }
   }
+
+  .registration {
+    .form-title {
+      h2 {
+        font-size: 18px !important;
+        line-height: 21px !important;
+      }
+    }
+  }
 }
 @media only screen and (max-width: 768px) {
   #esg-login-register-container {
@@ -812,7 +821,7 @@
           bottom: 100px;
           z-index: 9;
           > .cmp-text {
-            max-width: 400px;
+            max-width: 420px;
             margin: 0 auto;
           }
         }
