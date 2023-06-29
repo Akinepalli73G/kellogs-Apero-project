@@ -1,29 +1,35 @@
+var mobileCarosuelAlreadyPlayedPage = window.matchMedia("(max-width: 768px)");
+
 document.addEventListener("DOMContentLoaded", () => {
   // Crousel component start
   var carouselContainer = document.querySelector(
     ".esg-carousel-container .cmp-container"
   );
-  if (carouselContainer) {
-    tns({
-      container: carouselContainer,
-      responsive: {
-        768: {
-          items: 1,
+  if (!mobileCarosuelAlreadyPlayedPage.matches) {
+    if (carouselContainer) {
+      tns({
+        container: carouselContainer,
+        responsive: {
+          320: {
+            items: 1,
+          },
+          768: {
+            items: 5,
+          },
+          1990: {
+            items: 5,
+          },
         },
-        1990: {
-          items: 5,
-        },
-      },
-      gutter: 62,
-      fixedWidth: 100,
-      mouseDrag: true,
-      swipeAngle: false,
-      speed: 400,
-    });
+        gutter: 62,
+        fixedWidth: 100,
+        mouseDrag: true,
+        swipeAngle: false,
+        speed: 400,
+      });
+    }
   }
+  
 
-  var mobileCarosuelAlreadyPlayedPage =
-    window.matchMedia("(max-width: 768px)");
   if (mobileCarosuelAlreadyPlayedPage.matches) {
     const carouselCards = document.querySelector(
       "#esg-our-story > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container"

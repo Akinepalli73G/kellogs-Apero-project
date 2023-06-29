@@ -330,13 +330,13 @@ body.languageOpened {
   .root:has( #esg-faq-container) {
     #esg-header-container {
       .navigationV2 {
-        flex-basis: 60%;
+        flex-basis: 55%;
       }
       .button {
         display: none;
       }
       .logout-v6 {
-        flex-basis: 15%;
+        flex-basis: 20%;
         display: flex;
       }
     }

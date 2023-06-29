@@ -287,7 +287,7 @@ body.languageOpened {
   .root:has(#esg-ready-to-play-page-container) #esg-header-container .navigationV2,
   .root:has(#esg-thank-you-page-container) #esg-header-container .navigationV2,
   .root:has(#esg-faq-container) #esg-header-container .navigationV2 {
-    flex-basis: 60%;
+    flex-basis: 55%;
   }
   .root:has(#esg-404-container) #esg-header-container .button,
   .root:has(#esg-barcode-validation-container) #esg-header-container .button,
@@ -305,7 +305,7 @@ body.languageOpened {
   .root:has(#esg-ready-to-play-page-container) #esg-header-container .logout-v6,
   .root:has(#esg-thank-you-page-container) #esg-header-container .logout-v6,
   .root:has(#esg-faq-container) #esg-header-container .logout-v6 {
-    flex-basis: 15%;
+    flex-basis: 20%;
     display: flex;
   }
   .root:has(#esg-puzzle-container) #esg-header-container .navigationV2 {
