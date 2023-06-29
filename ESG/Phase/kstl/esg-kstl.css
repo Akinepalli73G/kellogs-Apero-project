@@ -24,7 +24,7 @@
   margin-bottom: 16px;
 }
 .promotion-banners-wrapper-esg.centeredContent-esg .promotion-banner-esg .kstl-rich-text .esg-promoition-content .description .esg-cta-container {
-  width: 180px;
+  width: 190px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -92,6 +92,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
+  }
+  .promotion-banners-wrapper-esg:has(.esg-kst-ch) {
+    margin-bottom: 100px !important;
+  }
+  .promotion-banners-wrapper-esg:has(.esg-kst-ch) .esg-cta-container {
+    width: 220px !important;
   }
 }
 @media only screen and (max-width: 768px) {
