@@ -136,6 +136,7 @@ if (document.querySelectorAll(".languagenavigation")) {
 
 document.addEventListener("DOMContentLoaded", () => {
   window.onload = function () {
+    document.body.style.position = "fixed";
     if (!sessionStorage.getItem("codeExecuted")) {
       var urlExtractOverlay = window.location.href;
       var urlLanguageCountryOverlay = urlExtractOverlay.split("/");
@@ -162,6 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       sessionStorage.setItem("codeExecuted", "true");
     }
+    document.body.style.position = "";
   };
 });
 
