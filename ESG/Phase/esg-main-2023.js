@@ -1,5 +1,4 @@
 var mobileCarosuelAlreadyPlayedPage = window.matchMedia("(max-width: 768px)");
-
 document.addEventListener("DOMContentLoaded", () => {
   // Crousel component start
   var carouselContainer = document.querySelector(
@@ -28,7 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   }
-  
 
   if (mobileCarosuelAlreadyPlayedPage.matches) {
     const carouselCards = document.querySelector(
@@ -79,10 +77,10 @@ navLanguageContainer.forEach((navLanguage) => {
   }
 });
 
-const desktopLanguagenavigationClicked = document.querySelectorAll(
+var desktopLanguagenavigationClicked = document.querySelectorAll(
   ".languagenavigation #desktop-language-navigation button"
 );
-const mobileLanguagenavigationClicked = document.querySelectorAll(
+var mobileLanguagenavigationClicked = document.querySelectorAll(
   ".languagenavigation #mobile-language-navigation button"
 );
 
@@ -136,7 +134,37 @@ if (document.querySelectorAll(".languagenavigation")) {
   });
 }
 
-// language seletor end
+document.addEventListener("DOMContentLoaded", () => {
+  window.onload = function () {
+    if (!sessionStorage.getItem("codeExecuted")) {
+      var urlExtractOverlay = window.location.href;
+      var urlLanguageCountryOverlay = urlExtractOverlay.split("/");
+
+      if (urlLanguageCountryOverlay[4] == "home.html") {
+        if (
+          desktopLanguagenavigationClicked.length > 1 ||
+          mobileLanguagenavigationClicked.length > 1
+        ) {
+          if (mobileCarosuelAlreadyPlayedPage.matches) {
+            document
+              .querySelector(
+                ".languagenavigation #mobile-language-navigation button"
+              )
+              .click();
+          } else {
+            document
+              .querySelector(
+                ".languagenavigation #desktop-language-navigation button"
+              )
+              .click();
+          }
+        }
+      }
+      sessionStorage.setItem("codeExecuted", "true");
+    }
+  };
+});
+
 
 // clcik on burger menu open start
 burgerMenuOpened = false;
@@ -323,11 +351,21 @@ if (
   }
 }
 
-if (document.querySelector('#esg-hero-teaser')) {
+if (document.querySelector("#esg-hero-teaser")) {
   var removeSpaceHome = urlLanguageCountry[3].split("_");
-  if (urlLanguageCountry[8] === "da" || urlLanguageCountry[8] === "de" || urlLanguageCountry[8] === "fr"
-      || removeSpaceHome[0] === "da" || removeSpaceHome[0] === "de" || removeSpaceHome[0] === "fr" ) {
-    document.querySelector('#esg-hero-teaser > .container:nth-child(2) > .cmp-container').classList.add("esg-home-translation-hero-teaser");
+  if (
+    urlLanguageCountry[8] === "da" ||
+    urlLanguageCountry[8] === "de" ||
+    urlLanguageCountry[8] === "fr" ||
+    removeSpaceHome[0] === "da" ||
+    removeSpaceHome[0] === "de" ||
+    removeSpaceHome[0] === "fr"
+  ) {
+    document
+      .querySelector(
+        "#esg-hero-teaser > .container:nth-child(2) > .cmp-container"
+      )
+      .classList.add("esg-home-translation-hero-teaser");
   }
 }
 
@@ -340,20 +378,25 @@ if (clickNavigationAnchorToHome) {
     const targetEmptey = clickNavigationHome.getAttribute("target");
     if (!targetEmptey) {
       clickNavigationHome.addEventListener("click", (event) => {
-        if (isInternalLinkWithHash(clickNavigationHome) ) {
+        if (isInternalLinkWithHash(clickNavigationHome)) {
           let urlExtract = window.location.href;
           let urlLanguageCountry = urlExtract.split("/");
-          if (urlLanguageCountry[4] != 'home.html') {
+          if (urlLanguageCountry[4] != "home.html") {
             event.preventDefault();
             var newHrefHome = clickNavigationHome.hash;
-            clickNavigationHome.href = window.location.origin + "/" + urlLanguageCountry[3] + "/home.html" + newHrefHome;
+            clickNavigationHome.href =
+              window.location.origin +
+              "/" +
+              urlLanguageCountry[3] +
+              "/home.html" +
+              newHrefHome;
             const closeButton = document.querySelector(
               ".button .cmp-button__icon--burger-close-icon"
             );
             if (mobileCarosuelAlreadyPlayedPage && closeButton) {
               closeButton.click();
               const targetElem = document.querySelector(newHrefHome);
-              targetElem.scrollIntoView({ behavior: 'smooth' });
+              targetElem.scrollIntoView({ behavior: "smooth" });
             }
           }
         }
@@ -362,4 +405,5 @@ if (clickNavigationAnchorToHome) {
   });
 }
 
-const isInternalLinkWithHash = link => link.getAttribute('href').startsWith('#');
+const isInternalLinkWithHash = (link) =>
+  link.getAttribute("href").startsWith("#");
