@@ -1306,6 +1306,8 @@ body.languageOpened {
   background: rgba(0, 0, 0, 0.3);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
+  overflow: hidden;
+  max-height: 100vh;
 }
 
 #esg-puzzle-container.languageOpened,
@@ -3258,6 +3260,17 @@ body.languageOpened {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0 50px;
+}
+#esg-login-register-container:has(.gigya-reset-password-form) #gigya-reset-password-form .fa-eye:before,
+#esg-login-register-container:has(.gigya-reset-password-form) #gigya-reset-password-form .fa-eye-slash:before {
+  position: relative;
+  top: 20px;
+}
+#esg-login-register-container:has(.gigya-reset-password-form) #gigya-reset-password-form .gigya-input-submit {
+  background: #000000;
+  border-radius: 90px;
+  border: none;
+  padding: 0;
 }
 #esg-login-register-container:has(#gigya-otp-update-form) > .container:nth-child(1) > .cmp-container .container:nth-child(4),
 #esg-login-register-container:has(#gigya-otp-update-form) > .container:nth-child(1) > .cmp-container .text:nth-child(3) {

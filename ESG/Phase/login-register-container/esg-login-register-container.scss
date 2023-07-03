@@ -693,6 +693,19 @@
           }
         }
       }
+
+      .fa-eye:before,
+      .fa-eye-slash:before {
+        position: relative;
+        top: 20px;
+      }
+
+      .gigya-input-submit {
+        background: #000000;
+        border-radius: 90px;
+        border: none;
+        padding: 0;
+      }
     }
   }
 
