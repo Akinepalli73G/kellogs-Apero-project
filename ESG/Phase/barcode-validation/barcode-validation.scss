@@ -68,15 +68,6 @@
 
       &:not(:has(.ghost)) {
         > .button:nth-child(2) {
-          margin: 24px 0 40px;
-          a {
-            border: 1px solid #666666;
-            span {
-              color: #666666;
-            }
-          }
-        }
-        > .button:nth-child(3) {
           margin: 12px 0;
           text-align: center;
           .cmp-button {
@@ -94,42 +85,7 @@
             }
           }
         }
-        > .text:nth-child(4) {
-          p {
-            color: #666666;
-          }
-        }
-      }
-      &:has(.ghost) {
-        > .button:nth-child(3) {
-          margin: 24px 0 40px;
-          a {
-            border: 1px solid #666666;
-            span {
-              color: #666666;
-            }
-          }
-        }
-        > .button:nth-child(4) {
-          margin: 12px 0;
-          text-align: center;
-          .cmp-button {
-            border-bottom: 3px solid #000000;
-            border-radius: 0;
-            padding: 0 0 10px;
-            .cmp-button__text {
-              font-family: "Lilita One";
-              font-style: normal;
-              font-weight: 400;
-              font-size: 18px;
-              line-height: 21px;
-              text-transform: uppercase;
-              color: #000000;
-            }
-          }
-        }
-
-        > .text:nth-child(5) {
+        > .text:nth-child(3) {
           p {
             color: #666666;
           }
@@ -169,6 +125,13 @@
         text-transform: uppercase;
       }
     }
+  }
+
+  .codeEntry {
+    height: 160px;
+  }
+  .codeEntry:not(:has(.mandatory-field[style="display: none;"])) {
+    height: 170px;
   }
 }
 
@@ -261,22 +224,11 @@
     > .container:nth-child(2) {
       > .cmp-container {
         &:not(:has(.ghost)) {
-          > .text:nth-child(4) {
-            padding: 0 20px;
-          }
-        }
-        &:has(.ghost) {
-          > .text:nth-child(5) {
+          > .text:nth-child(3) {
             padding: 0 20px;
           }
         }
       }
-    }
-    .codeEntry {
-      height: 140px;
-    }
-    .codeEntry:not(:has(.mandatory-field[style="display: none;"])) {
-      height: 150px;
     }
   }
   #esg-dont-have-a-cereal-box {
@@ -329,12 +281,6 @@
       > .cmp-container {
         max-width: 400px;
         margin: 0 auto;
-      }
-    }
-    .codeEntry {
-      height: 120px;
-      &:not(:has(.mandatory-field[style="display: none;"])) {
-        height: 130px;
       }
     }
   }

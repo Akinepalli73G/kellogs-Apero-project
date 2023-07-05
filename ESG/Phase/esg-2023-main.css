@@ -4632,24 +4632,15 @@ body.languageOpened {
   align-items: center;
 }
 #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .button:nth-child(2) {
-  margin: 24px 0 40px;
-}
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .button:nth-child(2) a {
-  border: 1px solid #666666;
-}
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .button:nth-child(2) a span {
-  color: #666666;
-}
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .button:nth-child(3) {
   margin: 12px 0;
   text-align: center;
 }
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .button:nth-child(3) .cmp-button {
+#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .button:nth-child(2) .cmp-button {
   border-bottom: 3px solid #000000;
   border-radius: 0;
   padding: 0 0 10px;
 }
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .button:nth-child(3) .cmp-button .cmp-button__text {
+#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .button:nth-child(2) .cmp-button .cmp-button__text {
   font-family: "Lilita One";
   font-style: normal;
   font-weight: 400;
@@ -4658,37 +4649,7 @@ body.languageOpened {
   text-transform: uppercase;
   color: #000000;
 }
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .text:nth-child(4) p {
-  color: #666666;
-}
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:has(.ghost) > .button:nth-child(3) {
-  margin: 24px 0 40px;
-}
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:has(.ghost) > .button:nth-child(3) a {
-  border: 1px solid #666666;
-}
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:has(.ghost) > .button:nth-child(3) a span {
-  color: #666666;
-}
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:has(.ghost) > .button:nth-child(4) {
-  margin: 12px 0;
-  text-align: center;
-}
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:has(.ghost) > .button:nth-child(4) .cmp-button {
-  border-bottom: 3px solid #000000;
-  border-radius: 0;
-  padding: 0 0 10px;
-}
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:has(.ghost) > .button:nth-child(4) .cmp-button .cmp-button__text {
-  font-family: "Lilita One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #000000;
-}
-#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:has(.ghost) > .text:nth-child(5) p {
+#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .text:nth-child(3) p {
   color: #666666;
 }
 #esg-barcode-validation-container .codeEntry .promo-code-input-box {
@@ -4717,6 +4678,12 @@ body.languageOpened {
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
+}
+#esg-barcode-validation-container .codeEntry {
+  height: 160px;
+}
+#esg-barcode-validation-container .codeEntry:not(:has(.mandatory-field[style="display: none;"])) {
+  height: 170px;
 }
 
 #esg-dont-have-a-cereal-box {
@@ -4791,17 +4758,8 @@ body.languageOpened {
   #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container > .container:nth-child(3) {
     top: -2px;
   }
-  #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .text:nth-child(4) {
+  #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:not(:has(.ghost)) > .text:nth-child(3) {
     padding: 0 20px;
-  }
-  #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container:has(.ghost) > .text:nth-child(5) {
-    padding: 0 20px;
-  }
-  #esg-barcode-validation-container .codeEntry {
-    height: 140px;
-  }
-  #esg-barcode-validation-container .codeEntry:not(:has(.mandatory-field[style="display: none;"])) {
-    height: 150px;
   }
   #esg-dont-have-a-cereal-box .teaser {
     width: calc(100% - 90px);
@@ -4842,12 +4800,6 @@ body.languageOpened {
   #esg-barcode-validation-container > .container:nth-child(2) > .cmp-container {
     max-width: 400px;
     margin: 0 auto;
-  }
-  #esg-barcode-validation-container .codeEntry {
-    height: 120px;
-  }
-  #esg-barcode-validation-container .codeEntry:not(:has(.mandatory-field[style="display: none;"])) {
-    height: 130px;
   }
   #esg-dont-have-a-cereal-box {
     z-index: 999;

@@ -270,7 +270,7 @@ if (ghost) {
   );
 } else {
   var triggerBarcode = document.querySelector(
-    "#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .button:nth-child(3)"
+    "#esg-barcode-validation-container > .container:nth-child(2) > .cmp-container > .button:nth-child(2)"
   );
 }
 
