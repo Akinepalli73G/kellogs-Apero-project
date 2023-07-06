@@ -68,7 +68,7 @@
 
       &:not(:has(.ghost)) {
         > .button:nth-child(2) {
-          margin: 12px 0;
+          margin: 24px 0 12px;
           text-align: center;
           .cmp-button {
             border-bottom: 3px solid #000000;
@@ -95,20 +95,33 @@
   }
 
   .codeEntry {
+    section {
+      margin: 0;
+    }
     .promo-code-input-box {
-      width: 300px;
+      width: 100%;
+      justify-content: center;
+      text-align: center;
     }
     input[type="text"]#key-in-unique-code-box {
-      border: 2px solid #000000;
+      width: 300px;
+      border: 2px solid #666666;
     }
     .promo-box-wrapper:not(:has(.mandatory-field[style="display: none;"])) {
       .gaming-link-div {
-        margin-top: 0;
+        text-align: center;
+        margin: 0 0 10px;
+      }
+    }
+    .promo-box-wrapper:has(.wrong-code-content[style="display: none;"]) {
+      .gaming-link-div {
+        margin-top: 20px !important;
       }
     }
     .gaming-link-div {
       width: 100%;
       text-align: center;
+      margin: 10px 0 0;
 
       .responsive-button#Continue {
         background: none;
@@ -123,6 +136,18 @@
         font-size: 18px;
         line-height: 21px;
         text-transform: uppercase;
+      }
+    }
+
+    p.mandatory-field {
+      text-align: center;
+    }
+
+    .wrong-code-content {
+      p {
+        margin: 0;
+        text-align: center;
+        color: #666666;
       }
     }
   }
