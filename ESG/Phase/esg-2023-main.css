@@ -1229,6 +1229,9 @@ small {
 .languagenavigation nav ul li:nth-child(1) .mobile-down-arrow.mobile-up-arrow {
   display: block;
 }
+.languagenavigation nav ul:only-child:not(:has(li:nth-child(2))) li, .languagenavigation nav ul:not(:has(li:nth-child(2))) li {
+  visibility: hidden;
+}
 .languagenavigation nav ul:only-child:not(:has(li:nth-child(2))) .mobile-down-arrow, .languagenavigation nav ul:not(:has(li:nth-child(2))) .mobile-down-arrow {
   display: none;
 }
@@ -1251,9 +1254,6 @@ small {
   flex-wrap: wrap;
   width: calc(100% - 24px);
   justify-content: space-between;
-}
-.languagenavigation nav ul.languageOpened li a {
-  flex-basis: 60%;
 }
 .languagenavigation nav ul.languageOpened li.selectedLanguage::after {
   content: "";
@@ -1370,7 +1370,7 @@ body.languageOpened {
        object-fit: cover;
   }
   #esg-desktop-container .navigationV2 {
-    flex-basis: 65%;
+    flex-basis: 62%;
     display: flex;
     justify-content: flex-end;
     margin-top: 15px;
@@ -1394,7 +1394,7 @@ body.languageOpened {
     display: none;
   }
   #esg-desktop-container .languagenavigation {
-    flex-basis: 10%;
+    flex-basis: 13%;
     display: flex;
     justify-content: flex-end;
   }
@@ -1437,7 +1437,7 @@ body.languageOpened {
   .root:has(#esg-ready-to-play-page-container) #esg-header-container .navigationV2,
   .root:has(#esg-thank-you-page-container) #esg-header-container .navigationV2,
   .root:has(#esg-faq-container) #esg-header-container .navigationV2 {
-    flex-basis: 55%;
+    flex-basis: 50%;
   }
   .root:has(#esg-404-container) #esg-header-container .button,
   .root:has(#esg-barcode-validation-container) #esg-header-container .button,

@@ -90,6 +90,9 @@
 
       &:only-child:not(:has(li:nth-child(2))),
       &:not(:has(li:nth-child(2))) {
+        li {
+          visibility: hidden;
+        }
         .mobile-down-arrow {
           display: none;
         }
@@ -113,10 +116,6 @@
           flex-wrap: wrap;
           width: calc(100% - 24px);
           justify-content: space-between;
-
-          a {
-            flex-basis: 60%;
-          }
 
           &.selectedLanguage {
             &::after {
@@ -249,7 +248,7 @@ body.languageOpened {
     }
 
     .navigationV2 {
-      flex-basis: 65%;
+      flex-basis: 62%;
       display: flex;
       justify-content: flex-end;
       margin-top: 15px;
@@ -282,7 +281,7 @@ body.languageOpened {
     }
 
     .languagenavigation {
-      flex-basis: 10%;
+      flex-basis: 13%;
       display: flex;
       justify-content: flex-end;
     }
@@ -332,7 +331,7 @@ body.languageOpened {
   .root:has( #esg-faq-container) {
     #esg-header-container {
       .navigationV2 {
-        flex-basis: 55%;
+        flex-basis: 50%;
       }
       .button {
         display: none;
