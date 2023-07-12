@@ -351,6 +351,19 @@ if (
   }
 }
 
+if (urlLanguageCountry[3] === "fr_BE" || urlLanguageCountry[3] === "nl_BE") {
+  if (urlLanguageCountry[4] == "register.html") {
+    document.getElementById('esg-login-register-container').classList.add('esg-top-be');
+  }
+}
+
+if (urlLanguageCountry[3] === "pt_PT") {
+  if (urlLanguageCountry[4] == "login.html") {
+    document.getElementById('esg-login-register-container').classList.add('esg-top-pt');
+  }
+}
+
+
 if (document.querySelector("#esg-hero-teaser")) {
   var removeSpaceHome = urlLanguageCountry[3].split("_");
   if (

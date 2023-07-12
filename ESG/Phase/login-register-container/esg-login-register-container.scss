@@ -585,9 +585,10 @@
                       display: flex;
                       align-items: flex-start;
                       padding: 15px;
+                      position: relative;
                       [type="checkbox"]:checked,
                       [type="checkbox"]:not(:checked) {
-                        left: 20px;
+                        left: 0;
                       }
                       .ng-scope {
                         position: relative;
@@ -756,6 +757,12 @@
     }
   }
 }
+.esg-top-be {
+  #Google_btn {
+    top: -100px !important;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   #esg-login-register-container {
     > .container:nth-child(1) {
@@ -818,6 +825,11 @@
       }
     }
   }
+  .esg-top-pt {
+    #Google_btn {
+      margin-top: -37px !important;
+    }
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -875,6 +887,11 @@
           padding: 0 10px !important;
         }
       }
+    }
+  }
+  .esg-top-pt {
+    #Google_btn {
+      margin-top: -17px;
     }
   }
 }
