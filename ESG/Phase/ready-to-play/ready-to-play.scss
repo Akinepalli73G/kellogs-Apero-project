@@ -212,7 +212,20 @@
                 }
 
                 > .markuptext:nth-child(2) {
-                  margin-top: 40px;
+                  margin-top: 10px;
+                }
+
+                > .text:nth-child(3) {
+                  p {
+                    margin: 0;
+                    &:nth-child(1){
+                      margin: 16px 0 0 !important;
+                    }
+
+                    &:nth-last-child(n) {
+                      margin-bottom: 16px;
+                    }
+                  }
                 }
 
                 > .container:nth-child(4) {

@@ -417,6 +417,18 @@ body.languageOpened {
           .mobile-down-arrow.mobileUpArrow {
             top: 0;
           }
+          li {
+            a {
+              font-size: 12px !important;
+              line-height: 18px !important;
+            }
+          }
+
+          ul.languageOpened li {
+            margin: 0 8px !important;
+            padding: 8px 0 !important;
+            width: calc(100% - 16px) !important;
+          }
         }
       }
 
