@@ -389,6 +389,7 @@
 }
 
 #esg-video-component {
+  display: none;
   position: relative;
 }
 #esg-video-component > .embed {
