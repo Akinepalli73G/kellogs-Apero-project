@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Pinup-Regular";
+  src: url("/content/dam/pringles/globalFrontEndFiles/bni-assets/fonts/Pinup.woff2");
+}
+
+@font-face {
+  font-family: "NimbusSanLOT";
+  src: url("/content/dam/pringles/globalFrontEndFiles/bni-assets/fonts/NimbusSanLOT-Bol.otf");
+}
+
+.image {
+  line-height: 0;
+}
+
+.kstl-bni-container {
+  p {
+    color: #fff;
+    font-family: "NimbusSanLOT";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+
+  a {
+    color: #ffd140;
+    font-family: "NimbusSanLOT";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-decoration-line: underline;
+  }
+  hr {
+    background-image: linear-gradient(
+      90deg,
+      #cb9831 0%,
+      #f6ee70 33.33%,
+      #f6ee70 46.35%,
+      #d9bb51 61.98%,
+      #e1c046 76.56%,
+      #a88435 100%
+    );
+    border: none; /* Remove default border */
+    height: 4px; /* Set desired height for the horizontal rule */
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Pinup-Regular";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .kstl-bni-teaser {
+    position: relative;
+    .kstl-bni-teaser-content {
+    }
+  }
+  .bni-terms-and-condtiton {
+    background: #034EA2;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 769px) {
+}
