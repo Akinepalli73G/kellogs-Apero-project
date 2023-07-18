@@ -31,19 +31,6 @@
     line-height: 16px;
     text-decoration-line: underline;
   }
-  hr {
-    background-image: linear-gradient(
-      90deg,
-      #cb9831 0%,
-      #f6ee70 33.33%,
-      #f6ee70 46.35%,
-      #d9bb51 61.98%,
-      #e1c046 76.56%,
-      #a88435 100%
-    );
-    border: none; /* Remove default border */
-    height: 4px; /* Set desired height for the horizontal rule */
-  }
   h1,
   h2,
   h3,
@@ -58,8 +45,6 @@
   }
   .kstl-bni-teaser {
     position: relative;
-    .kstl-bni-teaser-content {
-    }
   }
   > .grid__item:nth-child(2) {
     background: #034ea2;
@@ -81,10 +66,164 @@
       margin-bottom: 0;
     }
   }
+  h6 {
+    font-size: 18px;
+    color: #fff;
+  }
+  h1 {
+    background-image: linear-gradient(
+      90deg,
+      #cb9831 0%,
+      #f6ee70 33.33%,
+      #f6ee70 46.35%,
+      #d9bb51 61.98%,
+      #e1c046 76.56%,
+      #a88435 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+  }
+  .bni-scan-to-enter {
+    background-image: linear-gradient(
+      90deg,
+      #cb9831 0%,
+      #f6ee70 33.33%,
+      #f6ee70 46.35%,
+      #d9bb51 61.98%,
+      #e1c046 76.56%,
+      #a88435 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+  }
+  .bni-content {
+    .bni-ar-experience {
+      display: flex;
+      align-items: center;
+      grid-gap: 5px;
+      justify-content: center;
+      .bni-ar-icon {
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 24px;
+        background: url("/content/dam/pringles/globalFrontEndFiles/bni-assets/images/AR-experience-icon.png")
+          no-repeat center center;
+        background-size: 24px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .kstl-bni-container {
+    h1 {
+      font-size: 45px;
+    }
+    .bni-terms-and-condtiton {
+      margin: 20px 20px 36px;
+      padding: 0;
+    }
+    .kstl-bni-teaser {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      .kstl-bni-teaser-content {
+        > .grid__item:nth-child(2),
+        > .grid__item:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+    .bni-take-the-challenge {
+      display: none;
+    }
+    .kstl-default-button {
+      width: calc(100% - 40px);
+      text-align: center;
+      margin: 20px;
+      background: #fff;
+      color: #034ea2;
+      text-align: center;
+      font-family: "Pinup-Regular";
+      text-decoration-line: none;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    hr {
+      background-image: linear-gradient(
+        90deg,
+        #cb9831 0%,
+        #f6ee70 33.33%,
+        #f6ee70 46.35%,
+        #d9bb51 61.98%,
+        #e1c046 76.56%,
+        #a88435 100%
+      );
+      border: none; /* Remove default border */
+      height: 2px; /* Set desired height for the horizontal rule */
+    }
+    .bni-content {
+      background: #034ea2;
+      padding-top: 20px;
+      text-align: center;
+    }
+  }
 }
 
 @media only screen and (min-width: 769px) {
+  .kstl-bni-container {
+    h1 {
+      font-size: 70px;
+    }
+    .bni-terms-and-condtiton {
+      padding: 24px 80px;
+    }
+    .kstl-bni-teaser {
+      .kstl-bni-teaser-content {
+        position: absolute;
+        display: flex;
+        top: 0;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100%;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 560px;
+        text-align: center;
+        > .grid__item:nth-child(2) {
+          img {
+            width: 183.88px;
+            height: 183.886px;
+            border-radius: 5.139px;
+            margin: 24px auto;
+          }
+        }
+      }
+    }
+    .bni-take-the-challenge {
+      display: none;
+    }
+    .kstl-default-button {
+      display: none;
+    }
+
+    hr {
+      display: none;
+    }
+    > .grid__item:nth-child(1) {
+      font-size: 0;
+    }
+  }
 }
