@@ -47,6 +47,22 @@
 .kstl-bni-container .kstl-bni-teaser {
   position: relative;
 }
+.kstl-bni-container > .grid__item:nth-child(2) {
+  background: #034ea2;
+}
 .kstl-bni-container .bni-terms-and-condtiton {
-  background: #034EA2;
+  background: #034ea2;
+  padding: 24px 80px;
+}
+.kstl-bni-container .bni-terms-and-condtiton .title {
+  color: #fff;
+  font-family: "Pinup-Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.kstl-bni-container .bni-terms-and-condtiton .description {
+  margin-top: 10px;
+  margin-bottom: 0;
 }/*# sourceMappingURL=bni-kstl-2023.css.map */

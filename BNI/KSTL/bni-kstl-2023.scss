@@ -61,8 +61,25 @@
     .kstl-bni-teaser-content {
     }
   }
+  > .grid__item:nth-child(2) {
+    background: #034ea2;
+  }
+
   .bni-terms-and-condtiton {
-    background: #034EA2;
+    background: #034ea2;
+    padding: 24px 80px;
+    .title {
+      color: #fff;
+      font-family: "Pinup-Regular";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .description {
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
   }
 }
 
