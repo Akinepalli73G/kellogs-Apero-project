@@ -1,0 +1,510 @@
+/* Start CSS Common styles for all template */
+#faq-template-container,
+#already-played-template-container,
+#competition-landing-page-child-six,
+#thank-you-page-accordion {
+  color: #000000;
+
+  .cmp-accordion {
+    &__item {
+      background: #ffffff;
+      border-radius: 90px;
+      padding: 16px 24px;
+      margin-bottom: 15px;
+
+      &[data-cmp-expanded] {
+        border-radius: 35px;
+
+        .cmp-accordion__header {
+          padding: 16px 0;
+          border-bottom: 1px solid rgba(0, 155, 222, 0.5);
+        }
+      }
+
+      .cmp-accordion__header {
+        margin: 0;
+
+        button {
+          background: transparent;
+          border: 2px solid transparent;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding: 0;
+          color: #000000;
+          outline: none;
+
+          .cmp-accordion {
+            &__title {
+              text-align: left;
+              flex: 0 0 80%;
+              font-family: "NimbusSanLOT";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 150%;
+            }
+
+            &__icon {
+              flex: 0 0 20%;
+              width: 25px;
+              height: 25px;
+              background: url("/content/dam/global/promotions/aperopromotions/gb/en/images/Accordion-Plus.png")
+                no-repeat right center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cmp-accordion__panel {
+    &--hidden {
+      display: none;
+    }
+  }
+
+  .cmp-accordion__panel {
+    &--expanded {
+      display: block;
+
+      p {
+        color: rgba(0, 0, 0, 0.5);
+        a {
+          word-break: break-word;
+        }
+      }
+    }
+  }
+}
+
+/* header Mobile for Thank you page */
+#mobile-burger-menu-open {
+  position: relative;
+  .aem-Grid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background: #e71d2b;
+    justify-content: center;
+    max-width: calc(100% - 40px);
+
+    .image {
+      display: flex;
+      justify-content: flex-end;
+      z-index: 9;
+      margin-bottom: 0;
+      margin-left: 20px;
+
+      img {
+        height: 52px;
+      }
+    }
+
+    .text {
+      display: flex;
+      justify-content: flex-end;
+      z-index: 9;
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .aem-Grid:has(.languagenavigation) {
+    .image {
+      justify-content: center;
+      margin-left: 0;
+    }
+  }
+
+  .languagenavigation {
+    nav.cmp-languagenavigation {
+      .mobile-down-arrow {
+        position: relative;
+        border: none;
+        z-index: 9999;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 15px;
+        height: 15px;
+        background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/down-arrow.png")
+          no-repeat right center;
+        background-size: 10px;
+      }
+
+      .mobile-down-arrow.mobileUpArrow {
+        background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/up-chevron.png")
+          no-repeat right center;
+        background-size: 10px;
+      }
+
+      .cmp-languagenavigation__group {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        top: 20px;
+        left: 0;
+        z-index: 9;
+
+        li {
+          display: none;
+          padding: 25px 20px;
+          background-color: #e71d2b;
+          z-index: 9;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+          a {
+            font-family: "NimbusSanLOT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+
+          &:nth-child(1) {
+            display: block;
+            padding-top: 12px;
+            padding-bottom: 35px;
+            border-bottom: none;
+            background: transparent;
+          }
+          &:nth-child(2) {
+            border-top: 1px solid rgba(255, 255, 255, 0.4);
+          }
+        }
+
+        &.languageOpened {
+          background-color: #e71d2b;
+          li {
+            display: block;
+
+            &.selected-language {
+              box-shadow: inset 100vw 0 0 0 rgba(255, 255, 255, 0.2);
+              ::after {
+                content: "";
+                position: relative;
+                bottom: 11px;
+                border: none;
+                z-index: 9999;
+                display: flex;
+                width: 100%;
+                height: 7px;
+                background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/selected-tick.png")
+                  no-repeat right center;
+                background-size: 10px;
+              }
+              &:nth-child(1) {
+                box-shadow: none;
+                ::after {
+                  content: none;
+                  background: none;
+                  height: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* End CSS */
+
+#Thank-you-page-template-container,
+#pre-game-template-container,
+#already-played-template-container {
+  .logout-v6 {
+    justify-content: right;
+    display: flex;
+    cursor: pointer;
+    z-index: 999;
+
+    #logout-Button {
+      border: none;
+      font-family: "NimbusSanLOT";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 22px;
+      color: #ffffff;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  #competition-landing-header-desktop {
+    display: none;
+  }
+
+  #Mobile-header-container {
+    display: block;
+
+    #mobile-burger-menu-open.cmp-container.closed {
+      display: none;
+    }
+
+    #mobile-burger-menu-open {
+      display: flex;
+      background: #e71d2b;
+      max-width: calc(100% - 40px);
+      padding: 10px 20px;
+      align-items: center;
+      justify-content: space-between;
+
+      .image {
+        z-index: 9;
+        img {
+          width: 52px;
+        }
+      }
+
+      .button {
+        z-index: 9;
+        #mobile-burger-menu {
+          border: none;
+          .cmp-button__icon--burger-menu-open {
+            width: 25px;
+            height: 25px;
+            display: block;
+            background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/burger-menu.png")
+              no-repeat left center;
+            background-size: 25px;
+          }
+        }
+      }
+    }
+
+    #mobile-burger-menu-close {
+      display: none;
+    }
+
+    #mobile-burger-menu-close.cmp-container.opened {
+      display: block;
+      background: #e71d2b;
+      position: relative;
+      z-index: 9999;
+
+      .navigationV2 {
+        .nav--container {
+          background: #e71d2b;
+          visibility: initial;
+          opacity: initial;
+          transition: none;
+          margin: 0;
+          padding: 0;
+          border-top: none;
+          max-height: 100%;
+          overflow: auto;
+          position: inherit;
+          width: 100%;
+
+          .nav--main {
+            margin-bottom: 30px;
+            padding: 0 20px;
+            & > ul.topmenu {
+              display: flex;
+              flex-direction: column;
+              grid-row-gap: 30px;
+
+              li a {
+                color: #ffffff;
+                text-decoration: none;
+                font-family: "Pinup-Regular";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                text-transform: uppercase;
+              }
+            }
+          }
+
+          .nav--secondary {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            border-top: 1px solid rgba(255, 255, 255, 0.4);
+            padding: 0;
+            ul {
+              display: flex;
+              position: initial;
+              font-size: initial;
+              transition: none;
+              margin: 0;
+              flex-direction: column;
+              grid-gap: 30px;
+              padding: 30px 20px 10px;
+
+              li a {
+                color: #ffffff;
+                text-decoration: none;
+
+                span {
+                  font-family: "Pinup-Regular";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 24px;
+                  text-transform: uppercase;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #mobile-header-burger-open-nav-button {
+        display: flex;
+        background: #e71d2b;
+        padding: 30px 20px;
+        align-items: center;
+        justify-content: space-between;
+
+        .button {
+          #burger-close-button {
+            border: none;
+            .cmp-button__icon--burger-menu-close {
+              width: 25px;
+              height: 25px;
+              display: block;
+              background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/close.png")
+                no-repeat left center;
+              background-size: 25px;
+            }
+          }
+        }
+      }
+    }
+
+    #competition-landing-terms-condition-mobile .aem-Grid .text {
+      #competition-landing-eight-description p,
+      #competition-landing-eight-pre-title p {
+        color: #ffffff;
+      }
+    }
+  }
+
+  #competition-landing-terms-condition-mobile {
+    display: block;
+    .aem-Grid {
+      background: #e71d2b;
+      color: #ffffff;
+      .text {
+        max-width: 100%;
+        padding: 0 20px;
+
+        #competition-landing-eight-description {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  #desktop-footer-container {
+    display: none;
+  }
+
+  #sticky-footer-buttons-mobile-container {
+    position: fixed;
+    background: #ffffff;
+    bottom: 0;
+    height: 90px;
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    z-index: 999;
+    grid-gap: 8px;
+    align-items: center;
+
+    .button {
+      display: inline-block;
+      width: 45%;
+      a {
+        padding: 18px 12px;
+        border-radius: 2px;
+        text-decoration: none;
+
+        &#mobile-footer-create-an-login-button {
+          background: #2e8538;
+          display: block;
+          color: #ffffff;
+          text-align: center;
+        }
+
+        &#mobile-footer-login-button {
+          display: flex;
+          border: 1px solid #2e8538;
+          justify-content: center;
+          color: #2e8538;
+        }
+
+        span {
+          font-family: "Pinup-Regular";
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+
+  #competition-landing-main-content-container.cmp-container.closed {
+    display: none;
+  }
+
+  #desktop-barcode-sticky-container {
+    display: none;
+  }
+
+  #carousel-container {
+    display: flex;
+    grid-gap: 20px;
+    .teaser {
+      width: 100%;
+      .cmp-teaser__image {
+        .cmp-image__image {
+          height: 247px;
+          object-fit: cover;
+        }
+      }
+      .cmp-teaser__content {
+        .cmp-teaser__action-container {
+          width: 100%;
+          background: #ffffff;
+          padding: 10px 0;
+          text-align: center;
+          position: relative;
+          margin-top: 10px;
+          a {
+            font-family: "Pinup-Regular";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #e71d2b;
+          }
+        }
+      }
+    }
+  }
+
+  #mobile-burger-menu-close {
+    #competition-landing-eight-description {
+      p {
+        a {
+          color: #ffffff !important;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+/* End CSS */

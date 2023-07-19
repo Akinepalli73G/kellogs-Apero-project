@@ -1,0 +1,25 @@
+@use "../Engage/header/header.scss";
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  max-width: 768px;
+}
+
+@font-face {
+  font-family: "Pinup-Regular";
+  src: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/fonts/Pinup.woff2");
+}
+
+@font-face {
+  font-family: "NimbusSanLOT";
+  src: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/fonts/NimbusSanLOT-Bol.otf");
+}
+
+div.image {
+  margin-bottom: 0;
+}
+
+.ghost {
+  display: none;
+}
