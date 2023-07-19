@@ -239,6 +239,42 @@
   }
 }
 
+#bni-terms-conditions {
+  padding: 0 20px;
+  .text:nth-child(1) {
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .text {
+    p {
+      font-family: "NimbusSanLOT";
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 16px; /* 133.333% */
+      b {
+        font-family: "Pinup-Regular";
+        color: #fff;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      a {
+        color: #fff;
+        font-family: "NimbusSanLOT";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        text-decoration-line: underline;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 1920px) {
   #competition-landing-header-desktop {
     display: none;

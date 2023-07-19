@@ -1,0 +1,50 @@
+.text {
+  &.bni-gold {
+    background-image: linear-gradient(
+      90deg,
+      #cb9831 0%,
+      #f6ee70 33.33%,
+      #f6ee70 46.35%,
+      #d9bb51 61.98%,
+      #e1c046 76.56%,
+      #a88435 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &.bni-white {
+    color: #ffffff;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Pinup-Regular";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 25px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 18px;
+}

@@ -232,6 +232,38 @@
   text-decoration: underline;
 }
 
+#bni-terms-conditions {
+  padding: 0 20px;
+}
+#bni-terms-conditions .text:nth-child(1) p {
+  margin-bottom: 0;
+}
+#bni-terms-conditions .text p {
+  font-family: "NimbusSanLOT";
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+#bni-terms-conditions .text p b {
+  font-family: "Pinup-Regular";
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#bni-terms-conditions .text p a {
+  color: #fff;
+  font-family: "NimbusSanLOT";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration-line: underline;
+}
+
 @media only screen and (max-width: 1920px) {
   #competition-landing-header-desktop {
     display: none;
