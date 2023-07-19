@@ -780,6 +780,8 @@
   .esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1) > .cmp-container > .teaser:nth-child(3) .cmp-teaser .cmp-teaser__content h2.cmp-teaser__title {
     font-size: 25px;
     line-height: 29px;
+    color: #fff !important;
+    outline: none;
   }
   #esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container,
   .esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(2) > .cmp-container {
@@ -863,5 +865,33 @@
   }
   .esg-home-translation-hero-teaser > .container > .cmp-container > .container:nth-child(4) > .cmp-container {
     margin-top: 20px !important;
+  }
+  .esg-home-translation-hero-teaser-smaller > .container > .cmp-container > .markuptext:nth-child(2) {
+    margin-top: 5px;
+  }
+  .esg-home-translation-hero-teaser-smaller > .container > .cmp-container > .markuptext:nth-child(2) h1 {
+    display: block !important;
+    line-height: 35px !important;
+    font-size: 35px !important;
+  }
+  .esg-home-translation-hero-teaser-smaller > .container > .cmp-container > .text:nth-child(3) p {
+    margin: 6px 0;
+  }
+  .esg-home-translation-hero-teaser-smaller > .container > .cmp-container > .container:nth-child(4) {
+    margin-bottom: 0 !important;
+  }
+  .esg-home-translation-hero-teaser-smaller > .container > .cmp-container > .container:nth-child(4) > .cmp-container {
+    margin-top: 20px !important;
+  }
+}
+/* Safari Mobile-specific CSS */
+@supports (-webkit-text-fill-color: transparent) {
+  @media only screen and (max-width: 767px) {
+    /* Target Safari Mobile */
+    #esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1) > .cmp-container > .teaser:nth-child(3) .cmp-teaser .cmp-teaser__content h2.cmp-teaser__title,
+    .esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container > .container:nth-child(1) > .cmp-container > .teaser:nth-child(3) .cmp-teaser .cmp-teaser__content h2.cmp-teaser__title {
+      -webkit-text-fill-color: white; /* Set the text fill color to white */
+      color: white; /* Backup color for non-Safari browsers */
+    }
   }
 }/*# sourceMappingURL=competition-landing-page.css.map */

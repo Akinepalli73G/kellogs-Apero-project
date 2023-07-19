@@ -165,7 +165,6 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 });
 
-
 // clcik on burger menu open start
 burgerMenuOpened = false;
 burgerMenuClosed = false;
@@ -353,16 +352,19 @@ if (
 
 if (urlLanguageCountry[3] === "fr_BE" || urlLanguageCountry[3] === "nl_BE") {
   if (urlLanguageCountry[4] == "register.html") {
-    document.getElementById('esg-login-register-container').classList.add('esg-top-be');
+    document
+      .getElementById("esg-login-register-container")
+      .classList.add("esg-top-be");
   }
 }
 
 if (urlLanguageCountry[3] === "pt_PT") {
   if (urlLanguageCountry[4] == "login.html") {
-    document.getElementById('esg-login-register-container').classList.add('esg-top-pt');
+    document
+      .getElementById("esg-login-register-container")
+      .classList.add("esg-top-pt");
   }
 }
-
 
 if (document.querySelector("#esg-hero-teaser")) {
   var removeSpaceHome = urlLanguageCountry[3].split("_");
@@ -379,6 +381,24 @@ if (document.querySelector("#esg-hero-teaser")) {
         "#esg-hero-teaser > .container:nth-child(2) > .cmp-container"
       )
       .classList.add("esg-home-translation-hero-teaser");
+  }
+}
+
+if (mobileCarosuelAlreadyPlayedPage.matches) {
+  if (document.querySelector("#esg-hero-teaser")) {
+    var removeSpaceHome = urlLanguageCountry[3].split("_");
+    if (
+      urlLanguageCountry[8] === "en" ||
+      urlLanguageCountry[8] === "fr" ||
+      removeSpaceHome[0] === "en" ||
+      removeSpaceHome[0] === "fr"
+    ) {
+      document
+        .querySelector(
+          "#esg-hero-teaser > .container:nth-child(2) > .cmp-container"
+        )
+        .classList.add("esg-home-translation-hero-teaser-smaller");
+    }
   }
 }
 
