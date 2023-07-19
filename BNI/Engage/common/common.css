@@ -19,6 +19,7 @@ h6 {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  margin: 0;
 }
 
 h1 {
@@ -43,4 +44,8 @@ h5 {
 
 h6 {
   font-size: 18px;
+}
+
+.container.bni-blue {
+  background: #034ea2;
 }/*# sourceMappingURL=common.css.map */
