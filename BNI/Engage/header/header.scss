@@ -169,7 +169,7 @@
 
           &:nth-child(1) {
             display: block;
-            padding-top: 12px;
+            padding-top: 5px;
             padding-bottom: 35px;
             border-bottom: none;
             background: transparent;
@@ -262,7 +262,7 @@
       .image {
         z-index: 9;
         img {
-          width: 52px;
+          height: 52px;
         }
       }
 
@@ -366,6 +366,12 @@
         align-items: center;
         justify-content: space-between;
 
+        .image {
+          img {
+            height: 52px;
+          }
+        }
+
         .button {
           #burger-close-button {
             border: none;
@@ -375,7 +381,7 @@
               display: block;
               background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/close.png")
                 no-repeat left center;
-              background-size: 25px;
+              background-size: 18px;
             }
           }
         }

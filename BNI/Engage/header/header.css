@@ -171,7 +171,7 @@
 }
 #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
   display: block;
-  padding-top: 12px;
+  padding-top: 5px;
   padding-bottom: 35px;
   border-bottom: none;
   background: transparent;
@@ -254,7 +254,7 @@
     z-index: 9;
   }
   #Mobile-header-container #mobile-burger-menu-open .image img {
-    width: 52px;
+    height: 52px;
   }
   #Mobile-header-container #mobile-burger-menu-open .button {
     z-index: 9;
@@ -344,6 +344,9 @@
     align-items: center;
     justify-content: space-between;
   }
+  #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .image img {
+    height: 52px;
+  }
   #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .button #burger-close-button {
     border: none;
   }
@@ -352,7 +355,7 @@
     height: 25px;
     display: block;
     background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/close.png") no-repeat left center;
-    background-size: 25px;
+    background-size: 18px;
   }
   #Mobile-header-container #competition-landing-terms-condition-mobile .aem-Grid .text #competition-landing-eight-description p,
   #Mobile-header-container #competition-landing-terms-condition-mobile .aem-Grid .text #competition-landing-eight-pre-title p {

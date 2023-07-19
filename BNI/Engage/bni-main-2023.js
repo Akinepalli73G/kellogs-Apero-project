@@ -11,38 +11,22 @@ if (navLanguageContainer) {
     navLanguageContainer.firstElementChild
   );
 }
-
-window.onload = function () {
-  if (document.querySelector("#mobile-burger-menu")) {
-    document
-      .querySelector("#mobile-burger-menu")
-      .addEventListener("click", onBtnClick);
-    document
-      .querySelector("#burger-close-button")
-      .addEventListener("click", onBtnClick);
-  }
-};
-
 let onBtnClick = (e) => {
-  const apero = document.querySelector("#apero-main-content-container");
-  const errorPage = document.querySelector("#error-page-template-child-one");
-  const landingPage = document.querySelector(
-    "#competition-landing-main-content-container"
-  );
+  const landingPage = document.querySelector("#bni-main-content-container");
   document
     .querySelector("#mobile-burger-menu-close")
     .classList.toggle("opened");
   document.querySelector("#mobile-burger-menu-open").classList.toggle("closed");
-  if (apero) {
-    apero.classList.toggle("closed");
-  }
-  if (errorPage) {
-    errorPage.classList.toggle("closed");
-  }
   if (landingPage) {
     landingPage.classList.toggle("closed");
   }
 };
+document
+  .querySelector("#mobile-burger-menu")
+  .addEventListener("click", onBtnClick);
+document
+  .querySelector("#burger-close-button")
+  .addEventListener("click", onBtnClick);
 
 var clickLanguageNavigation = document.querySelector(
   ".languagenavigation nav button"
@@ -124,18 +108,19 @@ if (clickNavigationAnchor) {
     const targetEmptey = clickNavigation.getAttribute("target");
     if (!targetEmptey) {
       clickNavigation.addEventListener("click", (event) => {
-        if (isInternalLink(clickNavigation) ) {
+        if (isInternalLink(clickNavigation)) {
           event.preventDefault();
-          const closeButton = document.querySelector('.cmp-button__icon.cmp-button__icon--burger-menu-close');
+          const closeButton = document.querySelector(
+            ".cmp-button__icon.cmp-button__icon--burger-menu-close"
+          );
           closeButton.click();
-          const targetId = clickNavigation.getAttribute('href').slice(1);
+          const targetId = clickNavigation.getAttribute("href").slice(1);
           const targetElem = document.getElementById(targetId);
-          targetElem.scrollIntoView({ behavior: 'smooth' });
+          targetElem.scrollIntoView({ behavior: "smooth" });
         }
       });
     }
   });
 }
 
-const isInternalLink = link => link.getAttribute('href').startsWith('#');
-
+const isInternalLink = (link) => link.getAttribute("href").startsWith("#");
