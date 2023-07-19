@@ -70,4 +70,125 @@
 }
 #bni-main-content-container .container:nth-child(5) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__description p {
   margin: 0;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container {
+  padding: 40px 20px 20px;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser {
+  text-align: center;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser .cmp-teaser__image {
+  width: 60px;
+  margin: 0 auto 12px;
+  height: 60px;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 24px;
+  color: #fff;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__pretitle {
+  font-family: "Pinup-Regular";
+  font-size: 17.385px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__title {
+  font-family: "Pinup-Regular";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__description p {
+  margin: 0;
+}
+#bni-main-content-container .container:nth-child(8) {
+  padding: 40px 20px;
+  border-top: 2px solid;
+  -o-border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+     border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#bni-main-content-container .container:nth-child(8) > .cmp-container .button {
+  text-align: left;
+}
+#bni-main-content-container .container:nth-child(8) > .cmp-container .button a {
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+     border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 10px 0;
+}
+#bni-main-content-container .container:nth-child(8) > .cmp-container .button a span {
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+#bni-main-content-container .container:nth-child(9) {
+  padding: 40px 20px 50px;
+}
+#bni-main-content-container .container:nth-child(9) > .cmp-container .text:nth-child(1) > .cmp-text p {
+  color: #fff;
+  font-family: "NimbusSanLOT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+#bni-main-content-container .container:nth-child(9) > .cmp-container .button {
+  text-align: left;
+}
+#bni-main-content-container .container:nth-child(9) > .cmp-container .button a {
+  border-bottom: 2px solid #f7e62a;
+  padding: 10px 0;
+}
+#bni-main-content-container .container:nth-child(9) > .cmp-container .button a span {
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+#bni-main-content-container .container:nth-child(10) {
+  padding: 24px 20px 114px;
+  border-top: 2px solid;
+  -o-border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+     border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#bni-main-content-container .container:nth-child(10) > .cmp-container .text > .cmp-text p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 10px;
+}
+#bni-main-content-container .container:nth-child(10) > .cmp-container .text > .cmp-text p a {
+  color: #ffd140;
+  font-family: "NimbusSanLOT";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration-line: underline;
+}
+#bni-main-content-container .container:nth-child(10) > .cmp-container .text > .cmp-text > .p:nth-child(1) {
+  font-family: "Pinup-Regular";
+}
+#bni-main-content-container .container:nth-child(10) > .cmp-container .text > .cmp-text > .p:nth-child(2) {
+  font-family: "NimbusSanLOT";
 }/*# sourceMappingURL=home.css.map */

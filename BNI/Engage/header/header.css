@@ -448,7 +448,7 @@
     font-size: 12px;
     line-height: 14px;
   }
-  #competition-landing-main-content-container.cmp-container.closed {
+  #bni-main-content-container.cmp-container.closed {
     display: none;
   }
   #desktop-barcode-sticky-container {

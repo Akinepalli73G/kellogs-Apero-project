@@ -54,6 +54,9 @@ h6 {
   &.bni-blue {
     background: #034ea2;
   }
+  &.bni-red {
+    background: #e71d2b;
+  }
 }
 
 .button {
@@ -91,4 +94,99 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
+}
+
+.accordion {
+  padding: 40px 0;
+  color: #000000;
+
+  .cmp-accordion {
+    &__item {
+      background: #ffffff;
+      border-radius: 90px;
+      padding: 16px 24px;
+      margin-bottom: 15px;
+
+      &[data-cmp-expanded] {
+        border-radius: 35px;
+
+        .cmp-accordion__header {
+          padding: 16px 0;
+          border-bottom: 1px solid rgba(0, 155, 222, 0.5);
+        }
+      }
+
+      .cmp-accordion__header {
+        margin: 0;
+
+        button {
+          background: transparent;
+          border: 2px solid transparent;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding: 0;
+          color: #000000;
+          outline: none;
+
+          .cmp-accordion {
+            &__title {
+              text-align: left;
+              flex: 0 0 80%;
+              color: #000;
+              font-family: "NimbusSanLOT";
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%; /* 21px */
+              letter-spacing: 0.07px;
+            }
+
+            &__icon {
+              flex: 0 0 20%;
+              width: 25px;
+              height: 25px;
+              background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/plus.png")
+                no-repeat right center;
+              background-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cmp-accordion__panel {
+    &--hidden {
+      display: none;
+    }
+  }
+
+  .cmp-accordion__panel {
+    &--expanded {
+      display: block;
+
+      p {
+        color: rgba(0, 0, 0, 0.5);
+        a {
+          word-break: break-word;
+        }
+      }
+    }
+  }
+}
+
+hr {
+  background-image: linear-gradient(
+    90deg,
+    #cb9831 0%,
+    #f6ee70 33.33%,
+    #f6ee70 46.35%,
+    #d9bb51 61.98%,
+    #e1c046 76.56%,
+    #a88435 100%
+  );
+  border: none; /* Remove default border */
+  height: 2px; /* Set desired height for the horizontal rule */
+  margin: 0;
 }

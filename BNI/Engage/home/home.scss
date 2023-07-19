@@ -31,7 +31,8 @@
     width: 100%;
     height: 100%;
     display: block;
-    background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/bacground-gold-banner.png") no-repeat left center;
+    background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/bacground-gold-banner.png")
+      no-repeat left center;
     background-size: 100%;
     > .cmp-container {
       position: relative;
@@ -83,6 +84,168 @@
                 margin: 0;
               }
             }
+          }
+        }
+      }
+    }
+  }
+  .container:nth-child(6) {
+    > .cmp-container {
+      padding: 40px 20px 20px;
+      .teaser {
+        .cmp-teaser {
+          text-align: center;
+          .cmp-teaser__image {
+            width: 60px;
+            margin: 0 auto 12px;
+            height: 60px;
+          }
+          .cmp-teaser__content {
+            display: flex;
+            flex-direction: column;
+            grid-gap: 24px;
+            color: #fff;
+            .cmp-teaser__pretitle {
+              font-family: "Pinup-Regular";
+              font-size: 17.385px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+            .cmp-teaser__title {
+              font-family: "Pinup-Regular";
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              text-transform: uppercase;
+            }
+            .cmp-teaser__description {
+              p {
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .container:nth-child(8) {
+    padding: 40px 20px;
+    border-top: 2px solid;
+    border-image: linear-gradient(
+      90deg,
+      #cb9831 0%,
+      #f6ee70 33.33%,
+      #f6ee70 46.35%,
+      #d9bb51 61.98%,
+      #e1c046 76.56%,
+      #a88435 100%
+    );
+    border-image-slice: 1;
+    box-sizing: border-box;
+    text-decoration: none;
+    > .cmp-container {
+      .button {
+        text-align: left;
+        a {
+          border-bottom: 2px solid;
+          border-image: linear-gradient(
+            90deg,
+            #cb9831 0%,
+            #f6ee70 33.33%,
+            #f6ee70 46.35%,
+            #d9bb51 61.98%,
+            #e1c046 76.56%,
+            #a88435 100%
+          );
+          border-image-slice: 1;
+          box-sizing: border-box;
+          text-decoration: none;
+          padding: 10px 0;
+          span {
+            font-family: "Pinup-Regular";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .container:nth-child(9) {
+    padding: 40px 20px 50px;
+    > .cmp-container {
+      .text:nth-child(1) {
+        > .cmp-text {
+          p {
+            color: #fff;
+            font-family: "NimbusSanLOT";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+          }
+        }
+      }
+      .button {
+        text-align: left;
+        a {
+          border-bottom: 2px solid #f7e62a;
+          padding: 10px 0;
+          span {
+            font-family: "Pinup-Regular";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .container:nth-child(10) {
+    padding: 24px 20px 114px;
+    border-top: 2px solid;
+    border-image: linear-gradient(
+      90deg,
+      #cb9831 0%,
+      #f6ee70 33.33%,
+      #f6ee70 46.35%,
+      #d9bb51 61.98%,
+      #e1c046 76.56%,
+      #a88435 100%
+    );
+    border-image-slice: 1;
+    box-sizing: border-box;
+    text-decoration: none;
+    > .cmp-container {
+      .text {
+        > .cmp-text {
+          p {
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin: 0 0 10px;
+            a {
+              color: #ffd140;
+              font-family: "NimbusSanLOT";
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 16px;
+              text-decoration-line: underline;
+            }
+          }
+          > .p:nth-child(1) {
+            font-family: "Pinup-Regular";
+          }
+          > .p:nth-child(2) {
+            font-family: "NimbusSanLOT";
           }
         }
       }

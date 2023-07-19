@@ -448,7 +448,7 @@
     font-size: 12px;
     line-height: 14px;
   }
-  #competition-landing-main-content-container.cmp-container.closed {
+  #bni-main-content-container.cmp-container.closed {
     display: none;
   }
   #desktop-barcode-sticky-container {
@@ -541,6 +541,9 @@ h6 {
 .container.bni-blue {
   background: #034ea2;
 }
+.container.bni-red {
+  background: #e71d2b;
+}
 
 .button {
   cursor: pointer;
@@ -575,6 +578,74 @@ p {
   line-height: 20px;
 }
 
+.accordion {
+  padding: 40px 0;
+  color: #000000;
+}
+.accordion .cmp-accordion__item {
+  background: #ffffff;
+  border-radius: 90px;
+  padding: 16px 24px;
+  margin-bottom: 15px;
+}
+.accordion .cmp-accordion__item[data-cmp-expanded] {
+  border-radius: 35px;
+}
+.accordion .cmp-accordion__item[data-cmp-expanded] .cmp-accordion__header {
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(0, 155, 222, 0.5);
+}
+.accordion .cmp-accordion__item .cmp-accordion__header {
+  margin: 0;
+}
+.accordion .cmp-accordion__item .cmp-accordion__header button {
+  background: transparent;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  color: #000000;
+  outline: none;
+}
+.accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__title {
+  text-align: left;
+  flex: 0 0 80%;
+  color: #000;
+  font-family: "NimbusSanLOT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.07px;
+}
+.accordion .cmp-accordion__item .cmp-accordion__header button .cmp-accordion__icon {
+  flex: 0 0 20%;
+  width: 25px;
+  height: 25px;
+  background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/plus.png") no-repeat right center;
+  background-size: 25px;
+}
+.accordion .cmp-accordion__panel--hidden {
+  display: none;
+}
+.accordion .cmp-accordion__panel--expanded {
+  display: block;
+}
+.accordion .cmp-accordion__panel--expanded p {
+  color: rgba(0, 0, 0, 0.5);
+}
+.accordion .cmp-accordion__panel--expanded p a {
+  word-break: break-word;
+}
+
+hr {
+  background-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  border: none; /* Remove default border */
+  height: 2px; /* Set desired height for the horizontal rule */
+  margin: 0;
+}
+
 #bni-main-content-container .container:nth-child(1) {
   padding: 0 20px;
 }
@@ -602,13 +673,14 @@ p {
   height: 100%;
   display: block;
   background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/bacground-gold-banner.png") no-repeat left center;
+  background-size: 100%;
 }
 #bni-main-content-container .container:nth-child(5) > .cmp-container {
   position: relative;
   display: flex;
   flex-direction: column;
   grid-gap: 10px;
-  margin: 0 10px;
+  padding: 10px;
 }
 #bni-main-content-container .container:nth-child(5) > .cmp-container .teaser {
   border-radius: 10px;
@@ -646,6 +718,127 @@ p {
 }
 #bni-main-content-container .container:nth-child(5) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__description p {
   margin: 0;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container {
+  padding: 40px 20px 20px;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser {
+  text-align: center;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser .cmp-teaser__image {
+  width: 60px;
+  margin: 0 auto 12px;
+  height: 60px;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 24px;
+  color: #fff;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__pretitle {
+  font-family: "Pinup-Regular";
+  font-size: 17.385px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__title {
+  font-family: "Pinup-Regular";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#bni-main-content-container .container:nth-child(6) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__description p {
+  margin: 0;
+}
+#bni-main-content-container .container:nth-child(8) {
+  padding: 40px 20px;
+  border-top: 2px solid;
+  -o-border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+     border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#bni-main-content-container .container:nth-child(8) > .cmp-container .button {
+  text-align: left;
+}
+#bni-main-content-container .container:nth-child(8) > .cmp-container .button a {
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+     border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 10px 0;
+}
+#bni-main-content-container .container:nth-child(8) > .cmp-container .button a span {
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+#bni-main-content-container .container:nth-child(9) {
+  padding: 40px 20px 50px;
+}
+#bni-main-content-container .container:nth-child(9) > .cmp-container .text:nth-child(1) > .cmp-text p {
+  color: #fff;
+  font-family: "NimbusSanLOT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+#bni-main-content-container .container:nth-child(9) > .cmp-container .button {
+  text-align: left;
+}
+#bni-main-content-container .container:nth-child(9) > .cmp-container .button a {
+  border-bottom: 2px solid #f7e62a;
+  padding: 10px 0;
+}
+#bni-main-content-container .container:nth-child(9) > .cmp-container .button a span {
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+#bni-main-content-container .container:nth-child(10) {
+  padding: 24px 20px 114px;
+  border-top: 2px solid;
+  -o-border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+     border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#bni-main-content-container .container:nth-child(10) > .cmp-container .text > .cmp-text p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 10px;
+}
+#bni-main-content-container .container:nth-child(10) > .cmp-container .text > .cmp-text p a {
+  color: #ffd140;
+  font-family: "NimbusSanLOT";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration-line: underline;
+}
+#bni-main-content-container .container:nth-child(10) > .cmp-container .text > .cmp-text > .p:nth-child(1) {
+  font-family: "Pinup-Regular";
+}
+#bni-main-content-container .container:nth-child(10) > .cmp-container .text > .cmp-text > .p:nth-child(2) {
+  font-family: "NimbusSanLOT";
 }
 
 body {
