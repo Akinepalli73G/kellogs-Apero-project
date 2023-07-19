@@ -55,3 +55,40 @@ h6 {
     background: #034ea2;
   }
 }
+
+.button {
+  cursor: pointer;
+  text-align: center;
+  font-family: "Pinup-Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  a {
+    border-radius: 2px;
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+  }
+  &.bni-secondary-button {
+    a {
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 12px 0;
+    }
+  }
+  &.bni-primary-button {
+    a {
+      background: #fff;
+      color: #034ea2;
+    }
+  }
+}
+
+p {
+  font-family: "NimbusSanLOT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}

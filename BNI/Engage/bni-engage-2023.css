@@ -542,11 +542,110 @@ h6 {
   background: #034ea2;
 }
 
+.button {
+  cursor: pointer;
+  text-align: center;
+  font-family: "Pinup-Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.button a {
+  border-radius: 2px;
+  width: 100%;
+  padding: 15px 0;
+  text-decoration: none;
+}
+.button.bni-secondary-button a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 0;
+}
+.button.bni-primary-button a {
+  background: #fff;
+  color: #034ea2;
+}
+
+p {
+  font-family: "NimbusSanLOT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
 #bni-main-content-container .container:nth-child(1) {
   padding: 0 20px;
 }
 #bni-main-content-container .container:nth-child(1) > .cmp-container > .text:nth-child(1) {
-  margin-top: 16px;
+  padding-top: 16px;
+}
+#bni-main-content-container .container:nth-child(3) > .cmp-container {
+  padding: 40px 20px;
+}
+#bni-main-content-container .container:nth-child(3) > .cmp-container > .container > .cmp-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+  margin-top: 24px;
+}
+#bni-main-content-container .container:nth-child(3) > .cmp-container > .container > .cmp-container .button {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+}
+#bni-main-content-container .container:nth-child(5) {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/bacground-gold-banner.png") no-repeat left center;
+}
+#bni-main-content-container .container:nth-child(5) > .cmp-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+  margin: 0 10px;
+}
+#bni-main-content-container .container:nth-child(5) > .cmp-container .teaser {
+  border-radius: 10px;
+  background: #034ea2;
+  padding: 24px 16px;
+  margin: 0 10px;
+}
+#bni-main-content-container .container:nth-child(5) > .cmp-container .teaser .cmp-teaser {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#bni-main-content-container .container:nth-child(5) > .cmp-container .teaser .cmp-teaser .cmp-teaser__image {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 12px;
+}
+#bni-main-content-container .container:nth-child(5) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__pretitle {
+  font-family: "Pinup-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+#bni-main-content-container .container:nth-child(5) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__title {
+  background-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#bni-main-content-container .container:nth-child(5) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__description {
+  color: #fff;
+}
+#bni-main-content-container .container:nth-child(5) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__description p {
+  margin: 0;
 }
 
 body {
