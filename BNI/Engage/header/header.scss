@@ -304,6 +304,7 @@
 
       .button {
         z-index: 9;
+        width: auto;
         #mobile-burger-menu {
           border: none;
           .cmp-button__icon--burger-menu-open {
@@ -409,6 +410,7 @@
         }
 
         .button {
+          width: auto;
           #burger-close-button {
             border: none;
             .cmp-button__icon--burger-menu-close {

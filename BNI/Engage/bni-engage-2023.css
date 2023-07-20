@@ -290,6 +290,7 @@
   }
   #Mobile-header-container #mobile-burger-menu-open .button {
     z-index: 9;
+    width: auto;
   }
   #Mobile-header-container #mobile-burger-menu-open .button #mobile-burger-menu {
     border: none;
@@ -378,6 +379,9 @@
   }
   #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .image img {
     height: 52px;
+  }
+  #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .button {
+    width: auto;
   }
   #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .button #burger-close-button {
     border: none;
@@ -553,12 +557,14 @@ h6 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  width: 100%;
 }
 .button a {
   border-radius: 2px;
   width: 100%;
   padding: 15px 0;
   text-decoration: none;
+  display: block;
 }
 .button.bni-secondary-button a {
   color: #fff;
@@ -839,6 +845,33 @@ hr {
 }
 #bni-main-content-container .container:nth-child(10) > .cmp-container .text > .cmp-text > .p:nth-child(2) {
   font-family: "NimbusSanLOT";
+}
+#bni-main-content-container .container:nth-child(11) {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#bni-main-content-container .container:nth-child(11) #sticky-footer-buttons {
+  display: flex;
+  width: calc(100% - 40px);
+  grid-gap: 20px;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+  background-color: #fff;
+  align-items: center;
+  padding: 0 20px;
+}
+#bni-main-content-container .container:nth-child(11) #sticky-footer-buttons .button.bni-primary-button a {
+  background: #034ea2;
+}
+#bni-main-content-container .container:nth-child(11) #sticky-footer-buttons .button.bni-primary-button a span {
+  color: #fff;
+}
+#bni-main-content-container .container:nth-child(11) #sticky-footer-buttons .button.bni-secondary-button a {
+  border: 1px solid #034ea2;
+}
+#bni-main-content-container .container:nth-child(11) #sticky-footer-buttons .button.bni-secondary-button a span {
+  color: #034ea2;
 }
 
 body {

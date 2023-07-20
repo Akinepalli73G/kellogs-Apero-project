@@ -67,11 +67,13 @@ h6 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  width: 100%;
   a {
     border-radius: 2px;
     width: 100%;
     padding: 15px 0;
     text-decoration: none;
+    display: block;
   }
   &.bni-secondary-button {
     a {

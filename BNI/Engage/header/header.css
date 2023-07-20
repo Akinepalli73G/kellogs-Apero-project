@@ -290,6 +290,7 @@
   }
   #Mobile-header-container #mobile-burger-menu-open .button {
     z-index: 9;
+    width: auto;
   }
   #Mobile-header-container #mobile-burger-menu-open .button #mobile-burger-menu {
     border: none;
@@ -378,6 +379,9 @@
   }
   #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .image img {
     height: 52px;
+  }
+  #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .button {
+    width: auto;
   }
   #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .button #burger-close-button {
     border: none;
