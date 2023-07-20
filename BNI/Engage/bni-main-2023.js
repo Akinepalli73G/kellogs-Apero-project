@@ -20,6 +20,7 @@ let onBtnClick = (e) => {
   if (landingPage) {
     landingPage.classList.toggle("closed");
   }
+  document.querySelector("#bni-faq-main-content-container").classList.toggle("closed");
 };
 document
   .querySelector("#mobile-burger-menu")
