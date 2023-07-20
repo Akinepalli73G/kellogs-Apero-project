@@ -1,1 +1,87 @@
-/*# sourceMappingURL=faq.css.map */
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(2) {
+  padding: 40px 20px;
+  border-top: 2px solid;
+  -o-border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+     border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(2) > .cmp-container .button {
+  text-align: left;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(2) > .cmp-container .button a {
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+     border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 10px 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(2) > .cmp-container .button a span {
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(3) {
+  padding: 40px 20px 140px;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(3) > .cmp-container .text:nth-child(1) > .cmp-text p {
+  color: #fff;
+  font-family: "NimbusSanLOT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(3) > .cmp-container .button {
+  text-align: left;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(3) > .cmp-container .button a {
+  border-bottom: 2px solid #f7e62a;
+  padding: 10px 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(3) > .cmp-container .button a span {
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(4) {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 768px;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(4) #sticky-footer-buttons {
+  display: flex;
+  width: calc(100% - 40px);
+  grid-gap: 20px;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+  background-color: #fff;
+  align-items: center;
+  padding: 0 20px;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(4) #sticky-footer-buttons .button.bni-primary-button a {
+  background: #034ea2;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(4) #sticky-footer-buttons .button.bni-primary-button a span {
+  color: #fff;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(4) #sticky-footer-buttons .button.bni-secondary-button a {
+  border: 1px solid #034ea2;
+}
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(4) #sticky-footer-buttons .button.bni-secondary-button a span {
+  color: #034ea2;
+}/*# sourceMappingURL=faq.css.map */

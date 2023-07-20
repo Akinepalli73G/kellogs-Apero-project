@@ -154,6 +154,8 @@
 #bni-main-content-container .container:nth-child(9) > .cmp-container .button a {
   border-bottom: 2px solid #f7e62a;
   padding: 10px 0;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 #bni-main-content-container .container:nth-child(9) > .cmp-container .button a span {
   font-family: "Pinup-Regular";
@@ -198,6 +200,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+  max-width: 768px;
 }
 #bni-main-content-container .container:nth-child(11) #sticky-footer-buttons {
   display: flex;

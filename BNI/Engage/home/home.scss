@@ -196,6 +196,7 @@
         a {
           border-bottom: 2px solid #f7e62a;
           padding: 10px 0;
+          width: fit-content;
           span {
             font-family: "Pinup-Regular";
             font-size: 14px;
@@ -256,6 +257,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    max-width: 768px;
     #sticky-footer-buttons {
       display: flex;
       width: calc(100% - 40px);
