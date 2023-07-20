@@ -125,3 +125,18 @@ if (clickNavigationAnchor) {
 }
 
 const isInternalLink = (link) => link.getAttribute("href").startsWith("#");
+
+//breadcrumb back button
+
+if (document.querySelector(".breadcrumb")) {
+  let liElements = document.querySelectorAll(".breadcrumb ol li");
+  let secondToLastIndex = liElements.length - 2;
+  let BreadcrumbBackButton = liElements[secondToLastIndex];
+  let elementToCut = document.querySelectorAll("#bni-faq-main-content-container > .container:nth-child(1) .text p");
+  if (elementToCut) {
+    var cutContent = elementToCut[0].innerHTML;
+    elementToCut[0].remove();
+    const targetElement = BreadcrumbBackButton.querySelector("span");
+    targetElement.innerHTML = cutContent;
+  }
+}
