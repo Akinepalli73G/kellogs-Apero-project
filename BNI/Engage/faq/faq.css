@@ -1,3 +1,6 @@
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(1) > .cmp-container .text p {
+  margin: 0;
+}
 #bni-faq-template-container #bni-faq-main-content-container .container:nth-child(2) {
   padding: 40px 20px;
   border-top: 2px solid;

@@ -663,7 +663,48 @@ hr {
 }
 
 .bright-yellow {
-  color: #F7E62A;
+  color: #f7e62a;
+}
+
+.breadcrumb {
+  color: #fff;
+  position: relative;
+}
+.breadcrumb nav ol {
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+  margin: 0;
+}
+.breadcrumb nav ol::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  position: absolute;
+  height: 10px;
+  background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/back-button.png") no-repeat left center;
+  background-size: 10px;
+}
+.breadcrumb nav ol li {
+  display: none;
+}
+.breadcrumb nav ol li:nth-last-child(2) {
+  display: block;
+  position: relative;
+  margin-left: 18px;
+  bottom: 5px;
+}
+.breadcrumb nav ol li:nth-last-child(2) a {
+  text-decoration: none;
+  color: #000000;
+}
+.breadcrumb nav ol li:nth-last-child(2) a span {
+  color: #fff;
+  font-family: "NimbusSanLOT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.07px;
 }
 
 #bni-main-content-container .container:nth-child(1) {
@@ -1019,6 +1060,9 @@ hr {
   font-family: "Pinup-Regular";
 }
 
+#bni-faq-template-container #bni-faq-main-content-container .container:nth-child(1) > .cmp-container .text p {
+  margin: 0;
+}
 #bni-faq-template-container #bni-faq-main-content-container .container:nth-child(2) {
   padding: 40px 20px;
   border-top: 2px solid;
