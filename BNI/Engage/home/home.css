@@ -126,6 +126,8 @@
   box-sizing: border-box;
   text-decoration: none;
   padding: 10px 0;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 #bni-main-content-container .container:nth-child(8) > .cmp-container .button a span {
   font-family: "Pinup-Regular";

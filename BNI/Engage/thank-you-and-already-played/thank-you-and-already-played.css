@@ -1,1 +1,43 @@
-/*# sourceMappingURL=thank-you-and-already-played.css.map */
+#bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(2) {
+  padding: 24px 20px 8px;
+}
+#bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(2) > .cmp-container > .text:nth-child(1) {
+  padding-bottom: 24px;
+}
+#bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(3) > .cmp-container {
+  padding: 24px 20px;
+  display: flex;
+  grid-gap: 24px;
+  flex-direction: column;
+}
+#bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(3) .button span {
+  color: #e71d2b;
+  font-size: 14px;
+}
+#bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(5) {
+  background: #034ea2;
+  padding: 40px 20px;
+  width: calc(100% - 40px);
+}
+#bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(5) > .cmp-container .button {
+  text-align: left;
+}
+#bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(5) > .cmp-container .button a {
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+     border-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 10px 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(5) > .cmp-container .button a span {
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}/*# sourceMappingURL=thank-you-and-already-played.css.map */
