@@ -874,6 +874,10 @@ hr {
   color: #034ea2;
 }
 
+#bni-ready-to-play-template-container #bni-main-content-container .container {
+  padding: 24px 20px;
+}
+
 body {
   margin: 0 auto;
   overflow-x: hidden;
