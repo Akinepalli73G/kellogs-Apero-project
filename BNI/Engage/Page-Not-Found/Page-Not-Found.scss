@@ -1,0 +1,39 @@
+#bni-404-template-container {
+  #bni-404-main-content-container {
+    p {
+      margin: 0 20px;
+    }
+    .image:nth-child(1) {
+      img {
+        width: 130px;
+        margin: 0 auto;
+        padding-top: 20px;
+      }
+    }
+    .text {
+      margin: 0 20px;
+    }
+    .text:nth-child(2) {
+      p {
+        font-family: "Pinup-Regular";
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0 20px;
+      }
+    }
+    .text:nth-child(3) {
+      margin: 10px 20px;
+    }
+    .text:nth-child(5) {
+      p {
+        margin: 20px 20px 30px;
+      }
+    }
+    .button {
+      width: calc(100% - 100px);
+      padding: 0 50px 100px;
+    }
+  }
+}
