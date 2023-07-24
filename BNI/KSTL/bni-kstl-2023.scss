@@ -225,5 +225,8 @@
     > .grid__item:nth-child(1) {
       font-size: 0;
     }
+    > .grid__item:nth-child(2) {
+      display: none;
+    }
   }
 }

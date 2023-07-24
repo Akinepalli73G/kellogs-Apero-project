@@ -489,6 +489,21 @@
                 }
               }
             }
+           
+          }
+        }
+      }
+      .esg-home-translation-hero-teaser-extra-small {
+        > .container > .cmp-container {
+          h4 {
+            font-size: 36px;
+            line-height: 38px;
+          }
+
+          .markuptext h1 {
+            line-height: 57px;
+            font-size: 58px;
+            display: inline-block;
           }
         }
       }
@@ -902,6 +917,13 @@
       > .container:nth-child(8) {
         > .cmp-container {
           padding: 40px 20px 50px;
+          .button {
+            a {
+              width: calc(100% - 22px);
+              display: block;
+              padding: 11px;
+            }
+          }
         }
       }
       > .container:nth-child(9) {
@@ -984,23 +1006,23 @@
   @media only screen and (max-width: 767px) {
     /* Target Safari Mobile */
     #esg-main-container.cmp-container
-    > .container:nth-child(6)
-    > .cmp-container
-    > .container:nth-child(1)
-    > .cmp-container
-    > .teaser:nth-child(3)
-    .cmp-teaser
-    .cmp-teaser__content
-    h2.cmp-teaser__title,
-  .esg-main-container.cmp-container
-    > .container:nth-child(6)
-    > .cmp-container
-    > .container:nth-child(1)
-    > .cmp-container
-    > .teaser:nth-child(3)
-    .cmp-teaser
-    .cmp-teaser__content
-    h2.cmp-teaser__title {
+      > .container:nth-child(6)
+      > .cmp-container
+      > .container:nth-child(1)
+      > .cmp-container
+      > .teaser:nth-child(3)
+      .cmp-teaser
+      .cmp-teaser__content
+      h2.cmp-teaser__title,
+    .esg-main-container.cmp-container
+      > .container:nth-child(6)
+      > .cmp-container
+      > .container:nth-child(1)
+      > .cmp-container
+      > .teaser:nth-child(3)
+      .cmp-teaser
+      .cmp-teaser__content
+      h2.cmp-teaser__title {
       -webkit-text-fill-color: white; /* Set the text fill color to white */
       color: white; /* Backup color for non-Safari browsers */
     }

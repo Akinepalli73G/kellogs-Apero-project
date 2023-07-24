@@ -487,6 +487,21 @@
   .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container {
     flex-direction: row;
   }
+  #esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container h4,
+  #esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container h4,
+  .esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container h4,
+  .esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container h4 {
+    font-size: 36px;
+    line-height: 38px;
+  }
+  #esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .markuptext h1,
+  #esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .markuptext h1,
+  .esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .markuptext h1,
+  .esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .markuptext h1 {
+    line-height: 57px;
+    font-size: 58px;
+    display: inline-block;
+  }
   #esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container,
   .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container {
     margin: 24px 0;
@@ -831,6 +846,12 @@
   #esg-main-container.cmp-container > .container:nth-child(8) > .cmp-container,
   .esg-main-container.cmp-container > .container:nth-child(8) > .cmp-container {
     padding: 40px 20px 50px;
+  }
+  #esg-main-container.cmp-container > .container:nth-child(8) > .cmp-container .button a,
+  .esg-main-container.cmp-container > .container:nth-child(8) > .cmp-container .button a {
+    width: calc(100% - 22px);
+    display: block;
+    padding: 11px;
   }
   #esg-main-container.cmp-container > .container:nth-child(9) > .cmp-container,
   .esg-main-container.cmp-container > .container:nth-child(9) > .cmp-container {

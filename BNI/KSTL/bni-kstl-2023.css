@@ -181,4 +181,7 @@
   .kstl-bni-container > .grid__item:nth-child(1) {
     font-size: 0;
   }
+  .kstl-bni-container > .grid__item:nth-child(2) {
+    display: none;
+  }
 }/*# sourceMappingURL=bni-kstl-2023.css.map */
