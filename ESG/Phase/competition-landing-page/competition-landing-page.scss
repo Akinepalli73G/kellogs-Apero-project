@@ -489,7 +489,6 @@
                 }
               }
             }
-           
           }
         }
       }
@@ -762,6 +761,26 @@
                 }
               }
             }
+          }
+        }
+      }
+      .esg-home-translation-hero-teaser-extra-small {
+        > .container > .cmp-container {
+          h4 {
+            line-height: 24px;
+          }
+          .text {
+            padding: 0 !important;
+          }
+
+          .markuptext h1 {
+            display: inline-block;
+            font-size: 30px;
+            line-height: 32px;
+          }
+
+          .text p {
+            margin: 10px 0;
           }
         }
       }

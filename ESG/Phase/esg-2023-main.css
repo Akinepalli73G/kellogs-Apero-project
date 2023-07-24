@@ -721,6 +721,32 @@
   .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container .button {
     margin-bottom: 20px;
   }
+  #esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container h4,
+  #esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container h4,
+  .esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container h4,
+  .esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container h4 {
+    line-height: 24px;
+  }
+  #esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .text,
+  #esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .text,
+  .esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .text,
+  .esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .text {
+    padding: 0 !important;
+  }
+  #esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .markuptext h1,
+  #esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .markuptext h1,
+  .esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .markuptext h1,
+  .esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .markuptext h1 {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 32px;
+  }
+  #esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .text p,
+  #esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .text p,
+  .esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .text p,
+  .esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .text p {
+    margin: 10px 0;
+  }
   #esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container,
   .esg-main-container.cmp-container > .container:nth-child(2) > .cmp-container {
     width: 100%;
