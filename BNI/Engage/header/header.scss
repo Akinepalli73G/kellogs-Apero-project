@@ -275,6 +275,35 @@
   }
 }
 
+.logout-v6 {
+  display: none;
+}
+
+#bni-thank-you-and-already-played-template-container,
+#bni-ready-to-play-template-container,
+#bni-receipt-upload-template-container {
+  #mobile-burger-menu-open {
+    .button {
+      display: none;
+    }
+    .logout-v6 {
+      display: block;
+      .logout-Button {
+        color: #fff;
+        font-family: "NimbusSanLOT";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        text-decoration-line: underline;
+        border: none;
+      }
+    }
+  }
+}
+
+
+
 @media only screen and (max-width: 1920px) {
   #competition-landing-header-desktop {
     display: none;

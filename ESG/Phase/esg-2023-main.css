@@ -3815,7 +3815,7 @@ body.languageOpened {
     display: none;
   }
   #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img {
-    height: 800px;
+    height: 900px;
   }
   #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container {
     width: calc(100% - 40px);

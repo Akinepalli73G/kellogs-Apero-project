@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1990px) {
-  #bni-receipt-upload-template-container {
+  #bni-receipt-upload-main-content-container {
     background: #e71d2b;
     color: #ffffff;
     padding: 0 20px;
@@ -81,6 +81,9 @@
         &:nth-child(3) {
           padding-bottom: 30px;
         }
+      }
+      .teaser:nth-child(1) img {
+        width: 200px;
       }
 
       #receipt-upload-child-one-button-container {

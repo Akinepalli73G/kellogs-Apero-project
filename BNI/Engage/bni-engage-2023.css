@@ -264,6 +264,33 @@
   text-decoration-line: underline;
 }
 
+.logout-v6 {
+  display: none;
+}
+
+#bni-thank-you-and-already-played-template-container #mobile-burger-menu-open .button,
+#bni-ready-to-play-template-container #mobile-burger-menu-open .button,
+#bni-receipt-upload-template-container #mobile-burger-menu-open .button {
+  display: none;
+}
+#bni-thank-you-and-already-played-template-container #mobile-burger-menu-open .logout-v6,
+#bni-ready-to-play-template-container #mobile-burger-menu-open .logout-v6,
+#bni-receipt-upload-template-container #mobile-burger-menu-open .logout-v6 {
+  display: block;
+}
+#bni-thank-you-and-already-played-template-container #mobile-burger-menu-open .logout-v6 .logout-Button,
+#bni-ready-to-play-template-container #mobile-burger-menu-open .logout-v6 .logout-Button,
+#bni-receipt-upload-template-container #mobile-burger-menu-open .logout-v6 .logout-Button {
+  color: #fff;
+  font-family: "NimbusSanLOT";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration-line: underline;
+  border: none;
+}
+
 @media only screen and (max-width: 1920px) {
   #competition-landing-header-desktop {
     display: none;
@@ -2777,20 +2804,20 @@ hr {
 }
 
 @media only screen and (max-width: 1990px) {
-  #bni-receipt-upload-template-container {
+  #bni-receipt-upload-main-content-container {
     background: #e71d2b;
     color: #ffffff;
     padding: 0 20px;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser .cmp-image__image {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser .cmp-image__image {
     width: unset;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__image {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__image {
     display: flex;
     justify-content: center;
     padding: 120px 0 80px;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__content .cmp-teaser__pretitle {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__content .cmp-teaser__pretitle {
     font-family: "Pinup-Regular";
     font-style: normal;
     font-weight: 700;
@@ -2798,7 +2825,7 @@ hr {
     line-height: 54px;
     color: #ffffff;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__content .cmp-teaser__title {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__content .cmp-teaser__title {
     font-family: "Pinup-Regular";
     font-style: normal;
     font-weight: 700;
@@ -2806,7 +2833,7 @@ hr {
     line-height: 22px;
     color: #f7e62a;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__content .cmp-teaser__description p {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-one .cmp-teaser__content .cmp-teaser__description p {
     font-family: "NimbusSanLOT";
     font-style: normal;
     font-weight: 700;
@@ -2814,21 +2841,21 @@ hr {
     line-height: 20px;
     color: #ffffff;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three,
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three,
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two {
     display: flex;
     align-items: center;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three .cmp-teaser__image,
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two .cmp-teaser__image {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three .cmp-teaser__image,
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two .cmp-teaser__image {
     flex: 0 0 15%;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three .cmp-teaser__content,
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two .cmp-teaser__content {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three .cmp-teaser__content,
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two .cmp-teaser__content {
     flex: 0 0 85%;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three .cmp-teaser__content .cmp-teaser__description p,
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two .cmp-teaser__content .cmp-teaser__description p {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-three .cmp-teaser__content .cmp-teaser__description p,
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser #receipt-upload-child-one-teaser-two .cmp-teaser__content .cmp-teaser__description p {
     font-family: "NimbusSanLOT";
     font-style: normal;
     font-weight: 700;
@@ -2836,36 +2863,39 @@ hr {
     line-height: 20px;
     color: #ffffff;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .teaser:nth-child(3) {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser:nth-child(3) {
     padding-bottom: 30px;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button .cmp-button {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .teaser:nth-child(1) img {
+    width: 200px;
+  }
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button .cmp-button {
     width: 100%;
     margin-bottom: 15px;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button .cmp-button .cmp-button__text {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button .cmp-button .cmp-button__text {
     font-family: "Pinup";
     text-transform: uppercase;
     margin-bottom: 15px;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button #upload-receipt-icon-button {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button #upload-receipt-icon-button {
     border: none;
     background: #ffffff;
     width: 100%;
     padding: 16px 0;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button #upload-receipt-icon-button .cmp-button__text {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one #receipt-upload-child-one-button-container .button #upload-receipt-icon-button .cmp-button__text {
     font-size: 14px;
     line-height: 16px;
     color: #e71d2b;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container section {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one #receipt-upload-child-one-button-container section {
     margin: 0 0 20px;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container section .content_wrapper {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one #receipt-upload-child-one-button-container section .content_wrapper {
     width: 100%;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container section .content_wrapper .textsubmitBtn.notPhilippines {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one #receipt-upload-child-one-button-container section .content_wrapper .textsubmitBtn.notPhilippines {
     top: 10px;
     position: relative;
     background: #ffffff;
@@ -2874,7 +2904,7 @@ hr {
     width: 100%;
     justify-content: center;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container section .content_wrapper .textsubmitBtn.notPhilippines #upload-submit {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one #receipt-upload-child-one-button-container section .content_wrapper .textsubmitBtn.notPhilippines #upload-submit {
     text-decoration: none;
     color: #e71d2b;
     font-family: "Pinup";
@@ -2882,27 +2912,27 @@ hr {
     line-height: 16px;
     text-transform: uppercase;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .image-upload-container {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one #receipt-upload-child-one-button-container .image-upload-container {
     background: none;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one #receipt-upload-child-one-button-container .image-upload-container #file-error-msg {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one #receipt-upload-child-one-button-container .image-upload-container #file-error-msg {
     color: #ffffff;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .container .button .cmp-button {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .container .button .cmp-button {
     width: 100%;
     margin-bottom: 15px;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .container .button .cmp-button .cmp-button__text {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .container .button .cmp-button .cmp-button__text {
     font-family: "Pinup";
     text-transform: uppercase;
     margin-bottom: 15px;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .container .button #dont-have-a-receipt-button {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .container .button #dont-have-a-receipt-button {
     padding: 16px 0;
     border: 1px solid #ffffff;
     color: #ffffff;
   }
-  #bni-receipt-upload-template-container #receipt-upload-child-one .container .button #dont-have-a-receipt-button .cmp-button__text {
+  #bni-receipt-upload-main-content-container #receipt-upload-child-one .container .button #dont-have-a-receipt-button .cmp-button__text {
     font-size: 12px;
     line-height: 14px;
     color: #ffffff;
