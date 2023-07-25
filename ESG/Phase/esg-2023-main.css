@@ -17,7 +17,7 @@
 .esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) .image img {
   width: 100%;
   max-width: 100%;
-  height: 950px;
+  height: 1040px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -37,8 +37,8 @@
 #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img,
 .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img,
 .esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img {
-  width: 80px;
-  height: 50px;
+  width: 100px;
+  height: 80px;
   margin: 0 auto;
 }
 #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2),
@@ -169,6 +169,11 @@
   line-height: 20px;
   text-align: center;
   color: #666666;
+  margin: 0;
+}
+#esg-main-container.cmp-container > .container:nth-child(4) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__description p:first-child,
+.esg-main-container.cmp-container > .container:nth-child(4) > .cmp-container > .container:nth-child(2) > .cmp-container .teaser .cmp-teaser .cmp-teaser__content .cmp-teaser__description p:first-child {
+  margin-top: 16px;
 }
 #esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container,
 .esg-main-container.cmp-container > .container:nth-child(6) > .cmp-container {

@@ -452,6 +452,7 @@
     font-size: 12px;
     line-height: 14px;
   }
+  #bni-404-main-content-container.closed,
   #bni-faq-main-content-container.closed,
   #bni-main-content-container.cmp-container.closed {
     display: none;

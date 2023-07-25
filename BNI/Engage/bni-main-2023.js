@@ -21,6 +21,7 @@ let onBtnClick = (e) => {
     landingPage.classList.toggle("closed");
   }
   document.querySelector("#bni-faq-main-content-container").classList.toggle("closed");
+  document.querySelector("#bni-404-main-content-container").classList.toggle("closed");
 };
 document
   .querySelector("#mobile-burger-menu")
