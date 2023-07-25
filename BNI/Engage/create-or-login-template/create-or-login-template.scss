@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1920px) {
   /* Start CSS create account / login template */
-  #create-account-or-login-template {
-    #create-account-or-login-template-child-one {
+  #bni-login-register-template-container {
+    #bni-login-register-template-container-child-one {
       .cmp-container {
         display: flex;
         justify-content: space-between;
@@ -78,7 +78,7 @@
 
 @media only screen and (max-width: 768px) {
   /* Start CSS create account / login template */
-  #create-account-or-login-template {
+  #bni-login-register-template-container {
     #create-account-or-login-container {
       .form-title h2 {
         font-family: "Pinup-Regular";
@@ -642,9 +642,9 @@
   }
 }
 
-#create-account-or-login-template:has(#Facebook_btn),
-#create-account-or-login-template:has(#Google_btn) {
-  #create-account-or-login-template-child-one {
+#bni-login-register-template-container:has(#Facebook_btn),
+#bni-login-register-template-container:has(#Google_btn) {
+  #bni-login-register-template-container-child-one {
     .markuptext {
       display: block;
     }

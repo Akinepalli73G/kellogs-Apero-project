@@ -1,0 +1,255 @@
+@media only screen and (max-width: 1990px) {
+  #bni-receipt-upload-template-container {
+    background: #e71d2b;
+    color: #ffffff;
+    padding: 0 20px;
+    #receipt-upload-child-one {
+      .teaser {
+        .cmp-image__image {
+          width: unset;
+        }
+        #receipt-upload-child-one-teaser-one {
+          .cmp-teaser {
+            &__image {
+              display: flex;
+              justify-content: center;
+              padding: 120px 0 80px;
+            }
+
+            &__content {
+              .cmp-teaser {
+                &__pretitle {
+                  font-family: "Pinup-Regular";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 45px;
+                  line-height: 54px;
+                  color: #ffffff;
+                }
+
+                &__title {
+                  font-family: "Pinup-Regular";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 18px;
+                  line-height: 22px;
+                  color: #f7e62a;
+                }
+
+                &__description {
+                  p {
+                    font-family: "NimbusSanLOT";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #ffffff;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        #receipt-upload-child-one-teaser-three,
+        #receipt-upload-child-one-teaser-two {
+          display: flex;
+          align-items: center;
+          .cmp-teaser {
+            &__image {
+              flex: 0 0 15%;
+            }
+
+            &__content {
+              flex: 0 0 85%;
+              .cmp-teaser {
+                &__description {
+                  p {
+                    font-family: "NimbusSanLOT";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #ffffff;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        &:nth-child(3) {
+          padding-bottom: 30px;
+        }
+      }
+
+      #receipt-upload-child-one-button-container {
+        .button {
+          .cmp-button {
+            width: 100%;
+            margin-bottom: 15px;
+            .cmp-button__text {
+              font-family: "Pinup";
+              text-transform: uppercase;
+              margin-bottom: 15px;
+            }
+          }
+          #upload-receipt-icon-button {
+            border: none;
+            background: #ffffff;
+            width: 100%;
+            padding: 16px 0;
+            .cmp-button__text {
+              font-size: 14px;
+              line-height: 16px;
+              color: #e71d2b;
+            }
+          }
+        }
+
+        section {
+          margin: 0 0 20px;
+          .content_wrapper {
+            width: 100%;
+            .textsubmitBtn.notPhilippines {
+              top: 10px;
+              position: relative;
+              background: #ffffff;
+              display: flex;
+              padding: 16px 0;
+              width: 100%;
+              justify-content: center;
+              #upload-submit {
+                text-decoration: none;
+                color: #e71d2b;
+                font-family: "Pinup";
+                font-size: 14px;
+                line-height: 16px;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+
+        .image-upload-container {
+          background: none;
+          #file-error-msg {
+            color: #ffffff;
+          }
+        }
+      }
+
+      .container {
+        .button {
+          .cmp-button {
+            width: 100%;
+            margin-bottom: 15px;
+            .cmp-button__text {
+              font-family: "Pinup";
+              text-transform: uppercase;
+              margin-bottom: 15px;
+            }
+          }
+
+          #dont-have-a-receipt-button {
+            padding: 16px 0;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            .cmp-button__text {
+              font-size: 12px;
+              line-height: 14px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+  #receipt-upload-child-two {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    .teaser {
+      position: absolute;
+      background: #ffffff;
+      padding: 24px 10px;
+      top: 30%;
+      left: 15px;
+      width: calc(100% - 45px);
+      .cmp-teaser {
+        &__image {
+          cursor: pointer;
+          position: relative;
+          .cmp-image__image {
+            position: absolute;
+            top: 7px;
+            right: 5px;
+            width: 14px;
+          }
+        }
+
+        &__content {
+          .cmp-teaser {
+            &__title {
+              font-family: "Pinup-Regular";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 25px;
+              line-height: 30px;
+              text-transform: uppercase;
+              color: #e71d2b;
+              margin: 0;
+              a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #e71d2b;
+              }
+            }
+
+            &__description {
+              margin: 24px 0;
+              p {
+                font-family: "NimbusSanLOT";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+                color: #000000;
+              }
+            }
+
+            &__action-container {
+              width: 100%;
+              background: #2e8538;
+              border-radius: 2px;
+              padding: 18px 0;
+              text-align: center;
+              a {
+                font-family: "Pinup-Regular";
+                font-size: 12px;
+                line-height: 14px;
+                text-transform: uppercase;
+                color: #ffffff;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.show-modal {
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1);
+      transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    }
+  }
+}

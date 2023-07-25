@@ -6,6 +6,7 @@
 @use "../Engage/faq/faq.scss";
 @use "../Engage/Page-Not-Found/Page-Not-Found.scss";
 @use "../Engage/create-or-login-template/create-or-login-template.scss";
+@use "../Engage/rexeipt-upload/receipt-upload-template.scss";
 
 body {
   margin: 0 auto;
@@ -29,4 +30,8 @@ div.image {
 
 .ghost {
   display: none;
+}
+
+.skip-main {
+  visibility: hidden;
 }
