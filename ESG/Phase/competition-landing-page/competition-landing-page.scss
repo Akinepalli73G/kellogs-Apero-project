@@ -727,7 +727,8 @@
             }
             > .image:nth-child(2) {
               img {
-                height: 900px;
+                height: 1000px;
+                object-fit: fill;
               }
             }
           }

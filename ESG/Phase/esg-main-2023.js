@@ -9,14 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
       tns({
         container: carouselContainer,
         responsive: {
-          320: {
-            items: 1,
-          },
           768: {
-            items: 5,
+            items: 8,
           },
           1990: {
-            items: 5,
+            items: 8,
           },
         },
         gutter: 62,

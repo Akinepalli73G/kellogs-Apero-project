@@ -736,6 +736,25 @@ hr {
   letter-spacing: 0.07px;
 }
 
+.proceedButton {
+  display: block;
+  width: 100%;
+}
+.proceedButton #proceedButton {
+  background: #fff;
+  border: none;
+  color: #034EA2;
+  text-align: center;
+  font-family: "Pinup-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 2px;
+}
+
 #bni-main-content-container .container:nth-child(1) {
   padding: 0 20px;
 }

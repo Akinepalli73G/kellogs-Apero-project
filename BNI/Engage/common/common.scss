@@ -247,3 +247,22 @@ hr {
     }
   }
 }
+
+.proceedButton {
+  display: block;
+  width: 100%;
+  #proceedButton {
+    background: #fff;
+    border: none;
+    color: #034EA2;
+    text-align: center;
+    font-family: "Pinup-Regular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 2px;
+  }
+}

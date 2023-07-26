@@ -683,7 +683,9 @@
   #esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img,
   .esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img,
   .esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img {
-    height: 900px;
+    height: 1000px;
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container,
   #esg-main-container .hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container,
@@ -3965,7 +3967,7 @@ body.languageOpened {
   height: unset;
 }
 #esg-already-played-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) .socialcomponent #sociallinks a img {
-  width: 100%;
+  width: 40px;
   height: 40px;
   -o-object-fit: cover;
      object-fit: cover;
