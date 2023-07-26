@@ -211,7 +211,7 @@ hr {
 }
 
 .proceedButton {
-  display: block;
+  display: block !important;
   width: 100%;
 }
 .proceedButton #proceedButton {
