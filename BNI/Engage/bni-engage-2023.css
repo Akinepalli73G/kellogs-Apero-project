@@ -1146,7 +1146,7 @@ hr {
   color: #fff;
 }
 #bni-faq-template-container #bni-faq-main-content-container .container:nth-child(3) {
-  padding: 40px 20px 140px;
+  padding: 40px 20px;
 }
 #bni-faq-template-container #bni-faq-main-content-container .container:nth-child(3) > .cmp-container .text:nth-child(1) > .cmp-text p {
   color: #fff;

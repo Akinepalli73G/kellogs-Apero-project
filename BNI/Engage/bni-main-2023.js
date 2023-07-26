@@ -143,3 +143,40 @@ if (document.querySelector(".breadcrumb")) {
     targetElement.innerHTML = cutContent;
   }
 }
+
+const clickNavigationAnchorToHome = document.querySelectorAll(
+  ".navigationV2 ul li a"
+);
+
+if (clickNavigationAnchorToHome) {
+  clickNavigationAnchorToHome.forEach((clickNavigationHome) => {
+    const targetEmptey = clickNavigationHome.getAttribute("target");
+    if (!targetEmptey) {
+      clickNavigationHome.addEventListener("click", (event) => {
+        if (isInternalLinkWithHash(clickNavigationHome)) {
+          let urlExtract = window.location.href;
+          let urlLanguageCountry = urlExtract.split("/");
+          if (urlLanguageCountry[4] != "home.html") {
+            event.preventDefault();
+            var newHrefHome = clickNavigationHome.hash;
+            clickNavigationHome.href =
+              window.location.origin +
+              "/" +
+              urlLanguageCountry[3] +
+              "/home.html" +
+              newHrefHome;
+            const closeButton = document.querySelector(".button .cmp-button__icon--burger-menu-close");
+            if (mobileCarosuelAlreadyPlayedPage && closeButton) {
+              closeButton.click();
+              const targetElem = document.querySelector(newHrefHome);
+              targetElem.scrollIntoView({ behavior: "smooth" });
+            }
+          }
+        }
+      });
+    }
+  });
+}
+
+const isInternalLinkWithHash = (link) =>
+  link.getAttribute("href").startsWith("#");
