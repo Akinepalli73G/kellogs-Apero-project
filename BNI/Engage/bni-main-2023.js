@@ -20,17 +20,33 @@ let onBtnClick = (e) => {
   if (landingPage) {
     landingPage.classList.toggle("closed");
   }
-  document.querySelector("#bni-faq-main-content-container").classList.toggle("closed");
-  document.querySelector("#bni-404-main-content-container").classList.toggle("closed");
-  document.querySelector("#bni-receipt-upload-main-content-container").classList.toggle("closed");
-  
+  if (document.querySelector("#bni-faq-main-content-container")) {
+    document
+      .querySelector("#bni-faq-main-content-container")
+      .classList.toggle("closed");
+  }
+  if (document.querySelector("#bni-404-main-content-container")) {
+    document
+      .querySelector("#bni-404-main-content-container")
+      .classList.toggle("closed");
+  }
+  if (document.querySelector("#bni-receipt-upload-main-content-container")) {
+    document
+      .querySelector("#bni-receipt-upload-main-content-container")
+      .classList.toggle("closed");
+  }
 };
-document
-  .querySelector("#mobile-burger-menu")
-  .addEventListener("click", onBtnClick);
-document
-  .querySelector("#burger-close-button")
-  .addEventListener("click", onBtnClick);
+if (document.querySelector("#mobile-burger-menu")) {
+  document
+    .querySelector("#mobile-burger-menu")
+    .addEventListener("click", onBtnClick);
+}
+
+if (document.querySelector("#burger-close-button")) {
+  document
+    .querySelector("#burger-close-button")
+    .addEventListener("click", onBtnClick);
+}
 
 var clickLanguageNavigation = document.querySelector(
   ".languagenavigation nav button"
@@ -103,30 +119,6 @@ if (modal || trigger || closeButton || understoodButton) {
   window.addEventListener("click", windowOnClick);
 }
 
-const clickNavigationAnchor = document.querySelectorAll(
-  "#mobile-burger-menu-close ul li a"
-);
-
-if (clickNavigationAnchor) {
-  clickNavigationAnchor.forEach((clickNavigation) => {
-    const targetEmptey = clickNavigation.getAttribute("target");
-    if (!targetEmptey) {
-      clickNavigation.addEventListener("click", (event) => {
-        if (isInternalLink(clickNavigation)) {
-          event.preventDefault();
-          const closeButton = document.querySelector(
-            ".cmp-button__icon.cmp-button__icon--burger-menu-close"
-          );
-          closeButton.click();
-          const targetId = clickNavigation.getAttribute("href").slice(1);
-          const targetElem = document.getElementById(targetId);
-          targetElem.scrollIntoView({ behavior: "smooth" });
-        }
-      });
-    }
-  });
-}
-
 const isInternalLink = (link) => link.getAttribute("href").startsWith("#");
 
 //breadcrumb back button
@@ -135,7 +127,9 @@ if (document.querySelector(".breadcrumb")) {
   let liElements = document.querySelectorAll(".breadcrumb ol li");
   let secondToLastIndex = liElements.length - 2;
   let BreadcrumbBackButton = liElements[secondToLastIndex];
-  let elementToCut = document.querySelectorAll("#bni-faq-main-content-container > .container:nth-child(1) .text p");
+  let elementToCut = document.querySelectorAll(
+    "#bni-faq-main-content-container > .container:nth-child(1) .text p"
+  );
   if (elementToCut) {
     var cutContent = elementToCut[0].innerHTML;
     elementToCut[0].remove();
@@ -144,39 +138,41 @@ if (document.querySelector(".breadcrumb")) {
   }
 }
 
-const clickNavigationAnchorToHome = document.querySelectorAll(
-  ".navigationV2 ul li a"
-);
+document.addEventListener("DOMContentLoaded", () => {
+  const clickNavigationAnchorToHome = document.querySelectorAll(
+    ".navigationV2 ul li a"
+  );
 
-if (clickNavigationAnchorToHome) {
-  clickNavigationAnchorToHome.forEach((clickNavigationHome) => {
-    const targetEmptey = clickNavigationHome.getAttribute("target");
-    if (!targetEmptey) {
-      clickNavigationHome.addEventListener("click", (event) => {
-        if (isInternalLinkWithHash(clickNavigationHome)) {
-          let urlExtract = window.location.href;
-          let urlLanguageCountry = urlExtract.split("/");
-          if (urlLanguageCountry[4] != "home.html") {
-            event.preventDefault();
-            var newHrefHome = clickNavigationHome.hash;
-            clickNavigationHome.href =
-              window.location.origin +
-              "/" +
-              urlLanguageCountry[3] +
-              "/home.html" +
-              newHrefHome;
-            const closeButton = document.querySelector(".button .cmp-button__icon--burger-menu-close");
-            if (mobileCarosuelAlreadyPlayedPage && closeButton) {
+  if (clickNavigationAnchorToHome) {
+    clickNavigationAnchorToHome.forEach((clickNavigationHome) => {
+      const targetEmptey = clickNavigationHome.getAttribute("target");
+      if (!targetEmptey) {
+        clickNavigationHome.addEventListener("click", (event) => {
+          if (isInternalLinkWithHash(clickNavigationHome)) {
+            let urlExtract = window.location.href;
+            let urlLanguageCountry = urlExtract.split("/");
+            if (urlLanguageCountry[4] != "home.html") {
+              event.preventDefault();
+              var newHrefHome = clickNavigationHome.hash;
+              clickNavigationHome.href =
+                window.location.origin +
+                "/" +
+                urlLanguageCountry[3] +
+                "/home.html" +
+                newHrefHome;
+              const closeButton = document.querySelector(
+                ".button .cmp-button__icon--burger-menu-close"
+              );
               closeButton.click();
               const targetElem = document.querySelector(newHrefHome);
               targetElem.scrollIntoView({ behavior: "smooth" });
             }
           }
-        }
-      });
-    }
-  });
-}
+        });
+      }
+    });
+  }
 
-const isInternalLinkWithHash = (link) =>
-  link.getAttribute("href").startsWith("#");
+  const isInternalLinkWithHash = (link) =>
+    link.getAttribute("href").startsWith("#");
+});
