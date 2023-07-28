@@ -406,6 +406,10 @@ if (mobileCarosuelAlreadyPlayedPage.matches) {
   }
 }
 
+if (urlLanguageCountry[3] === "fr_FR") { 
+  document.querySelector("#esg-hero-teaser").classList.add("esg-home-banner-fr");
+}
+
 const clickNavigationAnchorToHome = document.querySelectorAll(
   ".navigationV2 ul li a"
 );
