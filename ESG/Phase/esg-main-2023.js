@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         fixedWidth: 100,
         mouseDrag: true,
         swipeAngle: false,
+        loop: false,
         speed: 400,
       });
     }

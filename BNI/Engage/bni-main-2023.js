@@ -139,9 +139,7 @@ if (document.querySelector(".breadcrumb")) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const clickNavigationAnchorToHome = document.querySelectorAll(
-    ".navigationV2 ul li a"
-  );
+  const clickNavigationAnchorToHome = document.querySelectorAll(".navigationV2 ul li a");
 
   if (clickNavigationAnchorToHome) {
     clickNavigationAnchorToHome.forEach((clickNavigationHome) => {
@@ -151,21 +149,25 @@ document.addEventListener("DOMContentLoaded", () => {
           if (isInternalLinkWithHash(clickNavigationHome)) {
             let urlExtract = window.location.href;
             let urlLanguageCountry = urlExtract.split("/");
-            if (urlLanguageCountry[4] != "home.html") {
+            if (urlLanguageCountry[4] !== "home.html") {
               event.preventDefault();
               var newHrefHome = clickNavigationHome.hash;
+              // Debug statement
+              console.log("newHrefHome:", newHrefHome);
               clickNavigationHome.href =
                 window.location.origin +
                 "/" +
                 urlLanguageCountry[3] +
                 "/home.html" +
                 newHrefHome;
-              const closeButton = document.querySelector(
-                ".button .cmp-button__icon--burger-menu-close"
-              );
+              const closeButton = document.querySelector(".button .cmp-button__icon--burger-menu-close");
               closeButton.click();
               const targetElem = document.querySelector(newHrefHome);
-              targetElem.scrollIntoView({ behavior: "smooth" });
+              // Debug statement
+              console.log("targetElem:", targetElem);
+              if (targetElem) {
+                targetElem.scrollIntoView({ behavior: "smooth" });
+              }
             }
           }
         });
@@ -176,3 +178,4 @@ document.addEventListener("DOMContentLoaded", () => {
   const isInternalLinkWithHash = (link) =>
     link.getAttribute("href").startsWith("#");
 });
+
