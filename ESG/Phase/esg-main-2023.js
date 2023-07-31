@@ -411,6 +411,12 @@ if (urlLanguageCountry[3] === "fr_FR") {
   document.querySelector("#esg-hero-teaser").classList.add("esg-home-banner-fr");
 }
 
+if (urlLanguageCountry[3] === "en_IE") { 
+  if (document.querySelector("#esg-video-component")) {
+    document.querySelector("#esg-video-component").classList.add('showVideoEsg');
+  }
+}
+
 const clickNavigationAnchorToHome = document.querySelectorAll(
   ".navigationV2 ul li a"
 );

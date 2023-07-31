@@ -440,6 +440,10 @@
   background-size: 80px;
 }
 
+#esg-video-component.showVideoEsg {
+  display: block;
+}
+
 @media only screen and (min-width: 769px) {
   #esg-main-container #esg-hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2),
   #esg-main-container .hero-teaser.cmp-container > .container:nth-child(1) > .cmp-container > .image:nth-child(2),
