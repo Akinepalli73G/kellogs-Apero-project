@@ -154,20 +154,15 @@ document.addEventListener("DOMContentLoaded", () => {
               var newHrefHome = clickNavigationHome.hash;
               // Debug statement
               console.log("newHrefHome:", newHrefHome);
-              clickNavigationHome.href =
+              const newURL =
                 window.location.origin +
                 "/" +
                 urlLanguageCountry[3] +
                 "/home.html" +
                 newHrefHome;
+              window.location.replace(newURL);
               const closeButton = document.querySelector(".button .cmp-button__icon--burger-menu-close");
               closeButton.click();
-              const targetElem = document.querySelector(newHrefHome);
-              // Debug statement
-              console.log("targetElem:", targetElem);
-              if (targetElem) {
-                targetElem.scrollIntoView({ behavior: "smooth" });
-              }
             }
           }
         });
@@ -175,7 +170,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  window.addEventListener("hashchange", () => {
+    const targetElem = document.querySelector(window.location.hash);
+    // Debug statement
+    console.log("targetElem:", targetElem);
+    if (targetElem) {
+      targetElem.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+
   const isInternalLinkWithHash = (link) =>
     link.getAttribute("href").startsWith("#");
 });
-

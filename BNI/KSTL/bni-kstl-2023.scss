@@ -173,8 +173,11 @@
     }
     .bni-content {
       background: #034ea2;
-      padding-top: 20px;
+      padding: 20px 20px 0;
       text-align: center;
+    }
+    > .grid__item:nth-child(3) {
+      background: #034ea2;
     }
   }
 }

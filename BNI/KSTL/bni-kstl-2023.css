@@ -137,8 +137,11 @@
   }
   .kstl-bni-container .bni-content {
     background: #034ea2;
-    padding-top: 20px;
+    padding: 20px 20px 0;
     text-align: center;
+  }
+  .kstl-bni-container > .grid__item:nth-child(3) {
+    background: #034ea2;
   }
 }
 @media only screen and (min-width: 769px) {
