@@ -185,6 +185,26 @@ p {
       }
     }
   }
+
+  .cmp-accordion__item {
+    .container {
+      background: transparent !important;
+      padding: 16px 0 !important;
+      width: 100% !important;
+    }
+  }
+
+  .cmp-accordion__panel {
+    ol,
+    li {
+      color: rgba(0, 0, 0, 0.5);
+      font-family: "NimbusSanLOT";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px;
+    }
+  }
 }
 
 hr {
@@ -254,7 +274,7 @@ hr {
   #proceedButton {
     background: #fff;
     border: none;
-    color: #034EA2;
+    color: #034ea2;
     text-align: center;
     font-family: "Pinup-Regular";
     font-size: 14px;

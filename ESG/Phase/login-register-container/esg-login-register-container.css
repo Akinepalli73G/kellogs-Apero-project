@@ -1715,11 +1715,11 @@
     padding: 0 20px;
   }
   #esg-login-register-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) > .cmp-container .text {
-    flex-basis: 10%;
+    flex-basis: 18%;
     text-align: center;
   }
   #esg-login-register-container > .container:nth-child(1) > .cmp-container > .container:nth-child(4) > .cmp-container .separator {
-    flex-basis: 45%;
+    flex-basis: 40%;
   }
   #esg-login-register-container > .container:nth-child(2) .gigya-screen.v2 {
     padding: 0;

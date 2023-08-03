@@ -72,6 +72,9 @@
   -webkit-text-fill-color: transparent;
   margin-bottom: 0;
 }
+.kstl-bni-container h1.gold-small {
+  font-size: 60px;
+}
 .kstl-bni-container .bni-scan-to-enter {
   background-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
   background-clip: text;

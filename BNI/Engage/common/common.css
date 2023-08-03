@@ -157,6 +157,20 @@ p a {
 .accordion .cmp-accordion__panel--expanded p a {
   word-break: break-word;
 }
+.accordion .cmp-accordion__item .container {
+  background: transparent !important;
+  padding: 16px 0 !important;
+  width: 100% !important;
+}
+.accordion .cmp-accordion__panel ol,
+.accordion .cmp-accordion__panel li {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "NimbusSanLOT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
 
 hr {
   background-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);
@@ -217,7 +231,7 @@ hr {
 .proceedButton #proceedButton {
   background: #fff;
   border: none;
-  color: #034EA2;
+  color: #034ea2;
   text-align: center;
   font-family: "Pinup-Regular";
   font-size: 14px;
