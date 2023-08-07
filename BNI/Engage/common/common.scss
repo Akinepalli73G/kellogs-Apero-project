@@ -189,8 +189,20 @@ p {
   .cmp-accordion__item {
     .container {
       background: transparent !important;
-      padding: 16px 0 !important;
+      padding: 16px 0 0 !important;
       width: 100% !important;
+
+      .text {
+        padding-top: 0 !important;
+
+        p {
+          margin: 10px 0 0 !important;
+        }
+
+        p:first-child {
+          margin: 0 !important;
+        }
+      }
     }
   }
 

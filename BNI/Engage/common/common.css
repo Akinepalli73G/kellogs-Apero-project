@@ -159,8 +159,17 @@ p a {
 }
 .accordion .cmp-accordion__item .container {
   background: transparent !important;
-  padding: 16px 0 !important;
+  padding: 16px 0 0 !important;
   width: 100% !important;
+}
+.accordion .cmp-accordion__item .container .text {
+  padding-top: 0 !important;
+}
+.accordion .cmp-accordion__item .container .text p {
+  margin: 10px 0 0 !important;
+}
+.accordion .cmp-accordion__item .container .text p:first-child {
+  margin: 0 !important;
 }
 .accordion .cmp-accordion__panel ol,
 .accordion .cmp-accordion__panel li {

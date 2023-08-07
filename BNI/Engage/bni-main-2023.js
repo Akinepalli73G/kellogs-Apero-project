@@ -152,8 +152,6 @@ document.addEventListener("DOMContentLoaded", () => {
             if (urlLanguageCountry[4] !== "home.html") {
               event.preventDefault();
               var newHrefHome = clickNavigationHome.hash;
-              // Debug statement
-              console.log("newHrefHome:", newHrefHome);
               const newURL =
                 window.location.origin +
                 "/" +
@@ -172,8 +170,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("hashchange", () => {
     const targetElem = document.querySelector(window.location.hash);
-    // Debug statement
-    console.log("targetElem:", targetElem);
     if (targetElem) {
       targetElem.scrollIntoView({ behavior: "smooth" });
     }
