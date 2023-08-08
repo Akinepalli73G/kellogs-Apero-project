@@ -194,12 +194,9 @@
     max-height: 300px;
   }
   #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol {
-    -webkit-padding-start: 40px;
-            padding-inline-start: 40px;
-    -webkit-margin-before: 1em;
-            margin-block-start: 1em;
-    -webkit-margin-after: 40px;
-            margin-block-end: 40px;
+    padding-inline-start: 40px;
+    margin-block-start: 1em;
+    margin-block-end: 40px;
   }
   #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol::before {
     top: 17px;
@@ -233,12 +230,9 @@
     margin: 0 auto;
   }
   #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol {
-    -webkit-padding-start: 105px;
-            padding-inline-start: 105px;
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
-    -webkit-margin-before: 3em;
-            margin-block-start: 3em;
+    padding-inline-start: 105px;
+    margin-block-end: 0;
+    margin-block-start: 3em;
   }
   #esg-barcode-validation-container > .container:nth-child(1) > .cmp-container .breadcrumb nav ol::before {
     top: 49px;

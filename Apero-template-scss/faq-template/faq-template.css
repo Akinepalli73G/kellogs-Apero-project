@@ -52,8 +52,7 @@
   position: relative;
 }
 #faq-child-one .breadcrumb nav ol {
-  -webkit-padding-start: 35px;
-          padding-inline-start: 35px;
+  padding-inline-start: 35px;
 }
 #faq-child-one .breadcrumb nav ol::before {
   content: "";

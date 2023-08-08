@@ -143,4 +143,11 @@
 #bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(9) > .cmp-container > .text:nth-child(3) > .cmp-text > p:nth-child(1) {
   margin: 0 0 10px;
   font-family: "Pinup-Regular";
+}
+
+@media only screen and (max-width: 500px) {
+  .reference:nth-child(7) .cmp-container .markuptext h3,
+  .container:nth-child(7) > .cmp-container .markuptext h3 {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=thank-you-and-already-played.css.map */

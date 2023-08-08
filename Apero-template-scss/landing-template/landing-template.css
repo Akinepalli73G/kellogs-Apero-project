@@ -117,8 +117,7 @@
 #apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul {
   list-style: none;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline-start: 0;
 }
 #apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li {

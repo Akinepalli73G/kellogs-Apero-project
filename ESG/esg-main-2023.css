@@ -187,8 +187,7 @@
   position: relative;
 }
 .languagenavigation nav ul {
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline-start: 0;
   list-style: none;
 }
 .languagenavigation nav ul li {
@@ -453,8 +452,7 @@ body.languageOpened {
   }
   #esg-mobile-container #burger-close-menu .navigationV2 .nav--container nav ul {
     list-style: none;
-    -webkit-padding-start: 26px;
-            padding-inline-start: 26px;
+    padding-inline-start: 26px;
     display: flex;
     flex-direction: column;
     grid-gap: 24px;
@@ -475,8 +473,7 @@ body.languageOpened {
     margin: 24px 20px;
   }
   #esg-mobile-container #burger-close-menu .navigationV2 .nav--container .nav--secondary ul {
-    -webkit-padding-start: 6px;
-            padding-inline-start: 6px;
+    padding-inline-start: 6px;
     margin: 24px 0;
   }
   .languagenavigation.burgerMenuClosed,

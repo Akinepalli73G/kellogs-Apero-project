@@ -229,8 +229,7 @@
     font-size: 12px;
     line-height: 14px;
     color: #000000;
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
   }
   #already-played-template-container #thank-you-page-template-child-four #thank-you-page-child-four-description,
   #Thank-you-page-template-container #thank-you-page-template-child-four #thank-you-page-child-four-description {
@@ -697,8 +696,7 @@
     display: flex;
     list-style: none;
     grid-column-gap: 45px;
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
     background: transparent;
   }
   #competition-landing-header-desktop .aem-Grid .navigationV2 .nav--container .nav--main ul li a {
@@ -789,8 +787,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
     list-style: none;
     grid-column-gap: 60px;
     grid-row-gap: 30px;
@@ -1226,8 +1223,7 @@
 #apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul {
   list-style: none;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline-start: 0;
 }
 #apero-main-content-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li,
 #competition-landing-template-container #competition-landing-page-child-three .aem-Grid .container #competition-landing-steps-container .aem-Grid .markuptext .list-container ul li {
@@ -3591,8 +3587,7 @@
   position: relative;
 }
 #faq-child-one .breadcrumb nav ol {
-  -webkit-padding-start: 35px;
-          padding-inline-start: 35px;
+  padding-inline-start: 35px;
 }
 #faq-child-one .breadcrumb nav ol::before {
   content: "";
@@ -4436,8 +4431,7 @@
     position: relative;
   }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-open .languagenavigation nav ul {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
     top: 0;
   }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-open .languagenavigation nav .mobile-down-arrow {
@@ -4456,13 +4450,11 @@
     background-color: #e71d2b;
   }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-close .navigationV2 .nav--secondary {
-    -webkit-padding-start: 20px;
-            padding-inline-start: 20px;
+    padding-inline-start: 20px;
   }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-close .navigationV2 ul {
     list-style: none;
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
   }
 }
 body {

@@ -723,8 +723,7 @@ hr {
   position: relative;
 }
 .breadcrumb nav ol {
-  -webkit-padding-start: 20px;
-          padding-inline-start: 20px;
+  padding-inline-start: 20px;
   margin: 0;
 }
 .breadcrumb nav ol::before {
@@ -1156,6 +1155,12 @@ hr {
   font-family: "Pinup-Regular";
 }
 
+@media only screen and (max-width: 500px) {
+  .reference:nth-child(7) .cmp-container .markuptext h3,
+  .container:nth-child(7) > .cmp-container .markuptext h3 {
+    font-size: 20px;
+  }
+}
 #bni-faq-template-container #bni-faq-main-content-container .container:nth-child(1) {
   padding: 22px 0 16px;
 }

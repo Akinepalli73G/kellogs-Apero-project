@@ -100,8 +100,7 @@
 #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul,
 #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul {
   list-style: none;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline-start: 0;
 }
 #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-desktop ul li,
 #KSTL-landing-container-child-three > .coreContainer .markupText .kstl-rich-text .list-container-mobile ul li {

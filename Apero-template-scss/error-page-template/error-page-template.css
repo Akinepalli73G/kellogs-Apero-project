@@ -138,8 +138,7 @@
     position: relative;
   }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-open .languagenavigation nav ul {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
     top: 0;
   }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-open .languagenavigation nav .mobile-down-arrow {
@@ -158,12 +157,10 @@
     background-color: #e71d2b;
   }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-close .navigationV2 .nav--secondary {
-    -webkit-padding-start: 20px;
-            padding-inline-start: 20px;
+    padding-inline-start: 20px;
   }
   #error-page-template-container #Mobile-header-container #mobile-burger-menu-close .navigationV2 ul {
     list-style: none;
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
   }
 }/*# sourceMappingURL=error-page-template.css.map */

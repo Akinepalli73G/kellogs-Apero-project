@@ -146,8 +146,7 @@
     font-size: 12px;
     line-height: 14px;
     color: #000000;
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
   }
   #already-played-template-container #thank-you-page-template-child-four #thank-you-page-child-four-description,
   #Thank-you-page-template-container #thank-you-page-template-child-four #thank-you-page-child-four-description {

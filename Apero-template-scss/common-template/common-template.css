@@ -412,8 +412,7 @@
     display: flex;
     list-style: none;
     grid-column-gap: 45px;
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
     background: transparent;
   }
   #competition-landing-header-desktop .aem-Grid .navigationV2 .nav--container .nav--main ul li a {
@@ -504,8 +503,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
     list-style: none;
     grid-column-gap: 60px;
     grid-row-gap: 30px;
