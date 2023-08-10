@@ -370,9 +370,11 @@ if (document.querySelector("#esg-hero-teaser")) {
     urlLanguageCountry[8] === "da" ||
     urlLanguageCountry[8] === "de" ||
     urlLanguageCountry[8] === "fr" ||
+    urlLanguageCountry[8] === "pt" ||
     removeSpaceHome[0] === "da" ||
     removeSpaceHome[0] === "de" ||
-    removeSpaceHome[0] === "fr"
+    removeSpaceHome[0] === "fr" ||
+    removeSpaceHome[0] === "pt"
   ) {
     document
       .querySelector(
@@ -386,6 +388,14 @@ if (document.querySelector("#esg-hero-teaser")) {
         "#esg-hero-teaser > .container:nth-child(2) > .cmp-container"
       )
       .classList.add("esg-home-translation-hero-teaser-extra-small");
+  }
+
+  if (urlLanguageCountry[8] === "pt" || removeSpaceHome[0] === "pt") {
+    document
+      .querySelector(
+        "#esg-hero-teaser > .container:nth-child(2) > .cmp-container .markuptext h1"
+      )
+      .classList.add("esg-home-translation-hero-teaser-extra-small-pt");
   }
 }
 
@@ -407,13 +417,17 @@ if (mobileCarosuelAlreadyPlayedPage.matches) {
   }
 }
 
-if (urlLanguageCountry[3] === "fr_FR") { 
-  document.querySelector("#esg-hero-teaser").classList.add("esg-home-banner-fr");
+if (urlLanguageCountry[3] === "fr_FR") {
+  document
+    .querySelector("#esg-hero-teaser")
+    .classList.add("esg-home-banner-fr");
 }
 
-if (urlLanguageCountry[3] === "en_IE") { 
+if (urlLanguageCountry[3] === "en_IE") {
   if (document.querySelector("#esg-video-component")) {
-    document.querySelector("#esg-video-component").classList.add('showVideoEsg');
+    document
+      .querySelector("#esg-video-component")
+      .classList.add("showVideoEsg");
   }
 }
 

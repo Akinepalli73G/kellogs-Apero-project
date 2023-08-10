@@ -788,6 +788,13 @@
   .esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small > .container > .cmp-container .text p {
     margin: 10px 0;
   }
+  #esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small-pt,
+  #esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small-pt,
+  .esg-main-container #esg-hero-teaser .esg-home-translation-hero-teaser-extra-small-pt,
+  .esg-main-container .hero-teaser .esg-home-translation-hero-teaser-extra-small-pt {
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
   #esg-main-container #esg-hero-teaser.esg-home-banner-fr > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img,
   #esg-main-container .hero-teaser.esg-home-banner-fr > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img,
   .esg-main-container #esg-hero-teaser.esg-home-banner-fr > .container:nth-child(1) > .cmp-container > .image:nth-child(2) img,
