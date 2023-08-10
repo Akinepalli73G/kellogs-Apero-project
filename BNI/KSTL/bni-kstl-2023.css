@@ -91,8 +91,8 @@
 .kstl-bni-container .bni-content .bni-ar-experience .bni-ar-icon {
   display: block;
   position: relative;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   background: url("/content/dam/pringles/globalFrontEndFiles/bni-assets/images/AR-experience-icon.png") no-repeat center center;
   background-size: 24px;
 }
