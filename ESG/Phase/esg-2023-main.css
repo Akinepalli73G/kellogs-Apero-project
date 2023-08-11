@@ -3765,21 +3765,21 @@ body.languageOpened {
     padding: 24px 20px;
   }
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container {
   position: relative;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(1) {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(1) {
   position: relative;
   background: #009bde;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(1) .image img {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(1) .image img {
   width: 100%;
   max-width: 100%;
   height: 900px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container {
   position: absolute;
   top: 40px;
   width: 100%;
@@ -3788,15 +3788,15 @@ body.languageOpened {
   flex-direction: column;
   height: calc(100% - 40px);
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img {
   width: 80px;
   height: 50px;
   margin: 0 auto;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .text:nth-child(2) {
   color: #ffffff;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container {
   left: 0;
   right: 0;
   margin-left: auto;
@@ -3806,27 +3806,27 @@ body.languageOpened {
   flex-direction: column;
   justify-content: flex-end;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container {
   margin: 0 auto;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text {
   padding: 0 20px;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text:nth-child(2) {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(1) > .cmp-container .text:nth-child(2) {
   margin-top: 8px;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2) {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .text:nth-child(2) {
   margin-top: 20px;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container {
   display: flex;
   justify-content: center;
   grid-gap: 20px;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container .proceedButton {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container .proceedButton {
   display: block !important;
 }
-> #esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container .proceedButton #proceedButton {
+#esg-ready-to-play-page-container #esg-hero-teaser.cmp-container > .container:nth-child(2) > .cmp-container > .container:nth-child(3) > .cmp-container > .container:nth-child(4) .cmp-container .proceedButton #proceedButton {
   width: 260px;
   border-radius: 90px;
   padding: 12px 0;
@@ -3840,10 +3840,10 @@ body.languageOpened {
   color: #000000;
   background: #fff;
 }
-> #esg-ready-to-play-page-container.cmp-container > .container:nth-child(2) > .cmp-container .text p small {
+#esg-ready-to-play-page-container.cmp-container > .container:nth-child(2) > .cmp-container .text p small {
   color: #666666;
 }
-> #esg-ready-to-play-page-container.cmp-container > .container:nth-child(2) > .cmp-container .text a {
+#esg-ready-to-play-page-container.cmp-container > .container:nth-child(2) > .cmp-container .text a {
   color: #000000;
   font-family: "Lilita One";
   text-decoration: underline;
