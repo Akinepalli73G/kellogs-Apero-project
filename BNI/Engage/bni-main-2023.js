@@ -139,7 +139,9 @@ if (document.querySelector(".breadcrumb")) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const clickNavigationAnchorToHome = document.querySelectorAll(".navigationV2 ul li a");
+  const clickNavigationAnchorToHome = document.querySelectorAll(
+    ".navigationV2 ul li a"
+  );
 
   if (clickNavigationAnchorToHome) {
     clickNavigationAnchorToHome.forEach((clickNavigationHome) => {
@@ -159,7 +161,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 "/home.html" +
                 newHrefHome;
               window.location.replace(newURL);
-              const closeButton = document.querySelector(".button .cmp-button__icon--burger-menu-close");
+              const closeButton = document.querySelector(
+                ".button .cmp-button__icon--burger-menu-close"
+              );
               closeButton.click();
             }
           }
@@ -178,3 +182,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const isInternalLinkWithHash = (link) =>
     link.getAttribute("href").startsWith("#");
 });
+
+if (
+  document.querySelector("#bni-receipt-upload-main-content-container") ||
+  document.querySelector(
+    "#bni-thank-you-and-already-played-template-container"
+  ) ||
+  document.querySelector("#bni-ready-to-play-template-container")
+) {
+  const addingLogoutContainer = document.querySelector(
+    "#Mobile-header-container .container"
+  );
+  addingLogoutContainer.classList.add("bni-logout");
+  const cutLogoutCmp = document.querySelector(".logout-v6");
+  addingLogoutContainer.appendChild(cutLogoutCmp);
+}

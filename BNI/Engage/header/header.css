@@ -273,14 +273,14 @@
 #bni-receipt-upload-template-container #mobile-burger-menu-open .button {
   display: none;
 }
-#bni-thank-you-and-already-played-template-container #mobile-burger-menu-open .logout-v6,
-#bni-ready-to-play-template-container #mobile-burger-menu-open .logout-v6,
-#bni-receipt-upload-template-container #mobile-burger-menu-open .logout-v6 {
+#bni-thank-you-and-already-played-template-container .logout-v6,
+#bni-ready-to-play-template-container .logout-v6,
+#bni-receipt-upload-template-container .logout-v6 {
   display: block;
 }
-#bni-thank-you-and-already-played-template-container #mobile-burger-menu-open .logout-v6 .logout-Button,
-#bni-ready-to-play-template-container #mobile-burger-menu-open .logout-v6 .logout-Button,
-#bni-receipt-upload-template-container #mobile-burger-menu-open .logout-v6 .logout-Button {
+#bni-thank-you-and-already-played-template-container .logout-v6 .logout-Button,
+#bni-ready-to-play-template-container .logout-v6 .logout-Button,
+#bni-receipt-upload-template-container .logout-v6 .logout-Button {
   color: #fff;
   font-family: "NimbusSanLOT";
   font-size: 12px;
@@ -289,6 +289,20 @@
   line-height: 22px;
   text-decoration-line: underline;
   border: none;
+}
+
+.bni-logout {
+  position: relative;
+}
+.bni-logout #mobile-burger-menu-open .button {
+  display: block !important;
+  visibility: hidden;
+}
+.bni-logout .logout-v6 {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+  z-index: 999;
 }
 
 @media only screen and (max-width: 1920px) {

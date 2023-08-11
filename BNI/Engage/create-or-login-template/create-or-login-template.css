@@ -1586,4 +1586,8 @@
 #bni-login-register-template-container:has(#Facebook_btn) #bni-login-register-template-container-child-one #apero-or-seperator-container,
 #bni-login-register-template-container:has(#Google_btn) #bni-login-register-template-container-child-one #apero-or-seperator-container {
   display: flex;
+}
+
+#exitUrl {
+  display: none;
 }/*# sourceMappingURL=create-or-login-template.css.map */
