@@ -113,6 +113,7 @@
   margin-left: 20px;
 }
 #mobile-burger-menu-open .aem-Grid .image img {
+  width: 42px;
   height: 52px;
 }
 #mobile-burger-menu-open .aem-Grid .text {
@@ -327,6 +328,7 @@
     z-index: 9;
   }
   #Mobile-header-container #mobile-burger-menu-open .image img {
+    width: 42px;
     height: 52px;
   }
   #Mobile-header-container #mobile-burger-menu-open .button {
@@ -419,6 +421,7 @@
     justify-content: space-between;
   }
   #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .image img {
+    width: 42px;
     height: 52px;
   }
   #Mobile-header-container #mobile-burger-menu-close.cmp-container.opened #mobile-header-burger-open-nav-button .button {
