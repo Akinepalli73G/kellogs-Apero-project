@@ -209,6 +209,12 @@
   background: none;
   height: none;
 }
+#mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation ul:only-child:not(:has(li:nth-child(2))) li, #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation ul:not(:has(li:nth-child(2))) li {
+  visibility: hidden;
+}
+#mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation:only-child:not(:has(li:nth-child(2))) .mobile-down-arrow, #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation:not(:has(li:nth-child(2))) .mobile-down-arrow {
+  display: none;
+}
 
 /* End CSS */
 #Thank-you-page-template-container .logout-v6,

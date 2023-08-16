@@ -197,3 +197,18 @@ if (
   const cutLogoutCmp = document.querySelector(".logout-v6");
   addingLogoutContainer.appendChild(cutLogoutCmp);
 }
+
+var urlExtract = window.location.href;
+var urlLanguageCountry = urlExtract.split("/");
+if (
+  urlLanguageCountry[3] === "en_MT" ||
+  urlLanguageCountry[3] === "en_CY" ||
+  urlLanguageCountry[3] === "el_CY"
+) {
+  let addTriangleBNI = document.querySelector(
+    "#bni-main-content-container .container h1"
+  );
+  if (addTriangleBNI) {
+    addTriangleBNI.classList.add("bni-triangle");
+  }
+}
