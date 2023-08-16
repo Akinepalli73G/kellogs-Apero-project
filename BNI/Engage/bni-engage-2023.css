@@ -546,6 +546,18 @@
     text-decoration: underline;
   }
 }
+.bni-triangle::after {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 14px;
+  top: -20px;
+  left: 2px;
+  height: 12px;
+  background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/Polygon-bni.png") no-repeat right center;
+  background-size: 14px;
+}
+
 /* End CSS */
 .text.bni-gold {
   background-image: linear-gradient(90deg, #cb9831 0%, #f6ee70 33.33%, #f6ee70 46.35%, #d9bb51 61.98%, #e1c046 76.56%, #a88435 100%);

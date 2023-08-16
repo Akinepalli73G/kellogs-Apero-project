@@ -123,6 +123,21 @@
   }
 }
 
+.bni-triangle {
+  &::after {
+    content: "";
+    position: relative;
+    z-index: 9999;
+    display: inline-block;
+    width: 14px;
+    left: 2px;
+    height: 12px;
+    background: url("/content/dam/pringles/globalFrontEndFiles/bni-assets/images/Polygon-bni.png")
+      no-repeat right center;
+    background-size: 14px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .kstl-bni-container {
     h1 {
@@ -184,6 +199,11 @@
       background: #034ea2;
     }
   }
+  .bni-triangle {
+    &::after {
+      top: -20px;
+    }
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -234,6 +254,11 @@
     }
     > .grid__item:nth-child(2) {
       display: none;
+    }
+  }
+  .bni-triangle {
+    &::after {
+      top: -38px;
     }
   }
 }
