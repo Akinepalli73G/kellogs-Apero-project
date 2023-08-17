@@ -204,3 +204,9 @@ let addTriangleBNI = document.querySelector(
 if (addTriangleBNI) {
   addTriangleBNI.classList.add("bni-triangle");
 }
+let addingExtraPadding = document.querySelector(
+  "#mobile-burger-menu-open ul:not(:has(li:nth-child(2)))"
+);
+if (addingExtraPadding) {
+  document.querySelector("#mobile-burger-menu-open .image").classList.add("bni-extra-padding");
+}
