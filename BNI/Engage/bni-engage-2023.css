@@ -1185,12 +1185,11 @@ hr {
 }
 #bni-thank-you-and-already-played-template-container #bni-main-content-container .reference:nth-child(9) .cmp-container > .text:nth-child(3) > .cmp-text p,
 #bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(9) > .cmp-container > .text:nth-child(3) > .cmp-text p {
-  margin: 0;
+  margin: 0 0 10px;
   font-size: 12px;
 }
 #bni-thank-you-and-already-played-template-container #bni-main-content-container .reference:nth-child(9) .cmp-container > .text:nth-child(3) > .cmp-text > p:nth-child(1),
 #bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(9) > .cmp-container > .text:nth-child(3) > .cmp-text > p:nth-child(1) {
-  margin: 0 0 10px;
   font-family: "Pinup-Regular";
 }
 
