@@ -198,15 +198,21 @@ if (
   addingLogoutContainer.appendChild(cutLogoutCmp);
 }
 
-let addTriangleBNI = document.querySelector(
-  "#bni-main-content-container .container h1"
-);
-if (addTriangleBNI) {
-  addTriangleBNI.classList.add("bni-triangle");
+var urlExtract = window.location.href;
+var urlLanguageCountry = urlExtract.split("/");
+if (urlLanguageCountry[4] === "home.html") {
+  let addTriangleBNI = document.querySelector(
+    "#bni-main-content-container .container h1"
+  );
+  if (addTriangleBNI) {
+    addTriangleBNI.classList.add("bni-triangle");
+  }
 }
 let addingExtraPadding = document.querySelector(
   "#mobile-burger-menu-open ul:not(:has(li:nth-child(2)))"
 );
 if (addingExtraPadding) {
-  document.querySelector("#mobile-burger-menu-open .image").classList.add("bni-extra-padding");
+  document
+    .querySelector("#mobile-burger-menu-open .image")
+    .classList.add("bni-extra-padding");
 }
