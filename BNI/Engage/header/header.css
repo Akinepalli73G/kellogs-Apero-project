@@ -131,12 +131,7 @@
 #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .mobile-down-arrow {
   position: relative;
   border: none;
-  z-index: 9999;
-  bottom: 0;
-  left: 0;
   display: block;
-  width: 15px;
-  height: 15px;
   background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/down-arrow.png") no-repeat right center;
   background-size: 10px;
 }
@@ -171,7 +166,7 @@
   text-transform: uppercase;
 }
 #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group li:nth-child(1) {
-  display: block;
+  display: flex;
   padding-top: 5px;
   padding-bottom: 35px;
   border-bottom: none;
@@ -208,6 +203,9 @@
   content: none;
   background: none;
   height: none;
+}
+#mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation .cmp-languagenavigation__group.languageOpened li:nth-child(1) {
+  display: flex;
 }
 #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation ul:only-child:not(:has(li:nth-child(2))) li, #mobile-burger-menu-open .languagenavigation nav.cmp-languagenavigation ul:not(:has(li:nth-child(2))) li {
   visibility: hidden;

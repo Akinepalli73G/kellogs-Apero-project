@@ -2,15 +2,11 @@ opened = false;
 closed = false;
 languageOpened = false;
 mobileUpArrow = false;
-const navLanguageContainer = document.querySelector(".languagenavigation nav");
+const navLanguageContainer = document.querySelector(".languagenavigation nav ul li");
 const downArrowClickButton = document.createElement("button");
+navLanguageContainer.appendChild(downArrowClickButton);
 downArrowClickButton.classList.add("mobile-down-arrow");
-if (navLanguageContainer) {
-  navLanguageContainer.insertBefore(
-    downArrowClickButton,
-    navLanguageContainer.firstElementChild
-  );
-}
+
 let onBtnClick = (e) => {
   const landingPage = document.querySelector("#bni-main-content-container");
   document
