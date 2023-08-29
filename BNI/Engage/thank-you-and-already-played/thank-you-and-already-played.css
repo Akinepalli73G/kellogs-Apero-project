@@ -142,6 +142,19 @@
 #bni-thank-you-and-already-played-template-container #bni-main-content-container .reference:nth-child(9) .cmp-container > .text:nth-child(3) > .cmp-text > p:nth-child(1),
 #bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(9) > .cmp-container > .text:nth-child(3) > .cmp-text > p:nth-child(1) {
   font-family: "Pinup-Regular";
+  margin-left: 1;
+}
+#bni-thank-you-and-already-played-template-container #bni-main-content-container .reference:nth-child(9) .cmp-container > .text:nth-child(3) > .cmp-text > p:nth-child(1)::before,
+#bni-thank-you-and-already-played-template-container #bni-main-content-container .container:nth-child(9) > .cmp-container > .text:nth-child(3) > .cmp-text > p:nth-child(1)::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  left: -1px;
+  top: -4px;
+  height: 5px;
+  background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/white-triangle.png") no-repeat right center;
+  background-size: 7px;
 }
 
 @media only screen and (max-width: 500px) {

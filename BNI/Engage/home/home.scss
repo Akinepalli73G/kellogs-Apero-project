@@ -242,11 +242,28 @@
               line-height: 16px;
               text-decoration-line: underline;
             }
+            &:first-child {
+              margin-left: 1;
+              b {
+                &::before {
+                  content: "";
+                  position: relative;
+                  display: inline-block;
+                  width: 8px;
+                  left: -1px;
+                  top: -4px;
+                  height: 5px;
+                  background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/white-triangle.png")
+                    no-repeat right center;
+                  background-size: 7px;
+                }
+              }
+            }
           }
-          > .p:nth-child(1) {
+          > p:nth-child(1) {
             font-family: "Pinup-Regular";
           }
-          > .p:nth-child(2) {
+          > p:nth-child(2) {
             font-family: "NimbusSanLOT";
           }
         }

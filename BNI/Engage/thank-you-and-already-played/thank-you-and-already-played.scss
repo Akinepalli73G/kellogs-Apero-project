@@ -159,6 +159,19 @@
           }
           > p:nth-child(1) {
             font-family: "Pinup-Regular";
+            margin-left: 1;
+            &::before {
+              content: "";
+              position: relative;
+              display: inline-block;
+              width: 8px;
+              left: -1px;
+              top: -4px;
+              height: 5px;
+              background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/white-triangle.png")
+                no-repeat right center;
+              background-size: 7px;
+            }
           }
         }
       }
