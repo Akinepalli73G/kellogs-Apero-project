@@ -269,7 +269,10 @@
       font-size: 12px;
       font-style: normal;
       font-weight: 700;
-      line-height: 16px; /* 133.333% */
+      line-height: 16px;
+      &:first-child {
+        margin-left: 1;
+      }
       b {
         font-family: "Pinup-Regular";
         color: #fff;
@@ -277,6 +280,18 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        &::before {
+          content: "";
+          position: relative;
+          display: inline-block;
+          width: 8px;
+          left: -1px;
+          top: -4px;
+          height: 5px;
+          background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/white-triangle.png")
+            no-repeat right center;
+          background-size: 7px;
+        }
       }
       a {
         color: #fff;

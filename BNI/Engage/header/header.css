@@ -249,7 +249,10 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
-  line-height: 16px; /* 133.333% */
+  line-height: 16px;
+}
+#bni-terms-conditions .text p:first-child {
+  margin-left: 1;
 }
 #bni-terms-conditions .text p b {
   font-family: "Pinup-Regular";
@@ -258,6 +261,17 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+#bni-terms-conditions .text p b::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  left: -1px;
+  top: -4px;
+  height: 5px;
+  background: url("/content/dam/global/promotions/kelloggs-bni-2023/assets/images/white-triangle.png") no-repeat right center;
+  background-size: 7px;
 }
 #bni-terms-conditions .text p a {
   color: #fff;
