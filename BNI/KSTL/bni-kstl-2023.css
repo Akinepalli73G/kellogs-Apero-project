@@ -56,6 +56,18 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-left: 1px;
+}
+.kstl-bni-container .bni-terms-and-condtiton .title::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  left: -1px;
+  top: -4px;
+  height: 5px;
+  background: url("/content/dam/pringles/globalFrontEndFiles/bni-assets/images/white-triangle.png") no-repeat right center;
+  background-size: 7px;
 }
 .kstl-bni-container .bni-terms-and-condtiton .description {
   margin-top: 10px;
