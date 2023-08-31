@@ -344,6 +344,8 @@
   }
 
   .logout-v6 {
+    display: flex;
+    justify-content: flex-end;
     position: absolute;
     top: 30%;
     right: 20px;
@@ -370,8 +372,17 @@
       padding: 10px 20px;
       align-items: center;
       justify-content: space-between;
+      
+      .languagenavigation,
+      .button,
+      .logout-v6,
+      .image {
+        flex: 33.33%;
+      }
 
       .image {
+        display: flex;
+        justify-content: center;
         z-index: 9;
         img {
           width: 42px;
@@ -381,6 +392,8 @@
 
       .button {
         z-index: 9;
+        display: flex;
+        justify-content: flex-end;
         width: auto;
         #mobile-burger-menu {
           border: none;

@@ -2,10 +2,29 @@ opened = false;
 closed = false;
 languageOpened = false;
 mobileUpArrow = false;
-const navLanguageContainer = document.querySelector(".languagenavigation nav ul li");
-const downArrowClickButton = document.createElement("button");
-navLanguageContainer.appendChild(downArrowClickButton);
-downArrowClickButton.classList.add("mobile-down-arrow");
+
+document.addEventListener("DOMContentLoaded", function() {
+  const navLanguageContainer = document.querySelector(".languagenavigation nav ul li");
+  
+  if (navLanguageContainer) {
+    const downArrowClickButton = document.createElement("button");
+    downArrowClickButton.classList.add("mobile-down-arrow"); // Add the class
+    navLanguageContainer.appendChild(downArrowClickButton);
+
+    downArrowClickButton.addEventListener("click", () => {
+      const languageUl = document.querySelector(".languagenavigation nav ul");
+      const mobileArrow = document.querySelector(".mobile-down-arrow");
+
+      if (languageUl && mobileArrow) {
+        languageUl.classList.toggle("languageOpened");
+        mobileArrow.classList.toggle("mobileUpArrow");
+      }
+    });
+  } else {
+    console.error("navLanguageContainer not found.");
+  }
+});
+
 
 let onBtnClick = (e) => {
   const landingPage = document.querySelector("#bni-main-content-container");
@@ -42,20 +61,6 @@ if (document.querySelector("#burger-close-button")) {
   document
     .querySelector("#burger-close-button")
     .addEventListener("click", onBtnClick);
-}
-
-var clickLanguageNavigation = document.querySelector(
-  ".languagenavigation nav button"
-);
-if (clickLanguageNavigation) {
-  clickLanguageNavigation.addEventListener("click", () => {
-    document
-      .querySelector(".languagenavigation nav ul")
-      .classList.toggle("languageOpened");
-    document
-      .querySelector(".mobile-down-arrow")
-      .classList.toggle("mobileUpArrow");
-  });
 }
 
 if (document.querySelectorAll(".languagenavigation")) {

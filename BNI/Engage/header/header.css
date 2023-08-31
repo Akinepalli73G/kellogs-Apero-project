@@ -318,6 +318,8 @@
   visibility: hidden;
 }
 .bni-logout .logout-v6 {
+  display: flex;
+  justify-content: flex-end;
   position: absolute;
   top: 30%;
   right: 20px;
@@ -342,7 +344,15 @@
     align-items: center;
     justify-content: space-between;
   }
+  #Mobile-header-container #mobile-burger-menu-open .languagenavigation,
+  #Mobile-header-container #mobile-burger-menu-open .button,
+  #Mobile-header-container #mobile-burger-menu-open .logout-v6,
   #Mobile-header-container #mobile-burger-menu-open .image {
+    flex: 33.33%;
+  }
+  #Mobile-header-container #mobile-burger-menu-open .image {
+    display: flex;
+    justify-content: center;
     z-index: 9;
   }
   #Mobile-header-container #mobile-burger-menu-open .image img {
@@ -351,6 +361,8 @@
   }
   #Mobile-header-container #mobile-burger-menu-open .button {
     z-index: 9;
+    display: flex;
+    justify-content: flex-end;
     width: auto;
   }
   #Mobile-header-container #mobile-burger-menu-open .button #mobile-burger-menu {
