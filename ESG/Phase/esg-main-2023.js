@@ -364,6 +364,12 @@ if (urlLanguageCountry[3] === "pt_PT") {
   }
 }
 
+if (urlLanguageCountry[3] === "da_DK") {
+  if (urlLanguageCountry[4] === "home.html") {
+    document.querySelector('#esg-hero-teaser > .container:nth-child(2) > .cmp-container > .image:nth-child(1) img').classList.add("da_dk_image");
+  }
+}
+
 if (document.querySelector("#esg-hero-teaser")) {
   var removeSpaceHome = urlLanguageCountry[3].split("_");
   if (
