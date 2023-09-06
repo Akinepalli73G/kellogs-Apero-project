@@ -112,7 +112,6 @@
 .bni-triangle::after {
   content: "";
   position: relative;
-  z-index: 9999;
   display: inline-block;
   width: 14px;
   left: 2px;
@@ -201,6 +200,10 @@
     height: 183.886px;
     border-radius: 5.139px;
     margin: 24px auto;
+  }
+  .kstl-bni-container .kstl-bni-teaser .kstl-bni-teaser-content > .grid__item:nth-child(3) {
+    max-width: 450px;
+    margin: 0 auto;
   }
   .kstl-bni-container .bni-take-the-challenge {
     display: none;

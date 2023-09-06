@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: calc(100% - 80px);
+  padding: 40px;
+  background-color: cornflowerblue;
+  border: 2px solid #000;
+  flex-wrap: wrap;
+  position: relative;
+  h1 {
+    width: 70%;
+  }
+  p {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: #e71d2b;
+      background: #ffffff;
+      padding: 14px 30px;
+      text-transform: uppercase;
+      border: none;
+    width: 70%;
+  }
+  img {
+    height: auto;
+    width: 25%;
+    max-width: 100%;
+    border-radius: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 75%;
+    top: 80px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 0 20px;
+    width: 100%;
+  }
+}
