@@ -20,8 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
         mobileArrow.classList.toggle("mobileUpArrow");
       }
     });
-  } else {
-    console.error("navLanguageContainer not found.");
   }
 });
 
