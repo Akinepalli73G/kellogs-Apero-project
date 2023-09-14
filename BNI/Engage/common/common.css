@@ -249,4 +249,8 @@ hr {
   width: 100%;
   padding: 15px 0;
   border-radius: 2px;
+}
+
+.bni-small-h1 h1 {
+  font-size: 30px !important;
 }/*# sourceMappingURL=common.css.map */

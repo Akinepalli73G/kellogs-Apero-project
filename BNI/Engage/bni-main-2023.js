@@ -207,6 +207,9 @@ if (urlLanguageCountry[4] === "home.html") {
     addTriangleBNI.classList.add("bni-triangle");
   }
 }
+if (urlLanguageCountry[3] === "sl_SL" && urlLanguageCountry[4] === "ready-to-play.html") {
+  document.querySelector('#bni-main-content-container .bni-gold').classList.add('bni-small-h1');
+}
 // let addingExtraPadding = document.querySelector(
 //   "#mobile-burger-menu-open ul:not(:has(li:nth-child(2)))"
 // );

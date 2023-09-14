@@ -840,6 +840,10 @@ hr {
   border-radius: 2px;
 }
 
+.bni-small-h1 h1 {
+  font-size: 30px !important;
+}
+
 #bni-main-content-container .container:nth-child(1) {
   padding: 0 20px;
 }
