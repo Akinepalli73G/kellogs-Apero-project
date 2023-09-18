@@ -403,6 +403,13 @@ if (document.querySelector("#esg-hero-teaser")) {
       )
       .classList.add("esg-home-translation-hero-teaser-extra-small-pt");
   }
+  if (urlLanguageCountry[8] === "it" || removeSpaceHome[0] === "it") {
+    document
+      .querySelector(
+        "#esg-hero-teaser > .container:nth-child(2) > .cmp-container"
+      )
+      .classList.add("esg-home-translation-hero-teaser-it");
+  }
 }
 
 if (mobileCarosuelAlreadyPlayedPage.matches) {
